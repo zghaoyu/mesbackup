@@ -1,0 +1,72 @@
+2023-08-30 10:51:22@1693363882280@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-08-30 10:56:35@1693364195240@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-08-30 10:59:15@1693364355211@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-08-30 11:00:16@1693364416993@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-08-30 11:09:14@1693364954642@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-08-30 11:11:36@1693365096948@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-08-30 11:30:19@1693366219187@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-08-30 11:31:10@1693366270115@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-08-30 13:02:51@1693371771067@SocketClient connecSt(127.0.0.1:9903) failed:Connection refused: connect
+Ping(127.0.0.1):OK
+Netstat(127.0.0.1):
+  TCP    127.0.0.1:4012         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:4013         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:6942         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:8680         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:8884         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:49913        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:49915        127.0.0.1:49916        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49916        127.0.0.1:49915        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49951        127.0.0.1:49952        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49952        127.0.0.1:49951        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49953        127.0.0.1:49954        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49954        127.0.0.1:49953        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49955        127.0.0.1:49956        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49956        127.0.0.1:49955        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49957        127.0.0.1:49958        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49958        127.0.0.1:49957        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49959        127.0.0.1:49960        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49960        127.0.0.1:49959        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49961        127.0.0.1:49962        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49962        127.0.0.1:49961        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49963        127.0.0.1:49964        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49964        127.0.0.1:49963        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49965        127.0.0.1:49966        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49966        127.0.0.1:49965        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49967        127.0.0.1:49968        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49968        127.0.0.1:49967        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49969        127.0.0.1:49970        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49970        127.0.0.1:49969        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49971        127.0.0.1:49972        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49972        127.0.0.1:49971        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49973        127.0.0.1:49974        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49974        127.0.0.1:49973        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49975        127.0.0.1:49976        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49976        127.0.0.1:49975        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49977        127.0.0.1:49978        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49978        127.0.0.1:49977        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49979        127.0.0.1:49980        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49980        127.0.0.1:49979        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49982        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:49982        127.0.0.1:50291        ESTABLISHED     InHost      
+  TCP    127.0.0.1:50163        127.0.0.1:50164        ESTABLISHED     InHost      
+  TCP    127.0.0.1:50164        127.0.0.1:50163        ESTABLISHED     InHost      
+  TCP    127.0.0.1:50165        127.0.0.1:50166        ESTABLISHED     InHost      
+  TCP    127.0.0.1:50166        127.0.0.1:50165        ESTABLISHED     InHost      
+  TCP    127.0.0.1:50167        127.0.0.1:50168        ESTABLISHED     InHost      
+  TCP    127.0.0.1:50168        127.0.0.1:50167        ESTABLISHED     InHost      
+  TCP    127.0.0.1:50182        127.0.0.1:50183        ESTABLISHED     InHost      
+  TCP    127.0.0.1:50183        127.0.0.1:50182        ESTABLISHED     InHost      
+  TCP    127.0.0.1:50287        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:50287        127.0.0.1:50288        ESTABLISHED     InHost      
+  TCP    127.0.0.1:50288        127.0.0.1:50287        ESTABLISHED     InHost      
+  TCP    127.0.0.1:50289        127.0.0.1:50290        ESTABLISHED     InHost      
+  TCP    127.0.0.1:50290        127.0.0.1:50289        ESTABLISHED     InHost      
+  TCP    127.0.0.1:50291        127.0.0.1:49982        ESTABLISHED     InHost      
+  TCP    127.0.0.1:63342        0.0.0.0:0              LISTENING       InHost      
+  UDP    127.0.0.1:1900         *:*                                                
+  UDP    127.0.0.1:56367        *:*                                                
+  UDP    127.0.0.1:56469        *:*                                                
+  UDP    127.0.0.1:61422        *:*                                                
+  UDP    127.0.0.1:61609        *:*                                                
+  UDP    127.0.0.1:62815        *:*                                                

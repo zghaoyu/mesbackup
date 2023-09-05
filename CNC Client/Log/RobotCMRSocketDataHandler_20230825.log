@@ -1,0 +1,15 @@
+2023-08-25 09:09:22@1692925762588@10.10.207.56:6666@OK,46.75s,pick_and_place,robot_pallet_a_slot_1,input_rack_1_slot_1,74
+2023-08-25 09:10:36@1692925836709@10.10.207.56:6666@OK,31.97s,pick_and_place,robot_pallet_a_slot_1,input_rack_1_slot_1,74
+2023-08-25 09:19:24@1692926364754@10.10.207.56:6666@NG,pick_and_place,robot_pallet_a_slot_1,input_rack_1_slot_1,74
+2023-08-25 09:20:29@1692926429099@10.10.207.56:6666@OK,32.0s,pick_and_place,robot_pallet_a_slot_1,input_rack_1_slot_1,74
+2023-08-25 09:22:17@1692926537789@10.10.207.56:6666@OK,47.19s,pick_and_place,robot_pallet_a_slot_1,input_rack_1_slot_1,74
+2023-08-25 09:23:08@1692926588095@10.10.207.56:6666@OK,31.76s,pick_and_place,robot_pallet_a_slot_1,input_rack_1_slot_1,74
+2023-08-25 09:49:12@1692928152154@10.10.207.56:6666@NG,pick_and_place,robot_pallet_a_slot_1,input_rack_1_slot_1,74
+2023-08-25 09:50:47@1692928247299@10.10.207.56:6666@NG,pick_and_place,robot_pallet_a_slot_1,input_rack_1_slot_1,74
+2023-08-25 09:51:30@1692928290179@10.10.207.56:6666@OK,32.3s,pick_and_place,robot_pallet_a_slot_1,input_rack_1_slot_1,74
+2023-08-25 09:52:58@1692928378448@10.10.207.56:6666@OK,31.12s,pick_and_place,robot_pallet_a_slot_1,input_rack_1_slot_1,74
+2023-08-25 09:53:58@1692928438809@10.10.207.56:6666@OK,46.61s,pick_and_place,robot_pallet_a_slot_1,input_rack_1_slot_1,74
+2023-08-25 09:57:35@1692928655036@10.10.207.56:6666@OK,45.85s,pick_and_place,robot_pallet_a_slot_1,input_rack_1_slot_1,74
+2023-08-25 09:59:37@1692928777336@10.10.207.56:6666@OK,46.41s,pick_and_place,robot_pallet_a_slot_1,input_rack_1_slot_1,74
+2023-08-25 10:10:43@1692929443590@10.10.207.56:6666@OK,31.35s,pick_and_place,robot_pallet_a_slot_1,input_rack_1_slot_1,74
+2023-08-25 10:13:00@1692929580953@10.10.207.56:6666@OK,31.67s,pick_and_place,robot_pallet_a_slot_1,input_rack_1_slot_1,74

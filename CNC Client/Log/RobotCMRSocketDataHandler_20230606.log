@@ -1,0 +1,6 @@
+2023-06-06 08:45:21@1686012321428@10.10.207.56:6666@OK,271.21s,pick_and_place,input_rack_b_slot_1,robot_pallet_a_slot_1,27
+2023-06-06 08:51:54@1686012714373@10.10.207.56:6666@OK,273.83s,pick_and_place,input_rack_b_slot_1,robot_pallet_a_slot_1,27
+2023-06-06 11:34:55@1686022495805@10.10.207.56:6666@NG,pick_and_place,input_rack_b_slot_1,robot_pallet_a_slot_1,27
+2023-06-06 11:38:56@1686022736372@10.10.207.56:6666@NG,pick_and_place,input_rack_b_slot_1,robot_pallet_a_slot_1,27
+2023-06-06 13:14:42@1686028482776@10.10.207.56:6666@NG,pick_and_place,input_rack_b_slot_1,robot_pallet_a_slot_1,27
+2023-06-06 13:23:39@1686029019094@10.10.207.56:6666@NG,pick_and_place,input_rack_b_slot_1,robot_pallet_a_slot_1,27

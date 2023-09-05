@@ -1,0 +1,16 @@
+2023-08-24 10:11:07@1692843067659@SocketClient connecSt(10.10.207.56:6666) failed:Connection timed out: connect
+Ping(10.10.207.56):OK
+Netstat(10.10.207.56):
+  TCP    10.10.205.98:58528     10.10.207.56:3389      ESTABLISHED     InHost      
+2023-08-24 10:15:38@1692843338358@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-08-24 10:16:14@1692843374582@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-08-24 10:17:32@1692843452590@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-08-24 10:19:13@1692843553302@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-08-24 10:31:00@1692844260785@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-08-24 10:31:49@1692844309127@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-08-24 11:23:36@1692847416829@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-08-24 11:36:56@1692848216314@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-08-24 14:58:56@1692860336696@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-08-24 15:02:39@1692860559436@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-08-24 15:31:04@1692862264219@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-08-24 15:34:34@1692862474312@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed

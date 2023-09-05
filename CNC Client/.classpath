@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="libs/commons-beanutils-1.8.0.jar"/>
+	<classpathentry kind="lib" path="libs/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="libs/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="libs/commons-dbutils-1.6.jar"/>
+	<classpathentry kind="lib" path="libs/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="libs/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="libs/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="libs/commons-net-3.6.jar"/>
+	<classpathentry kind="lib" path="libs/dom4j-2.0.1.jar"/>
+	<classpathentry kind="lib" path="libs/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="libs/httpclient-4.1.1.jar"/>
+	<classpathentry kind="lib" path="libs/httpcore-4.1.jar"/>
+	<classpathentry kind="lib" path="libs/jl1.0.1.jar"/>
+	<classpathentry kind="lib" path="libs/jna-4.3.0.jar"/>
+	<classpathentry kind="lib" path="libs/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="libs/mp3spi1.9.5.jar"/>
+	<classpathentry kind="lib" path="libs/RXTXcomm.jar"/>
+	<classpathentry kind="lib" path="libs/tritonus_share-0.3.6.jar"/>
+	<classpathentry kind="lib" path="libs/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="libs/mysql-connector-java-8.0.27.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
