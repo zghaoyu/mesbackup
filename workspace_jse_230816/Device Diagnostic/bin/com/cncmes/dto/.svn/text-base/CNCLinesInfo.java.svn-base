@@ -1,0 +1,103 @@
+package com.cncmes.dto;
+
+/**
+ * @author LI ZI LONG
+ * the Data Transfer Object for database access
+ *
+ */
+public class CNCLinesInfo {
+	private int id;
+	private String linename;
+	private String cnc_ip;
+	private String cnc_port;
+	private String cnc_model;
+	private String ftp_ip;
+	private String helper_ip;
+	private String helper_port;
+	private String realTableName = "cnc_linesinfo";
+	private String cnc_tagname;
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getLinename() {
+		return linename;
+	}
+	public void setLinename(String linename) {
+		this.linename = linename;
+	}
+	public String getCnc_ip() {
+		return cnc_ip;
+	}
+	public void setCnc_ip(String cnc_ip) {
+		this.cnc_ip = cnc_ip;
+	}
+	public String getCnc_port() {
+		return cnc_port;
+	}
+	public void setCnc_port(String cnc_port) {
+		this.cnc_port = cnc_port;
+	}
+	public String getCnc_model() {
+		return cnc_model;
+	}
+	public void setCnc_model(String cnc_model) {
+		this.cnc_model = cnc_model;
+	}
+	public String getFtp_ip() {
+		return ftp_ip;
+	}
+	public void setFtp_ip(String ftp_ip) {
+		this.ftp_ip = ftp_ip;
+	}
+	public String getHelper_ip() {
+		return helper_ip;
+	}
+	public void setHelper_ip(String helper_ip) {
+		this.helper_ip = helper_ip;
+	}
+	public String getHelper_port() {
+		return helper_port;
+	}
+	public void setHelper_port(String helper_port) {
+		this.helper_port = helper_port;
+	}
+	public String getRealTableName() {
+		return realTableName;
+	}
+	public void setRealTableName(String realTableName) {
+		this.realTableName = realTableName;
+	}
+	public String getCnc_tagName() {
+		return cnc_tagname;
+	}
+	public void setCnc_tagName(String cnc_tagname) {
+		this.cnc_tagname = cnc_tagname;
+	}
+	public CNCLinesInfo(int id, String linename, String cnc_ip, String cnc_port, String cnc_model, String ftp_ip,
+			String helper_ip, String helper_port, String cnc_tagname, String realTableName) {
+		super();
+		this.id = id;
+		this.linename = linename;
+		this.cnc_ip = cnc_ip;
+		this.cnc_port = cnc_port;
+		this.cnc_model = cnc_model;
+		this.ftp_ip = ftp_ip;
+		this.helper_ip = helper_ip;
+		this.helper_port = helper_port;
+		this.cnc_tagname = cnc_tagname;
+		this.realTableName = realTableName;
+	}
+	public CNCLinesInfo() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	public String toString() {
+		return "CNCLinesInfo [id=" + id + ", linename=" + linename + ", cnc_ip=" + cnc_ip + ", cnc_port=" + cnc_port
+				+ ", cnc_model=" + cnc_model + ", ftp_ip=" + ftp_ip + ", helper_ip=" + helper_ip + ", helper_port="
+				+ helper_port + ", cnc_tagname=" + cnc_tagname + ", realTableName=" + realTableName + "]";
+	}
+}

@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CncWebAPI>
+  <CNC key="MORI_DR5A" ftpPort="21" ftpUser="123" ftpPwd="123" brand="MORI" model="DR5A" commandUrl="http://10.10.81.38:6200/api/v2/mori/" ncProgramName_sub1="O7771" ncProgramName_sub2="O7772" ncProgramName_sub3="O7773" ncProgramName_sub4="O7774" ncProgramName_sub5="O7775" ncProgramName_sub6="O7776"  ncProgramName_main="7777" cmdCoordinate1="G54" cmdCoordinate2="G55" cmdCoordinate3="G56" cmdCoordinate4="G57" cmdCoordinate5="G58" cmdCoordinate6="G59" debugIP="10.10.94.28" debugPort="10028">
+  	<Operation name="getMachineState">
+  		<Command id="1" name="status">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+    
+    <Operation name="openDoor">
+  		<Command id="1" name="status">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+    
+    <Operation name="closeDoor">
+  		<Command id="1" name="status">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+    
+    <Operation name="clampFixture">
+  		<Command id="1" name="status">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+    
+    <Operation name="releaseFixture">
+  		<Command id="1" name="status">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+    
+    <Operation name="getAlarmInfo">
+  		<Command id="1" name="alarm">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="getToolLife">
+  		<Command id="1" name="toollife">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="getMachiningParas">
+  		<Command id="1" name="spindle">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+	    <Command id="1" name="feedrate">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="getMachiningCounter">
+  		<Command id="1" name="work">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="startMachining">
+  		<Command id="1" name="start">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="pauseMachining">
+  		<Command id="1" name="stop">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="resumeMachining">
+  		<Command id="1" name="start">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="getMainProgramName">
+  		<Command id="1" name="program">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="getCurrSubProgramName">
+  		<Command id="1" name="program">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="uploadMainProgram">
+  		<Command id="1" name="upload">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	        <data type="Json">{"name":"?","code":"c:\\program\\main.txt"}</data>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="downloadMainProgram">
+  		<Command id="1" name="download">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	        <data type="Json">{"name":"7777"}</data>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="deleteMainProgram">
+  		<Command id="1" name="delete">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	        <data type="Json">{"name":"7777"}</data>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="uploadSubProgram">
+  		<Command id="1" name="dsup">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	        <data type="Json">{"server":"?","port":"?","user":"?","password":"?","path":"?","body":"c:\\program\\sub.txt"}</data>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="downloadSubProgram">
+  		<Command id="1" name="dsdown">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	        <data type="Json">{"server":"?","port":"?","user":"?","password":"?","path":"?"}</data>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="deleteSubProgram">
+  		<Command id="1" name="dsdel">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	        <data type="Json">{"server":"?","port":"?","user":"?","password":"?","path":"?"}</data>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  </CNC>
+  
+  <CNC key="BRO_S500Z1" brand="brother" model="S500Z" commandUrl="http://10.10.81.38:6200/api/v2/brother/" ncProgramName_sub1="7771" ncProgramName_sub2="7772" ncProgramName_sub3="7773" ncProgramName_sub4="7774" ncProgramName_sub5="7775" ncProgramName_sub6="7776"  ncProgramName_main="7777" cmdCoordinate1="G54" cmdCoordinate2="G55" cmdCoordinate3="G56" cmdCoordinate4="G57" cmdCoordinate5="G58" cmdCoordinate6="G59" debugIP="10.10.95.65" debugPort="10065">
+  	<Operation name="getMachineState">
+  		<Command id="1" name="status">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+    
+    <Operation name="openDoor">
+  		<Command id="1" name="status">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+    
+    <Operation name="closeDoor">
+  		<Command id="1" name="status">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+    
+    <Operation name="clampFixture">
+  		<Command id="1" name="status">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+    
+    <Operation name="releaseFixture">
+  		<Command id="1" name="status">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+    
+    <Operation name="getAlarmInfo">
+  		<Command id="1" name="alarm">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="getToolLife">
+  		<Command id="1" name="toollife">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="getMachiningParas">
+  		<Command id="1" name="monitor">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="getMachiningCounter">
+  		<Command id="1" name="work">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="startMachining">
+  		<Command id="1" name="start">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	        <data type="Json">{"program":"7777"}</data>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="pauseMachining">
+  		<Command id="1" name="stop">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	        <data type="Json">{"state":"ON"}</data>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">Success</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="resumeMachining">
+  		<Command id="1" name="stop">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	        <data type="Json">{"state":"OFF"}</data>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+	    <Command id="1" name="start">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	        <data type="Json">{"program":"NULL"}</data>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="getMainProgramName">
+  		<Command id="1" name="program">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="getCurrSubProgramName">
+  		<Command id="1" name="program">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="uploadMainProgram">
+  		<Command id="1" name="upload">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	        <data type="Json">{"name":"?","code":"c:\\program\\main.txt"}</data>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="downloadMainProgram">
+  		<Command id="1" name="download">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	        <data type="Json">{"name":"?"}</data>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="deleteMainProgram">
+  		<Command id="1" name="delete">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	        <data type="Json">{"name":"?"}</data>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="uploadSubProgram">
+  		<Command id="1" name="upload">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	        <data type="Json">{"name":"?","code":"c:\\program\\sub.txt"}</data>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="downloadSubProgram">
+  		<Command id="1" name="download">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	        <data type="Json">{"name":"?"}</data>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="deleteSubProgram">
+  		<Command id="1" name="delete">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	        <data type="Json">{"name":"?"}</data>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  </CNC>
+  
+  <CNC key="BRO_S700Z1" brand="brother" model="S700Z" commandUrl="http://10.10.81.38:6200/api/v2/brother/" ncProgramName_sub1="7771" ncProgramName_sub2="7772" ncProgramName_sub3="7773" ncProgramName_sub4="7774" ncProgramName_sub5="7775" ncProgramName_sub6="7776"  ncProgramName_main="7777" cmdCoordinate1="G54" cmdCoordinate2="G55" cmdCoordinate3="G56" cmdCoordinate4="G57" cmdCoordinate5="G58" cmdCoordinate6="G59" debugIP="10.10.95.64" debugPort="10064">
+  	<Operation name="getMachineState">
+  		<Command id="1" name="status">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+    
+    <Operation name="openDoor">
+  		<Command id="1" name="status">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+    
+    <Operation name="closeDoor">
+  		<Command id="1" name="status">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+    
+    <Operation name="clampFixture">
+  		<Command id="1" name="status">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+    
+    <Operation name="releaseFixture">
+  		<Command id="1" name="status">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+    
+    <Operation name="getAlarmInfo">
+  		<Command id="1" name="alarm">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="getToolLife">
+  		<Command id="1" name="toollife">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="getMachiningParas">
+  		<Command id="1" name="monitor">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="getMachiningCounter">
+  		<Command id="1" name="work">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="startMachining">
+  		<Command id="1" name="start">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	        <data type="Json">{"program":"7777"}</data>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="pauseMachining">
+  		<Command id="1" name="stop">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	        <data type="Json">{"state":"ON"}</data>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">Success</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="resumeMachining">
+  		<Command id="1" name="stop">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	        <data type="Json">{"state":"OFF"}</data>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+	    <Command id="1" name="start">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	        <data type="Json">{"program":"NULL"}</data>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="getMainProgramName">
+  		<Command id="1" name="program">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="getCurrSubProgramName">
+  		<Command id="1" name="program">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="uploadMainProgram">
+  		<Command id="1" name="upload">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	        <data type="Json">{"name":"?","code":"c:\\program\\main.txt"}</data>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="downloadMainProgram">
+  		<Command id="1" name="download">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	        <data type="Json">{"name":"?"}</data>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="deleteMainProgram">
+  		<Command id="1" name="delete">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	        <data type="Json">{"name":"?"}</data>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="uploadSubProgram">
+  		<Command id="1" name="upload">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	        <data type="Json">{"name":"?","code":"c:\\program\\sub.txt"}</data>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="downloadSubProgram">
+  		<Command id="1" name="download">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	        <data type="Json">{"name":"?"}</data>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  	
+  	<Operation name="deleteSubProgram">
+  		<Command id="1" name="delete">
+	      <InputParas>
+	        <ip type="String">?</ip>
+	        <port type="Integer">?</port>
+	        <data type="Json">{"name":"?"}</data>
+	      </InputParas>
+	      <OutputParas>
+	        <code type="Integer">0</code>
+	        <data type="String">?</data>
+	      </OutputParas>
+	    </Command>
+  	</Operation>
+  </CNC>
+</CncWebAPI>

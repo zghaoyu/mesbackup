@@ -1,0 +1,392 @@
+package com.cncmes.ctrl;
+
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.net.Socket;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Random;
+import java.util.Set;
+
+import com.cncmes.base.DeviceState;
+import com.cncmes.data.RobotEthernetCmd;
+import com.cncmes.handler.SocketRespHandler;
+import com.cncmes.utils.LogUtils;
+import com.cncmes.utils.MathUtils;
+import com.cncmes.utils.XmlUtils;
+
+/**
+ * Virtual Devices Response Object
+ * @author LI ZI LONG
+ *
+ */
+public class TestServer {
+	private static TestServer testServer = new TestServer();
+	private Map<Integer,LinkedHashMap<String,Object>> testServerMap = new LinkedHashMap<Integer,LinkedHashMap<String,Object>>();
+	private static String lastBarcode = "", robotCmdStr = "", robotLastCmd = "";
+	private static long sleepStart = 0;
+	private static long machiningStart = 0;
+	private static int robotBattery = 100;
+	private static boolean robotCharging = false;
+	
+	private TestServer(){}
+	static{
+		XmlUtils.parseRobotEthernetCmdXml();
+	}
+
+	public static void getAllRobotCommands() {
+		String[] robotCmds = null;
+		String[] robotOprs = RobotEthernetCmd.getInstance().getAllOperations("CMR#HARTFORD_MVP8");
+		for(String key:robotOprs){
+			String[] cmds = RobotEthernetCmd.getInstance().getAllCommands("CMR#HARTFORD_MVP8", key);
+			if(null == robotCmds){
+				robotCmds = cmds;
+			}else{
+				int len1 = robotCmds.length;
+				int len2 = cmds.length;
+				robotCmds = Arrays.copyOf(robotCmds, len1+len2);
+				System.arraycopy(cmds, 0, robotCmds, len1, len2);
+			}
+		}
+		robotCmdStr = Arrays.toString(robotCmds);
+	}
+	
+	public static TestServer getInstance(){
+		return testServer;
+	}
+	
+	private int getRandomInt(int min,int max){
+		Random random = new Random();
+		int r = random.nextInt(max) % (max-min+1) + min;
+		return r;
+	}
+	
+	private String getRandomBarcode(){
+		String barcode = "M0000"+getRandomInt(1,8)+MathUtils.MD5Encode(System.currentTimeMillis()+"").substring(6);
+		barcode += MathUtils.MD5Encode(barcode);
+		return barcode;
+	}
+	
+	public boolean startServer(int port){
+		boolean success = true;
+		
+		LinkedHashMap<String,Object> svr = testServerMap.get(port);
+		
+		SocketServer ss = SocketServer.getInstance();
+		svr = new LinkedHashMap<String,Object>();
+		svr.put("socketServer", ss);
+		svr.put("cncOperation", new CNCOperation());
+		try {
+			ss.socketSvrStart(port, new ServerSocketDataHandler());
+			testServerMap.put(port, svr);
+			System.out.println("Test Server P"+port+" started");
+		} catch (IOException e) {
+			success = false;
+		}
+		
+		return success;
+	}
+	
+	public void stopServer(int port){
+		LinkedHashMap<String,Object> svr = testServerMap.get(port);
+		if(null != svr){
+			SocketServer ss = (SocketServer) svr.get("socketServer");
+			ss.stopSvrPort(port);
+			testServerMap.remove(port);
+		}
+		
+		System.out.println("Test Server P"+port+" stopped");
+	}
+	
+	public void stopAll(){
+		if(!testServerMap.isEmpty()){
+			Set<Integer> set = testServerMap.keySet();
+			Iterator<Integer> it = set.iterator();
+			int[] ports = new int[set.size()];
+			int i = -1;
+			while(it.hasNext()){
+				i++;
+				ports[i] = it.next();
+			}
+			
+			for(i=0; i<ports.length; i++){
+				stopServer(ports[i]);
+			}
+		}
+	}
+	
+	private boolean feedbackToClient(Socket s,String feedback){
+		boolean success = false;
+		String devIP = "";
+		
+		try {
+			devIP = s.getLocalAddress().toString()+":"+s.getLocalPort();
+			devIP += "->"+s.getInetAddress().toString()+":"+s.getPort();
+			
+			BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(s.getOutputStream()));
+			bw.write(feedback + "\n");
+			bw.flush();
+			success = true;
+			
+			if(LogUtils.getEnabledFlag()) LogUtils.debugLog("DummyDeviceFeedBack_", feedback);
+		} catch (IOException e) {
+			LogUtils.debugLog("DummyDeviceError_", "NG"+devIP+LogUtils.separator+feedback+LogUtils.separator+"ERR:"+e.getMessage());
+		}
+		
+		return success;
+	}
+	
+	class CNCOperation {
+		public DeviceState cncState = DeviceState.STANDBY;
+		
+		public boolean dummyOperation(String ip){
+			try {
+				Thread.sleep(100);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+			
+			return true;
+		}
+	}
+	
+	class ServerSocketDataHandler implements SocketRespHandler{
+		private LinkedHashMap<String,String> subProgs = new LinkedHashMap<String,String>();
+		private LinkedHashMap<String,String> devState = new LinkedHashMap<String,String>();
+		
+		@Override
+		public void doHandle(String in, Socket s) {
+			if(LogUtils.getEnabledFlag()) LogUtils.debugLog("DummyDeviceReceive_", in);
+			handling(in, s);
+		}
+
+		private synchronized void handling(String in, Socket s) {
+			if(null == s || null == in) return;
+			int port = s.getLocalPort();
+			String ip = s.getLocalAddress().toString();
+			String cmdName = "???";
+			String[] subPrograms = null, arrTemp = null;
+			String devIP = "", programs = "", restProgs = "", splitor = "";
+			
+			CNCOperation cncOperation = null;
+			if(null != testServerMap.get(port)) cncOperation = (CNCOperation) testServerMap.get(port).get("cncOperation");
+			if(null == cncOperation) return;
+			getAllRobotCommands();
+			if(cncOperation.dummyOperation(ip)){
+				
+//				if(in.startsWith("BE,1,1,")){
+//					lastBarcode = in.substring(7);
+//					System.out.println("lastBarcode: "+lastBarcode);
+//				}
+//				if(in.startsWith("UZ,1,0")){
+//					in += "," + lastBarcode;
+//					System.out.println(in);
+//				}
+				if(in.indexOf(",") >= 0 && in.indexOf("}") < 0){
+					cmdName = in.split(",")[0];
+					splitor = ",";
+				}else if(in.indexOf(";") >= 0){
+					cmdName = in.split(";")[0];
+					splitor = ";";
+				}else{
+					cmdName = in;
+				}
+				//RobotCMR Command Testing
+				if (robotCmdStr.indexOf(cmdName) >= 0) {
+					if (in.startsWith("get_battery")) {
+						in = "OK," + robotBattery + ",get_battery,68";
+					}
+					if (in.startsWith("pick_and_place")) {
+						in = "OK,16.35s,pick_and_place,input_rack_slot_1,robot_slot_1,7b";
+					}
+					if (in.startsWith("move_to")) {
+						in = "OK,20.93s,move_to,virtual_rack_1,1e";
+					}
+					if (in.startsWith("dock_to")) {
+						in = "OK,31.83s,dock_to,virtual_cnc_01,49";
+					}
+					if (in.startsWith("get_agv_position")){
+						in = "OK,ts6charger,get_agv_position,33";
+					}
+				}
+				
+				
+				//Robot Command Testing
+//				if(in.startsWith("BE,1,1,")){
+//					lastBarcode = in.substring(7);
+//					System.out.println("lastBarcode: "+lastBarcode);
+//				}
+//				if(in.startsWith("UZ,1,0")){
+//					in += "," + lastBarcode;
+//					System.out.println(in);
+//				}
+//				if(in.indexOf(",") >= 0 && in.indexOf("}") < 0){
+//					cmdName = in.split(",")[0];
+//					splitor = ",";
+//				}else if(in.indexOf(";") >= 0){
+//					cmdName = in.split(";")[0];
+//					splitor = ";";
+//				}else{
+//					cmdName = in;
+//				}
+//				if(robotCmdStr.indexOf(cmdName) >= 0){
+//					if("READBCODE".equals(cmdName)){
+//						in += ";" + getRandomBarcode();
+//					}else if("GET_SOC".equals(cmdName)){
+//						if(robotCharging){
+//							if(robotBattery<=95){
+//								robotBattery += 5;
+//							}else{
+//								robotBattery = 100;
+//							}
+//						}else{
+//							if(robotBattery<=5){
+//								robotBattery = 0;
+//							}else{
+//								robotBattery -= 5;
+//							}
+//						}
+//						in += ";" + robotBattery + "%";
+//					}else if("MOVE_CHARGING".equals(cmdName)){
+//						robotCharging = true;
+//					}else if("MOVE_END_CHARGING".equals(cmdName)){
+//						robotCharging = false;
+//					}else if("LAST_CMD".equals(cmdName)){
+//						in = robotLastCmd;
+//					}
+//					if(!"LAST_CMD".equals(cmdName)){
+//						in += ";1";
+//						robotLastCmd = in;
+//					}
+//				}
+				
+				//CNC Command Testing
+				String feedback = "";
+				switch(cmdName){
+				case "startMachining":
+					machiningStart = System.currentTimeMillis();
+				case "getAlarmInfo":
+					feedback = "[{\"num\":\"IO0500\",\"message\":\"紧急按钮被激活\"},"
+							+ "{\"num\":\"7515\",\"message\":\"切削进给速度超程接通\"},"
+							+ "{\"num\":\"7516\",\"message\":\"快速进给超程倍率接通\"}]";
+					
+					feedback = "[{\"code\":\"IO0500\",\"msg\":\"紧急按钮被激活\"},"
+							+ "{\"code\":\"7515\",\"msg\":\"切削进给速度超程接通\"},"
+							+ "{\"code\":\"7516\",\"msg\":\"快速进给超程倍率接通\"}]";
+					break;
+				case "getMachineState":
+					devIP = in.split(splitor)[1];
+					boolean state = true;
+					if(null == devState.get(devIP)){
+						state = false;
+					}else{
+						if("FINISH".equals(devState.get(devIP))){
+							devState.put(devIP, "UNLOADING");
+						}
+					}
+					
+					/*
+					if(state){
+						feedback = "{\"red\":\"OFF\",\"yellow\":\"OFF\",\"green\":\"OFF\"}";
+					}else{
+						feedback = "{\"red\":\"OFF\",\"yellow\":\"OFF\",\"green\":\"ON\"}";
+					}
+					*/
+					if(state){
+						feedback = "{\"run\":0,\"emergency\":0}"; //STANDBY
+						devState.remove(devIP);
+					}else{
+//						if ((System.currentTimeMillis() - machiningStart) >= 5000) {
+						if((System.currentTimeMillis() - machiningStart) >= 50000) {// Testing 20220506 Hui Zhi
+							feedback = "{\"run\":0,\"emergency\":0}"; //FINISH
+							devState.put(devIP, "FINISH");
+						}else{
+							feedback = "{\"run\":3,\"emergency\":0}"; //WORKING
+						}
+					}
+					break;
+				case "getCurrSubProgramName":
+					subPrograms = in.split(splitor);
+					devIP = subPrograms[1];
+					programs = subPrograms[2];
+					restProgs = subProgs.get(devIP);
+					LogUtils.debugLog("currSubProg_", restProgs);
+					
+					if(null == restProgs){
+						subPrograms = programs.split("#");
+						feedback = subPrograms[0];
+						subProgs.put(devIP, programs.replace(subPrograms[0]+"#", ""));
+						sleepStart = System.currentTimeMillis();
+					}else{
+						if((System.currentTimeMillis() - sleepStart) > 3000){
+							subPrograms = restProgs.split("#");
+							if(1 == subPrograms.length){
+								if("".equals(subPrograms[0])){
+									devState.put(devIP, "FINISH");
+									subProgs.remove(devIP);
+								}else{
+									feedback = subPrograms[0];
+									subProgs.put(devIP, "");
+								}
+							}else{
+								feedback = subPrograms[0];
+								subProgs.put(devIP, restProgs.replace(subPrograms[0]+"#", ""));
+							}
+							sleepStart = System.currentTimeMillis();
+						}else{
+							arrTemp = programs.replace(restProgs, "").split("#");
+							feedback = arrTemp[arrTemp.length-1];
+						}
+					}
+//					feedback = "TRYNULL";
+					
+					break;
+				case "getMachiningParas":
+					feedback = "{\"feed_rate\":\"0.00 \","
+							+ "\"spindle_speed\":\"0\","
+							+ "\"rapid_traverse_override_state\":\"2\","
+							+ "\"cutting_feed_override_state\":\" 60\","
+							+ "\"spindle_override_state\":\"200\"}";
+					break;
+				case "getToolLife":
+					feedback = "[{\"num\":\"T01\",\"name\":\"123\",\"length_offset\":\"96.050\",\"length_wear_offset\":\"0.000\",\"cutter_comp\":\"0.000\",\"cutter_wear_offset\":\"0.000\",\"unit\":\"1\",\"initial\":\"0\",\"warning\":\"0\",\"life\":\"999999\"},"
+							+ "{\"num\":\"T02\",\"name\":\"12345678901234\",\"length_offset\":\"111.390\",\"length_wear_offset\":\"0.000\",\"cutter_comp\":\"0.000\",\"cutter_wear_offset\":\"0.000\",\"unit\":\"\",\"initial\":\"0\",\"warning\":\"0\",\"life\":\"0\"}]";
+					break;
+				case "getMachiningCounter":
+					feedback = "[{\"name\":\"1\",\"count\":{\"current\":\"39\",\"end\":\"100\",\"warn\":\"80\"}},"
+							+ "{\"name\":\"2\",\"count\":{\"current\":\"20\",\"end\":\"1200\",\"warn\":\"800\"}},"
+							+ "{\"name\":\"3\",\"count\":{\"current\":\"333\",\"end\":\"15000\",\"warn\":\"13000\"}},"
+							+ "{\"name\":\"4\",\"count\":{\"current\":\"3333\",\"end\":\"60000\",\"warn\":\"4000\"}}]";
+					break;
+				case "downloadMainProgram":
+					feedback = "G54#r#nM198P7771#r#nG55#r#nM198P7772#r#nG56#r#nM198P7773#r#nG57#r#nM198P7774#r#nG58#r#nM198P7775#r#nG59#r#nM198P7776#r#nM30";
+					break;
+				case "downloadSubProgram":
+					feedback = "G54G91G28S5000M3G01X-200.Y-200.Z-50.F1000.M30";
+					break;
+				case "openDoor":
+					in += splitor+"1";
+					break;
+				case "closeDoor":
+					in += splitor+"1";
+					break;
+				case "clampFixture":
+					in += splitor+"1";
+					break;
+				case "releaseFixture":
+					in += splitor+"1";
+					break;
+				}
+				if(!"".equals(feedback)){
+					feedback = feedback.replace("\"", "\\\"");
+					in += splitor + feedback;
+				}
+				
+				feedbackToClient(s,in);
+			}
+		}
+	}
+}

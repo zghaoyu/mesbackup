@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;CNCNcProgram.java&apos; to &apos;CNC eSpec/src/com.cncmes.dto&apos;&#x0D;&#x0A;- Original project: &apos;CNC Client&apos;&#x0D;&#x0A;- Destination element: &apos;CNC eSpec/src/com.cncmes.dto&apos;&#x0D;&#x0A;- Original element: &apos;com.cncmes.dto.CNCNcProgram.java&apos;" description="Copy compilation unit" destination="=CNC eSpec/src&lt;com.cncmes.dto" element1="/src&lt;com.cncmes.dto{CNCNcProgram.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1641885265812" units="1" version="1.0"/>
+</session>

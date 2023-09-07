@@ -1,0 +1,7 @@
+1545033524135	Rename method 'getPoleAvgXStart'
+1545033550953	Rename local variable 'avgXStart'
+1545033574741	Rename local variable 'avgXStart'
+1545033633137	Rename local variable 'xStartSum1'
+1545033648996	Rename local variable 'xStartSum2'
+1545176559280	Extract method 'storeLayerAngle'
+1545176615726	Rename local variable 'i'

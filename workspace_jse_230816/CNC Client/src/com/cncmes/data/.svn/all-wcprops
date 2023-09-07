@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/data
+END
+RackMaterial.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/data/RackMaterial.java
+END
+RobotDriver.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/data/RobotDriver.java
+END
+ScannerDriver.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/data/ScannerDriver.java
+END
+RobotEthernetCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/data/RobotEthernetCmd.java
+END
+MachiningSpec.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/data/MachiningSpec.java
+END
+RackData.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/data/RackData.java
+END
+SystemConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/data/SystemConfig.java
+END
+DevHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/data/DevHelper.java
+END
+RobotData.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/data/RobotData.java
+END
+Mescode.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/data/Mescode.java
+END
+CncDriver.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/data/CncDriver.java
+END
+RackProduct.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/data/RackProduct.java
+END
+SocketData.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/data/SocketData.java
+END
+WorkpieceData.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/data/WorkpieceData.java
+END
+ScannerData.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/data/ScannerData.java
+END
+CncEthernetCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/data/CncEthernetCmd.java
+END
+CncWebAPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/data/CncWebAPI.java
+END
+TaskData.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/data/TaskData.java
+END
+CncData.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/data/CncData.java
+END
+SchedulerCfg.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/data/SchedulerCfg.java
+END

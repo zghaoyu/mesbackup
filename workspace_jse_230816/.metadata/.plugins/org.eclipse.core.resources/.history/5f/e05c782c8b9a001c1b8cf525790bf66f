@@ -1,0 +1,200 @@
+package com.cncmes.gui.panel;
+
+import java.awt.Color;
+
+import javax.swing.JPanel;
+import java.awt.GridBagLayout;
+import java.awt.GridBagConstraints;
+import java.awt.Insets;
+import javax.swing.JLabel;
+import java.awt.BorderLayout;
+import javax.swing.SwingConstants;
+
+
+import java.awt.Dimension;
+import java.awt.Font;
+import java.awt.GridLayout;
+import java.awt.SystemColor;
+
+/**
+ * 
+ * @author W000586 Hui Zhi Fang
+ * 2022/3/2
+ */
+public class RackPanel extends JPanel {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -4855534237842180231L;
+	
+	private static RackPanel rackPanel = new RackPanel();
+	/**
+	 * Create the panel.
+	 */
+	public RackPanel() {
+		this.setBackground(new Color(245, 245, 245));
+		GridBagLayout gridBagLayout = new GridBagLayout();
+		gridBagLayout.columnWidths = new int[] {5, 0, 0, 0, 0, 5};
+		gridBagLayout.rowHeights = new int[] {200, 500, 0};
+		gridBagLayout.columnWeights = new double[]{0.0, 1.0, 1.0, 1.0, 1.0, 0.0};
+		gridBagLayout.rowWeights = new double[]{1.0, 1.0, 0.0};
+		setLayout(gridBagLayout);
+		
+		JPanel statePanel = new JPanel();
+		statePanel.setBackground(new Color(255, 255, 255));
+		GridBagConstraints gbc_statePanel = new GridBagConstraints();
+		gbc_statePanel.insets = new Insets(0, 0, 5, 5);
+		gbc_statePanel.fill = GridBagConstraints.BOTH;
+		gbc_statePanel.gridx = 1;
+		gbc_statePanel.gridy = 0;
+		add(statePanel, gbc_statePanel);
+		statePanel.setLayout(new BorderLayout(0, 0));
+		
+		JPanel stateTitle = new JPanel();
+		stateTitle.setBackground(SystemColor.controlHighlight);
+		stateTitle.setPreferredSize(new Dimension(10, 25));
+		statePanel.add(stateTitle, BorderLayout.NORTH);
+		
+		JLabel lblState = new JLabel("State");
+		lblState.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		stateTitle.add(lblState);
+		
+		JPanel stateContent = new JPanel();
+		stateContent.setBackground(new Color(255, 255, 255));
+		statePanel.add(stateContent, BorderLayout.CENTER);
+		stateContent.setLayout(new BorderLayout(0, 0));
+		
+		JLabel lblStateContent = new JLabel("Running");
+		lblStateContent.setHorizontalAlignment(SwingConstants.CENTER);
+		lblStateContent.setFont(new Font("Tahoma", Font.PLAIN, 25));
+		stateContent.add(lblStateContent);
+		
+		JPanel storagePanel = new JPanel();
+		storagePanel.setBackground(new Color(255, 255, 255));
+		GridBagConstraints gbc_storagePanel = new GridBagConstraints();
+		gbc_storagePanel.insets = new Insets(0, 0, 5, 5);
+		gbc_storagePanel.fill = GridBagConstraints.BOTH;
+		gbc_storagePanel.gridx = 2;
+		gbc_storagePanel.gridy = 0;
+		add(storagePanel, gbc_storagePanel);
+		storagePanel.setLayout(new BorderLayout(0, 0));
+		
+		JPanel storageTitle = new JPanel();
+		storageTitle.setPreferredSize(new Dimension(10, 25));
+		storageTitle.setBackground(SystemColor.controlHighlight);
+		storagePanel.add(storageTitle, BorderLayout.NORTH);
+		
+		JLabel lblSlots = new JLabel("Storage");
+		lblSlots.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		storageTitle.add(lblSlots);
+		
+		JPanel storageContent = new JPanel();
+		storageContent.setBackground(new Color(255, 255, 255));
+		storagePanel.add(storageContent, BorderLayout.CENTER);
+		storageContent.setLayout(new GridLayout(2, 2, 0, 0));
+		
+		JLabel lblTotal = new JLabel("Total:  ");
+		lblTotal.setFont(new Font("Microsoft JhengHei", Font.BOLD, 16));
+		lblTotal.setHorizontalAlignment(SwingConstants.RIGHT);
+		lblTotal.setPreferredSize(new Dimension(28, 50));
+		storageContent.add(lblTotal);
+		
+		JLabel lblTotalNum = new JLabel("48");
+		lblTotalNum.setHorizontalAlignment(SwingConstants.LEFT);
+		lblTotalNum.setFont(new Font("Microsoft JhengHei", Font.BOLD, 16));
+		storageContent.add(lblTotalNum);
+		
+		JLabel lblEmpty = new JLabel("Empty: ");
+		lblEmpty.setFont(new Font("Microsoft JhengHei", Font.BOLD, 16));
+		lblEmpty.setHorizontalAlignment(SwingConstants.RIGHT);
+		storageContent.add(lblEmpty);
+		
+		JLabel lblEmptyNum = new JLabel("10");
+		lblEmptyNum.setHorizontalAlignment(SwingConstants.LEFT);
+		lblEmptyNum.setFont(new Font("Microsoft JhengHei", Font.BOLD, 16));
+		storageContent.add(lblEmptyNum);
+		
+		JPanel conveyorPanel = new JPanel();
+		conveyorPanel.setBackground(new Color(255, 255, 255));
+		GridBagConstraints gbc_conveyorPanel = new GridBagConstraints();
+		gbc_conveyorPanel.insets = new Insets(0, 0, 5, 5);
+		gbc_conveyorPanel.fill = GridBagConstraints.BOTH;
+		gbc_conveyorPanel.gridx = 3;
+		gbc_conveyorPanel.gridy = 0;
+		add(conveyorPanel, gbc_conveyorPanel);
+		conveyorPanel.setLayout(new BorderLayout(0, 0));
+		
+		JPanel conveyorTitle = new JPanel();
+		conveyorPanel.add(conveyorTitle, BorderLayout.NORTH);
+		conveyorTitle.setPreferredSize(new Dimension(10, 25));
+		conveyorTitle.setBackground(SystemColor.controlHighlight);
+		
+		JLabel lblConveyor = new JLabel("Conveyor");
+		conveyorTitle.add(lblConveyor);
+		lblConveyor.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		
+		JPanel conveyorContent = new JPanel();
+		conveyorContent.setBackground(new Color(255, 255, 255));
+		conveyorPanel.add(conveyorContent, BorderLayout.CENTER);
+		conveyorContent.setLayout(new BorderLayout(0, 0));
+		
+		JLabel lblConveyorContent = new JLabel("Running");
+		lblConveyorContent.setHorizontalAlignment(SwingConstants.CENTER);
+		lblConveyorContent.setFont(new Font("Tahoma", Font.PLAIN, 25));
+		conveyorContent.add(lblConveyorContent);
+		
+		JPanel GripperPanel = new JPanel();
+		GripperPanel.setBackground(new Color(255, 255, 255));
+		GridBagConstraints gbc_GripperPanel = new GridBagConstraints();
+		gbc_GripperPanel.insets = new Insets(0, 0, 5, 5);
+		gbc_GripperPanel.fill = GridBagConstraints.BOTH;
+		gbc_GripperPanel.gridx = 4;
+		gbc_GripperPanel.gridy = 0;
+		add(GripperPanel, gbc_GripperPanel);
+		GripperPanel.setLayout(new BorderLayout(0, 0));
+		
+		JPanel gripperTitle = new JPanel();
+		gripperTitle.setPreferredSize(new Dimension(10, 25));
+		gripperTitle.setBackground(SystemColor.controlHighlight);
+		GripperPanel.add(gripperTitle, BorderLayout.NORTH);
+		
+		JLabel lblGripper = new JLabel("Gripper");
+		gripperTitle.add(lblGripper);
+		lblGripper.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		
+		JPanel gripperContent = new JPanel();
+		gripperContent.setBackground(new Color(255, 255, 255));
+		GripperPanel.add(gripperContent, BorderLayout.CENTER);
+		gripperContent.setLayout(new BorderLayout(0, 0));
+		
+		JLabel lblGripperContent = new JLabel("Running");
+		lblGripperContent.setHorizontalAlignment(SwingConstants.CENTER);
+		lblGripperContent.setFont(new Font("Tahoma", Font.PLAIN, 25));
+		gripperContent.add(lblGripperContent);
+		
+		JPanel panel_3 = new JPanel();
+		panel_3.setBackground(new Color(255, 255, 255));
+		GridBagConstraints gbc_panel_3 = new GridBagConstraints();
+		gbc_panel_3.insets = new Insets(0, 0, 5, 5);
+		gbc_panel_3.gridwidth = 4;
+		gbc_panel_3.fill = GridBagConstraints.BOTH;
+		gbc_panel_3.gridx = 1;
+		gbc_panel_3.gridy = 1;
+		add(panel_3, gbc_panel_3);
+		panel_3.setLayout(new BorderLayout(0, 0));
+		
+		JPanel panel = new JPanel();
+		panel.setBackground(SystemColor.controlHighlight);
+		panel.setPreferredSize(new Dimension(10, 25));
+		panel_3.add(panel, BorderLayout.NORTH);
+		
+		JPanel panel_1 = new JPanel();
+		panel_1.setBackground(Color.WHITE);
+		panel_3.add(panel_1, BorderLayout.CENTER);
+		
+	}
+	public static RackPanel getInstance(){
+		return rackPanel;
+	}
+}

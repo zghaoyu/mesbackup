@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;RackMaterial.java&apos; to &apos;CNC Client/src/com.cncmes.data&apos;&#x0D;&#x0A;- Original project: &apos;CNC Rack Manager&apos;&#x0D;&#x0A;- Destination element: &apos;CNC Client/src/com.cncmes.data&apos;&#x0D;&#x0A;- Original element: &apos;com.cncmes.data.RackMaterial.java&apos;" description="Copy compilation unit" destination="=CNC Client/src&lt;com.cncmes.data" element1="/src&lt;com.cncmes.data{RackMaterial.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1521771792308" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SysConfig>
+  <CommonCfg>
+    <socketResponseTimeOut unit="s">2</socketResponseTimeOut>
+    <socketResponseInterval unit="ms">10</socketResponseInterval>
+    <cmdRetryCount>5</cmdRetryCount>
+    <DeviceMonitorInterval unit="s">5</DeviceMonitorInterval>
+    <NCProgramsRootDir>D:\NC_Programs</NCProgramsRootDir>
+    <CheckScheduler>1</CheckScheduler>
+    <CheckRackManager>1</CheckRackManager>
+    <RunningLog>1</RunningLog>
+    <DebugLog>0</DebugLog>
+    <DummyCNC>127.0.0.1</DummyCNC>
+    <DummyRobot>127.0.0.1</DummyRobot>
+  </CommonCfg>
+  <DatabaseCfg>
+    <url>jdbc:mysql://10.10.204.97:3306/cnc_client?useSSL=false&amp;serverTimezone=UTC</url>
+    <username>VRRfp6zLvL0=</username>
+    <userpwd>kYsRnVlzQkaOsfzzJFEZ4w==</userpwd>
+    <driver>com.mysql.cj.jdbc.Driver</driver>
+  </DatabaseCfg>
+  <FtpCfg>
+    <ip>10.10.206.83</ip>
+    <port>21</port>
+    <username>OhVxwDjtUj3cmA8yE1tc5A==</username>
+    <userpwd>Q824+SonaembgG7vRcFrCA==</userpwd>
+  </FtpCfg>
+</SysConfig>

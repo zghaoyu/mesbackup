@@ -1,0 +1,294 @@
+package com.cncmes.ctrl;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.net.Socket;
+import java.util.LinkedHashMap;
+
+import com.cncmes.base.DummyItems;
+import com.cncmes.handler.SocketDataHandler;
+import com.cncmes.utils.DebugUtils;
+import com.cncmes.utils.LogUtils;
+import com.cncmes.utils.RunningMsg;
+import com.cncmes.utils.ThreadUtils;
+
+public class SocketClient {
+	private static SocketClient socketClient = new SocketClient();
+	private LinkedHashMap<String,Socket> socketMap = new LinkedHashMap<String,Socket>();
+	private LinkedHashMap<String,SocketDataHandler> sdataHdlMap = new LinkedHashMap<String,SocketDataHandler>();
+	private LinkedHashMap<String,String> cmdEndMap = new LinkedHashMap<String,String>();
+	private LinkedHashMap<String,Boolean> cnnFlag = new LinkedHashMap<String,Boolean>();
+	private LinkedHashMap<String,DummyItems> dummyMap = new LinkedHashMap<String,DummyItems>();
+	private static long nullDataInterval = 50; //ms
+	private static long nullDataTimeOutCnt = 100;
+	
+	private SocketClient(){}
+	
+	public static SocketClient getInstance(){
+		return socketClient;
+	}
+	
+	private String getMapKey(String ip, int port){
+		return (ip+":"+port);
+	}
+	
+	private DummyItems getDummyItem(String ip, int port){
+		return dummyMap.get(getMapKey(ip,port));
+	}
+	
+	public boolean connect(String ip, int port, SocketDataHandler sdh, DummyItems dummyItem, String...cmdEndChr) throws IOException{
+		boolean success = false;
+		
+		if(null == sdh){
+			LogUtils.errorLog("SocketClient connect("+getMapKey(ip,port)+") failed:SocketDataHandler can't be NULL");
+			throw(new IOException("Fail connecting to server: Client Socket Data Handler can't be NULL"));
+		}else{
+			if(!("".equals(ip) || port <= 1024)){
+				Socket s = removeSocket(ip, port);
+				
+				try {
+					if(!"".equals(DebugUtils.getDummyDeviceIP(dummyItem))){
+						s = new Socket(DebugUtils.getDummyDeviceIP(dummyItem), port);
+					}else{
+						s = new Socket(ip, port);
+					}
+					
+					socketMap.put(getMapKey(ip,port), s);
+					dummyMap.put(getMapKey(ip,port), dummyItem);
+					if(null != sdh) sdataHdlMap.put(getMapKey(ip,port), sdh);
+					if(cmdEndChr.length > 0) cmdEndMap.put(getMapKey(ip,port), cmdEndChr[0]);
+					success = true;
+					startSocketClientListener(s, ip, port);
+				} catch (IOException e) {
+					LogUtils.errorLog("SocketClient connect("+getMapKey(ip,port)+") failed:"+e.getMessage());
+					throw(new IOException("Fail connecting to server: "+e.getMessage()));
+				}
+			}
+		}
+		return success;
+	}
+	
+	public String readData(String ip, int port) throws IOException{
+		BufferedReader br = null;
+		String r = null;
+		String err = "";
+		Socket s = getSocket(ip, port);
+		
+		try {
+			br = new BufferedReader(new InputStreamReader(s.getInputStream()));
+			r = br.readLine();
+		} catch (IOException e) {
+			err = e.getMessage();
+			if(connect(ip, port, getSocketDataHandler(ip,port), getDummyItem(ip,port))){
+				s = getSocket(ip, port);
+				br = new BufferedReader(new InputStreamReader(s.getInputStream()));
+				r = br.readLine();
+			}else{
+				LogUtils.errorLog("SocketClient readData("+getMapKey(ip,port)+") failed:"+err);
+				throw(new IOException("Fail reading data from server: "+err));
+			}
+		}
+		
+		return r;
+	}
+	
+	public boolean sendData(String ip, int port, String data) throws IOException{
+		boolean success = false;
+		String err = "";
+		Socket s = getSocket(ip, port);
+		
+		String cmdEndChr = cmdEndMap.get(getMapKey(ip,port));
+		if(null == cmdEndChr){
+			cmdEndChr = "\r";
+		}else{
+			switch(cmdEndChr){
+			case "CRLF":
+				cmdEndChr = "\r\n";
+				break;
+			case "CR":
+				cmdEndChr = "\r";
+				break;
+			case "LF":
+				cmdEndChr = "\n";
+				break;
+			}
+		}
+		
+		if(null != s){
+			try {
+				BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(s.getOutputStream()));
+				bw.write(data + cmdEndChr);
+				bw.flush();
+				success = true;
+			} catch (IOException e) {
+				if(!"quit".equals(data)){
+					err = e.getMessage();
+					if(connect(ip, port, getSocketDataHandler(ip,port), getDummyItem(ip,port))){
+						s = getSocket(ip, port);
+						BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(s.getOutputStream()));
+						bw.write(data + cmdEndChr);
+						bw.flush();
+						success = true;
+					}else{
+						LogUtils.errorLog("SocketClient sendData("+getMapKey(ip,port)+") failed:"+err);
+						throw(new IOException("Fail sending data to server: "+err));
+					}
+				}
+			} finally {
+				if("quit".equals(data)){
+					removeSocket(ip, port);
+					success = true;
+				}
+			}
+		}else{
+			if(connect(ip, port, getSocketDataHandler(ip,port), getDummyItem(ip,port))){
+				s = getSocket(ip, port);
+				BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(s.getOutputStream()));
+				bw.write(data + cmdEndChr);
+				bw.flush();
+				success = true;
+			}
+		}
+		
+		if(!success) LogUtils.errorLog("SocketClient fails sending data to server: "+data);
+		return success;
+	}
+	
+	public String getSocketState(String ip, int port){
+		Socket s = getSocket(ip,port);
+		if(null != s){
+			return "OK";
+		}else{
+			return "NG";
+		}
+	}
+	
+	public Socket getSocket(String ip, int port){
+		return socketMap.get(getMapKey(ip,port));
+	}
+	
+	public LinkedHashMap<String,Socket> getAllSockets(){
+		return socketMap;
+	}
+	
+	private Socket removeSocket(String ip, int port){
+		Socket s = null;
+		try {
+			stopSocketClientListener(ip, port);
+			s = socketMap.remove(getMapKey(ip,port));
+			if(null != s) s.close();
+		} catch (IOException e) {
+		}
+		return s;
+	}
+	
+	public void startSocketClientListener(Socket s, String ip, int port){
+		if(null == cnnFlag.get(getMapKey(ip,port)) || !cnnFlag.get(getMapKey(ip,port))){
+			cnnFlag.put(getMapKey(ip,port), true);
+			ThreadUtils.Run(new SocketDataListener(s, ip, port));
+		}
+	}
+	
+	public void stopSocketClientListener(String ip, int port){
+		cnnFlag.put(getMapKey(ip,port), false);
+	}
+	
+	public void addSocketDataHandler(String ip, int port,SocketDataHandler sdh){
+		sdataHdlMap.put(getMapKey(ip,port), sdh);
+	}
+	
+	public SocketDataHandler getSocketDataHandler(String ip, int port){
+		return sdataHdlMap.get(getMapKey(ip,port));
+	}
+	
+	public void disconnectAllSockets(){
+		if(!socketMap.isEmpty()){
+			try {
+				String temp = "";
+				String[] keys = null, arrTemp = null;
+				for(String key:socketMap.keySet()){
+					if("".equals(temp)){
+						temp = key;
+					}else{
+						temp += ";" + key;
+					}
+				}
+				if(!"".equals(temp)){
+					arrTemp = temp.split(";");
+					for(String key:arrTemp){
+						keys = key.split(":");
+						removeSocket(keys[0],Integer.parseInt(keys[1]));
+					}
+				}
+			} catch (NumberFormatException e) {
+			}
+		}
+	}
+	
+	class SocketDataListener implements Runnable{
+		private Socket s = null;
+		private String ip;
+		private int port;
+		private long continueNullCnt = 0;
+		
+		public SocketDataListener(Socket s, String ip, int port){
+			this.s = s;
+			this.ip = ip;
+			this.port = port;
+		}
+		
+		@Override
+		public void run() {
+			String errMsg = "";
+			BufferedReader br = null;
+			SocketDataHandler sdh = getSocketDataHandler(ip, port);
+			
+			try {
+				br = new BufferedReader(new InputStreamReader(s.getInputStream()));
+				String r = null;
+				while(cnnFlag.get(getMapKey(ip,port))){
+					r = br.readLine();
+					if(null != sdh) sdh.doHandle(r, s);
+					if(null != r){
+						continueNullCnt = 0;
+					}else{
+						continueNullCnt++;
+						try {
+							Thread.sleep(nullDataInterval);
+						} catch (InterruptedException e) {
+						}
+					}
+					if(continueNullCnt >= nullDataTimeOutCnt){
+						try {
+							continueNullCnt--;
+							Thread.sleep(1000);
+						} catch (InterruptedException e) {
+						}
+					}
+					if("quit".equals(r)) break;
+				}
+				
+				br.close();
+			} catch (IOException e) {
+				removeSocket(ip, port);
+				errMsg = e.getMessage();
+			} finally {
+				if("".equals(errMsg)){
+					RunningMsg.set("SocketClient SocketDataListener("+getMapKey(ip,port)+") Stop - "+cnnFlag.get(getMapKey(ip,port)));
+				}else{
+					if(cnnFlag.get(getMapKey(ip,port))){
+						LogUtils.errorLog("SocketClient SocketDataListener("+getMapKey(ip,port)+") Stop:"+errMsg);
+						try {
+							connect(ip, port, sdh, getDummyItem(ip,port));
+						} catch (IOException e) {
+						}
+					}
+				}
+			}
+		}
+	}
+	
+}

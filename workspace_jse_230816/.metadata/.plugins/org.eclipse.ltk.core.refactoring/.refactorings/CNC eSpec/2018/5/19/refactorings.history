@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename enum constant &apos;DEVCONTROLLER&apos; of &apos;com.cncmes.base.PermissionItems&apos; to &apos;ROBOTCONTROL&apos;&#x0D;&#x0A;- Original project: &apos;CNC eSpec&apos;&#x0D;&#x0A;- Original element: &apos;com.cncmes.base.PermissionItems.DEVCONTROLLER&apos;&#x0D;&#x0A;- Renamed element: &apos;com.cncmes.base.PermissionItems.ROBOTCONTROL&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename enum constant &apos;DEVCONTROLLER&apos;" flags="589830" getter="false" id="org.eclipse.jdt.ui.rename.enum.constant" input="/src&lt;com.cncmes.base{PermissionItems.java[PermissionItems^DEVCONTROLLER" name="ROBOTCONTROL" references="true" setter="false" stamp="1526005184709" textual="false" version="1.0"/>
+</session>
