@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;maxVal&apos; in &apos;com.sto.utils.MathUtils.getPeakValsEx(...)&apos; to &apos;peakVal&apos;&#x0D;&#x0A;- Original project: &apos;STOImgProc&apos;&#x0D;&#x0A;- Original element: &apos;com.sto.utils.MathUtils.getPeakValsEx(int[], int, boolean).maxVal&apos;&#x0D;&#x0A;- Renamed element: &apos;maxVal&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;maxVal&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.sto.utils{MathUtils.java[MathUtils~getPeakValsEx~\[I~I~Z@maxVal!7881!7962!7952!7957!I!0!false" name="peakVal" references="true" stamp="1551329868675" version="1.0"/>
+</session>

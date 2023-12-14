@@ -1,0 +1,470 @@
+2023-11-30 09:36:39@1701308199034@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:36:39@1701308199039@SqlServerUtils fails to load system config:null
+2023-11-30 09:36:39@1701308199040@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:36:39@1701308199042@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:36:39@1701308199043@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:36:39@1701308199044@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:36:39@1701308199045@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:36:39@1701308199046@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:36:39@1701308199048@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:36:39@1701308199049@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:36:39@1701308199050@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:36:39@1701308199051@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:36:39@1701308199052@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:36:39@1701308199053@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:36:39@1701308199054@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:36:39@1701308199055@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:36:39@1701308199056@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:36:39@1701308199057@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:36:39@1701308199058@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:37:44@1701308264240@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:37:44@1701308264248@SqlServerUtils fails to load system config:null
+2023-11-30 09:37:50@1701308270005@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:37:50@1701308270600@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:37:50@1701308270733@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:37:52@1701308272564@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:37:53@1701308273989@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:37:55@1701308275029@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:37:55@1701308275957@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:37:56@1701308276818@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:37:59@1701308279128@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:37:59@1701308279130@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:37:59@1701308279133@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:37:59@1701308279136@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:37:59@1701308279139@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:37:59@1701308279140@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:37:59@1701308279142@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:37:59@1701308279143@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:37:59@1701308279144@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:39:33@1701308373633@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:39:33@1701308373642@SqlServerUtils fails to load system config:null
+2023-11-30 09:40:28@1701308428855@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:28@1701308428857@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:28@1701308428860@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:28@1701308428863@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:28@1701308428866@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:28@1701308428867@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:28@1701308428868@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:28@1701308428869@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:28@1701308428871@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:28@1701308428872@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:28@1701308428873@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:28@1701308428875@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:28@1701308428876@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:28@1701308428877@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:28@1701308428879@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:28@1701308428880@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:28@1701308428881@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:36@1701308436523@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:38@1701308438526@SqlServerUtils fails to load system config:null
+2023-11-30 09:40:51@1701308451422@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:51@1701308451424@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:51@1701308451427@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:51@1701308451430@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:51@1701308451433@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:51@1701308451434@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:51@1701308451435@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:51@1701308451436@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:51@1701308451438@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:51@1701308451439@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:51@1701308451440@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:51@1701308451441@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:51@1701308451442@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:51@1701308451443@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:51@1701308451444@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:51@1701308451446@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:40:51@1701308451447@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:41:32@1701308492356@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:41:44@1701308504690@SqlServerUtils fails to load system config:null
+2023-11-30 09:41:44@1701308504692@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:41:44@1701308504697@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:41:44@1701308504701@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:41:44@1701308504704@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:41:44@1701308504705@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:41:44@1701308504707@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:41:44@1701308504708@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:41:44@1701308504709@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:41:44@1701308504710@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:41:44@1701308504711@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:41:44@1701308504712@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:41:44@1701308504713@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:41:44@1701308504714@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:41:44@1701308504715@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:41:44@1701308504716@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:41:44@1701308504717@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:41:44@1701308504718@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:41:48@1701308508087@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:43:26@1701308606708@SqlServerUtils fails to load system config:null
+2023-11-30 09:43:26@1701308606710@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:43:26@1701308606714@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:43:26@1701308606718@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:43:26@1701308606722@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:43:26@1701308606723@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:43:26@1701308606725@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:43:26@1701308606727@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:43:26@1701308606728@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:43:26@1701308606730@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:43:26@1701308606731@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:43:26@1701308606732@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:43:26@1701308606733@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:43:26@1701308606735@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:43:26@1701308606736@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:43:26@1701308606737@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:43:26@1701308606738@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:43:26@1701308606739@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:50:05@1701309005022@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:50:05@1701309005026@SqlServerUtils fails to load system config:com.microsoft.sqlserver.jdbc.SQLServerDriver
+2023-11-30 09:50:05@1701309005029@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:50:05@1701309005032@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:50:05@1701309005036@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:50:05@1701309005037@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:50:05@1701309005038@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:50:05@1701309005039@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:50:05@1701309005041@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:50:05@1701309005042@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:50:05@1701309005043@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:50:05@1701309005045@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:50:05@1701309005046@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:50:05@1701309005047@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:50:05@1701309005049@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:50:05@1701309005050@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:50:05@1701309005051@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:50:05@1701309005052@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:50:05@1701309005054@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:52:06@1701309126328@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:52:06@1701309126731@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:52:06@1701309126781@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:52:06@1701309126810@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:52:06@1701309126840@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:52:06@1701309126869@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:52:06@1701309126909@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:52:06@1701309126948@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:52:06@1701309126978@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:52:07@1701309127007@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:52:07@1701309127038@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:52:07@1701309127069@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:52:07@1701309127098@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:52:07@1701309127129@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:52:07@1701309127168@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:52:07@1701309127212@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:52:07@1701309127243@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:52:07@1701309127272@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:58:42@1701309522252@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:59:27@1701309567013@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:59:27@1701309567381@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:59:27@1701309567414@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:59:27@1701309567443@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:59:27@1701309567480@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:59:27@1701309567512@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:59:27@1701309567544@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:59:27@1701309567573@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:59:27@1701309567594@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:59:27@1701309567613@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:59:27@1701309567634@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:59:27@1701309567657@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:59:27@1701309567679@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:59:27@1701309567700@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:59:27@1701309567720@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:59:27@1701309567741@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:59:27@1701309567763@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 09:59:27@1701309567782@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:00:00@1701309600064@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:02:28@1701309748851@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:02:28@1701309748880@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:02:28@1701309748908@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:02:28@1701309748933@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:02:28@1701309748958@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:02:28@1701309748983@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:02:30@1701309750864@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:03:18@1701309798642@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:03:18@1701309798679@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:03:18@1701309798706@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:03:18@1701309798732@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:03:18@1701309798759@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:03:18@1701309798784@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:03:20@1701309800698@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:03:42@1701309822030@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:03:42@1701309822056@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:03:42@1701309822085@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:03:42@1701309822110@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:03:42@1701309822133@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:03:42@1701309822158@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:04:03@1701309843839@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:04:18@1701309858917@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:04:18@1701309858945@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:04:18@1701309858973@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:04:18@1701309858997@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:04:19@1701309859024@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:04:19@1701309859048@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:06:02@1701309962610@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:09:18@1701310158222@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:09:18@1701310158251@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:09:18@1701310158277@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:09:18@1701310158303@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:09:18@1701310158327@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:11:21@1701310281937@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:11:34@1701310294443@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:14:48@1701310488542@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:14:48@1701310488571@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:14:48@1701310488599@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:14:48@1701310488624@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:14:48@1701310488649@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:14:50@1701310490822@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:14:51@1701310491221@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:14:51@1701310491253@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:14:51@1701310491276@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:14:51@1701310491309@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:14:51@1701310491390@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:14:51@1701310491408@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:14:51@1701310491425@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:14:51@1701310491445@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:14:51@1701310491465@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:14:51@1701310491492@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:14:51@1701310491523@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:14:51@1701310491550@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:14:51@1701310491580@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:14:51@1701310491607@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:14:51@1701310491625@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:14:51@1701310491644@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:14:51@1701310491667@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:27@1701310647493@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:27@1701310647867@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:27@1701310647898@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:27@1701310647923@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:27@1701310647959@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:27@1701310647999@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:28@1701310648024@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:28@1701310648047@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:28@1701310648070@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:28@1701310648092@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:28@1701310648116@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:28@1701310648136@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:28@1701310648160@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:28@1701310648180@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:28@1701310648199@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:28@1701310648220@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:28@1701310648239@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:28@1701310648259@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:56@1701310676325@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:56@1701310676687@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:56@1701310676719@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:56@1701310676740@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:56@1701310676763@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:56@1701310676783@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:56@1701310676846@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:56@1701310676899@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:56@1701310676915@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:56@1701310676936@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:56@1701310676958@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:56@1701310676981@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:57@1701310677002@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:57@1701310677023@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:57@1701310677046@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:57@1701310677068@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:57@1701310677092@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:17:57@1701310677114@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:18:27@1701310707118@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:18:27@1701310707513@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:18:27@1701310707547@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:18:27@1701310707571@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:18:27@1701310707597@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:18:27@1701310707620@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:18:27@1701310707644@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:18:27@1701310707667@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:18:27@1701310707690@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:18:27@1701310707712@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:18:27@1701310707735@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:18:27@1701310707757@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:18:27@1701310707780@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:18:27@1701310707800@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:18:27@1701310707821@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:18:27@1701310707843@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:18:27@1701310707863@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:18:27@1701310707881@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:19:01@1701310741156@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:21:36@1701310896582@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:21:36@1701310896615@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:21:36@1701310896638@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:21:36@1701310896664@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:21:36@1701310896689@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:22:19@1701310939207@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:22:19@1701310939607@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:22:19@1701310939638@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:22:19@1701310939665@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:22:19@1701310939703@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:22:19@1701310939732@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:22:19@1701310939763@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:22:19@1701310939789@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:22:19@1701310939818@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:22:19@1701310939843@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:22:19@1701310939872@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:22:19@1701310939895@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:22:19@1701310939918@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:22:19@1701310939936@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:22:19@1701310939958@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:22:19@1701310939985@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:22:20@1701310940017@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:22:20@1701310940039@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:26:30@1701311190247@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:27:29@1701311249756@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:27:47@1701311267174@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:28:00@1701311280107@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:30:02@1701311402236@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:30:02@1701311402264@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:30:02@1701311402290@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:30:02@1701311402315@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:30:02@1701311402339@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:30:02@1701311402368@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:30:12@1701311412078@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:30:12@1701311412430@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:30:12@1701311412464@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:30:12@1701311412495@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:30:12@1701311412519@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:30:12@1701311412541@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:30:12@1701311412569@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:30:12@1701311412602@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:30:12@1701311412628@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:30:12@1701311412649@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:30:12@1701311412668@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:30:12@1701311412692@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:30:12@1701311412716@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:30:12@1701311412736@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:30:12@1701311412758@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:30:12@1701311412779@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:30:12@1701311412804@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:30:12@1701311412826@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:31:35@1701311495875@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:31:40@1701311500599@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:31:40@1701311500664@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:31:40@1701311500744@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:31:40@1701311500825@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:31:40@1701311500886@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:31:40@1701311500955@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:31:41@1701311501019@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:31:41@1701311501084@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:31:41@1701311501163@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:31:41@1701311501219@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:31:41@1701311501294@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:31:41@1701311501373@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:31:41@1701311501428@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:31:41@1701311501493@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:31:41@1701311501563@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:31:41@1701311501638@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:31:41@1701311501708@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:32:30@1701311550743@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:34:10@1701311650061@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:34:18@1701311658205@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:34:20@1701311660177@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:34:25@1701311665806@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:34:31@1701311671030@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:34:31@1701311671059@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:34:31@1701311671086@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:34:31@1701311671112@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:34:31@1701311671134@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:34:31@1701311671157@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:35:57@1701311757726@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:36:06@1701311766868@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:36:34@1701311794197@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:36:34@1701311794235@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:36:34@1701311794263@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:36:34@1701311794290@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:36:34@1701311794315@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:37:01@1701311821927@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:38:51@1701311931099@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:39:08@1701311948663@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:39:08@1701311948710@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:39:08@1701311948740@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:39:08@1701311948772@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:39:29@1701311969723@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:40:33@1701312033015@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:40:33@1701312033044@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:40:33@1701312033073@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:40:33@1701312033097@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:40:33@1701312033123@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:40:33@1701312033142@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:40:35@1701312035346@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:40:35@1701312035742@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:40:35@1701312035784@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:40:35@1701312035807@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:40:35@1701312035837@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:40:35@1701312035868@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:40:35@1701312035890@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:40:35@1701312035926@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:40:35@1701312035959@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:40:35@1701312035989@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:40:36@1701312036016@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:40:36@1701312036044@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:40:36@1701312036070@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:40:36@1701312036099@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:40:36@1701312036132@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:40:36@1701312036169@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:40:36@1701312036207@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:40:36@1701312036235@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:43:59@1701312239809@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:46:16@1701312376676@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:46:16@1701312376707@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:46:16@1701312376732@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:46:16@1701312376756@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:46:16@1701312376778@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 10:46:16@1701312376802@DAOImpl(String:com.cncmes.dto.OrderScheduler.java) fail
+2023-11-30 16:21:26@1701332486218@SocketClient connecSt(127.0.0.1:9903) failed:Connection refused: connect
+Ping(127.0.0.1):OK
+Netstat(127.0.0.1):
+  TCP    127.0.0.1:4012         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:4013         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:6942         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:8884         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:37842        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:50085        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:53598        127.0.0.1:53599        ESTABLISHED     InHost      
+  TCP    127.0.0.1:53599        127.0.0.1:53598        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54941        127.0.0.1:57867        TIME_WAIT       InHost      
+  TCP    127.0.0.1:55224        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:55224        127.0.0.1:55225        ESTABLISHED     InHost      
+  TCP    127.0.0.1:55225        127.0.0.1:55224        ESTABLISHED     InHost      
+  TCP    127.0.0.1:55226        127.0.0.1:55227        ESTABLISHED     InHost      
+  TCP    127.0.0.1:55227        127.0.0.1:55226        ESTABLISHED     InHost      
+  TCP    127.0.0.1:55228        127.0.0.1:57867        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57830        127.0.0.1:57831        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57831        127.0.0.1:57830        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57832        127.0.0.1:57833        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57833        127.0.0.1:57832        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57834        127.0.0.1:57835        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57835        127.0.0.1:57834        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57842        127.0.0.1:57843        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57843        127.0.0.1:57842        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57844        127.0.0.1:57845        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57845        127.0.0.1:57844        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57846        127.0.0.1:57847        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57847        127.0.0.1:57846        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57848        127.0.0.1:57849        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57849        127.0.0.1:57848        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57850        127.0.0.1:57851        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57851        127.0.0.1:57850        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57852        127.0.0.1:57853        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57853        127.0.0.1:57852        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57854        127.0.0.1:57855        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57855        127.0.0.1:57854        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57856        127.0.0.1:57857        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57857        127.0.0.1:57856        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57858        127.0.0.1:57859        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57859        127.0.0.1:57858        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57860        127.0.0.1:57861        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57861        127.0.0.1:57860        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57862        127.0.0.1:57863        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57863        127.0.0.1:57862        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57864        127.0.0.1:57865        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57865        127.0.0.1:57864        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57867        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:57867        127.0.0.1:55228        ESTABLISHED     InHost      
+  TCP    127.0.0.1:58183        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:58261        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:63342        0.0.0.0:0              LISTENING       InHost      
+  UDP    127.0.0.1:1900         *:*                                                
+  UDP    127.0.0.1:49780        *:*                                                
+  UDP    127.0.0.1:50646        *:*                                                
+  UDP    127.0.0.1:51047        *:*                                                
+  UDP    127.0.0.1:51707        *:*                                                
+  UDP    127.0.0.1:52763        *:*                                                
+  UDP    127.0.0.1:54195        *:*                                                
+  UDP    127.0.0.1:62739        *:*                                                

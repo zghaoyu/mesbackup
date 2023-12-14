@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CNC Client:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="13dc8f19-1ad9-4b42-a2a3-a7b52e0678e2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2U5YcNlXa1LW71cOr2yJ5ZuT2A7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/XmlFiles" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyDoc\workspace_jse_230816\CNC Client\XmlFiles" />
+      <recent name="E:\MyDoc\workspace_jse_230816\CNC Client\src\com\cncmes\xml" />
+      <recent name="E:\MyDoc\STO\workspace_jse_220706\CNC Scheduler\libs" />
+      <recent name="E:\MyDoc\workspace_jse_230816\CNC Client\src\com\cncmes\dto" />
+      <recent name="E:\MyDoc\workspace_jse_230816\CNC Client\libs" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cncmes.dao.impl" />
+      <recent name="com.cncmes.utils" />
+      <recent name="com.cncmes.dto" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\MyDoc\workspace_jse_230816\Raw Material Store\libs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CNCClient">
+    <configuration name="CNCClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cncmes.gui.CNCClient" />
+      <module name="CNC Client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cncmes.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RackManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cncmes.gui.RackManager" />
+      <module name="CNC Rack Manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cncmes.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RackStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cncmes.gui.frame.RackStation" />
+      <module name="CNC Rack Station" />
+      <option name="VM_PARAMETERS" value="-Dfile.encoding=GBK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cncmes.gui.frame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RawMaterialStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cncmes.gui.RawMaterialStore" />
+      <module name="Raw Material Store" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cncmes.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scheduler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cncmes.gui.Scheduler" />
+      <module name="CNC Scheduler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cncmes.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="CNC Rack Manager" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="CNC Rack Manager" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Scheduler" />
+      <item itemvalue="Application.RackStation" />
+      <item itemvalue="Application.CNCClient" />
+      <item itemvalue="Application.RackManager" />
+      <item itemvalue="Application.RawMaterialStore" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CNCClient" />
+        <item itemvalue="Application.RackManager" />
+        <item itemvalue="Application.Scheduler" />
+        <item itemvalue="Application.RackStation" />
+        <item itemvalue="Application.RawMaterialStore" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\W000650\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13dc8f19-1ad9-4b42-a2a3-a7b52e0678e2" name="Default Changelist" comment="" />
+      <created>1692230986341</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692230986341</updated>
+      <workItem from="1692230987363" duration="6360000" />
+      <workItem from="1692317097954" duration="2958000" />
+      <workItem from="1692343012114" duration="32000" />
+      <workItem from="1692407726020" duration="7370000" />
+      <workItem from="1692576289397" duration="13767000" />
+      <workItem from="1692697830837" duration="2518000" />
+      <workItem from="1692749153691" duration="12073000" />
+      <workItem from="1692835667201" duration="6593000" />
+      <workItem from="1692922303254" duration="4551000" />
+      <workItem from="1693016515961" duration="2130000" />
+      <workItem from="1693185834594" duration="4213000" />
+      <workItem from="1693267597350" duration="12408000" />
+      <workItem from="1693353956744" duration="3630000" />
+      <workItem from="1693360934440" duration="8387000" />
+      <workItem from="1693440299224" duration="3201000" />
+      <workItem from="1693532279871" duration="16866000" />
+      <workItem from="1693616896106" duration="2760000" />
+      <workItem from="1693786761395" duration="23555000" />
+      <workItem from="1693872291206" duration="27214000" />
+      <workItem from="1693958566736" duration="32271000" />
+      <workItem from="1694044932636" duration="28339000" />
+      <workItem from="1694131249525" duration="29915000" />
+      <workItem from="1694221502862" duration="7808000" />
+      <workItem from="1694390601463" duration="30865000" />
+      <workItem from="1694477052546" duration="28331000" />
+      <workItem from="1694563522633" duration="22223000" />
+      <workItem from="1694649868268" duration="29650000" />
+      <workItem from="1694739744349" duration="7114000" />
+      <workItem from="1694826163463" duration="6073000" />
+      <workItem from="1694995798762" duration="6269000" />
+      <workItem from="1695084422057" duration="15966000" />
+      <workItem from="1695168249656" duration="29084000" />
+      <workItem from="1695254780425" duration="28200000" />
+      <workItem from="1695341080209" duration="27345000" />
+      <workItem from="1695377118628" duration="1457000" />
+      <workItem from="1695431782432" duration="606000" />
+      <workItem from="1695600750595" duration="7483000" />
+      <workItem from="1695690223088" duration="11806000" />
+      <workItem from="1695772946251" duration="33713000" />
+      <workItem from="1695859415983" duration="27281000" />
+      <workItem from="1696464289085" duration="21165000" />
+      <workItem from="1696550619672" duration="17797000" />
+      <workItem from="1696640930614" duration="4066000" />
+      <workItem from="1696810014097" duration="22811000" />
+      <workItem from="1696896306094" duration="12062000" />
+      <workItem from="1696921444096" duration="199000" />
+      <workItem from="1696921792218" duration="12717000" />
+      <workItem from="1696982588969" duration="24868000" />
+      <workItem from="1697069311062" duration="21785000" />
+      <workItem from="1697155517999" duration="18275000" />
+      <workItem from="1697415570124" duration="1710000" />
+      <workItem from="1697437270234" duration="5981000" />
+      <workItem from="1697501199083" duration="23685000" />
+      <workItem from="1697587482287" duration="21200000" />
+      <workItem from="1697674016171" duration="19450000" />
+      <workItem from="1697760186376" duration="13220000" />
+      <workItem from="1697790237033" duration="4593000" />
+      <workItem from="1697850157248" duration="5268000" />
+      <workItem from="1698019905496" duration="1341000" />
+      <workItem from="1698040897069" duration="3431000" />
+      <workItem from="1698118967306" duration="5384000" />
+      <workItem from="1698192303870" duration="21530000" />
+      <workItem from="1698278676127" duration="13213000" />
+      <workItem from="1698364904713" duration="13414000" />
+      <workItem from="1698455037602" duration="3453000" />
+      <workItem from="1698624160371" duration="18835000" />
+      <workItem from="1698710664990" duration="20370000" />
+      <workItem from="1698797131149" duration="25851000" />
+      <workItem from="1698883588202" duration="22933000" />
+      <workItem from="1698969912661" duration="3273000" />
+      <workItem from="1698975235970" duration="12347000" />
+      <workItem from="1699059902738" duration="2831000" />
+      <workItem from="1699229608349" duration="692000" />
+      <workItem from="1699250723301" duration="998000" />
+      <workItem from="1699315555215" duration="4451000" />
+      <workItem from="1699401916112" duration="9561000" />
+      <workItem from="1699488503510" duration="359000" />
+      <workItem from="1699488874215" duration="15353000" />
+      <workItem from="1699574955517" duration="14333000" />
+      <workItem from="1699664964999" duration="4368000" />
+      <workItem from="1699835464041" duration="15129000" />
+      <workItem from="1699920304333" duration="18642000" />
+      <workItem from="1700006939404" duration="20026000" />
+      <workItem from="1700041662394" duration="2726000" />
+      <workItem from="1700099233831" duration="321000" />
+      <workItem from="1700103541530" duration="1394000" />
+      <workItem from="1700181210929" duration="1284000" />
+      <workItem from="1700200082407" duration="11631000" />
+      <workItem from="1700270980665" duration="4717000" />
+      <workItem from="1700438764893" duration="18962000" />
+      <workItem from="1700525025875" duration="10796000" />
+      <workItem from="1700634157624" duration="9362000" />
+      <workItem from="1700697888296" duration="25701000" />
+      <workItem from="1700784075032" duration="28076000" />
+      <workItem from="1700874130843" duration="6640000" />
+      <workItem from="1701043600641" duration="23401000" />
+      <workItem from="1701130355348" duration="28307000" />
+      <workItem from="1701216262403" duration="25417000" />
+      <workItem from="1701302752339" duration="22167000" />
+      <workItem from="1701389074178" duration="8151000" />
+      <workItem from="1701400085493" duration="1847000" />
+      <workItem from="1701415070406" duration="1289000" />
+      <workItem from="1701422171902" duration="18000" />
+      <workItem from="1701424672307" duration="1256000" />
+      <workItem from="1701478951085" duration="19000" />
+      <workItem from="1701648540782" duration="14953000" />
+      <workItem from="1701676918996" duration="9536000" />
+      <workItem from="1701734729525" duration="8185000" />
+      <workItem from="1701742940579" duration="303000" />
+      <workItem from="1701743322991" duration="3404000" />
+      <workItem from="1701764079289" duration="437000" />
+      <workItem from="1701767141405" duration="2277000" />
+      <workItem from="1701769440104" duration="1936000" />
+      <workItem from="1701821117622" duration="25979000" />
+      <workItem from="1701907696918" duration="25203000" />
+      <workItem from="1701994005546" duration="24660000" />
+      <workItem from="1702083822512" duration="6851000" />
+      <workItem from="1702259344894" duration="19558000" />
+      <workItem from="1702339438495" duration="15203000" />
+      <workItem from="1702425976838" duration="22872000" />
+      <workItem from="1702512735833" duration="302000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1698971769746">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="132" y="153" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1693794573557" />
+    <state x="414" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698971769746" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1702444038993">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="510" y="214" key="#com.intellij.ide.util.MemberChooser/0.0.1280.984@0.0.1280.984" timestamp="1696986374802" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1702444038993" />
+    <state x="613" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1700533689472">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="613" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1700533689472" />
+    <state x="549" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1698884759066">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="549" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698884759066" />
+    <state width="424" height="466" key="DebuggerActiveHint" timestamp="1695085498916">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="424" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1695085498916" />
+    <state x="1084" y="265" key="FileChooserDialogImpl" timestamp="1701769514131">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="723" y="251" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1696922085629" />
+    <state x="1084" y="265" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1701769514131" />
+    <state width="1877" height="159" key="GridCell.Tab.0.bottom" timestamp="1702465169876">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1237" height="137" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1702450159614" />
+    <state width="1877" height="159" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1702465169876" />
+    <state width="1877" height="159" key="GridCell.Tab.0.center" timestamp="1702465169876">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1237" height="137" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1702450159614" />
+    <state width="1877" height="159" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1702465169876" />
+    <state width="1877" height="159" key="GridCell.Tab.0.left" timestamp="1702465169876">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1237" height="137" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1702450159614" />
+    <state width="1877" height="159" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1702465169876" />
+    <state width="1877" height="159" key="GridCell.Tab.0.right" timestamp="1702465169876">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1237" height="137" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1702450159614" />
+    <state width="1877" height="159" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1702465169876" />
+    <state width="1877" height="205" key="GridCell.Tab.1.bottom" timestamp="1702292324724">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1237" height="205" key="GridCell.Tab.1.bottom/0.0.1280.984@0.0.1280.984" timestamp="1700803325032" />
+    <state width="1877" height="205" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1702292324724" />
+    <state width="1877" height="205" key="GridCell.Tab.1.center" timestamp="1702292324724">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1237" height="205" key="GridCell.Tab.1.center/0.0.1280.984@0.0.1280.984" timestamp="1700803325031" />
+    <state width="1877" height="205" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1702292324724" />
+    <state width="1877" height="205" key="GridCell.Tab.1.left" timestamp="1702292324724">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1237" height="205" key="GridCell.Tab.1.left/0.0.1280.984@0.0.1280.984" timestamp="1700803325031" />
+    <state width="1877" height="205" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1702292324724" />
+    <state width="1877" height="205" key="GridCell.Tab.1.right" timestamp="1702292324724">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1237" height="205" key="GridCell.Tab.1.right/0.0.1280.984@0.0.1280.984" timestamp="1700803325031" />
+    <state width="1877" height="205" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1702292324724" />
+    <state x="782" y="271" key="NewModule_or_Project.wizard" timestamp="1701769523720">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="521" y="256" key="NewModule_or_Project.wizard/0.0.1280.984@0.0.1280.984" timestamp="1693795036946" />
+    <state x="782" y="271" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1701769523720" />
+    <state x="618" y="213" width="1146" height="708" key="SettingsEditor" timestamp="1702438918579">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="269" y="179" width="916" height="708" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1694570218220" />
+    <state x="618" y="213" width="1146" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1702438918579" />
+    <state x="134" y="234" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1697531872223">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="89" y="221" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.984@0.0.1280.984" timestamp="1695199276115" />
+    <state x="134" y="234" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1697531872223" />
+    <state x="68" y="167" key="new project wizard" timestamp="1701769138133">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="45" y="158" key="new project wizard/0.0.1280.984@0.0.1280.984" timestamp="1695201727257" />
+    <state x="68" y="167" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1701769138133" />
+    <state x="803" y="277" key="refactoring.ChangeSignatureDialog" timestamp="1701736213439">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="803" y="277" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1701736213439" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1702032556161">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1702032556161" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1702439122750">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1702439122750" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../STO/workspace_jse_220706/CNC Rack Manager/src/com/cncmes/gui/RackManager.java</url>
+          <line>455</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cncmes/data/RackData.java</url>
+          <line>338</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../STO/workspace_jse_220706/CNC Rack Manager/src/com/cncmes/gui/RackManager.java</url>
+          <line>495</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cncmes/utils/LoginSystem.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../STO/workspace_jse_220706/CNC Scheduler/src/com/cncmes/utils/LoginSystem.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../CNC Scheduler/src/com/cncmes/ctrl/SchedulerServer.java</url>
+          <line>158</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/cncmes/utils/ErrorEMailUtil.java</url>
+          <line>36</line>
+          <properties class="com.cncmes.utils.ErrorEMailUtil" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/../../STO/workspace_jse_220706/CNC Rack Manager/src/com/cncmes/gui/RackManager.java</url>
+          <line>999</line>
+          <properties class="com.cncmes.gui.RackManager">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/cncmes/data/CncWebAPI.java</url>
+          <line>274</line>
+          <properties class="com.cncmes.data.CncWebAPI" method="getAllOperations">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/cncmes/dao/impl/DAOImpl.java</url>
+          <line>220</line>
+          <properties class="com.cncmes.dao.impl.DAOImpl" method="getTheLatestCNCStatus">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

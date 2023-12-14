@@ -1,0 +1,1 @@
+{"lineName":"D2E1D2A","ip":"10.10.95.172","port":"9006","model":"R2D2","state":"STANDBY","position":"@Rack:4","capacity":"9","battery":"85%","slot1":"","slot2":"","slot3":"","slot4":"","slot5":"","slot6":"","slot7":"","slot8":"","slot9":"","gripMaterial":"","wpIDs":"","wpSlotIDs":"","wpStates":"","controlCenter":"10.10.45.85:20520"}

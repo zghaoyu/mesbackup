@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CNCcfg>
+    <CNC id = "1">
+        <ip>10.10.206.178</ip>
+        <capacity>5</capacity>
+    </CNC>
+    <CNC id="2">
+        <ip>10.10.206.72</ip>
+        <capacity>4</capacity>
+    </CNC>
+</CNCcfg>

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/handler/impl
+END
+MoriCncDataHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/handler/impl/MoriCncDataHandler.java
+END
+DummyCncDataHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/handler/impl/DummyCncDataHandler.java
+END
+CncClientDataHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/handler/impl/CncClientDataHandler.java
+END
+BroCncDataHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/handler/impl/BroCncDataHandler.java
+END

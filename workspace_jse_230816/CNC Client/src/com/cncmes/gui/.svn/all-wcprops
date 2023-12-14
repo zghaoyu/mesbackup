@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/gui
+END
+SocketDebug.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/gui/SocketDebug.java
+END
+CNCClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/gui/CNCClient.java
+END
+PwdConfirmation.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/gui/PwdConfirmation.java
+END
+BarcodePrinter.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/gui/BarcodePrinter.java
+END
+SysConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/gui/SysConfig.java
+END
+OneCycleController.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/gui/OneCycleController.java
+END
+CNCEthernetCmdCfg.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/gui/CNCEthernetCmdCfg.java
+END
+CNCController.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/gui/CNCController.java
+END
+UserLogin.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/gui/UserLogin.java
+END
+CppDllCall.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/gui/CppDllCall.java
+END
+UploadProgram.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/gui/UploadProgram.java
+END
+MaterialInput.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/gui/MaterialInput.java
+END
+BarcodeInput.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/gui/BarcodeInput.java
+END
+CNCWebAPIConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/gui/CNCWebAPIConfig.java
+END
+MyConfirmDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/gui/MyConfirmDialog.java
+END
+RobotController.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/gui/RobotController.java
+END
+PaintCNCLines.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/gui/PaintCNCLines.java
+END
+ComPortDebug.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/gui/ComPortDebug.java
+END
+ScannerController.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/gui/ScannerController.java
+END
+RobotEthernetCmdConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/gui/RobotEthernetCmdConfig.java
+END

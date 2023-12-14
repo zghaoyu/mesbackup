@@ -1,0 +1,2 @@
+2023-10-06 14:02:43@1696572163401@NG@move_to@move_to,robot_pallet_a_slot_1,65@Connect(10.10.207.56:6666) Failed:Fail connecting to server: Connection timed out: connect
+2023-10-06 14:42:35@1696574555885@NG@pick_and_place@pick_and_place,robot_pallet_a_slot_1,input_rack_1_slot_6,73@Connect(10.10.207.56:6666) Failed:Fail connecting to server: Connection timed out: connect

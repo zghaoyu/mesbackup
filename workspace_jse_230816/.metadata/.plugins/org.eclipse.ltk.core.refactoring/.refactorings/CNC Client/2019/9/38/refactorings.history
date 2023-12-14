@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;com.cncmes.gui.OneCycleController.clearTrayAndWorkzone(...)&apos; to &apos;clearCncWorkzone&apos;&#x0D;&#x0A;- Original project: &apos;CNC Client&apos;&#x0D;&#x0A;- Original element: &apos;com.cncmes.gui.OneCycleController.clearTrayAndWorkzone(...)&apos;&#x0D;&#x0A;- Renamed element: &apos;com.cncmes.gui.OneCycleController.clearCncWorkzone(...)&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;clearTrayAndWorkzone&apos;" flags="589826" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;com.cncmes.gui{OneCycleController.java[OneCycleController~clearTrayAndWorkzone~QString;~QString;" name="clearCncWorkzone" references="true" stamp="1568939583053" version="1.0"/>
+</session>

@@ -1,0 +1,5 @@
+2023-12-01 18:01:13@1701424873258@10.10.207.56:6666@OK,80.9,get_battery,68
+2023-12-01 18:02:04@1701424924859@10.10.207.56:6666@OK,50.5s,dock_to,virtual_cnc_1,79
+2023-12-01 18:03:07@1701424987279@10.10.207.56:6666@OK,62.4s,pick_and_place,input_rack_1_slot_1,robot_pallet_a_slot_1,74
+2023-12-01 18:03:29@1701425009891@10.10.207.56:6666@OK,22.6s,pick_and_place,input_rack_1_slot_2,robot_pallet_a_slot_2,74
+2023-12-01 18:03:49@1701425029952@10.10.207.56:6666@OK,20.04s,pick_and_place,input_rack_1_slot_3,robot_pallet_a_slot_3,74

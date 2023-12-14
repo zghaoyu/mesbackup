@@ -1,0 +1,2 @@
+2023-11-09 14:44:51@1699512291519@NG@get_battery@get_battery,68@Connect(10.10.207.56:6666) Failed:Fail connecting to server: Connection timed out: connect
+2023-11-09 14:45:37@1699512337206@NG@go_to_charge@go_to_charge,1,38@Connect(10.10.207.56:6666) Failed:Fail connecting to server: Connection timed out: connect

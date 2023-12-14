@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/Device%20Diagnostic/src/com/cncmes/gui
+END
+BarcodeInput.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/Device%20Diagnostic/src/com/cncmes/gui/BarcodeInput.java
+END
+CNCWebAPIConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/Device%20Diagnostic/src/com/cncmes/gui/CNCWebAPIConfig.java
+END
+MyConfirmDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/Device%20Diagnostic/src/com/cncmes/gui/MyConfirmDialog.java
+END
+DeviceDiagnostic.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/Device%20Diagnostic/src/com/cncmes/gui/DeviceDiagnostic.java
+END
+SysConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/Device%20Diagnostic/src/com/cncmes/gui/SysConfig.java
+END
+CNCEthernetCmdCfg.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/Device%20Diagnostic/src/com/cncmes/gui/CNCEthernetCmdCfg.java
+END
+UserLogin.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/Device%20Diagnostic/src/com/cncmes/gui/UserLogin.java
+END
+RobotEthernetCmdConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/Device%20Diagnostic/src/com/cncmes/gui/RobotEthernetCmdConfig.java
+END

@@ -1,0 +1,7 @@
+2023-10-06 14:02:57@1696572177699@10.10.207.56:6666@NG,move_to,robot_pallet_a_slot_1,65
+2023-10-06 14:02:59@1696572179066@10.10.207.56:6666@NG,move_to,robot_pallet_a_slot_1,65
+2023-10-06 14:03:02@1696572182601@10.10.207.56:6666@NG,move_to,robot_pallet_a_slot_1,65
+2023-10-06 14:03:06@1696572186673@10.10.207.56:6666@NG,move_to,robot_pallet_a_slot_1,65
+2023-10-06 14:43:04@1696574584338@10.10.207.56:6666@NG,pick_and_place,robot_pallet_a_slot_1,input_rack_1_slot_6,73
+2023-10-06 14:43:37@1696574617885@10.10.207.56:6666@OK,23.17s,pick_and_place,robot_pallet_a_slot_1,input_rack_1_slot_7,72
+2023-10-06 14:44:46@1696574686242@10.10.207.56:6666@NG,pick_and_place,robot_pallet_a_slot_1,robot_pallet_a_slot_1,2d

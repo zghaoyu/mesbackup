@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;RobotEthernetCmd.xml&apos; to &apos;XmlFiles&apos;&#x0D;&#x0A;- Original project: &apos;CNC Client&apos;&#x0D;&#x0A;- Destination element: &apos;XmlFiles&apos;&#x0D;&#x0A;- Original element: &apos;RobotEthernetCmd.xml&apos;" description="Copy file" element1="src/com/cncmes/xml/RobotEthernetCmd.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1529473247305" target="/CNC Client/XmlFiles" units="0" version="1.0"/>
+</session>

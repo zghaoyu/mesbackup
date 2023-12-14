@@ -1,0 +1,5 @@
+2023-12-01 18:01:13@1701424873854@OK@getMachineState@http://10.10.206.5:6300/api/v3/hartford/status@{"brand":"hartford","model":"MVP-8","ip":"10.10.206.178","port":8193}@OK,code=0,data={"run":0,"emergency":0}@406
+2023-12-01 18:03:50@1701425030082@OK@hfOpenDoor@http://10.10.206.5:6300/api/v3/hartford/io_set@{"brand":"hartford","model":"MVP-8","ip":"10.10.206.178","port":8193,"data":"{\"address\":\"3403\",\"value\":\"0\"}"}@OK,code=0,data=@116
+2023-12-01 18:03:50@1701425030192@OK@hfOpenDoor@http://10.10.206.5:6300/api/v3/hartford/io_set@{"brand":"hartford","model":"MVP-8","ip":"10.10.206.178","port":8193,"data":"{\"address\":\"3403\",\"value\":\"1\"}"}@OK,code=0,data=@110
+2023-12-01 18:03:50@1701425030303@OK@hfOpenDoor@http://10.10.206.5:6300/api/v3/hartford/io_set@{"brand":"hartford","model":"MVP-8","ip":"10.10.206.178","port":8193,"data":"{\"address\":\"3403\",\"value\":\"0\"}"}@OK,code=0,data=@109
+2023-12-01 18:04:07@1701425047961@NG@hfOpenDoor@http://10.10.206.5:6300/api/v3/hartford/io_get@{"brand":"hartford","model":"MVP-8","ip":"10.10.206.178","port":8193,"data":"{\"address\":\"3304\"}"}@OK,code=0,data={"address":"3304","value":"0"}@17657

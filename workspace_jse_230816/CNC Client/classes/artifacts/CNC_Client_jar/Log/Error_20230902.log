@@ -1,0 +1,4 @@
+2023-09-02 09:20:03@1693617603843@SocketClient connect(:0) failed:SocketDataHandler can't be NULL
+2023-09-02 09:20:13@1693617613338@SocketServer SocketSrvStart(20520) failed: Address already in use: JVM_Bind
+2023-09-02 09:20:17@1693617617275@SocketClient connect(:0) failed:SocketDataHandler can't be NULL
+2023-09-02 09:20:27@1693617627139@SocketClient connect(:0) failed:SocketDataHandler can't be NULL
