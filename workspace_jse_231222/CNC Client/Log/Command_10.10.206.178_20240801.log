@@ -1,0 +1,1 @@
+2024-08-01 11:14:42@1722482082410@OK@getMacro@http://10.10.206.5:6300/api/v3/hartford/macro_get@{"brand":"hartford","model":"MVP-8","ip":"10.10.206.178","port":8193,"data":"{\"name\":\"900.0\"}"}@OK,code=0,data={"name":"900","value":"100000000","dec":"6"}@8673364

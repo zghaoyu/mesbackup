@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.cncmes.base.ClientTypes&apos; to &apos;ClientType&apos;&#x0D;&#x0A;- Original project: &apos;CNC Scheduler&apos;&#x0D;&#x0A;- Original element: &apos;com.cncmes.base.ClientTypes&apos;&#x0D;&#x0A;- Renamed element: &apos;com.cncmes.base.ClientType&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ClientTypes&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.cncmes.base{ClientTypes.java[ClientTypes" matchStrategy="1" name="ClientType" qualified="false" references="true" similarDeclarations="false" stamp="1525999736577" textual="false" version="1.0"/>
+</session>

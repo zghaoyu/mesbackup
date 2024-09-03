@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/handler
+END
+SocketDataHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/handler/SocketDataHandler.java
+END
+SocketRespHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/handler/SocketRespHandler.java
+END
+ResultSetHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/handler/ResultSetHandler.java
+END
+CncDataHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Client/src/com/cncmes/handler/CncDataHandler.java
+END

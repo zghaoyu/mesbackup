@@ -1,0 +1,118 @@
+package com.cncmes.ctrl;
+
+import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Set;
+
+import com.cncmes.base.CncItems;
+import com.cncmes.base.RobotItems;
+import com.cncmes.base.ScannerItems;
+import com.cncmes.data.CncData;
+import com.cncmes.data.RobotData;
+import com.cncmes.data.ScannerData;
+
+/**
+ * 
+ * Devices Server(Virtual Devices) for System test
+ * @author LI ZI LONG
+ *
+ */
+public class DeviceServer {
+	public static void launch(){
+		launchCNC();
+		launchRobot(); //disable by Hui Zhi 2022/5/16 
+//		launchScanner();
+	}
+	
+	/**
+	 * stop all virtual devices
+	 */
+	public static void stop(){
+		try {
+			TestServer.getInstance().stopAll();
+		} catch (Exception e) {
+		}
+	}
+	
+	/**
+	 * launch all virtual CNC
+	 */
+	public static void launchCNC(){
+		CncData cncData = CncData.getInstance();
+		Map<String,LinkedHashMap<CncItems,Object>> dataMap = cncData.getDataMap();
+		if(!dataMap.isEmpty()){
+			Set<String> set = dataMap.keySet();
+			Iterator<String> it = set.iterator();
+			
+			String ip;
+			int port;
+			LinkedHashMap<Integer,Integer> helpers = new LinkedHashMap<Integer,Integer>();
+			
+			while(it.hasNext()){
+				ip = it.next();
+				port = (int) dataMap.get(ip).get(CncItems.PORT);
+				TestServer.getInstance().startServer(port);
+				
+				port = (int) dataMap.get(ip).get(CncItems.HELPER_PORT);
+				helpers.put(port, port);
+			}
+			
+			if(helpers.size()>0){
+				for(int key:helpers.keySet()){
+					TestServer.getInstance().startServer(key);
+				}
+			}
+		}else{
+			for(int port=9100;port<9112;port++){
+				TestServer.getInstance().startServer(port);
+			}
+		}
+	}
+	
+	/**
+	 * launch all virtual Robot
+	 */
+	public static void launchRobot(){
+		RobotData robotData = RobotData.getInstance();
+		Map<String,LinkedHashMap<RobotItems,Object>> dataMap = robotData.getDataMap();
+		
+		if(!dataMap.isEmpty()){
+			Set<String> set = dataMap.keySet();
+			Iterator<String> it = set.iterator();
+			
+			String ip;
+			int port;
+			while(it.hasNext()){
+				ip = it.next();
+				port = (int) dataMap.get(ip).get(RobotItems.PORT);
+				TestServer.getInstance().startServer(port);
+			}
+		}else{
+			TestServer.getInstance().startServer(9000);
+		}
+	}
+	
+	/**
+	 * launch all virtual bar code Scanner
+	 */
+	public static void launchScanner(){
+		ScannerData scannerData = ScannerData.getInstance();
+		Map<String,LinkedHashMap<ScannerItems,Object>> dataMap = scannerData.getDataMap();
+		
+		if(!dataMap.isEmpty()){
+			Set<String> set = dataMap.keySet();
+			Iterator<String> it = set.iterator();
+			
+			String ip;
+			int port;
+			while(it.hasNext()){
+				ip = it.next();
+				port = (int) dataMap.get(ip).get(ScannerItems.PORT);
+				TestServer.getInstance().startServer(port);
+			}
+		}else{
+			TestServer.getInstance().startServer(9001);
+		}
+	}
+}

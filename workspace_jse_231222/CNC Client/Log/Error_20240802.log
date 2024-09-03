@@ -1,0 +1,129 @@
+2024-08-02 13:02:05@1722574925309@SocketClient connecSt(127.0.0.1:9903) failed:Connection refused: connect
+Ping(127.0.0.1):OK
+Netstat(127.0.0.1):
+  TCP    127.0.0.1:4012         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:4013         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:5700         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:6942         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:8884         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:49953        127.0.0.1:49954        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49954        127.0.0.1:49953        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49955        127.0.0.1:49956        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49956        127.0.0.1:49955        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49957        127.0.0.1:49958        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49958        127.0.0.1:49957        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49969        127.0.0.1:49970        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49970        127.0.0.1:49969        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49971        127.0.0.1:49972        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49972        127.0.0.1:49971        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49973        127.0.0.1:49974        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49974        127.0.0.1:49973        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49975        127.0.0.1:49976        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49976        127.0.0.1:49975        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49977        127.0.0.1:49978        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49978        127.0.0.1:49977        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49979        127.0.0.1:49980        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49980        127.0.0.1:49979        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49981        127.0.0.1:49982        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49982        127.0.0.1:49981        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49983        127.0.0.1:49984        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49984        127.0.0.1:49983        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49985        127.0.0.1:49986        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49986        127.0.0.1:49985        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49987        127.0.0.1:49988        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49988        127.0.0.1:49987        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49989        127.0.0.1:49990        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49990        127.0.0.1:49989        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49991        127.0.0.1:49992        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49992        127.0.0.1:49991        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49993        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:49993        127.0.0.1:50538        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49993        127.0.0.1:51457        ESTABLISHED     InHost      
+  TCP    127.0.0.1:50073        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:50075        127.0.0.1:50076        ESTABLISHED     InHost      
+  TCP    127.0.0.1:50076        127.0.0.1:50075        ESTABLISHED     InHost      
+  TCP    127.0.0.1:50536        127.0.0.1:50537        ESTABLISHED     InHost      
+  TCP    127.0.0.1:50537        127.0.0.1:50536        ESTABLISHED     InHost      
+  TCP    127.0.0.1:50538        127.0.0.1:49993        ESTABLISHED     InHost      
+  TCP    127.0.0.1:51413        127.0.0.1:49993        TIME_WAIT       InHost      
+  TCP    127.0.0.1:51421        127.0.0.1:49993        TIME_WAIT       InHost      
+  TCP    127.0.0.1:51435        127.0.0.1:49993        TIME_WAIT       InHost      
+  TCP    127.0.0.1:51442        127.0.0.1:49993        TIME_WAIT       InHost      
+  TCP    127.0.0.1:51453        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:51453        127.0.0.1:51454        ESTABLISHED     InHost      
+  TCP    127.0.0.1:51454        127.0.0.1:51453        ESTABLISHED     InHost      
+  TCP    127.0.0.1:51455        127.0.0.1:51456        ESTABLISHED     InHost      
+  TCP    127.0.0.1:51456        127.0.0.1:51455        ESTABLISHED     InHost      
+  TCP    127.0.0.1:51457        127.0.0.1:49993        ESTABLISHED     InHost      
+  TCP    127.0.0.1:63342        0.0.0.0:0              LISTENING       InHost      
+  UDP    127.0.0.1:1900         *:*                                                
+  UDP    127.0.0.1:51866        *:*                                                
+  UDP    127.0.0.1:52570        *:*                                                
+  UDP    127.0.0.1:55914        *:*                                                
+  UDP    127.0.0.1:57552        *:*                                                
+  UDP    127.0.0.1:62648        *:*                                                
+  UDP    127.0.0.1:64658        *:*                                                
+2024-08-02 14:55:32@1722581732821@SocketClient connecSt(127.0.0.1:9903) failed:Connection refused: connect
+Ping(127.0.0.1):OK
+Netstat(127.0.0.1):
+  TCP    127.0.0.1:4012         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:4013         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:5700         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:6942         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:8680         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:8884         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:13013        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:18957        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:49953        127.0.0.1:49954        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49954        127.0.0.1:49953        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49955        127.0.0.1:49956        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49956        127.0.0.1:49955        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49957        127.0.0.1:49958        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49958        127.0.0.1:49957        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49969        127.0.0.1:49970        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49970        127.0.0.1:49969        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49971        127.0.0.1:49972        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49972        127.0.0.1:49971        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49973        127.0.0.1:49974        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49974        127.0.0.1:49973        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49975        127.0.0.1:49976        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49976        127.0.0.1:49975        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49977        127.0.0.1:49978        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49978        127.0.0.1:49977        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49979        127.0.0.1:49980        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49980        127.0.0.1:49979        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49981        127.0.0.1:49982        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49982        127.0.0.1:49981        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49983        127.0.0.1:49984        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49984        127.0.0.1:49983        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49985        127.0.0.1:49986        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49986        127.0.0.1:49985        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49987        127.0.0.1:49988        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49988        127.0.0.1:49987        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49989        127.0.0.1:49990        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49990        127.0.0.1:49989        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49991        127.0.0.1:49992        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49992        127.0.0.1:49991        ESTABLISHED     InHost      
+  TCP    127.0.0.1:49993        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:49993        127.0.0.1:53340        ESTABLISHED     InHost      
+  TCP    127.0.0.1:50073        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:50075        127.0.0.1:50076        ESTABLISHED     InHost      
+  TCP    127.0.0.1:50076        127.0.0.1:50075        ESTABLISHED     InHost      
+  TCP    127.0.0.1:51457        127.0.0.1:49993        TIME_WAIT       InHost      
+  TCP    127.0.0.1:52097        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:53336        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:53336        127.0.0.1:53337        ESTABLISHED     InHost      
+  TCP    127.0.0.1:53337        127.0.0.1:53336        ESTABLISHED     InHost      
+  TCP    127.0.0.1:53338        127.0.0.1:53339        ESTABLISHED     InHost      
+  TCP    127.0.0.1:53339        127.0.0.1:53338        ESTABLISHED     InHost      
+  TCP    127.0.0.1:53340        127.0.0.1:49993        ESTABLISHED     InHost      
+  TCP    127.0.0.1:60770        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:63342        0.0.0.0:0              LISTENING       InHost      
+  UDP    127.0.0.1:1900         *:*                                                
+  UDP    127.0.0.1:51866        *:*                                                
+  UDP    127.0.0.1:52570        *:*                                                
+  UDP    127.0.0.1:55914        *:*                                                
+  UDP    127.0.0.1:57552        *:*                                                
+  UDP    127.0.0.1:59488        *:*                                                
+  UDP    127.0.0.1:62648        *:*                                                
+  UDP    127.0.0.1:64658        *:*                                                

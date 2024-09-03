@@ -1,0 +1,307 @@
+package com.sto.test;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+
+import org.junit.Test;
+
+import com.sto.data.ProductSpec;
+import com.sto.utils.DesUtils;
+import com.sto.utils.ImageUtils;
+import com.sto.utils.ImgProcUtils;
+import com.sto.utils.LogUtils;
+import com.sto.utils.MathUtils;
+import com.sto.utils.PCInfoUtils;
+import com.sto.utils.TimeUtils;
+import com.sto.utils.XmlUtils;
+import com.sto.utils.MyFileUtils;
+
+public class RunTest {
+	@Test
+	public void makeImgFilesTest(){
+		String[] rootDirs = new String[]{"D:\\imgRoot\\Layer6"};
+		String[] rawImgPath = new String[]{"D:\\imgRoot\\Layer8-1\\2018-11-29-10-00-01_R07845G32917_1_OK.jpg","D:\\imgRoot\\Layer8-1\\2018-11-29-10-00-01_R07845G32917_2_OK.jpg"};
+		String[] copyImgSuffix = new String[]{"_1_OK.jpg","_2_OK.jpg"};
+		long[] lastModifiedTime = new long[]{0,0};
+		String dateStr = "", targetDir = "", targetFullPath = "";
+		int createDays = 7, qtyInHour = 1000;
+		
+		lastModifiedTime[0] = MyFileUtils.getFileLastModifiedTime(rawImgPath[0]);
+		lastModifiedTime[1] = MyFileUtils.getFileLastModifiedTime(rawImgPath[1]);
+		
+		for(int i=0; i<rootDirs.length; i++){
+			for(int j=0; j<createDays; j++){
+				dateStr = TimeUtils.getCurrentDate("yyyy-MM-dd")+"-"+j;
+				for(int k=0; k<24; k++){
+					targetDir = rootDirs[i] + File.separator + dateStr + File.separator + k;
+					if(MyFileUtils.makeFolder(targetDir)){
+						for(int n=0; n<qtyInHour; n++){
+							try {
+								targetFullPath = targetDir+File.separator+"F"+dateStr+k+n+copyImgSuffix[0];
+								MyFileUtils.copyFile(rawImgPath[0], targetFullPath);
+								MyFileUtils.setFileLastModifiedTime(targetFullPath, lastModifiedTime[0]+n);
+								System.out.println(targetFullPath);
+								
+								targetFullPath = targetDir+File.separator+"F"+dateStr+k+n+copyImgSuffix[1];
+								MyFileUtils.copyFile(rawImgPath[1], targetFullPath);
+								MyFileUtils.setFileLastModifiedTime(targetFullPath, lastModifiedTime[1]+n);
+								System.out.println(targetFullPath);
+							} catch (IOException e) {
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	@Test
+	public void xmlTest(){
+		System.out.println(MathUtils.MD5Encode("lastOpenDir"));
+		String imgPath = "E:\\xrayImgs\\Layer6\\Demo\\NG_NG\\2018-07-21-14-04-18_T53824G5158D_1_NG.jpg";
+		long mT = MyFileUtils.getFileLastModifiedTime(imgPath);
+		String sT = TimeUtils.getStringDate(TimeUtils.getTime(TimeUtils.getSecondsOffsetTillNow(mT)), "yyyy-MM-dd HH:mm:ss");
+		System.out.println(sT);
+	}
+	
+	@Test
+	public void copyFilesTest(){
+//		String sourceDir = "\\\\10.10.81.38\\ImgRoot\\Layer6";
+//		String targetDir = "E:\\xrayImgs\\CopyTest";
+//		String[] cmpDirs = new String[]{"E:\\xrayImgs\\Layer6\\Demo\\NG_NG",
+//				"E:\\xrayImgs\\Layer6\\Demo\\NG_OK",
+//				"E:\\xrayImgs\\Layer6\\Demo\\OK_NG",
+//				"E:\\xrayImgs\\Layer6\\Demo\\OK_OK"};
+//		
+//		long[] rtn = MyFileUtils.copyMissedFiles(sourceDir, targetDir, cmpDirs, ".jpg", 0, 0);
+//		System.out.println("Copy "+rtn[0]+" files done");
+		
+		ArrayList<String> subDirs = null;
+		subDirs = MyFileUtils.getSubDirs(subDirs, "D:\\imgRoot\\SubDirs", ".jpg");
+	}
+	
+	@Test
+	public void mathTest(){
+		double angle = 25;
+		double tan = Math.tan(Math.toRadians(angle));
+		System.out.println("tan("+angle+")="+tan);
+		System.out.println("atan("+angle+")="+Math.toDegrees(Math.atan(tan)));
+		
+		String SN = PCInfoUtils.getHardDiskSN("C")+PCInfoUtils.getCpuID();
+		System.out.println(SN+"="+MathUtils.MD5Encode(SN));
+	}
+	
+	@Test
+	public void pcInfoTest(){
+		System.out.println("OS:"+PCInfoUtils.getOSName());
+		System.out.println("MAC:"+PCInfoUtils.getMacAddress());
+		System.out.println("CPU:"+PCInfoUtils.getCpuID());
+		System.out.println("HDD:"+PCInfoUtils.getHardDiskSN("C"));
+		System.out.println("MBR:"+PCInfoUtils.getMotherboardSN());
+	}
+	
+	@Test
+	public void encryptTest(){
+		String s1 = "ATL"+TimeUtils.getCurrentDate("yyyyMMdd");
+		String s2 = "", s3 = "", s4 = "", s5 = "";
+		try {
+			s2 = DesUtils.encrypt(s1);
+			s3 = DesUtils.decrypt(s2);
+			s4 = TimeUtils.getStringDate(TimeUtils.getTime(180), "yyyyMMdd");
+			s5 = DesUtils.encrypt("STO666");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		System.out.println(s3+":"+s2+"/"+s4+"/"+s5);
+	}
+	
+	@Test
+	public void showImgProcResult(){
+		XmlUtils.parseProductSpec();
+		ProductSpec prodSpec = ProductSpec.getInstance();
+		String[] dirs = prodSpec.getConfigIDs();
+		if(null!=dirs && dirs.length>0){
+			for(int i=0; i<dirs.length; i++){
+				System.out.println(ImgProcUtils.summarizeImgProcResult(dirs[i]));
+			}
+		}
+	}
+	
+	@Test
+	public void copyImgs(){
+		String sourceDir = "D:\\xrayImgs\\OK_NG\\Layer8\\OK_NG";
+		String snFilePath = "D:\\xrayImgs\\Layer8_OK.txt";
+		String targetDir = "D:\\xrayImgs\\RealNG\\Layer8_ON";
+		String fileNameEndWith = ".jpg";
+		ArrayList<String> imgSNs = getImgSNsFromFile(snFilePath);
+		if(!imgSNs.isEmpty()){
+			copyImgBySNs(imgSNs,sourceDir,targetDir,fileNameEndWith);
+			System.out.println("Copy done");
+		}else{
+			System.out.println("Copy none");
+		}
+	}
+	
+	private ArrayList<String> getImgSNsFromFile(String snFilePath){
+		ArrayList<String> imgSNs = new ArrayList<String>();
+		
+		try {
+			FileReader fr = new FileReader(snFilePath);
+			BufferedReader bf = new BufferedReader(fr);
+			String str;
+			// °´ÐÐ¶ÁÈ¡×Ö·û´®
+			while ((str = bf.readLine()) != null) {
+				imgSNs.add(str);
+			}
+			bf.close();
+			fr.close();
+		} catch (IOException e) {
+			System.out.println(e.getMessage());
+		}
+		
+		return imgSNs;
+	}
+	
+	private void copyImgBySNs(ArrayList<String> imgSNs, String sourceDir, String targetDir, String fileNameEndWith){
+		boolean bFound = false;
+		String fileName = "";
+		ArrayList<String> fileNames = MyFileUtils.getFileNames(new String[]{sourceDir}, fileNameEndWith);
+		for(int i=0; i<fileNames.size(); i++){
+			if(imgSNs.isEmpty()) break;
+			bFound = false;
+			fileName = fileNames.get(i);
+			for(int j=0; j<imgSNs.size(); j++){
+				if(fileName.contains(imgSNs.get(j))){
+					bFound = true;
+					if(i+1<fileNames.size() && !fileNames.get(i+1).contains(imgSNs.get(j))) imgSNs.remove(j);
+					break;
+				}
+			}
+			if(bFound){
+				try {
+					MyFileUtils.copyFile(sourceDir+File.separator+fileName, targetDir+File.separator+fileName);
+					System.out.println("Copy "+fileName);
+				} catch (IOException e) {
+					System.out.println(e.getMessage());
+				}
+			}
+		}
+	}
+	
+	@Test
+	public void getImgSNs(){
+		String[] imgFolder = new String[]{"D:\\xrayImgs\\RealNG\\WhyNG\\Layer4"}, tmpName = null;
+		String fileNameEndWith = ".jpg", lastSN = "";
+		ArrayList<String> fileNames = MyFileUtils.getFileNames(imgFolder, fileNameEndWith);
+		for(int i=0; i<fileNames.size(); i++){
+			tmpName = fileNames.get(i).split("_");
+			if(!lastSN.contains(tmpName[1]) && !tmpName[1].contains("ERROR")){
+				LogUtils.rawLog("Layer4_RealNG_SN_", tmpName[1]);
+				lastSN = tmpName[1];
+			}
+		}
+		System.out.println("Finish");
+	}
+	
+	@Test
+	public void bitmapTest(){
+		boolean batchProcessing = false;
+		String src = "", cfgKey = "";
+		String[] fileName = null;
+		src = "D:\\xrayImgs\\RealNG\\AlgorithmOpti\\AbnImg\\Layer4;2019-03-04-07-59-16_U49908F317AF_1_NG.jpg";
+//		src = "D:\\xrayImgs\\RealNG\\AlgorithmOpti\\RgNotF\\Layer6;2019-02-28-08-15-10_V11908C7036C_1_NG.jpg";
+//		src = "E:\\xrayImgs\\Layer6\\Demo-1\\OK_NG;2018-07-21-14-53-52_T53827E723D0_2_OK.jpg";
+//		src = "D:\\xrayImgs\\RealNG\\Layer8_NO;2019-02-27-11-03-28_V11908AB2709_2_NG.jpg";
+		src = "E:\\xrayImgs\\Layer78\\Underkill;2017-12-12-22-44-45_R25749B267C4_2.jpg";
+		
+//		src = "E:\\xrayImgs\\Layer6\\Demo-3;2019-03-01-10-31-32_V11908E80413_2_NG.jpg";
+		
+		ImageUtils imageUtils = new ImageUtils();
+		XmlUtils.parseSystemConfig();
+		XmlUtils.parseProductSpec();
+		if(!batchProcessing){
+			imageUtils.setLogEnabled(true);
+//			cfgKey = "D:\\xrayImgs\\RealNG\\Layer4_NO";
+//			cfgKey = "D:\\xrayImgs\\RealNG\\Layer6_NN";
+//			cfgKey = "D:\\xrayImgs\\RealNG\\Layer7_NO";
+//			cfgKey = "D:\\xrayImgs\\RealNG\\Layer8_NO";
+			cfgKey = "Debug Spec";
+			fileName = src.split(";");
+			imageUtils.procImage(fileName[0],fileName[1],true,cfgKey);
+		}else{
+			String rawImgSuffix = ".jpg";
+			imageUtils.setLogEnabled(false);
+			
+			//4 Layers
+			src = "D:\\xrayImgs\\RealNG\\AlgorithmOpti\\AgOpti\\Layer4";
+			cfgKey = "D:\\xrayImgs\\RealNG\\Layer4_NO";
+			
+			//6 Layers
+//			src = "D:\\xrayImgs\\RealNG\\AlgorithmOpti\\AgOpti\\Layer6";
+//			cfgKey = "D:\\xrayImgs\\RealNG\\Layer6_NO";
+//			src = "E:\\xrayImgs\\Layer6\\Demo-2\\OK_NG";
+//			cfgKey = "Debug Spec";
+			
+			//7 Layers
+//			src = "D:\\xrayImgs\\RealNG\\AlgorithmOpti\\AgOpti\\Layer7";
+//			cfgKey = "D:\\xrayImgs\\RealNG\\Layer7_NO";
+			
+			//8 Layers
+//			src = "D:\\xrayImgs\\RealNG\\AlgorithmOpti\\AgOpti\\Layer8";
+//			cfgKey = "D:\\xrayImgs\\RealNG\\Layer8_NO";
+			
+			//14 Layers
+//			src = "E:\\xrayImgs\\Layer13\\Demo-1";
+//			cfgKey = "E:\\xrayImgs\\Layer14\\Demo-1";
+			
+			ArrayList<String> oldFiles = MyFileUtils.getFileNames(src, ".png", 0L);
+			if(null!=oldFiles){
+				for(String fName:oldFiles){
+					MyFileUtils.deleteFile(src+"\\"+fName);
+				}
+			}
+			
+			ArrayList<String> imgFiles = MyFileUtils.getFileNames(src, rawImgSuffix, 0L);
+			LinkedHashMap<String,Boolean> results = new LinkedHashMap<String,Boolean>();
+			if(null!=imgFiles){
+				int passCnt = 0;
+				double passRate = 0.0, imgProcTime = 0.0, imgStoreT = 0.0;
+				String imgKey = "";
+				long startTime = System.currentTimeMillis();
+				for(int i=0; i<imgFiles.size(); i++){
+					imgKey = imgFiles.get(i).replace("_1.jpg", "").replace("_2.jpg", "");
+					if(imageUtils.procImage(src, imgFiles.get(i), true, cfgKey)){
+						if(null==results.get(imgKey)) results.put(imgKey, true);
+					}else{
+						results.put(imgKey, false);
+					}
+					imgProcTime += (double)imageUtils.getImgProcTime()/imgFiles.size();
+					imgStoreT += (double)(System.currentTimeMillis()-imageUtils.getImgStartSavingTime())/imgFiles.size();
+				}
+				long procTime = (System.currentTimeMillis() - startTime);
+				procTime = procTime/imgFiles.size();
+				
+				for(String key:results.keySet()){
+					if(results.get(key)) passCnt++;
+				}
+				passRate = (double)passCnt / results.size();
+				System.out.println(src+" passRate["+passCnt+"/"+results.size()+"]:"+passRate);
+				System.out.println("One image proccessing time:"+procTime+"ms/"+(int)imgProcTime+"ms/"+(int)imgStoreT+"ms");
+				
+//				LinkedHashMap<Integer,Integer> insertLines = ImageUtils.getInsertLines();
+//				LinkedHashMap<Integer,Integer> missedLines = ImageUtils.getMissedLines();
+//				for(Integer key:insertLines.keySet()){
+//					System.out.println("Insert lines("+key+"):"+insertLines.get(key));
+//				}
+//				for(Integer key:missedLines.keySet()){
+//					System.out.println("Missed lines("+key+"):"+missedLines.get(key));
+//				}
+			}
+		}
+	}
+}

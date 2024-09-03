@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project CNC Client">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <!--define folder properties-->
+    <property name="dir.buildfile" value="."/>
+    <property name="dir.workspace" value="${dir.buildfile}/../.."/>
+    <property name="dir.jarfile" value="${dir.buildfile}"/>
+    <target name="create_run_jar">
+        <jar destfile="${dir.jarfile}/CNC_Client.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="com.cncmes.gui.CNCClient"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="${dir.workspace}/CNC Client/bin"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Programming/eclipse-jse/plugins/org.junit_4.12.0.v201504281640/junit.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Programming/eclipse-jse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Client/libs/commons-beanutils-1.8.0.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Client/libs/commons-codec-1.11.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Client/libs/commons-collections-3.2.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Client/libs/commons-dbutils-1.6.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Client/libs/commons-io-2.5.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Client/libs/commons-lang-2.5.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Client/libs/commons-logging-1.1.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Client/libs/commons-net-3.6.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Client/libs/dom4j-2.0.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Client/libs/ezmorph-1.0.6.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Client/libs/httpclient-4.1.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Client/libs/httpcore-4.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Client/libs/jl1.0.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Client/libs/jna-4.3.0.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Client/libs/json-lib-2.4-jdk15.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Client/libs/mp3spi1.9.5.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Client/libs/mysql-connector-java-5.1.39-bin.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Client/libs/RXTXcomm.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Client/libs/tritonus_share-0.3.6.jar"/>
+        </jar>
+    </target>
+</project>

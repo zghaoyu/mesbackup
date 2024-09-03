@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SysConfig>
+	<CommonCfg>
+		<NCProgramsRootDir>D:\NC_Programs</NCProgramsRootDir>
+		<RunningLog>1</RunningLog>
+		<DebugLog>0</DebugLog>
+	</CommonCfg>
+	<DatabaseCfg>
+		<url>jdbc:mysql://10.10.204.97:3306/cnc_client?useSSL=false&amp;serverTimezone=UTC
+		</url>
+		<username>VRRfp6zLvL0=</username>
+		<userpwd>kYsRnVlzQkaOsfzzJFEZ4w==</userpwd>
+		<driver>com.mysql.cj.jdbc.Driver</driver>
+	</DatabaseCfg>
+</SysConfig>

@@ -1,0 +1,6 @@
+2022-05-16 15:44:44@1652687084136@SocketClient connect(10.10.206.113:9902) failed:Connection refused: connect
+2022-05-16 15:47:39@1652687259317@SocketClient connect(10.10.206.113:9902) failed:Connection refused: connect
+2022-05-16 15:47:51@1652687271589@SocketClient connect(10.10.206.113:9902) failed:Connection refused: connect
+2022-05-16 17:37:45@1652693865386@SocketServer SocketSrvStart(9950) failed: Address already in use: JVM_Bind
+2022-05-16 18:15:25@1652696125568@SocketServer SocketSrvStart(9950) failed: Address already in use: JVM_Bind
+2022-05-16 18:22:20@1652696540884@SocketServer SocketSrvStart(9950) failed: Address already in use: JVM_Bind

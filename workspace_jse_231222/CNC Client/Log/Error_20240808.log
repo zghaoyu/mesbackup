@@ -1,0 +1,1417 @@
+2024-08-08 14:17:46@1723097866837@DAOImpl(String:com.cncmes.dto.CNCLines) fail
+2024-08-08 14:17:46@1723097866839@XmlUtils-parseSystemConfig() ERR:null
+2024-08-08 14:17:46@1723097866843@DAOImpl(String:com.cncmes.dto.CNCLines) fail
+2024-08-08 14:17:46@1723097866844@XmlUtils-parseSystemConfig() ERR:null
+2024-08-08 14:30:56@1723098656752@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2024-08-08 14:30:57@1723098657764@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2024-08-08 14:30:58@1723098658769@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2024-08-08 14:30:59@1723098659777@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2024-08-08 14:31:00@1723098660784@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2024-08-08 14:31:01@1723098661790@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2024-08-08 14:37:47@1723099067489@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:13:10@1723101190773@SocketClient SocketDataListener(127.0.0.1:9950) Stop:Socket closed
+2024-08-08 15:13:10@1723101190895@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:13:11@1723101191013@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2024-08-08 15:13:11@1723101191551@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2024-08-08 15:13:11@1723101191656@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:13:11@1723101191906@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2024-08-08 15:13:11@1723101191906@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2024-08-08 15:13:12@1723101192014@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2024-08-08 15:13:12@1723101192015@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2024-08-08 15:13:12@1723101192759@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:13:13@1723101193863@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:13:18@1723101198967@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:13:24@1723101204069@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:13:28@1723101208051@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:13:28@1723101208154@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2024-08-08 15:13:29@1723101209174@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:13:34@1723101214276@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:13:39@1723101219379@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:13:44@1723101224481@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:13:49@1723101229584@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:13:54@1723101234686@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:13:59@1723101239789@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:14:04@1723101244893@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:14:09@1723101249996@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:14:14@1723101254120@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:14:15@1723101255100@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:14:20@1723101260203@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:14:25@1723101265305@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:14:30@1723101270408@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:14:35@1723101275510@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:14:36@1723101276239@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:14:40@1723101280614@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:14:45@1723101285716@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:14:50@1723101290819@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:14:55@1723101295921@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:15:01@1723101301025@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:15:06@1723101306127@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:15:11@1723101311229@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:15:16@1723101316333@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:15:21@1723101321436@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:18:58@1723101538321@SocketClient SocketDataListener(127.0.0.1:9950) Stop:Socket closed
+2024-08-08 15:18:58@1723101538437@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:18:58@1723101538540@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2024-08-08 15:18:59@1723101539066@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2024-08-08 15:18:59@1723101539174@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:18:59@1723101539439@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2024-08-08 15:18:59@1723101539439@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2024-08-08 15:18:59@1723101539547@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2024-08-08 15:18:59@1723101539557@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2024-08-08 15:19:00@1723101540278@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:19:01@1723101541381@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:19:06@1723101546485@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:19:11@1723101551589@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:19:16@1723101556691@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:19:21@1723101561794@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:19:26@1723101566898@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:19:27@1723101567964@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:19:28@1723101568067@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2024-08-08 15:19:32@1723101572003@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:19:37@1723101577105@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:19:42@1723101582208@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:19:47@1723101587310@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:19:52@1723101592414@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:19:57@1723101597517@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:20:02@1723101602621@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:20:07@1723101607723@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:20:12@1723101612826@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:20:16@1723101616157@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:20:17@1723101617931@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:20:23@1723101623033@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:20:28@1723101628137@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:20:33@1723101633239@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:20:37@1723101637452@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:20:38@1723101638344@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:20:43@1723101643446@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:20:48@1723101648549@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:20:53@1723101653652@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:20:57@1723101657872@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:20:58@1723101658757@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:20:59@1723101659861@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:21:04@1723101664963@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:21:10@1723101670065@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:21:15@1723101675167@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:21:20@1723101680269@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:21:20@1723101680477@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:21:25@1723101685374@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:21:30@1723101690476@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:21:35@1723101695579@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:21:40@1723101700595@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:21:40@1723101700682@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:21:45@1723101705786@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:21:50@1723101710888@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:21:55@1723101715991@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:22:01@1723101721095@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:22:06@1723101726199@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:22:11@1723101731302@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:22:16@1723101736404@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:22:18@1723101738067@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:22:21@1723101741509@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:22:26@1723101746612@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:22:31@1723101751715@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:22:36@1723101756818@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:22:39@1723101759968@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:22:41@1723101761921@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:22:47@1723101767024@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:22:52@1723101772128@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:22:57@1723101777230@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:23:00@1723101780260@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:23:02@1723101782335@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:23:07@1723101787437@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:23:12@1723101792540@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:23:17@1723101797643@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:23:18@1723101798575@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:23:22@1723101802747@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:23:27@1723101807850@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:23:32@1723101812953@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:23:38@1723101818056@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:23:43@1723101823158@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:23:48@1723101828262@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:23:49@1723101829290@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:23:49@1723101829400@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2024-08-08 15:23:49@1723101829505@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2024-08-08 15:23:53@1723101833368@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:23:54@1723101834473@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:23:59@1723101839580@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:24:04@1723101844686@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:24:09@1723101849792@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:24:14@1723101854897@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:24:20@1723101860003@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:24:25@1723101865107@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:24:30@1723101870213@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:24:35@1723101875319@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:24:40@1723101880426@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:24:45@1723101885533@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:24:50@1723101890640@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:24:55@1723101895747@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:25:00@1723101900849@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:25:05@1723101905953@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:25:11@1723101911058@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:25:16@1723101916163@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:25:21@1723101921271@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:25:26@1723101926375@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:25:31@1723101931482@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:25:36@1723101936585@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:25:41@1723101941689@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:25:46@1723101946797@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:25:51@1723101951902@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:25:57@1723101957009@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:26:02@1723101962117@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:26:07@1723101967222@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:26:12@1723101972329@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:26:17@1723101977435@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:26:22@1723101982542@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:26:27@1723101987649@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:26:32@1723101992755@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:26:37@1723101997858@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:26:42@1723102002963@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:26:48@1723102008068@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:26:53@1723102013172@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:26:58@1723102018278@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:27:03@1723102023383@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:27:08@1723102028489@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:27:13@1723102033594@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:27:18@1723102038701@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:27:23@1723102043808@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:27:28@1723102048914@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:27:34@1723102054020@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:27:39@1723102059126@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:27:44@1723102064228@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:27:49@1723102069330@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:27:54@1723102074434@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:27:59@1723102079539@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:28:04@1723102084641@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:28:09@1723102089745@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:28:14@1723102094848@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:28:19@1723102099956@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:28:25@1723102105060@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:38:33@1723102713779@SocketClient SocketDataListener(127.0.0.1:9950) Stop:Socket closed
+2024-08-08 15:38:33@1723102713844@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:38:33@1723102713894@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:38:33@1723102713984@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2024-08-08 15:38:34@1723102714482@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2024-08-08 15:38:34@1723102714587@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:38:34@1723102714896@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed2024-08-08 15:38:34@1723102714896@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+
+2024-08-08 15:38:35@1723102715008@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2024-08-08 15:38:35@1723102715011@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2024-08-08 15:38:35@1723102715691@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:38:36@1723102716794@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:38:41@1723102721899@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:38:43@1723102723003@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:38:48@1723102728106@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:38:51@1723102731416@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:38:51@1723102731519@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2024-08-08 15:38:53@1723102733212@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:38:58@1723102738315@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:39:03@1723102743419@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:39:08@1723102748521@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:39:13@1723102753623@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:39:18@1723102758726@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:39:23@1723102763829@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:39:28@1723102768932@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:39:34@1723102774036@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:39:38@1723102778646@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:39:39@1723102779140@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:39:44@1723102784243@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:39:49@1723102789346@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:39:54@1723102794448@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:39:59@1723102799551@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:40:00@1723102800415@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:40:04@1723102804656@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:40:09@1723102809760@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:40:14@1723102814864@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:40:19@1723102819967@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:40:20@1723102820919@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:40:25@1723102825071@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:40:30@1723102830175@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:40:35@1723102835277@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:40:40@1723102840381@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:40:42@1723102842805@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:40:45@1723102845485@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:40:50@1723102850587@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:40:55@1723102855689@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:41:00@1723102860792@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:41:03@1723102863706@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:41:05@1723102865896@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:41:10@1723102870998@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:41:16@1723102876102@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:41:21@1723102881205@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:41:21@1723102881924@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:41:26@1723102886310@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:41:31@1723102891412@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:41:36@1723102896515@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:41:41@1723102901109@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:41:41@1723102901619@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:41:46@1723102906722@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:41:51@1723102911824@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:41:56@1723102916927@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:42:02@1723102922030@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:42:03@1723102923126@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:42:07@1723102927135@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:42:12@1723102932238@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:42:17@1723102937340@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:42:22@1723102942443@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:42:23@1723102943430@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:42:27@1723102947547@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:42:32@1723102952650@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:42:37@1723102957752@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:42:41@1723102961019@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:42:42@1723102962856@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:42:47@1723102967959@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:42:53@1723102973062@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:42:58@1723102978165@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:43:03@1723102983268@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:43:08@1723102988372@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:43:13@1723102993476@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:43:14@1723102994580@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:43:19@1723102999684@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:43:24@1723103004788@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:43:29@1723103009890@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:43:34@1723103014993@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:43:40@1723103020095@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:43:45@1723103025197@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:43:46@1723103026636@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:43:50@1723103030302@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:43:55@1723103035404@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:44:00@1723103040508@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:44:05@1723103045610@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:44:09@1723103049337@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:44:10@1723103050714@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:44:15@1723103055817@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:44:20@1723103060920@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:44:26@1723103066022@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:44:31@1723103071125@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:44:36@1723103076230@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:44:41@1723103081332@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:44:46@1723103086436@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:44:49@1723103089463@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:44:51@1723103091541@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:44:55@1723103095633@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:44:55@1723103095766@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2024-08-08 15:44:55@1723103095871@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2024-08-08 15:44:56@1723103096651@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:44:57@1723103097758@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:45:02@1723103102863@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:45:07@1723103107967@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:45:13@1723103113074@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:45:18@1723103118181@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:45:23@1723103123290@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:45:28@1723103128395@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:45:33@1723103133499@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:45:38@1723103138605@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:45:43@1723103143711@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:45:48@1723103148816@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:45:53@1723103153923@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:45:59@1723103159030@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:46:04@1723103164137@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:46:09@1723103169244@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:46:14@1723103174349@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:46:19@1723103179456@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:46:24@1723103184562@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:46:29@1723103189668@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:46:34@1723103194774@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:46:39@1723103199881@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:46:44@1723103204986@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:46:50@1723103210093@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:46:55@1723103215200@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:47:00@1723103220307@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:47:05@1723103225413@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:47:10@1723103230519@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:47:15@1723103235624@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:47:20@1723103240731@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:47:25@1723103245837@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:47:30@1723103250940@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:47:36@1723103256046@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:47:41@1723103261154@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:47:46@1723103266259@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:47:51@1723103271365@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:47:56@1723103276469@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:48:01@1723103281577@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:48:06@1723103286680@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:48:11@1723103291786@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:48:16@1723103296894@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:48:21@1723103301998@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:48:27@1723103307104@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:48:32@1723103312210@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:48:37@1723103317315@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:48:42@1723103322421@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:48:47@1723103327528@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:48:52@1723103332634@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:48:57@1723103337739@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:49:02@1723103342843@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:49:07@1723103347946@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:49:13@1723103353050@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:49:18@1723103358153@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:49:23@1723103363258@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:49:28@1723103368362@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:49:33@1723103373470@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:49:38@1723103378577@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:49:43@1723103383683@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:49:48@1723103388788@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:49:53@1723103393893@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:49:58@1723103398998@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:50:04@1723103404104@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:50:09@1723103409211@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:50:14@1723103414317@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:50:19@1723103419423@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:50:24@1723103424529@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:50:29@1723103429636@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:50:34@1723103434741@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:50:39@1723103439847@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:50:44@1723103444954@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:50:50@1723103450056@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:50:55@1723103455159@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:51:00@1723103460261@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:51:05@1723103465364@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:51:10@1723103470466@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:51:15@1723103475569@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:51:20@1723103480671@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:51:25@1723103485778@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:51:30@1723103490886@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:52:53@1723103573749@SocketClient SocketDataListener(127.0.0.1:9950) Stop:Socket closed
+2024-08-08 15:52:53@1723103573837@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:52:53@1723103573876@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:52:53@1723103573982@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2024-08-08 15:52:54@1723103574496@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2024-08-08 15:52:54@1723103574603@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:52:54@1723103574879@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed2024-08-08 15:52:54@1723103574881@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+
+2024-08-08 15:52:54@1723103574989@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2024-08-08 15:52:54@1723103574993@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2024-08-08 15:52:55@1723103575706@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:52:56@1723103576809@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:53:01@1723103581913@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:53:03@1723103583017@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:53:08@1723103588120@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:53:13@1723103593223@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:53:18@1723103598326@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:53:23@1723103603428@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:53:28@1723103608530@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:53:33@1723103613633@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:53:38@1723103618735@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:53:43@1723103623838@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:53:48@1723103628941@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:54:56@1723103696210@SocketClient SocketDataListener(127.0.0.1:9950) Stop:Socket closed
+2024-08-08 15:54:56@1723103696276@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:54:56@1723103696324@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:54:56@1723103696425@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2024-08-08 15:54:56@1723103696933@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2024-08-08 15:54:57@1723103697039@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:54:57@1723103697327@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2024-08-08 15:54:57@1723103697327@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2024-08-08 15:54:57@1723103697437@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2024-08-08 15:54:57@1723103697440@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2024-08-08 15:54:58@1723103698143@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:54:59@1723103699247@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:55:04@1723103704353@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:55:09@1723103709456@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:55:14@1723103714559@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:55:17@1723103717212@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2024-08-08 15:55:19@1723103719664@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:55:24@1723103724768@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:55:29@1723103729871@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:55:34@1723103734975@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:55:40@1723103740077@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:55:45@1723103745179@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:55:50@1723103750282@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:55:55@1723103755385@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:55:59@1723103759691@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:56:00@1723103760490@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:56:05@1723103765592@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:56:10@1723103770694@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:56:15@1723103775797@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:56:20@1723103780900@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:56:21@1723103781003@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:56:26@1723103786006@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:56:31@1723103791109@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:56:36@1723103796211@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:56:41@1723103801314@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:56:41@1723103801386@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:56:46@1723103806418@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:56:51@1723103811522@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:56:56@1723103816624@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:57:01@1723103821727@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:57:03@1723103823290@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:57:06@1723103826831@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:57:11@1723103831934@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:57:17@1723103837036@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:57:22@1723103842138@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:57:23@1723103843498@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:57:27@1723103847243@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:57:32@1723103852345@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:57:37@1723103857447@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:57:42@1723103862365@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:57:42@1723103862550@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:57:43@1723103863654@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:57:48@1723103868756@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:57:53@1723103873859@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:57:58@1723103878962@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:58:00@1723103880959@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:58:04@1723103884067@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:58:09@1723103889171@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:58:14@1723103894274@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:58:19@1723103899376@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:58:22@1723103902977@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:58:24@1723103904481@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:58:29@1723103909584@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:58:34@1723103914687@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:58:39@1723103919789@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:58:43@1723103923147@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:58:44@1723103924894@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:58:49@1723103929996@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:58:55@1723103935099@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:59:00@1723103940202@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:59:02@1723103942054@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:59:05@1723103945306@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:59:10@1723103950408@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:59:15@1723103955511@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:59:20@1723103960613@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:59:25@1723103965716@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:59:30@1723103970819@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:59:32@1723103972874@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 15:59:35@1723103975924@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:59:41@1723103981027@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:59:46@1723103986129@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:59:51@1723103991231@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 15:59:56@1723103996334@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:00:01@1723104001436@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:00:06@1723104006538@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:00:08@1723104008008@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 16:00:11@1723104011643@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:00:16@1723104016745@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:00:21@1723104021848@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:00:26@1723104026951@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:00:30@1723104030590@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 16:00:32@1723104032056@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:00:37@1723104037160@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:00:42@1723104042263@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:00:47@1723104047365@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:00:52@1723104052467@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:00:54@1723104054020@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 16:00:57@1723104057570@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:01:02@1723104062673@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:01:07@1723104067775@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:01:12@1723104072879@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:01:16@1723104076326@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 16:01:17@1723104077983@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:01:19@1723104079087@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:01:20@1723104080190@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:01:25@1723104085293@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:01:30@1723104090395@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:01:35@1723104095497@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:01:38@1723104098642@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 16:01:40@1723104100601@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:01:45@1723104105704@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:01:50@1723104110807@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:01:55@1723104115909@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:02:00@1723104120737@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 16:02:01@1723104121012@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:02:06@1723104126116@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:02:11@1723104131218@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:02:16@1723104136320@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:02:21@1723104141423@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:02:22@1723104142832@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 16:02:26@1723104146527@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:02:31@1723104151629@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:02:36@1723104156731@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:02:41@1723104161834@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:02:45@1723104165334@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 16:02:46@1723104166937@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:02:48@1723104168041@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:02:53@1723104173145@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:02:58@1723104178247@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:03:03@1723104183349@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:03:07@1723104187548@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 16:03:08@1723104188453@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:03:13@1723104193556@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:03:18@1723104198659@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:03:23@1723104203761@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:03:28@1723104208864@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:03:30@1723104210771@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2024-08-08 16:03:33@1723104213968@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:03:39@1723104219070@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:03:44@1723104224174@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:03:46@1723104226508@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:46@1723104226735@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:46@1723104226957@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:47@1723104227181@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:47@1723104227404@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:47@1723104227628@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:47@1723104227852@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:48@1723104228076@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:48@1723104228301@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:48@1723104228524@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:48@1723104228748@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:48@1723104228973@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:49@1723104229196@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:49@1723104229277@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:03:49@1723104229414@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:49@1723104229633@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:49@1723104229853@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:50@1723104230078@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:50@1723104230300@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:50@1723104230380@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:03:50@1723104230518@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:50@1723104230737@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:50@1723104230958@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:51@1723104231180@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:51@1723104231404@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:51@1723104231484@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:03:51@1723104231622@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:51@1723104231841@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:52@1723104232062@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:52@1723104232392@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:52@1723104232587@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:03:52@1723104232613@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:52@1723104232834@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:53@1723104233052@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:53@1723104233277@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:53@1723104233501@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:53@1723104233690@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:03:53@1723104233725@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:53@1723104233949@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:54@1723104234174@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:54@1723104234396@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:54@1723104234622@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:54@1723104234794@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:03:54@1723104234844@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:55@1723104235070@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:55@1723104235292@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:55@1723104235517@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:55@1723104235741@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:55@1723104235898@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:03:55@1723104235965@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:56@1723104236189@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:56@1723104236413@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:56@1723104236637@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:56@1723104236862@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:57@1723104237001@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:03:57@1723104237084@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:57@1723104237309@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:57@1723104237532@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:57@1723104237758@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:58@1723104238104@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:03:58@1723104238355@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:58@1723104238918@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:59@1723104239143@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:59@1723104239364@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:59@1723104239585@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:03:59@1723104239804@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:00@1723104240029@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:00@1723104240253@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:00@1723104240476@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:00@1723104240701@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:00@1723104240924@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:01@1723104241149@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:01@1723104241373@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:01@1723104241596@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:01@1723104241821@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:02@1723104242046@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:02@1723104242269@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:02@1723104242492@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:02@1723104242717@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:02@1723104242932@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:03@1723104243149@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:03@1723104243207@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:03@1723104243373@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:03@1723104243596@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:03@1723104243821@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:04@1723104244045@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:04@1723104244268@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:04@1723104244310@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:04@1723104244485@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:04@1723104244704@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:04@1723104244925@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:05@1723104245148@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:05@1723104245372@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:05@1723104245413@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:05@1723104245596@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:05@1723104245820@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:06@1723104246045@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:06@1723104246268@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:06@1723104246501@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:06@1723104246517@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:06@1723104246720@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:06@1723104246940@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:07@1723104247165@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:07@1723104247388@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:07@1723104247613@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:07@1723104247620@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:07@1723104247837@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:08@1723104248060@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:08@1723104248285@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:08@1723104248508@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:08@1723104248723@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:08@1723104248733@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:08@1723104248948@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:09@1723104249166@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:09@1723104249388@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:09@1723104249604@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:09@1723104249825@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:10@1723104250044@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:10@1723104250261@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:10@1723104250478@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:10@1723104250699@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:10@1723104250917@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:11@1723104251136@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:11@1723104251357@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:11@1723104251581@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:11@1723104251804@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:12@1723104252021@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:12@1723104252237@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:12@1723104252460@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:12@1723104252676@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:13@1723104253341@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:13@1723104253826@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:13@1723104253906@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:14@1723104254125@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:14@1723104254348@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:14@1723104254565@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:14@1723104254780@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:14@1723104254929@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:14@1723104254996@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:15@1723104255214@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:15@1723104255436@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:15@1723104255652@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:15@1723104255873@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:16@1723104256032@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:16@1723104256091@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:16@1723104256309@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:16@1723104256526@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:16@1723104256748@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:16@1723104256965@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:17@1723104257136@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:17@1723104257184@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:17@1723104257405@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:17@1723104257629@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:17@1723104257853@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:18@1723104258077@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:18@1723104258239@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:18@1723104258300@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:18@1723104258524@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:18@1723104258741@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:18@1723104258964@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:19@1723104259182@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:19@1723104259342@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:19@1723104259403@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:19@1723104259621@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:19@1723104259837@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:20@1723104260060@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:20@1723104260285@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:20@1723104260445@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:20@1723104260501@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:20@1723104260718@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:20@1723104260940@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:21@1723104261157@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:21@1723104261377@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:21@1723104261548@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:21@1723104261596@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:21@1723104261813@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:22@1723104262029@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:22@1723104262252@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:22@1723104262468@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:22@1723104262651@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:22@1723104262685@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:22@1723104262901@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:23@1723104263121@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:23@1723104263340@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:23@1723104263557@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:23@1723104263754@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:23@1723104263777@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:23@1723104263997@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:24@1723104264220@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:24@1723104264437@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:24@1723104264653@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:24@1723104264857@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:24@1723104264876@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:25@1723104265093@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:25@1723104265309@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:25@1723104265525@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:25@1723104265742@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:25@1723104265960@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:25@1723104265964@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:26@1723104266180@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:26@1723104266397@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:26@1723104266613@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:26@1723104266830@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:27@1723104267045@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:27@1723104267265@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:27@1723104267484@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:27@1723104267701@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:27@1723104267921@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:28@1723104268469@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:28@1723104268976@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:29@1723104269198@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:29@1723104269420@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:29@1723104269637@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:29@1723104269853@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:30@1723104270069@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:30@1723104270286@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:30@1723104270508@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:30@1723104270725@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:30@1723104270945@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:31@1723104271063@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:31@1723104271165@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:31@1723104271388@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:31@1723104271605@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:31@1723104271822@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:32@1723104272044@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:32@1723104272166@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:32@1723104272261@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:32@1723104272477@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:32@1723104272701@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:32@1723104272929@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:33@1723104273149@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:33@1723104273269@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:33@1723104273372@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:33@1723104273589@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:33@1723104273805@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:34@1723104274028@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:34@1723104274252@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:34@1723104274373@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:34@1723104274476@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:34@1723104274700@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:34@1723104274917@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:35@1723104275132@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:35@1723104275357@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:35@1723104275476@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:35@1723104275581@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:35@1723104275804@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:36@1723104276021@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:36@1723104276238@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:36@1723104276460@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:36@1723104276579@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:36@1723104276684@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:36@1723104276901@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:37@1723104277117@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:37@1723104277341@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:37@1723104277565@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:37@1723104277682@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:37@1723104277788@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:38@1723104278013@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:38@1723104278236@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:38@1723104278453@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:38@1723104278669@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:38@1723104278785@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:38@1723104278892@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:39@1723104279109@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:39@1723104279329@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:39@1723104279549@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:39@1723104279772@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:39@1723104279888@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:39@1723104279990@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:40@1723104280205@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:40@1723104280421@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:40@1723104280637@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:40@1723104280860@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:40@1723104280991@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:41@1723104281078@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:41@1723104281297@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:41@1723104281516@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:41@1723104281740@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:41@1723104281957@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:42@1723104282095@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:42@1723104282177@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:42@1723104282397@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:42@1723104282621@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:42@1723104282846@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:43@1723104283198@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:43@1723104283363@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:43@1723104283934@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:44@1723104284159@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:44@1723104284381@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:44@1723104284597@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:44@1723104284817@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:45@1723104285037@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:45@1723104285260@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:45@1723104285485@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:45@1723104285701@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:45@1723104285921@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:46@1723104286141@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:46@1723104286364@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:46@1723104286590@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:46@1723104286812@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:47@1723104287029@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:47@1723104287245@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:47@1723104287468@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:47@1723104287686@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:47@1723104287905@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:48@1723104288126@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:48@1723104288301@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:48@1723104288348@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:48@1723104288573@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:48@1723104288797@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:49@1723104289021@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:49@1723104289245@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:49@1723104289404@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:49@1723104289469@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:49@1723104289692@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:49@1723104289908@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:50@1723104290125@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:50@1723104290349@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:50@1723104290507@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:50@1723104290564@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:50@1723104290781@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:50@1723104290996@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:51@1723104291213@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:51@1723104291437@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:51@1723104291610@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:51@1723104291660@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:51@1723104291885@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:52@1723104292100@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:52@1723104292320@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:52@1723104292542@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:52@1723104292714@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:52@1723104292765@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:52@1723104292988@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:53@1723104293204@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:53@1723104293421@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:53@1723104293644@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:53@1723104293817@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:53@1723104293861@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:54@1723104294080@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:54@1723104294301@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:54@1723104294516@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:54@1723104294733@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:54@1723104294920@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:54@1723104294957@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:55@1723104295180@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:55@1723104295405@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:55@1723104295629@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:55@1723104295852@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:56@1723104296023@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:56@1723104296068@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:56@1723104296284@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:56@1723104296501@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:56@1723104296717@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:56@1723104296941@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:57@1723104297125@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:57@1723104297164@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:57@1723104297380@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:57@1723104297601@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:57@1723104297820@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:58@1723104298228@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:04:58@1723104298470@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:58@1723104298925@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:59@1723104299149@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:59@1723104299364@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:59@1723104299580@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:04:59@1723104299797@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:00@1723104300013@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:00@1723104300237@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:00@1723104300452@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:00@1723104300673@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:00@1723104300893@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:01@1723104301116@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:01@1723104301341@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:01@1723104301564@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:01@1723104301789@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:02@1723104302004@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:02@1723104302221@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:02@1723104302445@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:02@1723104302660@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:02@1723104302881@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:03@1723104303101@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:03@1723104303324@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:03@1723104303331@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:03@1723104303549@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:03@1723104303772@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:03@1723104303997@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:04@1723104304221@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:04@1723104304435@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:04@1723104304445@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:04@1723104304661@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:04@1723104304877@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:05@1723104305100@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:05@1723104305317@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:05@1723104305537@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:05@1723104305757@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:05@1723104305972@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:06@1723104306190@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:06@1723104306411@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:06@1723104306629@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:06@1723104306845@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:07@1723104307066@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:07@1723104307285@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:07@1723104307501@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:07@1723104307724@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:07@1723104307940@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:08@1723104308157@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:08@1723104308373@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:08@1723104308589@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:08@1723104308812@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:09@1723104309028@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:09@1723104309245@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:09@1723104309461@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:09@1723104309538@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:09@1723104309678@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:09@1723104309900@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:10@1723104310116@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:10@1723104310337@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:10@1723104310557@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:10@1723104310641@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:10@1723104310781@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:10@1723104310997@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:11@1723104311213@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:11@1723104311436@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:11@1723104311653@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:11@1723104311744@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:11@1723104311873@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:12@1723104312093@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:12@1723104312309@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:12@1723104312529@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:12@1723104312747@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:12@1723104312847@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:13@1723104313353@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:13@1723104313575@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:13@1723104313856@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:13@1723104313950@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:14@1723104314077@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:14@1723104314292@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:14@1723104314510@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:14@1723104314732@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:14@1723104314948@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:15@1723104315053@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:15@1723104315169@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:15@1723104315388@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:15@1723104315605@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:15@1723104315824@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:16@1723104316044@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:16@1723104316261@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:16@1723104316476@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:16@1723104316693@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:16@1723104316910@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:17@1723104317132@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:17@1723104317349@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:17@1723104317568@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:17@1723104317788@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:18@1723104318005@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:18@1723104318225@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:18@1723104318444@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:18@1723104318661@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:18@1723104318881@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:19@1723104319100@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:19@1723104319317@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:19@1723104319534@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:19@1723104319756@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:19@1723104319973@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:20@1723104320157@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:20@1723104320192@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:20@1723104320412@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:20@1723104320629@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:20@1723104320849@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:21@1723104321068@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:21@1723104321260@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:21@1723104321286@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:21@1723104321505@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:21@1723104321725@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:21@1723104321971@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:22@1723104322190@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:22@1723104322363@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:22@1723104322412@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:22@1723104322629@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:22@1723104322845@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:23@1723104323069@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:23@1723104323285@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:23@1723104323466@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:23@1723104323505@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:23@1723104323724@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:23@1723104323948@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:24@1723104324165@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:24@1723104324381@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:24@1723104324569@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:24@1723104324605@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:24@1723104324821@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:25@1723104325041@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:25@1723104325260@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:25@1723104325477@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:25@1723104325672@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:25@1723104325697@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:25@1723104325916@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:26@1723104326133@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:26@1723104326349@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:26@1723104326565@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:26@1723104326775@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:26@1723104326785@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:27@1723104327004@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:27@1723104327221@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:27@1723104327438@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:27@1723104327660@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:27@1723104327877@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:28@1723104328880@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:29@1723104329103@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:29@1723104329324@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:29@1723104329541@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:29@1723104329756@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:29@1723104329973@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:30@1723104330193@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:30@1723104330412@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:30@1723104330629@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:30@1723104330845@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:31@1723104331066@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:31@1723104331285@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:31@1723104331502@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:31@1723104331724@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:31@1723104331878@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:31@1723104331948@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:32@1723104332165@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:32@1723104332381@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:32@1723104332605@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:32@1723104332828@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:32@1723104332981@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:33@1723104333045@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:33@1723104333261@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:33@1723104333484@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:33@1723104333709@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:33@1723104333925@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:34@1723104334085@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:34@1723104334141@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:34@1723104334365@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:34@1723104334589@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:34@1723104334813@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:35@1723104335029@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:35@1723104335188@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:35@1723104335245@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:35@1723104335468@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:35@1723104335685@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:35@1723104335901@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:36@1723104336125@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:36@1723104336290@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:36@1723104336348@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:36@1723104336565@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:36@1723104336782@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:37@1723104337005@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:37@1723104337228@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:37@1723104337393@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:37@1723104337446@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:37@1723104337665@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:37@1723104337884@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:38@1723104338109@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:38@1723104338325@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:38@1723104338496@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:38@1723104338542@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:38@1723104338764@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:38@1723104338988@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:39@1723104339212@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:39@1723104339429@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:39@1723104339599@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:39@1723104339649@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:39@1723104339869@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:40@1723104340093@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:40@1723104340316@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:40@1723104340541@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:40@1723104340702@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:40@1723104340765@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:40@1723104340989@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:41@1723104341212@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:41@1723104341429@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:41@1723104341645@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:41@1723104341805@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:41@1723104341868@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:42@1723104342085@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:42@1723104342305@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:42@1723104342525@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:42@1723104342749@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:42@1723104342908@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:43@1723104343352@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:43@1723104343573@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:43@1723104343793@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:44@1723104344011@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:44@1723104344012@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:44@1723104344236@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:44@1723104344453@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:44@1723104344673@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:44@1723104344894@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:45@1723104345116@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:45@1723104345332@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:45@1723104345549@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:45@1723104345772@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:45@1723104345990@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:46@1723104346209@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:46@1723104346427@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:46@1723104346644@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:46@1723104346861@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:47@1723104347085@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:47@1723104347308@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:47@1723104347533@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:47@1723104347749@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:47@1723104347968@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:48@1723104348189@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:48@1723104348413@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:48@1723104348637@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:48@1723104348852@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:49@1723104349070@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:49@1723104349114@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:49@1723104349292@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:49@1723104349508@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:49@1723104349725@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:49@1723104349940@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:50@1723104350158@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:50@1723104350217@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:50@1723104350380@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:50@1723104350596@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:50@1723104350812@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:51@1723104351028@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:51@1723104351246@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:51@1723104351321@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:51@1723104351468@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:51@1723104351685@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:51@1723104351901@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:52@1723104352125@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:52@1723104352349@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:52@1723104352424@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:52@1723104352564@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:52@1723104352782@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:53@1723104353004@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:53@1723104353220@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:53@1723104353438@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:53@1723104353527@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:53@1723104353661@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:53@1723104353885@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:54@1723104354100@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:54@1723104354318@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:54@1723104354541@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:54@1723104354630@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:54@1723104354764@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:54@1723104354981@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:55@1723104355200@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:55@1723104355421@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:55@1723104355636@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:55@1723104355733@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:55@1723104355854@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:56@1723104356077@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:56@1723104356292@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:56@1723104356509@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:56@1723104356724@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:56@1723104356835@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:56@1723104356943@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:57@1723104357165@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:57@1723104357388@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:57@1723104357613@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:57@1723104357838@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:57@1723104357938@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:58@1723104358333@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:58@1723104358773@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:58@1723104358989@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:59@1723104359041@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:05:59@1723104359212@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:59@1723104359429@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:59@1723104359644@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:05:59@1723104359869@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:00@1723104360084@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:00@1723104360144@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:00@1723104360302@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:00@1723104360524@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:00@1723104360740@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:00@1723104360961@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:01@1723104361180@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:01@1723104361246@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:01@1723104361405@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:01@1723104361621@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:01@1723104361837@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:02@1723104362060@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:02@1723104362276@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:02@1723104362349@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:02@1723104362596@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:02@1723104362813@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:03@1723104363028@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:03@1723104363246@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:03@1723104363452@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:03@1723104363468@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:03@1723104363685@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:03@1723104363901@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:04@1723104364124@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:04@1723104364349@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:04@1723104364555@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:04@1723104364564@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:04@1723104364782@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:05@1723104365004@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:05@1723104365220@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:05@1723104365437@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:05@1723104365652@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:05@1723104365658@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:05@1723104365870@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:06@1723104366091@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:06@1723104366309@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:06@1723104366525@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:06@1723104366740@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:06@1723104366761@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:06@1723104366958@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:07@1723104367179@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:07@1723104367397@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:07@1723104367726@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:07@1723104367863@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:07@1723104367947@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:08@1723104368165@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:08@1723104368381@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:08@1723104368604@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:08@1723104368821@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:08@1723104368966@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:09@1723104369037@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:09@1723104369260@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:09@1723104369477@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:09@1723104369693@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:09@1723104369909@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:10@1723104370070@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:10@1723104370125@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:10@1723104370348@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:10@1723104370580@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:10@1723104370798@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:11@1723104371013@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:11@1723104371173@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:11@1723104371232@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:11@1723104371453@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:11@1723104371677@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:11@1723104371901@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:12@1723104372117@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:12@1723104372275@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:12@1723104372334@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:12@1723104372556@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:12@1723104372779@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:13@1723104373311@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:13@1723104373378@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:13@1723104373777@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:13@1723104373996@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:14@1723104374212@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:14@1723104374429@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:14@1723104374481@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:14@1723104374644@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:14@1723104374865@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:15@1723104375084@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:15@1723104375301@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:15@1723104375521@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:15@1723104375584@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:15@1723104375740@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:15@1723104375957@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:16@1723104376174@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:16@1723104376397@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:16@1723104376613@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:16@1723104376687@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:16@1723104376833@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:17@1723104377052@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:17@1723104377268@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:17@1723104377486@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:17@1723104377701@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:17@1723104377790@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:17@1723104377917@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:18@1723104378133@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:18@1723104378352@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:18@1723104378572@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:18@1723104378788@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:18@1723104378893@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:19@1723104379005@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:19@1723104379221@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:19@1723104379439@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:19@1723104379660@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:19@1723104379876@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:20@1723104380093@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:20@1723104380316@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:20@1723104380533@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:20@1723104380750@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:20@1723104380971@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:21@1723104381189@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:21@1723104381404@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:21@1723104381621@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:21@1723104381838@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:22@1723104382060@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:22@1723104382277@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:22@1723104382493@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:22@1723104382709@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:22@1723104382926@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:23@1723104383148@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:23@1723104383365@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:23@1723104383581@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:23@1723104383805@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:23@1723104383996@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:24@1723104384021@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:24@1723104384238@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:24@1723104384460@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:24@1723104384677@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:24@1723104384893@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:25@1723104385099@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:25@1723104385108@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:25@1723104385326@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:25@1723104385541@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:25@1723104385757@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:25@1723104385973@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:26@1723104386191@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:26@1723104386203@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:26@1723104386412@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:26@1723104386628@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:26@1723104386844@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:27@1723104387069@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:27@1723104387292@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:27@1723104387305@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:27@1723104387509@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:27@1723104387728@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:28@1723104388317@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:28@1723104388408@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:28@1723104388781@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:29@1723104389004@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:29@1723104389221@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:29@1723104389441@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:29@1723104389511@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:29@1723104389660@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:29@1723104389877@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:30@1723104390093@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:30@1723104390316@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:30@1723104390533@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:30@1723104390614@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:30@1723104390749@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:30@1723104390973@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:31@1723104391197@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:31@1723104391418@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:31@1723104391637@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:31@1723104391717@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:31@1723104391853@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:32@1723104392076@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:32@1723104392293@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:32@1723104392509@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:32@1723104392733@DeviceMonitor ERR:A JSONObject text must begin with '{' at character 0 of 
+2024-08-08 16:06:32@1723104392820@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:33@1723104393923@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:39@1723104399025@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:44@1723104404128@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:49@1723104409230@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:54@1723104414333@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:06:59@1723104419435@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:07:04@1723104424537@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:07:09@1723104429641@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:07:14@1723104434743@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:07:19@1723104439846@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:07:24@1723104444948@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:07:30@1723104450050@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:07:35@1723104455153@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:07:40@1723104460255@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:07:45@1723104465358@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:07:50@1723104470461@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:07:55@1723104475563@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:08:00@1723104480666@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:08:05@1723104485768@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:08:10@1723104490870@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:08:15@1723104495972@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:08:20@1723104500818@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2024-08-08 16:08:21@1723104501075@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:08:22@1723104502177@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:08:22@1723104502955@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2024-08-08 16:08:22@1723104502955@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2024-08-08 16:08:23@1723104503058@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2024-08-08 16:08:23@1723104503058@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2024-08-08 16:08:23@1723104503284@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:08:24@1723104504386@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:08:29@1723104509489@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:08:34@1723104514591@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:08:39@1723104519693@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:08:44@1723104524796@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:08:49@1723104529898@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:08:55@1723104535000@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:08:57@1723104537230@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 16:08:57@1723104537332@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2024-08-08 16:08:59@1723104539606@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2024-08-08 16:09:00@1723104540282@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:09:05@1723104545386@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:09:10@1723104550488@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:09:15@1723104555590@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2024-08-08 16:09:20@1723104560744@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed

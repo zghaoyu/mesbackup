@@ -1,0 +1,1 @@
+{"lineName":"D2E1D2A","ip":"10.10.95.64","port":"10064","model":"BRO_S700Z1","state":"STANDBY","progress":"0%","wkZoneQty":"6","machineTime":"0","slot1":"","slot2":"","slot3":"","slot4":"","slot5":"","slot6":"","wpIDs":"","wpSlotIDs":"","wpStates":"","controlCenter":"10.10.45.85:20520"}

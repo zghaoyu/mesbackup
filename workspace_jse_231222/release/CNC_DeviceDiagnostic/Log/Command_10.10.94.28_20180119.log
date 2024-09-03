@@ -1,0 +1,21 @@
+2018-01-19 13:29:18@1516339758768@OK@uploadSubProgram@uploadSubProgram@Client Socket - 62033 connected
+2018-01-19 13:29:18@1516339758879@OK@uploadSubProgram@uploadSubProgram@uploadSubProgram
+2018-01-19 13:29:18@1516339758988@OK@uploadSubProgram@uploadSubProgram@uploadSubProgram
+2018-01-19 13:29:19@1516339759096@OK@uploadSubProgram@uploadSubProgram@uploadSubProgram
+2018-01-19 13:29:19@1516339759205@OK@uploadSubProgram@uploadSubProgram@uploadSubProgram
+2018-01-19 13:29:19@1516339759313@OK@uploadSubProgram@uploadSubProgram@uploadSubProgram
+2018-01-19 13:29:20@1516339760195@OK@downloadSubProgram@downloadSubProgram;O7771;4d@downloadSubProgram;O7771;4d;G91 G28 Z0.#r#nG91 G28 X0. Y0.
+2018-01-19 13:29:20@1516339760407@OK@downloadSubProgram@downloadSubProgram;O7772;4e@downloadSubProgram;O7772;4e;G91 G28 Z0.#r#nG91 G28 X0. Y0.
+2018-01-19 13:29:20@1516339760631@OK@downloadSubProgram@downloadSubProgram;O7773;4f@downloadSubProgram;O7773;4f;G91 G28 Z0.#r#nG91 G28 X0. Y0.
+2018-01-19 13:29:20@1516339760846@OK@downloadSubProgram@downloadSubProgram;O7774;48@downloadSubProgram;O7774;48;G91 G28 Z0.#r#nG91 G28 X0. Y0.
+2018-01-19 13:29:21@1516339761069@OK@downloadSubProgram@downloadSubProgram;O7775;49@downloadSubProgram;O7775;49;G91 G28 Z0.#r#nG91 G28 X0. Y0.
+2018-01-19 13:29:21@1516339761284@OK@downloadSubProgram@downloadSubProgram;O7776;4a@downloadSubProgram;O7776;4a;G91 G28 Z0.#r#nG91 G28 X0. Y0.
+2018-01-19 13:29:21@1516339761398@OK@clampFixture@clampFixture@downloadSubProgram;O7776;4a;G91 G28 Z0.#r#nG91 G28 X0. Y0.
+2018-01-19 13:29:21@1516339761502@OK@clampFixture@clampFixture@clampFixture0
+2018-01-19 13:29:21@1516339761618@OK@clampFixture@clampFixture@clampFixture0
+2018-01-19 13:29:21@1516339761724@OK@clampFixture@clampFixture@clampFixture0
+2018-01-19 13:29:21@1516339761830@OK@clampFixture@clampFixture@clampFixture0
+2018-01-19 13:29:21@1516339761946@OK@clampFixture@clampFixture@clampFixture0
+2018-01-19 13:29:22@1516339762053@OK@uploadMainProgram@uploadMainProgram@clampFixture0
+2018-01-19 13:29:23@1516339763034@OK@downloadMainProgram@downloadMainProgram;7777;6b@downloadMainProgram;7777;6b;G54#r#nM198P7771#r#nG55#r#nM198P7772#r#nG56#r#nM198P7773#r#nG57#r#nM198P7774#r#nG58#r#nM198P7775#r#nG59#r#nM198P7776#r#nM30
+2018-01-19 13:29:23@1516339763141@OK@startMachining@startMachining@downloadMainProgram;7777;6b;G54#r#nM198P7771#r#nG55#r#nM198P7772#r#nG56#r#nM198P7773#r#nG57#r#nM198P7774#r#nG58#r#nM198P7775#r#nG59#r#nM198P7776#r#nM30

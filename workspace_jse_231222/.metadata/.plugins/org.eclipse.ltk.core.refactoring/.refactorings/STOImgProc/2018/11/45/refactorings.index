@@ -1,0 +1,22 @@
+1541395073405	Copy compilation unit
+1541395104304	Rename field 'criteriaSetting'
+1541395153987	Copy file
+1541396130331	Rename local variable 'criteriaCfg'
+1541396148415	Rename local variable 'criteriaSetting'
+1541412226618	Rename local variable 'rtnOnlyFilePath'
+1541497571574	Rename resource 'Company 01.png'
+1541497768308	Delete element
+1541497815005	Rename resource 'Company 04.png'
+1541582598336	Rename type 'MacUtils'
+1541588043408	Rename field 'btnStartproc'
+1541638964651	Rename field 'mntmRegister'
+1541643580120	Rename field 'userLogin'
+1541643666794	Rename local variable 'loginButton'
+1541643692397	Delete element
+1541662713477	Delete element
+1541665399626	Rename local variable 'src'
+1541726091736	Rename local variable 'rootDir'
+1541726735956	Rename local variable 'rootDir'
+1541741514130	Rename local variable 'success'
+1541742471040	Rename local variable 'imgFolder'
+1541742515959	Rename local variable 'imgFiles'

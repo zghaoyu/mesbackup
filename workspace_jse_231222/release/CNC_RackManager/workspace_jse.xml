@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project CNC Rack Manager">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <!--define folder properties-->
+    <property name="dir.buildfile" value="."/>
+    <property name="dir.workspace" value="${dir.buildfile}/../.."/>
+    <property name="dir.jarfile" value="${dir.buildfile}"/>
+    <target name="create_run_jar">
+        <jar destfile="${dir.jarfile}/CNC_RackManager.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="com.cncmes.gui.RackManager"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="${dir.workspace}/CNC Rack Manager/bin"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Rack Manager/libs/jna-4.3.0.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Rack Manager/libs/commons-dbutils-1.6.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Rack Manager/libs/mysql-connector-java-5.1.39-bin.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Rack Manager/libs/RXTXcomm.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Rack Manager/libs/dom4j-2.0.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Rack Manager/libs/commons-beanutils-1.8.0.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Rack Manager/libs/commons-collections-3.2.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Rack Manager/libs/commons-lang-2.5.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Rack Manager/libs/commons-logging-1.1.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Rack Manager/libs/ezmorph-1.0.6.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Rack Manager/libs/json-lib-2.4-jdk15.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Rack Manager/libs/commons-io-2.5.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Rack Manager/libs/commons-codec-1.11.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/CNC Rack Manager/libs/commons-net-3.6.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Programming/eclipse-jse/plugins/org.junit_4.12.0.v201504281640/junit.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Programming/eclipse-jse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar"/>
+        </jar>
+    </target>
+</project>
