@@ -1,0 +1,260 @@
+package com.cncmes.gui.panel;
+
+import java.awt.Color;
+
+import javax.swing.JPanel;
+import java.awt.GridBagLayout;
+import java.awt.GridBagConstraints;
+import java.awt.Insets;
+import javax.swing.JLabel;
+import java.awt.BorderLayout;
+import javax.swing.SwingConstants;
+
+
+import java.awt.Dimension;
+import java.awt.Font;
+import java.awt.GridLayout;
+import java.awt.SystemColor;
+import javax.swing.JComboBox;
+import javax.swing.DefaultComboBoxModel;
+import java.awt.FlowLayout;
+import javax.swing.border.LineBorder;
+
+/**
+ * 
+ * @author W000586 Hui Zhi Fang
+ * 2022/3/2
+ */
+public class RackPanel extends JPanel {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -4855534237842180231L;
+	
+	private static RackPanel rackPanel = new RackPanel();
+	/**
+	 * Create the panel.
+	 */
+	public RackPanel() {
+		this.setBackground(new Color(245, 245, 245));
+		GridBagLayout gridBagLayout = new GridBagLayout();
+		gridBagLayout.columnWidths = new int[] {8, 0, 0, 0, 0, 4};
+		gridBagLayout.rowHeights = new int[] {7, 200, 500, 5};
+		gridBagLayout.columnWeights = new double[]{0.0, 1.0, 1.0, 1.0, 1.0, 0.0};
+		gridBagLayout.rowWeights = new double[]{0.0, 1.0, 1.0, 0.0};
+		setLayout(gridBagLayout);
+		
+		JPanel statePanel = new JPanel();
+		statePanel.setBorder(new LineBorder(Color.LIGHT_GRAY));
+		statePanel.setBackground(new Color(255, 255, 255));
+		GridBagConstraints gbc_statePanel = new GridBagConstraints();
+		gbc_statePanel.insets = new Insets(0, 0, 5, 5);
+		gbc_statePanel.fill = GridBagConstraints.BOTH;
+		gbc_statePanel.gridx = 1;
+		gbc_statePanel.gridy = 1;
+		add(statePanel, gbc_statePanel);
+		statePanel.setLayout(new BorderLayout(0, 0));
+		
+		JPanel stateTitle = new JPanel();
+		stateTitle.setBackground(SystemColor.controlHighlight);
+		stateTitle.setPreferredSize(new Dimension(10, 25));
+		statePanel.add(stateTitle, BorderLayout.NORTH);
+		
+		JLabel lblState = new JLabel("Rack Info");
+		lblState.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		stateTitle.add(lblState);
+		
+		JPanel stateContent = new JPanel();
+		stateContent.setBackground(new Color(255, 255, 255));
+		statePanel.add(stateContent, BorderLayout.CENTER);
+		GridBagLayout gbl_stateContent = new GridBagLayout();
+		gbl_stateContent.columnWidths = new int[]{80, 0, 0};
+		gbl_stateContent.rowHeights = new int[] {30, 30};
+		gbl_stateContent.columnWeights = new double[]{0.0, 1.0, Double.MIN_VALUE};
+		gbl_stateContent.rowWeights = new double[]{0.0, 0.0};
+		stateContent.setLayout(gbl_stateContent);
+		
+		JLabel lblNewLabel = new JLabel("Line:");
+		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		GridBagConstraints gbc_lblNewLabel = new GridBagConstraints();
+		gbc_lblNewLabel.anchor = GridBagConstraints.EAST;
+		gbc_lblNewLabel.insets = new Insets(0, 0, 5, 5);
+		gbc_lblNewLabel.gridx = 0;
+		gbc_lblNewLabel.gridy = 0;
+		stateContent.add(lblNewLabel, gbc_lblNewLabel);
+		
+		JComboBox comboBox = new JComboBox();
+		comboBox.setPreferredSize(new Dimension(80, 20));
+		comboBox.setModel(new DefaultComboBoxModel(new String[] {"TS61A", "TS61B", "TS62A"}));
+		GridBagConstraints gbc_comboBox = new GridBagConstraints();
+		gbc_comboBox.anchor = GridBagConstraints.WEST;
+		gbc_comboBox.insets = new Insets(0, 0, 5, 0);
+		gbc_comboBox.gridx = 1;
+		gbc_comboBox.gridy = 0;
+		stateContent.add(comboBox, gbc_comboBox);
+		
+		JLabel lblNewLabel_1 = new JLabel("Rack:");
+		lblNewLabel_1.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		GridBagConstraints gbc_lblNewLabel_1 = new GridBagConstraints();
+		gbc_lblNewLabel_1.anchor = GridBagConstraints.EAST;
+		gbc_lblNewLabel_1.insets = new Insets(0, 0, 0, 5);
+		gbc_lblNewLabel_1.gridx = 0;
+		gbc_lblNewLabel_1.gridy = 1;
+		stateContent.add(lblNewLabel_1, gbc_lblNewLabel_1);
+		
+		JComboBox comboBox_1 = new JComboBox();
+		comboBox_1.setPreferredSize(new Dimension(80, 20));
+		comboBox_1.setModel(new DefaultComboBoxModel(new String[] {"1", "2", "3"}));
+		GridBagConstraints gbc_comboBox_1 = new GridBagConstraints();
+		gbc_comboBox_1.anchor = GridBagConstraints.WEST;
+		gbc_comboBox_1.gridx = 1;
+		gbc_comboBox_1.gridy = 1;
+		stateContent.add(comboBox_1, gbc_comboBox_1);
+		
+		JPanel storagePanel = new JPanel();
+		storagePanel.setBorder(new LineBorder(Color.LIGHT_GRAY));
+		storagePanel.setBackground(new Color(255, 255, 255));
+		GridBagConstraints gbc_storagePanel = new GridBagConstraints();
+		gbc_storagePanel.insets = new Insets(0, 0, 5, 5);
+		gbc_storagePanel.fill = GridBagConstraints.BOTH;
+		gbc_storagePanel.gridx = 2;
+		gbc_storagePanel.gridy = 1;
+		add(storagePanel, gbc_storagePanel);
+		storagePanel.setLayout(new BorderLayout(0, 0));
+		
+		JPanel storageTitle = new JPanel();
+		storageTitle.setPreferredSize(new Dimension(10, 25));
+		storageTitle.setBackground(SystemColor.controlHighlight);
+		storagePanel.add(storageTitle, BorderLayout.NORTH);
+		
+		JLabel lblSlots = new JLabel("Storage");
+		lblSlots.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		storageTitle.add(lblSlots);
+		
+		JPanel panel_2 = new JPanel();
+		panel_2.setBackground(Color.WHITE);
+		storagePanel.add(panel_2, BorderLayout.CENTER);
+		GridBagLayout gbl_panel_2 = new GridBagLayout();
+		gbl_panel_2.columnWidths = new int[]{100, 0, 0};
+		gbl_panel_2.rowHeights = new int[] {30, 30};
+		gbl_panel_2.columnWeights = new double[]{0.0, 1.0, Double.MIN_VALUE};
+		gbl_panel_2.rowWeights = new double[]{0.0, 0.0};
+		panel_2.setLayout(gbl_panel_2);
+		
+		JLabel lblCapacity = new JLabel("Capacity:");
+		lblCapacity.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		GridBagConstraints gbc_lblCapacity = new GridBagConstraints();
+		gbc_lblCapacity.anchor = GridBagConstraints.EAST;
+		gbc_lblCapacity.insets = new Insets(0, 0, 5, 5);
+		gbc_lblCapacity.gridx = 0;
+		gbc_lblCapacity.gridy = 0;
+		panel_2.add(lblCapacity, gbc_lblCapacity);
+		
+		JLabel label = new JLabel("48");
+		label.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		GridBagConstraints gbc_label = new GridBagConstraints();
+		gbc_label.anchor = GridBagConstraints.WEST;
+		gbc_label.insets = new Insets(0, 0, 5, 0);
+		gbc_label.gridx = 1;
+		gbc_label.gridy = 0;
+		panel_2.add(label, gbc_label);
+		
+		JLabel lblEmpty = new JLabel("Empty:");
+		lblEmpty.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		GridBagConstraints gbc_lblEmpty = new GridBagConstraints();
+		gbc_lblEmpty.anchor = GridBagConstraints.EAST;
+		gbc_lblEmpty.insets = new Insets(0, 0, 0, 5);
+		gbc_lblEmpty.gridx = 0;
+		gbc_lblEmpty.gridy = 1;
+		panel_2.add(lblEmpty, gbc_lblEmpty);
+		
+		JLabel label_1 = new JLabel("20");
+		label_1.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		GridBagConstraints gbc_label_1 = new GridBagConstraints();
+		gbc_label_1.anchor = GridBagConstraints.WEST;
+		gbc_label_1.gridx = 1;
+		gbc_label_1.gridy = 1;
+		panel_2.add(label_1, gbc_label_1);
+		
+		JPanel conveyorPanel = new JPanel();
+		conveyorPanel.setBorder(new LineBorder(Color.LIGHT_GRAY));
+		conveyorPanel.setBackground(new Color(255, 255, 255));
+		GridBagConstraints gbc_conveyorPanel = new GridBagConstraints();
+		gbc_conveyorPanel.insets = new Insets(0, 0, 5, 5);
+		gbc_conveyorPanel.fill = GridBagConstraints.BOTH;
+		gbc_conveyorPanel.gridx = 3;
+		gbc_conveyorPanel.gridy = 1;
+		add(conveyorPanel, gbc_conveyorPanel);
+		conveyorPanel.setLayout(new BorderLayout(0, 0));
+		
+		JPanel conveyorTitle = new JPanel();
+		conveyorPanel.add(conveyorTitle, BorderLayout.NORTH);
+		conveyorTitle.setPreferredSize(new Dimension(10, 25));
+		conveyorTitle.setBackground(SystemColor.controlHighlight);
+		
+		JLabel lblConveyor = new JLabel("State");
+		conveyorTitle.add(lblConveyor);
+		lblConveyor.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		
+		JPanel conveyorContent = new JPanel();
+		conveyorContent.setBackground(new Color(255, 255, 255));
+		conveyorPanel.add(conveyorContent, BorderLayout.CENTER);
+		conveyorContent.setLayout(new BorderLayout(0, 0));
+		
+		JPanel GripperPanel = new JPanel();
+		GripperPanel.setBorder(new LineBorder(new Color(192, 192, 192)));
+		GripperPanel.setBackground(new Color(255, 255, 255));
+		GridBagConstraints gbc_GripperPanel = new GridBagConstraints();
+		gbc_GripperPanel.insets = new Insets(0, 0, 5, 5);
+		gbc_GripperPanel.fill = GridBagConstraints.BOTH;
+		gbc_GripperPanel.gridx = 4;
+		gbc_GripperPanel.gridy = 1;
+		add(GripperPanel, gbc_GripperPanel);
+		GripperPanel.setLayout(new BorderLayout(0, 0));
+		
+		JPanel gripperTitle = new JPanel();
+		gripperTitle.setPreferredSize(new Dimension(10, 25));
+		gripperTitle.setBackground(SystemColor.controlHighlight);
+		GripperPanel.add(gripperTitle, BorderLayout.NORTH);
+		
+		JLabel lblGripper = new JLabel("State");
+		gripperTitle.add(lblGripper);
+		lblGripper.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		
+		JPanel gripperContent = new JPanel();
+		gripperContent.setBackground(new Color(255, 255, 255));
+		GripperPanel.add(gripperContent, BorderLayout.CENTER);
+		gripperContent.setLayout(new BorderLayout(0, 0));
+		
+		JLabel lblGripperContent = new JLabel("Running");
+		lblGripperContent.setHorizontalAlignment(SwingConstants.CENTER);
+		lblGripperContent.setFont(new Font("Tahoma", Font.PLAIN, 25));
+		gripperContent.add(lblGripperContent);
+		
+		JPanel panel_3 = new JPanel();
+		panel_3.setBorder(new LineBorder(Color.LIGHT_GRAY));
+		panel_3.setBackground(new Color(255, 255, 255));
+		GridBagConstraints gbc_panel_3 = new GridBagConstraints();
+		gbc_panel_3.insets = new Insets(0, 0, 5, 5);
+		gbc_panel_3.gridwidth = 4;
+		gbc_panel_3.fill = GridBagConstraints.BOTH;
+		gbc_panel_3.gridx = 1;
+		gbc_panel_3.gridy = 2;
+		add(panel_3, gbc_panel_3);
+		panel_3.setLayout(new BorderLayout(0, 0));
+		
+		JPanel panel = new JPanel();
+		panel.setBackground(SystemColor.controlHighlight);
+		panel.setPreferredSize(new Dimension(10, 25));
+		panel_3.add(panel, BorderLayout.NORTH);
+		
+		JPanel panel_1 = new JPanel();
+		panel_1.setBackground(Color.WHITE);
+		panel_3.add(panel_1, BorderLayout.CENTER);
+		
+	}
+	public static RackPanel getInstance(){
+		return rackPanel;
+	}
+}

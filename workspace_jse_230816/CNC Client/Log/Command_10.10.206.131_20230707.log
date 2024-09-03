@@ -1,0 +1,2 @@
+2023-07-07 08:52:38@1688691158691@OK@getMachineState@http://10.10.206.5:6300/api/v3/hartford/status@{"brand":"hartford","model":"MVP-8","ip":"10.10.206.131","port":8193}@OK,code=0,data={"run":3,"emergency":0}@426
+2023-07-07 10:06:07@1688695567170@OK@getMachineState@http://10.10.206.5:6300/api/v3/hartford/status@{"brand":"hartford","model":"MVP-8","ip":"10.10.206.131","port":8193}@OK,code=0,data={"run":2,"emergency":0}@254

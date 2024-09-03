@@ -1,0 +1,323 @@
+package com.cncmes.utils;
+
+import java.io.File;
+import java.sql.SQLException;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+import com.cncmes.base.DeviceState;
+import com.cncmes.base.MemoryItems;
+import com.cncmes.base.SchedulerItems;
+import com.cncmes.ctrl.RackClient;
+import com.cncmes.ctrl.SchedulerClient;
+import com.cncmes.data.CncData;
+import com.cncmes.data.RackProduct;
+import com.cncmes.data.RobotData;
+import com.cncmes.data.SystemConfig;
+import com.cncmes.data.TaskData;
+import com.cncmes.data.WorkpieceData;
+
+public class MySystemUtils {
+	private static LinkedHashMap<String,Object> sysConfig = null;
+	private MySystemUtils(){}
+	static{
+		try {
+			XmlUtils.parseSystemConfig();
+			getCommonSettings();
+		} catch (Exception e) {
+			LogUtils.errorLog("SystemUtils startup error:"+e.getMessage());
+		}
+	}
+
+	private static void getCommonSettings() {
+		SystemConfig sysCfg = SystemConfig.getInstance();
+		sysConfig = sysCfg.getCommonCfg();
+	}
+	
+	/**
+	 * settings include Machining Spec,MES code list,CNC/Robot/Scanner driver,CNC/Robot/Scanner/Rack/Scheduler info
+	 * @param lineName the registered line name in database
+	 * @return "OK" if load all settings successfully
+	 */
+	public static String sysLoadSettingsFromDB(String lineName){
+		String msg = sysDatabaseOK();
+		if(!"OK".equals(msg)) return msg;
+		
+		msg = DataUtils.getMachiningSpec();
+		if(!"OK".equals(msg)) return msg;
+		
+		msg = DataUtils.getMescode();
+		if(!"OK".equals(msg)) return msg;
+		
+		msg = DataUtils.getDeviceDriver();
+		if(!"OK".equals(msg)) return msg;
+		
+		msg = DataUtils.getDeviceInfo(lineName);
+		if(!"OK".equals(msg)) return msg;
+		
+		return "OK";
+	}
+	
+	/**
+	 * @return "OK" once system database is working, else return failed reason
+	 */
+	public static String sysDatabaseOK(){
+		getCommonSettings();
+		if(null == sysConfig) return "Load system configure failed";
+		try {
+			DBUtils.getConnection();
+		} catch (SQLException e) {
+			return "Connect system database failed:"+e.getMessage();
+		}
+		return "OK";
+	}
+	
+	/**
+	 * 
+	 * @return "OK" once system programs server is working, else return failed reason
+	 */
+	public static String sysProgramsServerOK(){
+		getCommonSettings();
+		if(null == sysConfig) return "Load system configure failed";
+		
+		String ncProgramsRootDir = "";
+		try {
+			ncProgramsRootDir = (String)sysConfig.get("NCProgramsRootDir");
+			File file = new File(ncProgramsRootDir);
+			if(!file.exists()) return "Connect NC Program Server("+ncProgramsRootDir+") failed";
+		} catch (Exception e) {
+			return "Connect NC Program Server("+ncProgramsRootDir+") failed:"+e.getMessage();
+		}
+		
+		return "OK";
+	}
+	
+	/**
+	 * @param portType PORTMACHINE|PORTROBOT|PORTMATERIAL|PORTTASK|PORTTASKUPDATE
+	 * @return "OK" once system Scheduler is working, else return failed reason
+	 */
+	public static String sysSchedulerOK(SchedulerItems portType){
+		getCommonSettings();
+		if(null == sysConfig) return "Load system configure failed";
+		
+		if(Integer.valueOf((String)sysConfig.get("CheckScheduler"))>0){
+			if(!SchedulerClient.getInstance().schedulerServerIsReady(portType)){
+				return "Connect Scheduler failed";
+			}
+		}
+		
+		return "OK";
+	}
+	
+	/**
+	 * @param lineName the registered line name in database
+	 * @return "OK" once system Rack Manager is working, else return failed reason
+	 */
+	public static String sysRackManagerOK(String lineName){
+		getCommonSettings();
+		if(null == sysConfig) return "Load system configure failed";
+		
+		if(Integer.valueOf((String)sysConfig.get("CheckRackManager"))>0){
+			String readyChk = RackProduct.getInstance().rackValidate(lineName);
+			if(!"OK".equals(readyChk)) return readyChk;
+			
+			String[] pRackIDs = RackProduct.getInstance().getRackIDsByLineName(lineName);
+			if(!RackClient.getInstance().rackServerIsReady(lineName, pRackIDs[0])){
+				return "Connect Rack Manager failed";
+			}
+		}
+		
+		return "OK";
+	}
+	
+	/**
+	 * 
+	 * @param lineName the registered line name in database
+	 * @return "OK" if system is ready to start, else return the failed reason
+	 */
+	public static String sysReadyToStart(String lineName){
+		//System Programs Server checking
+		String readyToStart = MySystemUtils.sysProgramsServerOK();
+		if(!"OK".equals(readyToStart)) return readyToStart;
+		
+		//Machines checking
+		DataUtils.getCNCsByLineName(lineName);
+		if(DataUtils.getCNCList().isEmpty()){
+			return "Please configure CNC for "+lineName+" line";
+		}
+		
+		//Scheduler checking
+		readyToStart = MySystemUtils.sysSchedulerOK(SchedulerItems.PORTTASK);
+		if(!"OK".equals(readyToStart)) return readyToStart;
+		
+		//Rack Manager checking
+		readyToStart = MySystemUtils.sysRackManagerOK(lineName);
+		if(!"OK".equals(readyToStart)) return readyToStart;
+				
+		return "OK";
+	}
+	
+	/**
+	 * @param lineName the registered line name in database
+	 * @return "OK" once system is ready to stop, else return failed reason
+	 */
+	public static String sysReayToStop(String lineName){
+		getCommonSettings();
+		//0. App Mode checking
+		String appMode = ""+sysConfig.get("AppMode");
+		if("DevStateMon".equals(appMode)) return "OK";
+		
+		//1. Task Queue checking
+		TaskData taskData = TaskData.getInstance();
+		if(taskData.taskCount() > 0) return "Task ongoing! Can't be stopped at this moment!";
+		
+		//2. Machine state checking
+		CncData cncData = CncData.getInstance();
+		if(cncData.getWorkingCNCQty(lineName) > 0) return "Machining ongoing! Can't be stopped at this moment!";
+		
+		//3. Robot state checking
+		RobotData robotData = RobotData.getInstance();
+		if(robotData.getWorkingRobotQty(lineName) > 0) return "There is robot working! Can't be stopped at this moment!";
+		
+		return "OK";
+	}
+	
+	/**
+	 * 
+	 * @param ip the device IP or object ID
+	 * @return the local path to store the memory dump
+	 */
+	public static String getMemoryDumpPath(String ip){
+		String path = System.getProperty("user.dir") + File.separator + "memDump";
+		
+		if(MyFileUtils.makeFolder(path)){
+			path = path + File.separator + ip + ".txt";
+		}else{
+			path = "";
+		}
+		
+		return path;
+	}
+	
+	/**
+	 * 
+	 * @param lineName the registered line name in database
+	 * @param memItem specify to dump what info(CNC|ROBOT|TASK|ALL)
+	 */
+	public static void sysMemoryDump(String lineName, MemoryItems memItem){
+		//1. Dump machine info
+		if(MemoryItems.CNC == memItem || MemoryItems.ALL == memItem){
+			Map<String, LinkedHashMap<String, Object>> cncList = null;
+			cncList = DataUtils.getCNCList();
+			if(cncList.isEmpty()){
+				if("OK".equals(MySystemUtils.sysDatabaseOK())){
+					DataUtils.getCNCsByLineName(lineName);
+					cncList = DataUtils.getCNCList();
+				}
+			}
+			if(!cncList.isEmpty()){
+				CncData cncData = CncData.getInstance();
+				for(String cncIP:cncList.keySet()){
+					cncData.dumpCNCInfo(cncIP);
+				}
+			}
+		}
+		
+		//2. Dump robot info
+		if(MemoryItems.ROBOT == memItem || MemoryItems.ALL == memItem){
+			RobotData robotData = RobotData.getInstance();
+			String[] robotIPs = robotData.getRobotsByLineName(lineName);
+			if(null != robotIPs){
+				for(String robotIP:robotIPs){
+					robotData.dumpRobotInfo(robotIP);
+				}
+			}
+		}
+		
+		//3. Dump task info
+		if(MemoryItems.TASK == memItem || MemoryItems.ALL == memItem){
+			TaskData taskData = TaskData.getInstance();
+			String[] taskIDs = taskData.getTasksByLineName(lineName);
+			if(null != taskIDs){
+				for(String taskID:taskIDs){
+					taskData.dumpTaskInfo(taskID);
+				}
+			}
+		}
+		
+		//4. Dump workpiece info
+		if(MemoryItems.WORKPIECE == memItem || MemoryItems.ALL == memItem){
+			WorkpieceData wpData = WorkpieceData.getInstance();
+			wpData.dumpWorkpieceInfo();
+		}
+	}
+	
+	/**
+	 * 
+	 * @param lineName the registered line name in database
+	 * @param memItem specify to restore what info(CNC|ROBOT|TASK|ALL) from hard disk
+	 * @param restoreState specify what state need to restore(null to restore all states)
+	 * @param informObserver whether to inform the observers or not(true to inform)
+	 */
+	public static void sysMemoryRestore(String lineName, MemoryItems memItem, DeviceState restoreState, boolean informObserver){
+		String theLastID1 = "", theLastID2 = "", theLastID3 = "", theLastID4 = "";
+		
+		//1. Restore machine info
+		CncData cncData = CncData.getInstance();
+		if(MemoryItems.CNC == memItem || MemoryItems.ALL == memItem){
+			Map<String, LinkedHashMap<String, Object>> cncList = null;
+			cncList = DataUtils.getCNCList();
+			if(cncList.isEmpty()){
+				DataUtils.getCNCsByLineName(lineName);
+				cncList = DataUtils.getCNCList();
+			}
+			if(!cncList.isEmpty()){
+				for(String cncIP:cncList.keySet()){
+					theLastID1 = cncIP;
+					cncData.restoreCNCInfo(cncIP, restoreState, informObserver, true, true, false);
+				}
+			}
+		}
+		
+		//2. Restore robot info
+		RobotData robotData = RobotData.getInstance();
+		if(MemoryItems.ROBOT == memItem || MemoryItems.ALL == memItem){
+			String[] robotIPs = robotData.getRobotsByLineName(lineName);
+			if(null != robotIPs){
+				for(String robotIP:robotIPs){
+					theLastID2 = robotIP;
+					robotData.restoreRobotInfo(robotIP, restoreState, informObserver, true, true, false);
+				}
+			}
+		}
+		
+		//3. Restore task info
+		TaskData taskData = TaskData.getInstance();
+		if(MemoryItems.TASK == memItem || MemoryItems.ALL == memItem){
+			String[] taskIDs = taskData.getTasksByLineName(lineName);
+			if(null != taskIDs){
+				for(String taskID:taskIDs){
+					theLastID3 = taskID;
+					taskData.restoreTaskInfo(taskID, restoreState, informObserver, true, true, false);
+				}
+			}
+		}
+		
+		//4. Restore workpiece info
+		WorkpieceData wpData = WorkpieceData.getInstance();
+		if(MemoryItems.WORKPIECE == memItem || MemoryItems.ALL == memItem){
+			theLastID4 = wpData.restoreWorkpieceInfo(restoreState, informObserver, true, true, false);
+		}
+		
+		//5. Start the sequential threads
+		if(!"".equals(theLastID4)){
+			wpData.setWorkpieceState(theLastID4, (DeviceState)wpData.getWorkpieceState(theLastID4), false, true, true, true, true);
+		}else if(!"".equals(theLastID3)){
+			taskData.restoreTaskInfo(theLastID3, restoreState, informObserver, true, true, true);
+		}else if(!"".equals(theLastID2)){
+			robotData.restoreRobotInfo(theLastID2, restoreState, informObserver, true, true, true);
+		}else if(!"".equals(theLastID1)){
+			cncData.restoreCNCInfo(theLastID1, restoreState, informObserver, true, true, true);
+		}
+	}
+}

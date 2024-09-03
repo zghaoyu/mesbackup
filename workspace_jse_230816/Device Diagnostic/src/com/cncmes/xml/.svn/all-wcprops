@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/Device%20Diagnostic/src/com/cncmes/xml
+END
+SysConfig.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/Device%20Diagnostic/src/com/cncmes/xml/SysConfig.xml
+END
+CncEthernetCmd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/Device%20Diagnostic/src/com/cncmes/xml/CncEthernetCmd.xml
+END
+RobotEthernetCmd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/Device%20Diagnostic/src/com/cncmes/xml/RobotEthernetCmd.xml
+END
+CncWebAPI.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/Device%20Diagnostic/src/com/cncmes/xml/CncWebAPI.xml
+END

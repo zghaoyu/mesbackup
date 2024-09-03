@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;ifIdx&apos; in &apos;com.cncmes.drv.RobotR2D2.sendCommand(...)&apos; to &apos;ifCndIndex&apos;&#x0D;&#x0A;- Original project: &apos;CNC Client&apos;&#x0D;&#x0A;- Original element: &apos;com.cncmes.drv.RobotR2D2.sendCommand(String, String, LinkedHashMap&lt;String, String&gt;, LinkedHashMap&lt;String, String&gt;, String).ifIdx&apos;&#x0D;&#x0A;- Renamed element: &apos;ifIdx&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;ifIdx&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.cncmes.drv{RobotR2D2.java[RobotR2D2~sendCommand~QString;~QString;~QLinkedHashMap\&lt;QString;QString;&gt;;~QLinkedHashMap\&lt;QString;QString;&gt;;~QString;@ifIdx!31837!31901!31841!31845!I!0!false" name="ifCndIndex" references="true" stamp="1534381875331" version="1.0"/>
+</session>

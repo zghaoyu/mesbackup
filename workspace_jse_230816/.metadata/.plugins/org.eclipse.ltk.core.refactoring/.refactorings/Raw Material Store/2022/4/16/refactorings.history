@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;NetUtils.java&apos; to &apos;CNC Rack Station/src/com.cncmes.utils&apos;&#x0D;&#x0A;- Original project: &apos;Raw Material Store&apos;&#x0D;&#x0A;- Destination element: &apos;CNC Rack Station/src/com.cncmes.utils&apos;&#x0D;&#x0A;- Original element: &apos;com.cncmes.utils.NetUtils.java&apos;" description="Copy compilation unit" destination="=CNC Rack Station/src&lt;com.cncmes.utils" element1="/src&lt;com.cncmes.utils{NetUtils.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1649747460558" units="1" version="1.0"/>
+</session>

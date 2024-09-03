@@ -1,0 +1,7 @@
+2023-07-25 09:45:44@1690249544985@OK@getMachineState@http://10.10.206.5:6300/api/v3/hartford/status@{"brand":"hartford","model":"MVP-8","ip":"10.10.206.131","port":8193}@OK,code=0,data={"run":3,"emergency":0}@118
+2023-07-25 10:18:32@1690251512855@OK@getMachineState@http://10.10.206.5:6300/api/v3/hartford/status@{"brand":"hartford","model":"MVP-8","ip":"10.10.206.131","port":8193}@OK,code=0,data={"run":3,"emergency":0}@107
+2023-07-25 10:37:02@1690252622571@OK@getMachineState@http://10.10.206.5:6300/api/v3/hartford/status@{"brand":"hartford","model":"MVP-8","ip":"10.10.206.131","port":8193}@OK,code=0,data={"run":3,"emergency":0}@114
+2023-07-25 10:55:35@1690253735272@OK@getMachineState@http://10.10.206.5:6300/api/v3/hartford/status@{"brand":"hartford","model":"MVP-8","ip":"10.10.206.131","port":8193}@OK,code=0,data={"run":3,"emergency":0}@118
+2023-07-25 13:42:24@1690263744881@OK@getMachineState@http://10.10.206.5:6300/api/v3/hartford/status@{"brand":"hartford","model":"MVP-8","ip":"10.10.206.131","port":8193}@OK,code=0,data={"run":3,"emergency":0}@120
+2023-07-25 13:57:35@1690264655016@OK@getMachineState@http://10.10.206.5:6300/api/v3/hartford/status@{"brand":"hartford","model":"MVP-8","ip":"10.10.206.131","port":8193}@OK,code=0,data={"run":3,"emergency":0}@273
+2023-07-25 14:02:53@1690264973986@OK@getMachineState@http://10.10.206.5:6300/api/v3/hartford/status@{"brand":"hartford","model":"MVP-8","ip":"10.10.206.131","port":8193}@OK,code=0,data={"run":3,"emergency":0}@121

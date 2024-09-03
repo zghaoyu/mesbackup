@@ -1,0 +1,2 @@
+2023-07-12 15:09:52@1689145792920@NG@pick_and_place@pick_and_place,robot_pallet_a_slot_1,cnc_79_slot_1,17@Connect(10.10.207.56:6666) Failed:Fail connecting to server: Connection timed out: connect
+2023-07-12 16:14:10@1689149650504@NG@pick_and_place@pick_and_place,cnc_79_slot_2,robot_pallet_a_slot_2,17@Connect(10.10.207.56:6666) Failed:Fail connecting to server: Connection timed out: connect

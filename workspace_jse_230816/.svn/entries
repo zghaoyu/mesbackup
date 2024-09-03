@@ -1,0 +1,52 @@
+10
+
+dir
+1
+https://03-bx01-00018.sto-tech.hk:8443/svn/CNC_Automation_MES/trunk
+https://03-bx01-00018.sto-tech.hk:8443/svn/CNC_Automation_MES
+
+
+
+2021-06-17T10:29:43.861619Z
+1
+VisualSVN Server
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+abf31037-0a1c-0b43-ac45-e4c73f7fb8fb
+
+CNC Rack Manager
+dir
+
+CNC Client
+dir
+
+CNC Scheduler
+dir
+
+CNC eSpec
+dir
+
+Device Diagnostic
+dir
+
+PDFParser
+dir
+
+STOImgProc
+dir
+
+Keyence Printer
+dir
+

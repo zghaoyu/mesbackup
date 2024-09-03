@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CNC Client:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="13dc8f19-1ad9-4b42-a2a3-a7b52e0678e2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2U5YcNlXa1LW71cOr2yJ5ZuT2A7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../MEScode/CNC Client" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RunManager" selected="Application.CNCClient">
+    <configuration name="CNCClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cncmes.gui.CNCClient" />
+      <module name="CNC Client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cncmes.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CNCeSpec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.cncmes.gui.CNCeSpec" />
+      <module name="CNC eSpec" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cncmes.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RackManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cncmes.gui.RackManager" />
+      <module name="CNC Rack Manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cncmes.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scheduler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cncmes.gui.Scheduler" />
+      <module name="CNC Scheduler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cncmes.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CNCClient" />
+      <item itemvalue="Application.CNCeSpec" />
+      <item itemvalue="Application.RackManager" />
+      <item itemvalue="Application.Scheduler" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CNCClient" />
+        <item itemvalue="Application.RackManager" />
+        <item itemvalue="Application.Scheduler" />
+        <item itemvalue="Application.CNCeSpec" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\W000650\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13dc8f19-1ad9-4b42-a2a3-a7b52e0678e2" name="Default Changelist" comment="" />
+      <created>1692230986341</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692230986341</updated>
+      <workItem from="1692230987363" duration="6360000" />
+      <workItem from="1692317097954" duration="2958000" />
+      <workItem from="1692343012114" duration="32000" />
+      <workItem from="1692407726020" duration="7370000" />
+      <workItem from="1692576289397" duration="13767000" />
+      <workItem from="1692697830837" duration="2518000" />
+      <workItem from="1692749153691" duration="12073000" />
+      <workItem from="1692835667201" duration="6593000" />
+      <workItem from="1692922303254" duration="4551000" />
+      <workItem from="1693016515961" duration="2130000" />
+      <workItem from="1693185834594" duration="4213000" />
+      <workItem from="1693267597350" duration="12408000" />
+      <workItem from="1693353956744" duration="3630000" />
+      <workItem from="1693360934440" duration="8387000" />
+      <workItem from="1693440299224" duration="3201000" />
+      <workItem from="1693532279871" duration="16866000" />
+      <workItem from="1693616896106" duration="2760000" />
+      <workItem from="1693786761395" duration="23555000" />
+      <workItem from="1693872291206" duration="27214000" />
+      <workItem from="1693958566736" duration="32271000" />
+      <workItem from="1694044932636" duration="26657000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1693617463727">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1693617463727" />
+    <state x="414" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1693798176324">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="132" y="153" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1693794573557" />
+    <state x="414" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1693798176324" />
+    <state x="690" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1693617397897">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1693617397897" />
+    <state x="723" y="251" key="FileChooserDialogImpl" timestamp="1693905019616">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="723" y="251" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1693905019616" />
+    <state x="1084" y="265" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1693798189713" />
+    <state width="1237" height="194" key="GridCell.Tab.0.bottom" timestamp="1694076455444">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="194" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1694076455444" />
+    <state width="1877" height="205" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1694063484328" />
+    <state width="1237" height="194" key="GridCell.Tab.0.center" timestamp="1694076455444">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="194" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1694076455444" />
+    <state width="1877" height="205" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1694063484328" />
+    <state width="1237" height="194" key="GridCell.Tab.0.left" timestamp="1694076455444">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="194" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1694076455444" />
+    <state width="1877" height="205" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1694063484328" />
+    <state width="1237" height="194" key="GridCell.Tab.0.right" timestamp="1694076455444">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="194" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1694076455444" />
+    <state width="1877" height="205" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1694063484328" />
+    <state width="1237" height="175" key="GridCell.Tab.1.bottom" timestamp="1694071411149">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="175" key="GridCell.Tab.1.bottom/0.0.1280.984@0.0.1280.984" timestamp="1694071411149" />
+    <state width="1877" height="188" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1694047694190" />
+    <state width="1237" height="175" key="GridCell.Tab.1.center" timestamp="1694071411149">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="175" key="GridCell.Tab.1.center/0.0.1280.984@0.0.1280.984" timestamp="1694071411149" />
+    <state width="1877" height="188" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1694047694190" />
+    <state width="1237" height="175" key="GridCell.Tab.1.left" timestamp="1694071411149">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="175" key="GridCell.Tab.1.left/0.0.1280.984@0.0.1280.984" timestamp="1694071411149" />
+    <state width="1877" height="188" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1694047694190" />
+    <state width="1237" height="175" key="GridCell.Tab.1.right" timestamp="1694071411149">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="175" key="GridCell.Tab.1.right/0.0.1280.984@0.0.1280.984" timestamp="1694071411149" />
+    <state width="1877" height="188" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1694047694190" />
+    <state x="782" y="271" key="NewModule_or_Project.wizard" timestamp="1693798211846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="521" y="256" key="NewModule_or_Project.wizard/0.0.1280.984@0.0.1280.984" timestamp="1693795036946" />
+    <state x="782" y="271" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1693798211846" />
+    <state x="269" y="179" width="916" height="708" key="SettingsEditor" timestamp="1693875963483">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="269" y="179" width="916" height="708" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1693875963483" />
+    <state x="618" y="213" width="998" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1693798228339" />
+    <state x="68" y="167" key="new project wizard" timestamp="1693804204316">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="45" y="158" key="new project wizard/0.0.1280.984@0.0.1280.984" timestamp="1693794180139" />
+    <state x="68" y="167" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1693804204316" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1692595371947">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1692595371947" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1692923493631">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1692923493631" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cncmes/gui/RobotEthernetCmdConfig.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cncmes/thread/TaskProcessor.java</url>
+          <line>1472</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../STO/workspace_jse_220706/CNC Scheduler/src/com/cncmes/thread/RackMaterialMonitor.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../STO/workspace_jse_220706/CNC Scheduler/src/com/cncmes/ctrl/SchedulerServer.java</url>
+          <line>414</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cncmes/drv/RobotCMR.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../STO/workspace_jse_220706/CNC Scheduler/src/com/cncmes/ctrl/SchedulerServer.java</url>
+          <line>519</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../STO/workspace_jse_220706/CNC Scheduler/src/com/cncmes/ctrl/SchedulerServer.java</url>
+          <line>703</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cncmes/thread/TaskProcessor.java</url>
+          <line>1247</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cncmes/thread/TaskProcessor.java</url>
+          <line>1411</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cncmes/thread/TaskProcessor.java</url>
+          <line>1457</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cncmes/ctrl/SchedulerClient.java</url>
+          <line>264</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cncmes/thread/TaskMonitor.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/../../STO/workspace_jse_220706/CNC Scheduler/src/com/cncmes/thread/RackMaterialMonitor.java</url>
+          <line>95</line>
+          <properties class="com.cncmes.thread.RackMaterialMonitor.MyThread" method="setMaterialData">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/../../STO/workspace_jse_220706/CNC Scheduler/src/com/cncmes/thread/RackMaterialMonitor.java</url>
+          <line>78</line>
+          <properties class="com.cncmes.thread.RackMaterialMonitor.MyThread" method="run">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/../../STO/workspace_jse_220706/CNC Scheduler/src/com/cncmes/ctrl/SchedulerServer.java</url>
+          <line>311</line>
+          <properties class="com.cncmes.ctrl.SchedulerServer" method="setMaterialData">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/../../STO/workspace_jse_220706/CNC Scheduler/src/com/cncmes/ctrl/SchedulerServer.java</url>
+          <line>96</line>
+          <properties class="com.cncmes.ctrl.SchedulerServer" method="start">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
