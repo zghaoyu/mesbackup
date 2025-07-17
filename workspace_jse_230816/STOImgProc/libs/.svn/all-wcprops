@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/STOImgProc/libs
+END
+commons-codec-1.11.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/STOImgProc/libs/commons-codec-1.11.jar
+END
+commons-math3-3.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/STOImgProc/libs/commons-math3-3.6.1.jar
+END
+dom4j-2.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/STOImgProc/libs/dom4j-2.0.1.jar
+END

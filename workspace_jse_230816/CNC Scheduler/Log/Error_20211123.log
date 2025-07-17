@@ -1,0 +1,8 @@
+2021-11-23 09:31:58@1637631118076@SocketServer SocketSrvStart(9904) failed: Address already in use: JVM_Bind
+2021-11-23 09:31:58@1637631118074@SocketServer SocketSrvStart(9902) failed: Address already in use: JVM_Bind
+2021-11-23 10:04:58@1637633098800@SocketServer SocketSrvStart(9902) failed: Address already in use: JVM_Bind
+2021-11-23 10:04:58@1637633098803@SocketServer SocketSrvStart(9904) failed: Address already in use: JVM_Bind
+2021-11-23 13:47:22@1637646442162@SocketServer SocketSrvStart(9904) failed: Address already in use: JVM_Bind2021-11-23 13:47:22@1637646442162@SocketServer SocketSrvStart(9902) failed: Address already in use: JVM_Bind
+
+2021-11-23 14:23:58@1637648638043@SocketServer SocketSrvStart(9902) failed: Address already in use: JVM_Bind
+2021-11-23 14:23:58@1637648638045@SocketServer SocketSrvStart(9904) failed: Address already in use: JVM_Bind

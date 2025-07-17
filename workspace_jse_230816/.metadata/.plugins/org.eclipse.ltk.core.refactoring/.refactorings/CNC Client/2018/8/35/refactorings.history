@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;com.cncmes.gui.CNCController.startMachining()&apos; to &apos;doMachining&apos;&#x0D;&#x0A;- Original project: &apos;CNC Client&apos;&#x0D;&#x0A;- Original element: &apos;com.cncmes.gui.CNCController.startMachining()&apos;&#x0D;&#x0A;- Renamed element: &apos;com.cncmes.gui.CNCController.doMachining()&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;startMachining&apos;" flags="589826" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;com.cncmes.gui{CNCController.java[CNCController~startMachining" name="doMachining" references="true" stamp="1535614577994" version="1.0"/>
+</session>

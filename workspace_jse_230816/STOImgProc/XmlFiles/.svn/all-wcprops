@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/STOImgProc/XmlFiles
+END
+ProductSpec_debugCfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/STOImgProc/XmlFiles/ProductSpec_debugCfg.xml
+END
+License.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/STOImgProc/XmlFiles/License.xml
+END
+ProductSpec_ori.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/STOImgProc/XmlFiles/ProductSpec_ori.xml
+END
+SysConfig.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/STOImgProc/XmlFiles/SysConfig.xml
+END
+ProductSpec_batchTst.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/STOImgProc/XmlFiles/ProductSpec_batchTst.xml
+END
+ProfileString.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/STOImgProc/XmlFiles/ProfileString.xml
+END
+ProductSpec.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/STOImgProc/XmlFiles/ProductSpec.xml
+END

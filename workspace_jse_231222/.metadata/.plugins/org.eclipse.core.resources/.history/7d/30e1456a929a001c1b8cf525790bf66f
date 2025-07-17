@@ -1,0 +1,60 @@
+package com.cncmes.gui.panel;
+
+import javax.swing.JPanel;
+
+import java.awt.Color;
+import javax.swing.JLabel;
+import java.awt.Font;
+import java.awt.GridBagLayout;
+import java.awt.GridBagConstraints;
+import java.awt.FlowLayout;
+import java.awt.Insets;
+
+
+public class InputPanel extends JPanel {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -4900446293028375745L;
+	
+	private static InputPanel inputPanel = new InputPanel();
+
+	/**
+	 * Create the panel.
+	 */
+	private InputPanel() {
+		
+		this.setBackground(new Color(245, 245, 245));
+		GridBagLayout gridBagLayout = new GridBagLayout();
+		gridBagLayout.columnWidths = new int[]{7, 0, 5, 0};
+		gridBagLayout.rowHeights = new int[]{5, 0, 0, 5, 0};
+		gridBagLayout.columnWeights = new double[]{0.0, 1.0, 0.0, Double.MIN_VALUE};
+		gridBagLayout.rowWeights = new double[]{0.0, 1.0, 1.0, 0.0, Double.MIN_VALUE};
+		setLayout(gridBagLayout);
+		
+		JPanel panel_1 = new JPanel();
+		panel_1.setBackground(Color.WHITE);
+		GridBagConstraints gbc_panel_1 = new GridBagConstraints();
+		gbc_panel_1.insets = new Insets(0, 0, 5, 5);
+		gbc_panel_1.fill = GridBagConstraints.BOTH;
+		gbc_panel_1.gridx = 1;
+		gbc_panel_1.gridy = 1;
+		add(panel_1, gbc_panel_1);
+		
+		JPanel panel = new JPanel();
+		panel.setBackground(Color.WHITE);
+		GridBagConstraints gbc_panel = new GridBagConstraints();
+		gbc_panel.insets = new Insets(0, 0, 5, 5);
+		gbc_panel.fill = GridBagConstraints.BOTH;
+		gbc_panel.gridx = 1;
+		gbc_panel.gridy = 2;
+		add(panel, gbc_panel);
+
+	}
+	
+	public static InputPanel getInstance(){
+		return inputPanel;
+	}
+
+}

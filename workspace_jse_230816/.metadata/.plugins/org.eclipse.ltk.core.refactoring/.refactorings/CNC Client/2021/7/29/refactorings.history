@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;mysql-connector-java-5.1.39-bin.jar&apos; to &apos;libs&apos;&#x0D;&#x0A;- Original project: &apos;CNC Client&apos;&#x0D;&#x0A;- Destination element: &apos;libs&apos;&#x0D;&#x0A;- Original element: &apos;mysql-connector-java-5.1.39-bin.jar&apos;" description="Copy file" element1="libs/mysql-connector-java-5.1.39-bin.jar" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1626061853161" target="/JavaDemo/libs" units="0" version="1.0"/>
+</session>

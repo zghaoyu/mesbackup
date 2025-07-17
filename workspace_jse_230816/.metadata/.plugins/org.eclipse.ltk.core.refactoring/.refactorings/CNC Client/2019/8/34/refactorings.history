@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;btnParking&apos; in &apos;com.cncmes.gui.OneCycleController&apos; to &apos;btnMoveToMachine&apos;&#x0D;&#x0A;- Original project: &apos;CNC Client&apos;&#x0D;&#x0A;- Original element: &apos;com.cncmes.gui.OneCycleController.btnParking&apos;&#x0D;&#x0A;- Renamed element: &apos;com.cncmes.gui.OneCycleController.btnMoveToMachine&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;btnParking&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;com.cncmes.gui{OneCycleController.java[OneCycleController^btnParking" name="btnMoveToMachine" references="true" setter="false" stamp="1566468282073" textual="false" version="1.0"/>
+</session>

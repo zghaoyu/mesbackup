@@ -1,0 +1,18 @@
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.mylyn.java.ui.javaAllProposalCategory\u0000org.eclipse.recommenders.calls.rcp.proposalCategory.templates\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.recommenders.chain.rcp.proposalCategory.chain\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Enum"><rhs name\="com.cncmes.base.RackItems"/><rhs name\="com.cncmes.base.RobotItems"/><rhs name\="com.cncmes.base.CncItems"/></lhs><lhs name\="com.cncmes.base.CncItems"><rhs name\="com.cncmes.base.CncItems"/></lhs><lhs name\="com.cncmes.base.RackItems"><rhs name\="com.cncmes.base.RackItems"/></lhs><lhs name\="com.cncmes.base.RobotItems"><rhs name\="com.cncmes.base.RobotItems"/></lhs><lhs name\="java.awt.Paint"><rhs name\="java.awt.SystemColor"/><rhs name\="java.awt.Color"/></lhs><lhs name\="java.awt.Transparency"><rhs name\="java.awt.SystemColor"/><rhs name\="java.awt.Color"/></lhs><lhs name\="java.awt.Color"><rhs name\="java.awt.SystemColor"/><rhs name\="java.awt.Color"/></lhs><lhs name\="javax.accessibility.Accessible"><rhs name\="com.cncmes.gui.panel.MainPanel"/></lhs><lhs name\="javax.swing.JComponent"><rhs name\="com.cncmes.gui.panel.MainPanel"/><rhs name\="com.cncmes.gui.panel.InputPanel"/></lhs><lhs name\="javax.swing.TransferHandler$HasGetTransferHandler"><rhs name\="com.cncmes.gui.panel.MainPanel"/><rhs name\="com.cncmes.gui.panel.InputPanel"/></lhs><lhs name\="java.awt.Container"><rhs name\="com.cncmes.gui.panel.MainPanel"/><rhs name\="com.cncmes.gui.panel.InputPanel"/></lhs><lhs name\="java.awt.Component"><rhs name\="com.cncmes.gui.panel.MainPanel"/><rhs name\="com.cncmes.gui.panel.InputPanel"/><rhs name\="com.cncmes.gui.frame.RackStation"/></lhs><lhs name\="java.awt.image.ImageObserver"><rhs name\="com.cncmes.gui.panel.MainPanel"/><rhs name\="com.cncmes.gui.panel.InputPanel"/><rhs name\="com.cncmes.gui.frame.RackStation"/></lhs><lhs name\="java.awt.MenuContainer"><rhs name\="com.cncmes.gui.panel.MainPanel"/><rhs name\="com.cncmes.gui.panel.InputPanel"/><rhs name\="com.cncmes.gui.frame.RackStation"/></lhs><lhs name\="javax.swing.JPanel"><rhs name\="com.cncmes.gui.panel.MainPanel"/></lhs></history>
+content_assist_number_of_computers=20
+eclipse.preferences.version=1
+fontPropagated=true
+org.eclipse.jdt.ui.editor.tab.width=
+org.eclipse.jdt.ui.formatterprofiles.version=12
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.templates_migrated=true
+org.eclipse.jface.textfont=1|Courier New|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|49|Courier New;
+proposalOrderMigrated=true
+spelling_locale_initialized=true
+tabWidthPropagated=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

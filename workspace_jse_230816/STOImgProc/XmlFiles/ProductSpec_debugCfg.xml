@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ProductSpec>
+  <Criteria specName="Debug" imgProcRootDir="Debug Spec">
+    <onePixel unit="mm">0.012</onePixel>
+    <minPoleDistance unit="mm">0.12</minPoleDistance>
+    <maxPoleDistance unit="mm">1.4</maxPoleDistance>
+    <maxPoleAngle unit="degree">25</maxPoleAngle>
+    <topLeftCornerLayers>7</topLeftCornerLayers>
+    <topRightCornerLayers>7</topRightCornerLayers>
+    <lowerRightCornerLayers>8</lowerRightCornerLayers>
+    <lowerLeftCornerLayers>8</lowerLeftCornerLayers>
+    <firstPoleIsShorter>1</firstPoleIsShorter>
+    <firstPoleIsThicker>1</firstPoleIsThicker>
+    <rawImgSuffix>.jpg</rawImgSuffix>
+    <okImgSuffix>_OK.jpg</okImgSuffix>
+    <ngImgSuffix>_NG.jpg</ngImgSuffix>
+    <rawImgFolders>
+      <imgFolder>D:\imgRoot\Layer8-1</imgFolder>
+    </rawImgFolders>
+  </Criteria>
+  <Criteria specName="L6-1" imgProcRootDir="E:\xrayImgs\Layer6\Demo-1">
+    <onePixel unit="mm">0.012</onePixel>
+    <minPoleDistance unit="mm">0.17</minPoleDistance>
+    <maxPoleDistance unit="mm">1.3</maxPoleDistance>
+    <maxPoleAngle unit="degree">25</maxPoleAngle>
+    <topLeftCornerLayers>7</topLeftCornerLayers>
+    <topRightCornerLayers>7</topRightCornerLayers>
+    <lowerRightCornerLayers>7</lowerRightCornerLayers>
+    <lowerLeftCornerLayers>7</lowerLeftCornerLayers>
+    <firstPoleIsShorter>1</firstPoleIsShorter>
+    <firstPoleIsThicker>1</firstPoleIsThicker>
+    <rawImgSuffix>.jpg</rawImgSuffix>
+    <okImgSuffix>_OK.jpg</okImgSuffix>
+    <ngImgSuffix>_NG.jpg</ngImgSuffix>
+    <rawImgFolders>
+      <imgFolder>D:\imgRoot\Layer6-1</imgFolder>
+      <imgFolder>D:\imgRoot\Layer6-2</imgFolder>
+      <imgFolder>D:\imgRoot\Layer6-3</imgFolder>
+    </rawImgFolders>
+  </Criteria>
+  <Criteria specName="L6-2" imgProcRootDir="E:\xrayImgs\Layer6\Demo-2">
+    <onePixel unit="mm">0.012</onePixel>
+    <minPoleDistance unit="mm">0.17</minPoleDistance>
+    <maxPoleDistance unit="mm">1.3</maxPoleDistance>
+    <maxPoleAngle unit="degree">25</maxPoleAngle>
+    <topLeftCornerLayers>7</topLeftCornerLayers>
+    <topRightCornerLayers>7</topRightCornerLayers>
+    <lowerRightCornerLayers>7</lowerRightCornerLayers>
+    <lowerLeftCornerLayers>7</lowerLeftCornerLayers>
+    <firstPoleIsShorter>1</firstPoleIsShorter>
+    <firstPoleIsThicker>1</firstPoleIsThicker>
+    <rawImgSuffix>.jpg</rawImgSuffix>
+    <okImgSuffix>_OK.jpg</okImgSuffix>
+    <ngImgSuffix>_NG.jpg</ngImgSuffix>
+    <rawImgFolders>
+      <imgFolder>D:\imgRoot\Layer6-7</imgFolder>
+      <imgFolder>D:\imgRoot\Layer6-8</imgFolder>
+      <imgFolder>D:\imgRoot\Layer6-9</imgFolder>
+    </rawImgFolders>
+  </Criteria>
+  <Criteria specName="L6-3" imgProcRootDir="E:\xrayImgs\Layer6\Demo-3">
+    <onePixel unit="mm">0.012</onePixel>
+    <minPoleDistance unit="mm">0.17</minPoleDistance>
+    <maxPoleDistance unit="mm">1.3</maxPoleDistance>
+    <maxPoleAngle unit="degree">25</maxPoleAngle>
+    <topLeftCornerLayers>6</topLeftCornerLayers>
+    <topRightCornerLayers>6</topRightCornerLayers>
+    <lowerRightCornerLayers>6</lowerRightCornerLayers>
+    <lowerLeftCornerLayers>6</lowerLeftCornerLayers>
+    <firstPoleIsShorter>1</firstPoleIsShorter>
+    <firstPoleIsThicker>1</firstPoleIsThicker>
+    <rawImgSuffix>.jpg</rawImgSuffix>
+    <okImgSuffix>_OK.jpg</okImgSuffix>
+    <ngImgSuffix>_NG.jpg</ngImgSuffix>
+    <rawImgFolders>
+      <imgFolder>D:\imgRoot\Layer6-4</imgFolder>
+      <imgFolder>D:\imgRoot\Layer6-5</imgFolder>
+      <imgFolder>D:\imgRoot\Layer6-6</imgFolder>
+    </rawImgFolders>
+  </Criteria>
+  <Criteria specName="L8-1" imgProcRootDir="E:\xrayImgs\Layer8\Demo-1">
+    <onePixel unit="mm">0.012</onePixel>
+    <minPoleDistance unit="mm">0.17</minPoleDistance>
+    <maxPoleDistance unit="mm">1.3</maxPoleDistance>
+    <maxPoleAngle unit="degree">25</maxPoleAngle>
+    <topLeftCornerLayers>8</topLeftCornerLayers>
+    <topRightCornerLayers>8</topRightCornerLayers>
+    <lowerRightCornerLayers>8</lowerRightCornerLayers>
+    <lowerLeftCornerLayers>8</lowerLeftCornerLayers>
+    <firstPoleIsShorter>1</firstPoleIsShorter>
+    <firstPoleIsThicker>1</firstPoleIsThicker>
+    <rawImgSuffix>.jpg</rawImgSuffix>
+    <okImgSuffix>_OK.jpg</okImgSuffix>
+    <ngImgSuffix>_NG.jpg</ngImgSuffix>
+    <rawImgFolders>
+      <imgFolder>D:\imgRoot\Layer8-1</imgFolder>
+      <imgFolder>D:\imgRoot\Layer8-2</imgFolder>
+      <imgFolder>D:\imgRoot\Layer8-3</imgFolder>
+    </rawImgFolders>
+  </Criteria>
+  <Criteria specName="L8-2" imgProcRootDir="E:\xrayImgs\Layer8\Demo-2">
+    <onePixel unit="mm">0.012</onePixel>
+    <minPoleDistance unit="mm">0.17</minPoleDistance>
+    <maxPoleDistance unit="mm">1</maxPoleDistance>
+    <maxPoleAngle unit="degree">25</maxPoleAngle>
+    <topLeftCornerLayers>8</topLeftCornerLayers>
+    <topRightCornerLayers>8</topRightCornerLayers>
+    <lowerRightCornerLayers>8</lowerRightCornerLayers>
+    <lowerLeftCornerLayers>8</lowerLeftCornerLayers>
+    <firstPoleIsShorter>1</firstPoleIsShorter>
+    <firstPoleIsThicker>1</firstPoleIsThicker>
+    <rawImgSuffix>.jpg</rawImgSuffix>
+    <okImgSuffix>_OK.jpg</okImgSuffix>
+    <ngImgSuffix>_NG.jpg</ngImgSuffix>
+    <rawImgFolders>
+      <imgFolder>D:\imgRoot\Layer8-4</imgFolder>
+      <imgFolder>D:\imgRoot\Layer8-5</imgFolder>
+      <imgFolder>D:\imgRoot\Layer8-6</imgFolder>
+    </rawImgFolders>
+  </Criteria>
+  <Criteria specName="L7-1" imgProcRootDir="E:\xrayImgs\Layer7\Demo-1">
+    <onePixel unit="mm">0.012</onePixel>
+    <minPoleDistance unit="mm">0.2</minPoleDistance>
+    <maxPoleDistance unit="mm">1.6</maxPoleDistance>
+    <maxPoleAngle unit="degree">25</maxPoleAngle>
+    <topLeftCornerLayers>7</topLeftCornerLayers>
+    <topRightCornerLayers>7</topRightCornerLayers>
+    <lowerRightCornerLayers>7</lowerRightCornerLayers>
+    <lowerLeftCornerLayers>7</lowerLeftCornerLayers>
+    <firstPoleIsShorter>1</firstPoleIsShorter>
+    <firstPoleIsThicker>1</firstPoleIsThicker>
+    <rawImgSuffix>.jpg</rawImgSuffix>
+    <okImgSuffix>_OK.jpg</okImgSuffix>
+    <ngImgSuffix>_NG.jpg</ngImgSuffix>
+    <rawImgFolders>
+      <imgFolder>D:\imgRoot\Layer7-1</imgFolder>
+      <imgFolder>D:\imgRoot\Layer7-2</imgFolder>
+      <imgFolder>D:\imgRoot\Layer7-3</imgFolder>
+    </rawImgFolders>
+  </Criteria>
+  <Criteria specName="L7-2" imgProcRootDir="E:\xrayImgs\Layer7\Demo-2">
+    <onePixel unit="mm">0.012</onePixel>
+    <minPoleDistance unit="mm">0.2</minPoleDistance>
+    <maxPoleDistance unit="mm">1.6</maxPoleDistance>
+    <maxPoleAngle unit="degree">25</maxPoleAngle>
+    <topLeftCornerLayers>7</topLeftCornerLayers>
+    <topRightCornerLayers>7</topRightCornerLayers>
+    <lowerRightCornerLayers>7</lowerRightCornerLayers>
+    <lowerLeftCornerLayers>7</lowerLeftCornerLayers>
+    <firstPoleIsShorter>1</firstPoleIsShorter>
+    <firstPoleIsThicker>1</firstPoleIsThicker>
+    <rawImgSuffix>.jpg</rawImgSuffix>
+    <okImgSuffix>_OK.jpg</okImgSuffix>
+    <ngImgSuffix>_NG.jpg</ngImgSuffix>
+    <rawImgFolders>
+      <imgFolder>D:\imgRoot\Layer7-4</imgFolder>
+    </rawImgFolders>
+  </Criteria>
+  <Criteria specName="L14-1" imgProcRootDir="E:\xrayImgs\Layer14\Demo-1">
+    <onePixel unit="mm">0.012</onePixel>
+    <minPoleDistance unit="mm">0.2</minPoleDistance>
+    <maxPoleDistance unit="mm">1.8</maxPoleDistance>
+    <maxPoleAngle unit="degree">25</maxPoleAngle>
+    <topLeftCornerLayers>13</topLeftCornerLayers>
+    <topRightCornerLayers>13</topRightCornerLayers>
+    <lowerRightCornerLayers>13</lowerRightCornerLayers>
+    <lowerLeftCornerLayers>13</lowerLeftCornerLayers>
+    <firstPoleIsShorter>1</firstPoleIsShorter>
+    <firstPoleIsThicker>1</firstPoleIsThicker>
+    <rawImgSuffix>.jpg</rawImgSuffix>
+    <okImgSuffix>_OK.jpg</okImgSuffix>
+    <ngImgSuffix>_NG.jpg</ngImgSuffix>
+    <rawImgFolders>
+      <imgFolder>D:\imgRoot\Layer14-1</imgFolder>
+    </rawImgFolders>
+  </Criteria>
+  <Criteria specName="L4-1" imgProcRootDir="E:\xrayImgs\Layer4\Demo-1">
+    <onePixel unit="mm">0.012</onePixel>
+    <minPoleDistance unit="mm">0.20</minPoleDistance>
+    <maxPoleDistance unit="mm">1.7</maxPoleDistance>
+    <maxPoleAngle unit="degree">25</maxPoleAngle>
+    <topLeftCornerLayers>4</topLeftCornerLayers>
+    <topRightCornerLayers>4</topRightCornerLayers>
+    <lowerRightCornerLayers>4</lowerRightCornerLayers>
+    <lowerLeftCornerLayers>4</lowerLeftCornerLayers>
+    <firstPoleIsShorter>1</firstPoleIsShorter>
+    <firstPoleIsThicker>1</firstPoleIsThicker>
+    <rawImgSuffix>.jpg</rawImgSuffix>
+    <okImgSuffix>_OK.jpg</okImgSuffix>
+    <ngImgSuffix>_NG.jpg</ngImgSuffix>
+    <rawImgFolders>
+      <imgFolder>D:\imgRoot\Layer4-1</imgFolder>
+      <imgFolder>D:\imgRoot\Layer4-2</imgFolder>
+    </rawImgFolders>
+  </Criteria>
+  <Criteria specName="L4-2" imgProcRootDir="E:\xrayImgs\Layer4\Demo-2">
+    <onePixel unit="mm">0.012</onePixel>
+    <minPoleDistance unit="mm">0.20</minPoleDistance>
+    <maxPoleDistance unit="mm">1.7</maxPoleDistance>
+    <maxPoleAngle unit="degree">25</maxPoleAngle>
+    <topLeftCornerLayers>4</topLeftCornerLayers>
+    <topRightCornerLayers>4</topRightCornerLayers>
+    <lowerRightCornerLayers>4</lowerRightCornerLayers>
+    <lowerLeftCornerLayers>4</lowerLeftCornerLayers>
+    <firstPoleIsShorter>1</firstPoleIsShorter>
+    <firstPoleIsThicker>1</firstPoleIsThicker>
+    <rawImgSuffix>.jpg</rawImgSuffix>
+    <okImgSuffix>_OK.jpg</okImgSuffix>
+    <ngImgSuffix>_NG.jpg</ngImgSuffix>
+    <rawImgFolders>
+      <imgFolder>D:\imgRoot\Layer4-3</imgFolder>
+    </rawImgFolders>
+  </Criteria>
+  <Criteria specName="L4-10" imgProcRootDir="E:\xrayImgs\Layer4\Demo-10">
+    <onePixel unit="mm">0.012</onePixel>
+    <minPoleDistance unit="mm">0.20</minPoleDistance>
+    <maxPoleDistance unit="mm">1.7</maxPoleDistance>
+    <maxPoleAngle unit="degree">25</maxPoleAngle>
+    <topLeftCornerLayers>4</topLeftCornerLayers>
+    <topRightCornerLayers>4</topRightCornerLayers>
+    <lowerRightCornerLayers>4</lowerRightCornerLayers>
+    <lowerLeftCornerLayers>4</lowerLeftCornerLayers>
+    <firstPoleIsShorter>1</firstPoleIsShorter>
+    <firstPoleIsThicker>1</firstPoleIsThicker>
+    <rawImgSuffix>.jpg</rawImgSuffix>
+    <okImgSuffix>_OK.jpg</okImgSuffix>
+    <ngImgSuffix>_NG.jpg</ngImgSuffix>
+    <rawImgFolders>
+      <imgFolder>D:\imgRoot\Layer4-10</imgFolder>
+    </rawImgFolders>
+  </Criteria>
+  <Criteria specName="L6-10" imgProcRootDir="E:\xrayImgs\Layer6\Demo-10">
+    <onePixel unit="mm">0.012</onePixel>
+    <minPoleDistance unit="mm">0.17</minPoleDistance>
+    <maxPoleDistance unit="mm">1.3</maxPoleDistance>
+    <maxPoleAngle unit="degree">25</maxPoleAngle>
+    <topLeftCornerLayers>6</topLeftCornerLayers>
+    <topRightCornerLayers>6</topRightCornerLayers>
+    <lowerRightCornerLayers>6</lowerRightCornerLayers>
+    <lowerLeftCornerLayers>6</lowerLeftCornerLayers>
+    <firstPoleIsShorter>1</firstPoleIsShorter>
+    <firstPoleIsThicker>1</firstPoleIsThicker>
+    <rawImgSuffix>.jpg</rawImgSuffix>
+    <okImgSuffix>_OK.jpg</okImgSuffix>
+    <ngImgSuffix>_NG.jpg</ngImgSuffix>
+    <rawImgFolders>
+      <imgFolder>D:\imgRoot\Layer6-10</imgFolder>
+    </rawImgFolders>
+  </Criteria>
+  <Criteria specName="L7-10" imgProcRootDir="E:\xrayImgs\Layer7\Demo-10">
+    <onePixel unit="mm">0.012</onePixel>
+    <minPoleDistance unit="mm">0.2</minPoleDistance>
+    <maxPoleDistance unit="mm">1.6</maxPoleDistance>
+    <maxPoleAngle unit="degree">25</maxPoleAngle>
+    <topLeftCornerLayers>7</topLeftCornerLayers>
+    <topRightCornerLayers>7</topRightCornerLayers>
+    <lowerRightCornerLayers>7</lowerRightCornerLayers>
+    <lowerLeftCornerLayers>7</lowerLeftCornerLayers>
+    <firstPoleIsShorter>1</firstPoleIsShorter>
+    <firstPoleIsThicker>1</firstPoleIsThicker>
+    <rawImgSuffix>.jpg</rawImgSuffix>
+    <okImgSuffix>_OK.jpg</okImgSuffix>
+    <ngImgSuffix>_NG.jpg</ngImgSuffix>
+    <rawImgFolders>
+      <imgFolder>D:\imgRoot\Layer7-10</imgFolder>
+    </rawImgFolders>
+  </Criteria>
+  <Criteria specName="L8-10" imgProcRootDir="E:\xrayImgs\Layer8\Demo-10">
+    <onePixel unit="mm">0.012</onePixel>
+    <minPoleDistance unit="mm">0.17</minPoleDistance>
+    <maxPoleDistance unit="mm">1</maxPoleDistance>
+    <maxPoleAngle unit="degree">25</maxPoleAngle>
+    <topLeftCornerLayers>8</topLeftCornerLayers>
+    <topRightCornerLayers>8</topRightCornerLayers>
+    <lowerRightCornerLayers>8</lowerRightCornerLayers>
+    <lowerLeftCornerLayers>8</lowerLeftCornerLayers>
+    <firstPoleIsShorter>1</firstPoleIsShorter>
+    <firstPoleIsThicker>1</firstPoleIsThicker>
+    <rawImgSuffix>.jpg</rawImgSuffix>
+    <okImgSuffix>_OK.jpg</okImgSuffix>
+    <ngImgSuffix>_NG.jpg</ngImgSuffix>
+    <rawImgFolders>
+      <imgFolder>D:\imgRoot\Layer8-10</imgFolder>
+    </rawImgFolders>
+  </Criteria>
+</ProductSpec>

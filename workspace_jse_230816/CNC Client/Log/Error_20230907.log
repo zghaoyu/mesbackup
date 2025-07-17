@@ -1,0 +1,1487 @@
+2023-09-07 08:32:32@1694046752921@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:32:33@1694046753928@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:32:34@1694046754935@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:32:35@1694046755942@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:32:36@1694046756949@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:32:37@1694046757953@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:32:38@1694046758957@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:32:39@1694046759966@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:32:40@1694046760973@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:32:41@1694046761978@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:32:42@1694046762986@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:32:43@1694046763993@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:32:44@1694046764999@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:32:46@1694046766003@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:32:47@1694046767006@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:32:48@1694046768012@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:32:49@1694046769021@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:32:50@1694046770030@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:44:58@1694047498717@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:44:59@1694047499723@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:45:00@1694047500730@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:45:01@1694047501734@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:45:02@1694047502737@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:45:03@1694047503744@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:45:04@1694047504750@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:45:05@1694047505756@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:45:06@1694047506762@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:45:07@1694047507769@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:45:08@1694047508774@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:45:09@1694047509780@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:45:10@1694047510785@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:45:11@1694047511792@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 08:45:12@1694047512800@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 10:28:07@1694053687077@SocketClient connect(127.0.0.1:9902) failed:Connection refused: connect
+2023-09-07 10:28:08@1694053688086@SocketClient connect(127.0.0.1:9902) failed:Connection refused: connect
+2023-09-07 10:28:09@1694053689090@SocketClient connect(127.0.0.1:9902) failed:Connection refused: connect
+2023-09-07 10:28:10@1694053690098@SocketClient connect(127.0.0.1:9902) failed:Connection refused: connect
+2023-09-07 10:28:11@1694053691103@SocketClient connect(127.0.0.1:9902) failed:Connection refused: connect
+2023-09-07 15:23:01@1694071381923@SocketClient connecSt(127.0.0.1:9950) failed:Connection refused: connect
+Ping(127.0.0.1):OK
+Netstat(127.0.0.1):
+  TCP    127.0.0.1:4012         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:4013         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:6942         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:8680         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:8884         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:9904         127.0.0.1:52063        ESTABLISHED     InHost      
+  TCP    127.0.0.1:12313        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:49902        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:51970        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:51970        127.0.0.1:51971        ESTABLISHED     InHost      
+  TCP    127.0.0.1:51971        127.0.0.1:51970        ESTABLISHED     InHost      
+  TCP    127.0.0.1:51999        127.0.0.1:52000        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52000        127.0.0.1:51999        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52003        127.0.0.1:61515        TIME_WAIT       InHost      
+  TCP    127.0.0.1:52027        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:52027        127.0.0.1:52028        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52028        127.0.0.1:52027        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52029        127.0.0.1:52030        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52030        127.0.0.1:52029        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52031        127.0.0.1:61515        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52063        127.0.0.1:9904         ESTABLISHED     InHost      
+  TCP    127.0.0.1:57831        127.0.0.1:57832        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57832        127.0.0.1:57831        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61481        127.0.0.1:61482        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61482        127.0.0.1:61481        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61483        127.0.0.1:61484        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61484        127.0.0.1:61483        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61485        127.0.0.1:61486        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61486        127.0.0.1:61485        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61491        127.0.0.1:61492        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61492        127.0.0.1:61491        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61493        127.0.0.1:61494        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61494        127.0.0.1:61493        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61495        127.0.0.1:61496        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61496        127.0.0.1:61495        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61497        127.0.0.1:61498        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61498        127.0.0.1:61497        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61499        127.0.0.1:61500        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61500        127.0.0.1:61499        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61501        127.0.0.1:61502        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61502        127.0.0.1:61501        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61503        127.0.0.1:61504        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61504        127.0.0.1:61503        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61505        127.0.0.1:61506        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61506        127.0.0.1:61505        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61507        127.0.0.1:61508        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61508        127.0.0.1:61507        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61509        127.0.0.1:61510        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61510        127.0.0.1:61509        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61511        127.0.0.1:61512        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61512        127.0.0.1:61511        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61513        127.0.0.1:61514        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61514        127.0.0.1:61513        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61515        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:61515        127.0.0.1:52031        ESTABLISHED     InHost      
+  TCP    127.0.0.1:63342        0.0.0.0:0              LISTENING       InHost      
+  UDP    127.0.0.1:1900         *:*                                                
+  UDP    127.0.0.1:49223        *:*                                                
+  UDP    127.0.0.1:51222        *:*                                                
+  UDP    127.0.0.1:53088        *:*                                                
+  UDP    127.0.0.1:53385        *:*                                                
+  UDP    127.0.0.1:55403        *:*                                                
+  UDP    127.0.0.1:56734        *:*                                                
+  UDP    127.0.0.1:64241        *:*                                                
+2023-09-07 15:23:01@1694071381927@RackClient-rackServerIsReady(TS62A,8)-sendInfo(127.0.0.1,9950,checkState,TS62A,192.168.92.1,20520,724B560010FFE5D05116D3E4DFAE0209) failed
+2023-09-07 15:23:11@1694071391606@SocketClient SocketDataListener(127.0.0.1:9950) Stop:Socket closed
+2023-09-07 15:23:11@1694071391705@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-09-07 15:23:11@1694071391747@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:23:11@1694071391879@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2023-09-07 15:23:12@1694071392951@SocketClient connecSt(127.0.0.1:10001) failed:Connection refused: connect
+Ping(127.0.0.1):OK
+Netstat(127.0.0.1):
+  TCP    127.0.0.1:4012         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:4013         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:6942         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:8680         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:8884         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:9904         127.0.0.1:52063        ESTABLISHED     InHost      
+  TCP    127.0.0.1:12313        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:49902        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:51970        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:51970        127.0.0.1:51971        ESTABLISHED     InHost      
+  TCP    127.0.0.1:51971        127.0.0.1:51970        ESTABLISHED     InHost      
+  TCP    127.0.0.1:51999        127.0.0.1:52000        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52000        127.0.0.1:51999        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52003        127.0.0.1:61515        TIME_WAIT       InHost      
+  TCP    127.0.0.1:52027        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:52027        127.0.0.1:52028        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52028        127.0.0.1:52027        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52029        127.0.0.1:52030        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52030        127.0.0.1:52029        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52031        127.0.0.1:61515        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52063        127.0.0.1:9904         ESTABLISHED     InHost      
+  TCP    127.0.0.1:52092        127.0.0.1:9950         TIME_WAIT       InHost      
+  TCP    127.0.0.1:52093        127.0.0.1:9903         TIME_WAIT       InHost      
+  TCP    127.0.0.1:52095        127.0.0.1:9901         TIME_WAIT       InHost      
+  TCP    127.0.0.1:57831        127.0.0.1:57832        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57832        127.0.0.1:57831        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61481        127.0.0.1:61482        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61482        127.0.0.1:61481        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61483        127.0.0.1:61484        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61484        127.0.0.1:61483        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61485        127.0.0.1:61486        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61486        127.0.0.1:61485        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61491        127.0.0.1:61492        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61492        127.0.0.1:61491        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61493        127.0.0.1:61494        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61494        127.0.0.1:61493        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61495        127.0.0.1:61496        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61496        127.0.0.1:61495        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61497        127.0.0.1:61498        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61498        127.0.0.1:61497        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61499        127.0.0.1:61500        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61500        127.0.0.1:61499        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61501        127.0.0.1:61502        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61502        127.0.0.1:61501        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61503        127.0.0.1:61504        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61504        127.0.0.1:61503        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61505        127.0.0.1:61506        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61506        127.0.0.1:61505        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61507        127.0.0.1:61508        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61508        127.0.0.1:61507        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61509        127.0.0.1:61510        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61510        127.0.0.1:61509        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61511        127.0.0.1:61512        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61512        127.0.0.1:61511        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61513        127.0.0.1:61514        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61514        127.0.0.1:61513        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61515        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:61515        127.0.0.1:52031        ESTABLISHED     InHost      
+  TCP    127.0.0.1:63342        0.0.0.0:0              LISTENING       InHost      
+  UDP    127.0.0.1:1900         *:*                                                
+  UDP    127.0.0.1:49223        *:*                                                
+  UDP    127.0.0.1:51222        *:*                                                
+  UDP    127.0.0.1:53088        *:*                                                
+  UDP    127.0.0.1:53385        *:*                                                
+  UDP    127.0.0.1:55403        *:*                                                
+  UDP    127.0.0.1:56734        *:*                                                
+  UDP    127.0.0.1:64241        *:*                                                
+2023-09-07 15:23:12@1694071392952@CncAssistant(dummyCNC01) sendCommand(getMachineState-getMachineState#1) ERR:Fail connecting to server: Connection refused: connect
+2023-09-07 15:23:13@1694071393058@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2023-09-07 15:23:13@1694071393164@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:23:18@1694071398269@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:23:18@1694071398754@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2023-09-07 15:23:18@1694071398755@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2023-09-07 15:23:18@1694071398860@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2023-09-07 15:23:18@1694071398862@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2023-09-07 15:23:19@1694071399374@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:23:20@1694071400481@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:23:25@1694071405587@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:23:30@1694071410695@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:23:35@1694071415801@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:23:40@1694071420905@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:23:44@1694071424656@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-09-07 15:23:44@1694071424763@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2023-09-07 15:23:46@1694071426012@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:23:51@1694071431116@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:23:56@1694071436219@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:24:01@1694071441322@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:24:06@1694071446428@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:24:11@1694071451536@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:24:15@1694071455913@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-09-07 15:24:16@1694071456643@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:24:21@1694071461749@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:24:26@1694071466855@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:24:31@1694071471503@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-09-07 15:24:31@1694071471961@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:24:37@1694071477066@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:24:42@1694071482171@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:24:46@1694071486079@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-09-07 15:24:46@1694071486188@SocketClient SocketDataListener(127.0.0.1:9902) Stop:Socket closed
+2023-09-07 15:24:46@1694071486302@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2023-09-07 15:24:46@1694071486410@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2023-09-07 15:24:47@1694071487279@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:24:48@1694071488090@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-09-07 15:24:48@1694071488384@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:24:53@1694071493491@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:24:58@1694071498595@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:25:03@1694071503698@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:25:08@1694071508806@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:25:13@1694071513915@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:25:19@1694071519022@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:25:24@1694071524130@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:25:29@1694071529233@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:25:34@1694071534337@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:25:39@1694071539445@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:25:44@1694071544550@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:25:48@1694071548330@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:30:37@1694071837314@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 15:30:38@1694071838322@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 15:30:39@1694071839329@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 15:30:40@1694071840339@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 15:30:41@1694071841347@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 15:30:42@1694071842355@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 15:30:43@1694071843363@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 15:30:44@1694071844370@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 15:30:45@1694071845377@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 15:30:46@1694071846383@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 15:30:47@1694071847391@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 15:30:48@1694071848399@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 15:30:49@1694071849406@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 15:30:50@1694071850414@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 15:30:51@1694071851420@SocketClient connect(127.0.0.1:9904) failed:Connection refused: connect
+2023-09-07 15:31:06@1694071866958@SocketClient connect(127.0.0.1:9902) failed:Connection refused: connect
+2023-09-07 15:31:07@1694071867967@SocketClient connect(127.0.0.1:9902) failed:Connection refused: connect
+2023-09-07 15:31:08@1694071868974@SocketClient connect(127.0.0.1:9902) failed:Connection refused: connect
+2023-09-07 15:31:09@1694071869983@SocketClient connect(127.0.0.1:9902) failed:Connection refused: connect
+2023-09-07 15:31:10@1694071870991@SocketClient connect(127.0.0.1:9902) failed:Connection refused: connect
+2023-09-07 15:31:11@1694071871997@SocketClient connect(127.0.0.1:9902) failed:Connection refused: connect
+2023-09-07 15:31:13@1694071873006@SocketClient connect(127.0.0.1:9902) failed:Connection refused: connect
+2023-09-07 15:31:14@1694071874013@SocketClient connect(127.0.0.1:9902) failed:Connection refused: connect
+2023-09-07 15:32:21@1694071941229@SocketClient SocketDataListener(127.0.0.1:9950) Stop:Socket closed
+2023-09-07 15:32:21@1694071941346@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:32:21@1694071941457@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2023-09-07 15:32:22@1694071942534@SocketClient connecSt(127.0.0.1:10001) failed:Connection refused: connect
+Ping(127.0.0.1):OK
+Netstat(127.0.0.1):
+  TCP    127.0.0.1:4012         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:4013         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:6942         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:8680         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:8884         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:9904         127.0.0.1:55560        ESTABLISHED     InHost      
+  TCP    127.0.0.1:12313        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:49902        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:52261        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:52261        127.0.0.1:52262        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52262        127.0.0.1:52261        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52265        127.0.0.1:61515        TIME_WAIT       InHost      
+  TCP    127.0.0.1:55523        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:55523        127.0.0.1:55524        ESTABLISHED     InHost      
+  TCP    127.0.0.1:55524        127.0.0.1:55523        ESTABLISHED     InHost      
+  TCP    127.0.0.1:55527        127.0.0.1:61515        TIME_WAIT       InHost      
+  TCP    127.0.0.1:55541        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:55541        127.0.0.1:55542        ESTABLISHED     InHost      
+  TCP    127.0.0.1:55542        127.0.0.1:55541        ESTABLISHED     InHost      
+  TCP    127.0.0.1:55543        127.0.0.1:55544        ESTABLISHED     InHost      
+  TCP    127.0.0.1:55544        127.0.0.1:55543        ESTABLISHED     InHost      
+  TCP    127.0.0.1:55545        127.0.0.1:61515        ESTABLISHED     InHost      
+  TCP    127.0.0.1:55560        127.0.0.1:9904         ESTABLISHED     InHost      
+  TCP    127.0.0.1:55584        127.0.0.1:9950         TIME_WAIT       InHost      
+  TCP    127.0.0.1:55585        127.0.0.1:9903         TIME_WAIT       InHost      
+  TCP    127.0.0.1:55587        127.0.0.1:9901         TIME_WAIT       InHost      
+  TCP    127.0.0.1:57831        127.0.0.1:57832        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57832        127.0.0.1:57831        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61481        127.0.0.1:61482        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61482        127.0.0.1:61481        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61483        127.0.0.1:61484        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61484        127.0.0.1:61483        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61485        127.0.0.1:61486        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61486        127.0.0.1:61485        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61491        127.0.0.1:61492        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61492        127.0.0.1:61491        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61493        127.0.0.1:61494        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61494        127.0.0.1:61493        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61495        127.0.0.1:61496        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61496        127.0.0.1:61495        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61497        127.0.0.1:61498        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61498        127.0.0.1:61497        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61499        127.0.0.1:61500        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61500        127.0.0.1:61499        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61501        127.0.0.1:61502        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61502        127.0.0.1:61501        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61503        127.0.0.1:61504        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61504        127.0.0.1:61503        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61505        127.0.0.1:61506        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61506        127.0.0.1:61505        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61507        127.0.0.1:61508        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61508        127.0.0.1:61507        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61509        127.0.0.1:61510        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61510        127.0.0.1:61509        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61511        127.0.0.1:61512        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61512        127.0.0.1:61511        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61513        127.0.0.1:61514        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61514        127.0.0.1:61513        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61515        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:61515        127.0.0.1:55545        ESTABLISHED     InHost      
+  TCP    127.0.0.1:63342        0.0.0.0:0              LISTENING       InHost      
+  UDP    127.0.0.1:1900         *:*                                                
+  UDP    127.0.0.1:49223        *:*                                                
+  UDP    127.0.0.1:51222        *:*                                                
+  UDP    127.0.0.1:53088        *:*                                                
+  UDP    127.0.0.1:55403        *:*                                                
+  UDP    127.0.0.1:56734        *:*                                                
+  UDP    127.0.0.1:64241        *:*                                                
+2023-09-07 15:32:22@1694071942535@CncAssistant(dummyCNC01) sendCommand(getMachineState-getMachineState#1) ERR:Fail connecting to server: Connection refused: connect
+2023-09-07 15:32:22@1694071942642@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2023-09-07 15:32:22@1694071942748@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:32:23@1694071943346@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2023-09-07 15:32:23@1694071943347@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2023-09-07 15:32:23@1694071943459@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2023-09-07 15:32:23@1694071943460@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2023-09-07 15:32:23@1694071943854@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:32:24@1694071944960@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:32:30@1694071950069@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:32:35@1694071955175@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:32:39@1694071959206@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2023-09-07 15:32:40@1694071960280@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:32:45@1694071965384@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:32:50@1694071970491@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:32:55@1694071975595@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:33:00@1694071980700@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:33:05@1694071985805@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:33:10@1694071990911@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:33:16@1694071996015@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:33:21@1694072001131@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:33:26@1694072006235@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:33:31@1694072011338@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:33:36@1694072016444@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:33:37@1694072017211@SocketClient SocketDataListener(10.10.207.56:6666) Stop:socket closed
+2023-09-07 15:33:37@1694072017315@SocketClient SocketDataListener(127.0.0.1:9902) Stop:Socket closed
+2023-09-07 15:33:37@1694072017428@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2023-09-07 15:33:37@1694072017589@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2023-09-07 15:33:41@1694072021557@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:33:42@1694072022665@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:33:47@1694072027772@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:33:52@1694072032877@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:33:57@1694072037982@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:34:03@1694072043086@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:34:08@1694072048189@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:34:13@1694072053295@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:34:18@1694072058403@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:34:23@1694072063511@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:34:28@1694072068614@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:34:33@1694072073716@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 15:34:38@1694072078824@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:01:06@1694073666427@SocketClient SocketDataListener(127.0.0.1:9950) Stop:Socket closed
+2023-09-07 16:01:06@1694073666538@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-09-07 16:01:06@1694073666562@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:01:06@1694073666692@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2023-09-07 16:01:07@1694073667762@SocketClient connecSt(127.0.0.1:10001) failed:Connection refused: connect
+Ping(127.0.0.1):OK
+Netstat(127.0.0.1):
+  TCP    127.0.0.1:4012         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:4013         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:6942         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:8680         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:8884         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:9904         127.0.0.1:55948        ESTABLISHED     InHost      
+  TCP    127.0.0.1:12313        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:49902        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:55545        127.0.0.1:61515        TIME_WAIT       InHost      
+  TCP    127.0.0.1:55879        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:55879        127.0.0.1:55880        ESTABLISHED     InHost      
+  TCP    127.0.0.1:55880        127.0.0.1:55879        ESTABLISHED     InHost      
+  TCP    127.0.0.1:55883        127.0.0.1:61515        TIME_WAIT       InHost      
+  TCP    127.0.0.1:55896        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:55896        127.0.0.1:55897        ESTABLISHED     InHost      
+  TCP    127.0.0.1:55897        127.0.0.1:55896        ESTABLISHED     InHost      
+  TCP    127.0.0.1:55900        127.0.0.1:61515        TIME_WAIT       InHost      
+  TCP    127.0.0.1:55927        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:55927        127.0.0.1:55928        ESTABLISHED     InHost      
+  TCP    127.0.0.1:55928        127.0.0.1:55927        ESTABLISHED     InHost      
+  TCP    127.0.0.1:55929        127.0.0.1:55930        ESTABLISHED     InHost      
+  TCP    127.0.0.1:55930        127.0.0.1:55929        ESTABLISHED     InHost      
+  TCP    127.0.0.1:55931        127.0.0.1:61515        ESTABLISHED     InHost      
+  TCP    127.0.0.1:55948        127.0.0.1:9904         ESTABLISHED     InHost      
+  TCP    127.0.0.1:55968        127.0.0.1:9950         TIME_WAIT       InHost      
+  TCP    127.0.0.1:55969        127.0.0.1:9903         TIME_WAIT       InHost      
+  TCP    127.0.0.1:55971        127.0.0.1:9901         TIME_WAIT       InHost      
+  TCP    127.0.0.1:57831        127.0.0.1:57832        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57832        127.0.0.1:57831        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61481        127.0.0.1:61482        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61482        127.0.0.1:61481        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61483        127.0.0.1:61484        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61484        127.0.0.1:61483        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61485        127.0.0.1:61486        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61486        127.0.0.1:61485        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61491        127.0.0.1:61492        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61492        127.0.0.1:61491        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61493        127.0.0.1:61494        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61494        127.0.0.1:61493        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61495        127.0.0.1:61496        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61496        127.0.0.1:61495        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61497        127.0.0.1:61498        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61498        127.0.0.1:61497        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61499        127.0.0.1:61500        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61500        127.0.0.1:61499        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61501        127.0.0.1:61502        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61502        127.0.0.1:61501        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61503        127.0.0.1:61504        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61504        127.0.0.1:61503        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61505        127.0.0.1:61506        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61506        127.0.0.1:61505        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61507        127.0.0.1:61508        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61508        127.0.0.1:61507        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61509        127.0.0.1:61510        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61510        127.0.0.1:61509        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61511        127.0.0.1:61512        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61512        127.0.0.1:61511        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61513        127.0.0.1:61514        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61514        127.0.0.1:61513        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61515        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:61515        127.0.0.1:55931        ESTABLISHED     InHost      
+  TCP    127.0.0.1:63342        0.0.0.0:0              LISTENING       InHost      
+  UDP    127.0.0.1:1900         *:*                                                
+  UDP    127.0.0.1:49223        *:*                                                
+  UDP    127.0.0.1:51222        *:*                                                
+  UDP    127.0.0.1:53088        *:*                                                
+  UDP    127.0.0.1:55403        *:*                                                
+  UDP    127.0.0.1:56734        *:*                                                
+  UDP    127.0.0.1:64241        *:*                                                
+2023-09-07 16:01:07@1694073667765@CncAssistant(dummyCNC01) sendCommand(getMachineState-getMachineState#1) ERR:Fail connecting to server: Connection refused: connect
+2023-09-07 16:01:07@1694073667869@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2023-09-07 16:01:07@1694073667976@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:01:08@1694073668563@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2023-09-07 16:01:08@1694073668564@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2023-09-07 16:01:08@1694073668678@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2023-09-07 16:01:08@1694073668680@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2023-09-07 16:01:09@1694073669079@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:01:10@1694073670182@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:01:15@1694073675288@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:01:20@1694073680397@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:01:22@1694073682170@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-09-07 16:01:22@1694073682274@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2023-09-07 16:01:25@1694073685502@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:01:30@1694073690607@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:01:35@1694073695713@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:01:40@1694073700815@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:01:45@1694073705920@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:01:51@1694073711028@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:01:53@1694073713422@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-09-07 16:01:56@1694073716131@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:02:01@1694073721237@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:02:06@1694073726345@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:02:09@1694073729107@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-09-07 16:02:11@1694073731452@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:02:16@1694073736560@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:02:21@1694073741667@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:02:23@1694073743780@SocketClient SocketDataListener(127.0.0.1:9902) Stop:Socket closed
+2023-09-07 16:02:23@1694073743896@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2023-09-07 16:02:24@1694073744001@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2023-09-07 16:02:25@1694073745691@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-09-07 16:02:26@1694073746772@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:02:27@1694073747876@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:02:32@1694073752982@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:02:38@1694073758090@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:02:43@1694073763194@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:02:48@1694073768298@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:02:53@1694073773404@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:02:58@1694073778511@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:03:03@1694073783618@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:03:08@1694073788725@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:03:13@1694073793832@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:03:18@1694073798938@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:03:24@1694073804045@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:03:29@1694073809150@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:03:34@1694073814258@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:03:39@1694073819364@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:03:44@1694073824473@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:03:49@1694073829580@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:03:54@1694073834686@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:03:59@1694073839793@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:04:04@1694073844900@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:04:10@1694073850006@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:04:15@1694073855112@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:04:20@1694073860218@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:04:25@1694073865326@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:04:30@1694073870432@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:04:35@1694073875539@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:04:40@1694073880646@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:04:45@1694073885753@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:04:50@1694073890858@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:04:55@1694073895964@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:05:01@1694073901072@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:05:06@1694073906176@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:05:11@1694073911283@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:05:16@1694073916390@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:05:21@1694073921496@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:05:26@1694073926603@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:05:31@1694073931710@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:05:36@1694073936816@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:05:41@1694073941922@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:05:47@1694073947025@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:05:52@1694073952132@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:15:20@1694074520786@SocketClient SocketDataListener(127.0.0.1:9950) Stop:Socket closed
+2023-09-07 16:15:20@1694074520900@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed2023-09-07 16:15:20@1694074520897@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+
+2023-09-07 16:15:21@1694074521040@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2023-09-07 16:15:22@1694074522127@SocketClient connecSt(127.0.0.1:10001) failed:Connection refused: connect
+Ping(127.0.0.1):OK
+Netstat(127.0.0.1):
+  TCP    127.0.0.1:4012         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:4013         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:6942         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:8680         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:8884         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:9904         127.0.0.1:56226        ESTABLISHED     InHost      
+  TCP    127.0.0.1:12313        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:49902        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:55931        127.0.0.1:61515        TIME_WAIT       InHost      
+  TCP    127.0.0.1:56175        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:56175        127.0.0.1:56176        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56176        127.0.0.1:56175        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56179        127.0.0.1:61515        TIME_WAIT       InHost      
+  TCP    127.0.0.1:56199        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:56199        127.0.0.1:56200        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56200        127.0.0.1:56199        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56203        127.0.0.1:61515        TIME_WAIT       InHost      
+  TCP    127.0.0.1:56226        127.0.0.1:9904         ESTABLISHED     InHost      
+  TCP    127.0.0.1:56230        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:56230        127.0.0.1:56231        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56231        127.0.0.1:56230        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56232        127.0.0.1:56233        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56233        127.0.0.1:56232        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56234        127.0.0.1:61515        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56281        127.0.0.1:9950         TIME_WAIT       InHost      
+  TCP    127.0.0.1:56282        127.0.0.1:9903         TIME_WAIT       InHost      
+  TCP    127.0.0.1:56284        127.0.0.1:9901         TIME_WAIT       InHost      
+  TCP    127.0.0.1:57831        127.0.0.1:57832        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57832        127.0.0.1:57831        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61481        127.0.0.1:61482        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61482        127.0.0.1:61481        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61483        127.0.0.1:61484        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61484        127.0.0.1:61483        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61485        127.0.0.1:61486        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61486        127.0.0.1:61485        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61491        127.0.0.1:61492        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61492        127.0.0.1:61491        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61493        127.0.0.1:61494        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61494        127.0.0.1:61493        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61495        127.0.0.1:61496        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61496        127.0.0.1:61495        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61497        127.0.0.1:61498        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61498        127.0.0.1:61497        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61499        127.0.0.1:61500        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61500        127.0.0.1:61499        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61501        127.0.0.1:61502        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61502        127.0.0.1:61501        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61503        127.0.0.1:61504        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61504        127.0.0.1:61503        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61505        127.0.0.1:61506        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61506        127.0.0.1:61505        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61507        127.0.0.1:61508        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61508        127.0.0.1:61507        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61509        127.0.0.1:61510        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61510        127.0.0.1:61509        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61511        127.0.0.1:61512        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61512        127.0.0.1:61511        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61513        127.0.0.1:61514        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61514        127.0.0.1:61513        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61515        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:61515        127.0.0.1:56234        ESTABLISHED     InHost      
+  TCP    127.0.0.1:63342        0.0.0.0:0              LISTENING       InHost      
+  UDP    127.0.0.1:1900         *:*                                                
+  UDP    127.0.0.1:49223        *:*                                                
+  UDP    127.0.0.1:51222        *:*                                                
+  UDP    127.0.0.1:53088        *:*                                                
+  UDP    127.0.0.1:55403        *:*                                                
+  UDP    127.0.0.1:56734        *:*                                                
+  UDP    127.0.0.1:64241        *:*                                                
+2023-09-07 16:15:22@1694074522127@CncAssistant(dummyCNC01) sendCommand(getMachineState-getMachineState#1) ERR:Fail connecting to server: Connection refused: connect
+2023-09-07 16:15:22@1694074522232@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2023-09-07 16:15:22@1694074522338@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:15:22@1694074522903@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2023-09-07 16:15:22@1694074522903@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2023-09-07 16:15:23@1694074523009@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2023-09-07 16:15:23@1694074523010@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2023-09-07 16:15:23@1694074523448@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:15:24@1694074524554@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:15:29@1694074529661@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:15:34@1694074534766@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:15:37@1694074537407@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2023-09-07 16:15:39@1694074539869@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:15:44@1694074544973@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:15:50@1694074550082@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:15:55@1694074555188@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:16:00@1694074560294@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:16:05@1694074565400@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:16:10@1694074570506@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:16:15@1694074575609@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:16:20@1694074580711@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:16:23@1694074583756@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-09-07 16:16:25@1694074585820@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:16:30@1694074590923@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:16:36@1694074596026@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:16:38@1694074598454@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-09-07 16:16:38@1694074598560@SocketClient SocketDataListener(127.0.0.1:9902) Stop:Socket closed
+2023-09-07 16:16:38@1694074598688@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2023-09-07 16:16:38@1694074598794@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2023-09-07 16:16:40@1694074600341@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-09-07 16:16:41@1694074601131@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:16:42@1694074602240@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:16:47@1694074607343@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:16:52@1694074612449@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:16:57@1694074617554@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:17:02@1694074622659@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:17:07@1694074627767@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:17:12@1694074632875@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:17:17@1694074637982@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:17:23@1694074643089@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:17:28@1694074648195@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:17:33@1694074653302@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:17:38@1694074658408@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:17:43@1694074663515@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:17:48@1694074668621@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:17:53@1694074673727@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:17:58@1694074678833@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:18:03@1694074683941@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:18:09@1694074689049@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:18:14@1694074694157@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:18:19@1694074699264@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:18:24@1694074704370@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:18:29@1694074709472@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:18:34@1694074714580@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:18:39@1694074719686@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:18:44@1694074724793@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:18:49@1694074729900@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:18:55@1694074735007@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:19:00@1694074740111@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:19:05@1694074745217@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:19:10@1694074750324@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:19:15@1694074755430@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:19:20@1694074760534@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:19:25@1694074765639@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:19:30@1694074770746@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:19:35@1694074775852@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:19:40@1694074780957@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:19:46@1694074786065@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:19:51@1694074791173@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:19:56@1694074796278@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:20:01@1694074801385@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:20:06@1694074806490@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:20:11@1694074811596@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:20:16@1694074816700@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:20:21@1694074821807@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:20:26@1694074826914@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:20:32@1694074832019@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:20:37@1694074837123@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:20:42@1694074842232@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:20:47@1694074847338@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:20:52@1694074852443@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:20:57@1694074857546@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:21:02@1694074862654@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:21:07@1694074867761@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:21:12@1694074872869@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:21:17@1694074877976@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:21:23@1694074883081@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:21:28@1694074888188@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:21:33@1694074893294@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:21:38@1694074898399@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:21:43@1694074903507@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:21:48@1694074908609@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:21:53@1694074913716@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:21:58@1694074918823@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:22:03@1694074923929@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:22:09@1694074929032@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:22:14@1694074934136@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:22:19@1694074939239@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:22:24@1694074944347@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:22:29@1694074949453@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:22:34@1694074954555@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:22:39@1694074959661@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:22:44@1694074964767@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:22:49@1694074969872@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:22:54@1694074974981@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:23:00@1694074980087@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:23:05@1694074985193@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:23:10@1694074990298@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:23:15@1694074995405@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:23:20@1694075000511@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:23:25@1694075005618@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:23:30@1694075010726@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:23:35@1694075015831@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:23:40@1694075020939@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:23:46@1694075026047@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:23:51@1694075031153@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:23:56@1694075036256@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:24:01@1694075041364@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:24:06@1694075046470@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:24:11@1694075051574@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:24:16@1694075056679@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:24:21@1694075061788@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:24:26@1694075066892@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:24:31@1694075071995@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:24:37@1694075077098@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:24:42@1694075082204@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:24:47@1694075087309@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:24:52@1694075092410@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:24:57@1694075097516@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:25:02@1694075102623@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:25:07@1694075107726@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:25:12@1694075112828@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:25:17@1694075117933@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:25:23@1694075123037@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:25:28@1694075128143@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:25:33@1694075133250@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:25:38@1694075138353@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:25:43@1694075143459@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:25:48@1694075148561@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:25:53@1694075153668@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:25:58@1694075158770@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:26:03@1694075163875@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:26:08@1694075168981@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:26:14@1694075174087@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:26:19@1694075179194@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:26:24@1694075184301@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:26:29@1694075189407@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:26:34@1694075194514@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:26:39@1694075199621@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:28:09@1694075289520@SocketClient SocketDataListener(127.0.0.1:9950) Stop:Socket closed
+2023-09-07 16:28:09@1694075289630@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed2023-09-07 16:28:09@1694075289635@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+
+2023-09-07 16:28:09@1694075289795@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2023-09-07 16:28:10@1694075290865@SocketClient connecSt(127.0.0.1:10001) failed:Connection refused: connect
+Ping(127.0.0.1):OK
+Netstat(127.0.0.1):
+  TCP    127.0.0.1:4012         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:4013         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:6942         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:8680         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:8884         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:9904         127.0.0.1:56707        ESTABLISHED     InHost      
+  TCP    127.0.0.1:12313        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:49902        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:56234        127.0.0.1:61515        TIME_WAIT       InHost      
+  TCP    127.0.0.1:56641        127.0.0.1:9903         TIME_WAIT       InHost      
+  TCP    127.0.0.1:56643        127.0.0.1:9903         TIME_WAIT       InHost      
+  TCP    127.0.0.1:56645        127.0.0.1:9903         TIME_WAIT       InHost      
+  TCP    127.0.0.1:56647        127.0.0.1:9903         TIME_WAIT       InHost      
+  TCP    127.0.0.1:56649        127.0.0.1:9903         TIME_WAIT       InHost      
+  TCP    127.0.0.1:56651        127.0.0.1:9903         TIME_WAIT       InHost      
+  TCP    127.0.0.1:56653        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:56653        127.0.0.1:56654        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56654        127.0.0.1:56653        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56657        127.0.0.1:61515        TIME_WAIT       InHost      
+  TCP    127.0.0.1:56676        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:56676        127.0.0.1:56677        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56677        127.0.0.1:56676        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56680        127.0.0.1:61515        TIME_WAIT       InHost      
+  TCP    127.0.0.1:56690        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:56690        127.0.0.1:56691        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56691        127.0.0.1:56690        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56692        127.0.0.1:56693        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56693        127.0.0.1:56692        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56694        127.0.0.1:61515        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56707        127.0.0.1:9904         ESTABLISHED     InHost      
+  TCP    127.0.0.1:56739        127.0.0.1:9950         TIME_WAIT       InHost      
+  TCP    127.0.0.1:56740        127.0.0.1:9903         TIME_WAIT       InHost      
+  TCP    127.0.0.1:56742        127.0.0.1:9901         TIME_WAIT       InHost      
+  TCP    127.0.0.1:57831        127.0.0.1:57832        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57832        127.0.0.1:57831        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61481        127.0.0.1:61482        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61482        127.0.0.1:61481        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61483        127.0.0.1:61484        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61484        127.0.0.1:61483        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61485        127.0.0.1:61486        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61486        127.0.0.1:61485        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61491        127.0.0.1:61492        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61492        127.0.0.1:61491        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61493        127.0.0.1:61494        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61494        127.0.0.1:61493        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61495        127.0.0.1:61496        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61496        127.0.0.1:61495        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61497        127.0.0.1:61498        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61498        127.0.0.1:61497        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61499        127.0.0.1:61500        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61500        127.0.0.1:61499        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61501        127.0.0.1:61502        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61502        127.0.0.1:61501        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61503        127.0.0.1:61504        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61504        127.0.0.1:61503        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61505        127.0.0.1:61506        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61506        127.0.0.1:61505        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61507        127.0.0.1:61508        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61508        127.0.0.1:61507        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61509        127.0.0.1:61510        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61510        127.0.0.1:61509        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61511        127.0.0.1:61512        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61512        127.0.0.1:61511        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61513        127.0.0.1:61514        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61514        127.0.0.1:61513        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61515        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:61515        127.0.0.1:56694        ESTABLISHED     InHost      
+  TCP    127.0.0.1:63342        0.0.0.0:0              LISTENING       InHost      
+  UDP    127.0.0.1:1900         *:*                                                
+  UDP    127.0.0.1:49223        *:*                                                
+  UDP    127.0.0.1:51222        *:*                                                
+  UDP    127.0.0.1:53088        *:*                                                
+  UDP    127.0.0.1:55403        *:*                                                
+  UDP    127.0.0.1:56734        *:*                                                
+  UDP    127.0.0.1:64241        *:*                                                
+2023-09-07 16:28:10@1694075290867@CncAssistant(dummyCNC01) sendCommand(getMachineState-getMachineState#1) ERR:Fail connecting to server: Connection refused: connect
+2023-09-07 16:28:10@1694075290973@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2023-09-07 16:28:11@1694075291080@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:28:11@1694075291638@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2023-09-07 16:28:11@1694075291639@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2023-09-07 16:28:11@1694075291745@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2023-09-07 16:28:11@1694075291746@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2023-09-07 16:28:12@1694075292189@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:28:13@1694075293292@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:28:18@1694075298396@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:28:23@1694075303501@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:28:28@1694075308286@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-09-07 16:28:28@1694075308390@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2023-09-07 16:28:28@1694075308608@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:28:33@1694075313715@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:28:38@1694075318824@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:28:43@1694075323930@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:28:49@1694075329035@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:28:54@1694075334143@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:28:56@1694075336366@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-09-07 16:28:59@1694075339248@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:29:04@1694075344355@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:29:09@1694075349460@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:29:11@1694075351938@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-09-07 16:29:14@1694075354567@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:29:19@1694075359671@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:29:24@1694075364776@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:29:26@1694075366533@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-09-07 16:29:26@1694075366639@SocketClient SocketDataListener(127.0.0.1:9902) Stop:Socket closed
+2023-09-07 16:29:26@1694075366771@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2023-09-07 16:29:26@1694075366876@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2023-09-07 16:29:28@1694075368561@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-09-07 16:29:29@1694075369883@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:29:30@1694075370991@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:29:36@1694075376097@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:29:41@1694075381203@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:29:46@1694075386309@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:29:51@1694075391416@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:29:56@1694075396522@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:30:01@1694075401627@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:30:06@1694075406734@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:30:11@1694075411840@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:30:16@1694075416947@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:30:22@1694075422055@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:30:27@1694075427159@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:30:32@1694075432267@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:30:37@1694075437374@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:30:42@1694075442479@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:30:47@1694075447585@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:30:52@1694075452693@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:30:57@1694075457800@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:31:02@1694075462903@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:31:08@1694075468009@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:31:13@1694075473114@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:31:18@1694075478221@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:31:23@1694075483325@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:31:28@1694075488429@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:31:33@1694075493534@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:31:38@1694075498639@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:31:43@1694075503744@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:31:48@1694075508850@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:31:53@1694075513954@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:31:59@1694075519060@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:32:04@1694075524166@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:32:09@1694075529273@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:32:14@1694075534380@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:32:19@1694075539486@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:32:24@1694075544593@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:32:29@1694075549700@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:32:34@1694075554806@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:32:39@1694075559913@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:32:45@1694075565018@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:32:50@1694075570126@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:32:55@1694075575231@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:33:00@1694075580337@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:33:05@1694075585443@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:33:10@1694075590550@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:33:15@1694075595658@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:33:20@1694075600763@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:33:25@1694075605869@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:33:30@1694075610975@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:33:36@1694075616081@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:33:41@1694075621187@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:33:46@1694075626294@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:33:51@1694075631398@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:33:56@1694075636504@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:34:01@1694075641611@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:34:06@1694075646718@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:34:11@1694075651821@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:34:16@1694075656926@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:34:22@1694075662031@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:34:27@1694075667137@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:34:32@1694075672242@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:34:37@1694075677348@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:34:42@1694075682454@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:34:47@1694075687561@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:34:52@1694075692667@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:34:57@1694075697775@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:35:02@1694075702880@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:35:07@1694075707984@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:35:13@1694075713090@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:35:18@1694075718196@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:35:23@1694075723303@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:35:28@1694075728410@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:35:33@1694075733516@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:35:38@1694075738622@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:35:43@1694075743725@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:35:48@1694075748832@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:35:53@1694075753938@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:35:59@1694075759044@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:36:04@1694075764152@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:36:09@1694075769257@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:36:14@1694075774363@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:36:19@1694075779470@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:36:24@1694075784573@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:36:29@1694075789679@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:36:34@1694075794782@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:36:39@1694075799888@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:36:44@1694075804990@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:36:50@1694075810094@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:36:55@1694075815197@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:37:00@1694075820303@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:37:05@1694075825408@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:37:10@1694075830515@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:37:15@1694075835622@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:37:20@1694075840727@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:37:25@1694075845834@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:37:30@1694075850940@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:37:36@1694075856044@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:37:41@1694075861148@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:37:46@1694075866255@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:37:51@1694075871363@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:37:56@1694075876469@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:38:01@1694075881576@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:38:06@1694075886681@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:38:11@1694075891786@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:38:16@1694075896894@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:38:22@1694075902002@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:38:27@1694075907107@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:38:32@1694075912211@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:38:37@1694075917316@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:38:42@1694075922424@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:38:47@1694075927530@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:38:52@1694075932632@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:38:57@1694075937737@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:39:02@1694075942843@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:39:07@1694075947948@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:39:13@1694075953052@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:39:18@1694075958157@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:39:23@1694075963261@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:39:28@1694075968363@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:39:33@1694075973467@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:39:38@1694075978573@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:39:43@1694075983674@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:39:48@1694075988777@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:39:53@1694075993882@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:39:58@1694075998988@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:40:04@1694076004093@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:40:09@1694076009198@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:40:14@1694076014302@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:40:19@1694076019408@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:40:24@1694076024515@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:40:29@1694076029621@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:40:34@1694076034728@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:40:39@1694076039833@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:40:44@1694076044938@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:40:50@1694076050044@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:40:55@1694076055182@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:41:00@1694076060283@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:41:05@1694076065387@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:41:10@1694076070493@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:41:15@1694076075599@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:41:20@1694076080702@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:41:25@1694076085809@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:41:30@1694076090914@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:41:36@1694076096017@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:41:41@1694076101122@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:41:46@1694076106227@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:41:51@1694076111333@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:41:56@1694076116436@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:42:01@1694076121543@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:42:06@1694076126647@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:42:11@1694076131750@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:42:16@1694076136855@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:42:21@1694076141961@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:42:27@1694076147066@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:42:32@1694076152172@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:42:37@1694076157278@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:42:42@1694076162384@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:42:47@1694076167490@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:42:52@1694076172596@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:42:57@1694076177701@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:43:02@1694076182804@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:43:07@1694076187912@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:43:13@1694076193013@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:43:18@1694076198119@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:43:23@1694076203222@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:43:28@1694076208326@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:43:33@1694076213431@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:43:38@1694076218538@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:43:43@1694076223644@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:43:48@1694076228749@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:43:53@1694076233853@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:43:58@1694076238955@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:44:04@1694076244060@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:44:09@1694076249165@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:44:14@1694076254271@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:44:19@1694076259376@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:44:24@1694076264478@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:44:29@1694076269583@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:44:34@1694076274690@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:44:39@1694076279795@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:44:44@1694076284899@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:44:50@1694076290004@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:44:55@1694076295109@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:45:00@1694076300213@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:45:05@1694076305320@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:45:10@1694076310424@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:45:15@1694076315530@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:45:20@1694076320632@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:45:25@1694076325737@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:45:30@1694076330842@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:45:35@1694076335945@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:45:41@1694076341052@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:45:46@1694076346158@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:45:51@1694076351264@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:45:56@1694076356370@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:46:01@1694076361474@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:47:40@1694076460404@SocketClient SocketDataListener(127.0.0.1:9950) Stop:Socket closed
+2023-09-07 16:47:40@1694076460520@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:47:40@1694076460661@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2023-09-07 16:47:41@1694076461728@SocketClient connecSt(127.0.0.1:10001) failed:Connection refused: connect
+Ping(127.0.0.1):OK
+Netstat(127.0.0.1):
+  TCP    127.0.0.1:4012         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:4013         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:6942         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:8680         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:8884         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:9904         127.0.0.1:57335        ESTABLISHED     InHost      
+  TCP    127.0.0.1:12313        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:49902        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:56694        127.0.0.1:61515        TIME_WAIT       InHost      
+  TCP    127.0.0.1:57285        127.0.0.1:9903         TIME_WAIT       InHost      
+  TCP    127.0.0.1:57287        127.0.0.1:9903         TIME_WAIT       InHost      
+  TCP    127.0.0.1:57292        127.0.0.1:9903         TIME_WAIT       InHost      
+  TCP    127.0.0.1:57294        127.0.0.1:9903         TIME_WAIT       InHost      
+  TCP    127.0.0.1:57296        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:57296        127.0.0.1:57297        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57297        127.0.0.1:57296        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57301        127.0.0.1:61515        TIME_WAIT       InHost      
+  TCP    127.0.0.1:57314        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:57314        127.0.0.1:57315        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57315        127.0.0.1:57314        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57318        127.0.0.1:61515        TIME_WAIT       InHost      
+  TCP    127.0.0.1:57335        127.0.0.1:9904         ESTABLISHED     InHost      
+  TCP    127.0.0.1:57339        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:57339        127.0.0.1:57340        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57340        127.0.0.1:57339        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57341        127.0.0.1:57342        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57342        127.0.0.1:57341        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57343        127.0.0.1:61515        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57385        127.0.0.1:9950         TIME_WAIT       InHost      
+  TCP    127.0.0.1:57386        127.0.0.1:9903         TIME_WAIT       InHost      
+  TCP    127.0.0.1:57388        127.0.0.1:9901         TIME_WAIT       InHost      
+  TCP    127.0.0.1:57831        127.0.0.1:57832        ESTABLISHED     InHost      
+  TCP    127.0.0.1:57832        127.0.0.1:57831        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61481        127.0.0.1:61482        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61482        127.0.0.1:61481        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61483        127.0.0.1:61484        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61484        127.0.0.1:61483        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61485        127.0.0.1:61486        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61486        127.0.0.1:61485        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61491        127.0.0.1:61492        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61492        127.0.0.1:61491        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61493        127.0.0.1:61494        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61494        127.0.0.1:61493        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61495        127.0.0.1:61496        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61496        127.0.0.1:61495        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61497        127.0.0.1:61498        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61498        127.0.0.1:61497        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61499        127.0.0.1:61500        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61500        127.0.0.1:61499        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61501        127.0.0.1:61502        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61502        127.0.0.1:61501        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61503        127.0.0.1:61504        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61504        127.0.0.1:61503        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61505        127.0.0.1:61506        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61506        127.0.0.1:61505        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61507        127.0.0.1:61508        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61508        127.0.0.1:61507        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61509        127.0.0.1:61510        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61510        127.0.0.1:61509        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61511        127.0.0.1:61512        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61512        127.0.0.1:61511        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61513        127.0.0.1:61514        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61514        127.0.0.1:61513        ESTABLISHED     InHost      
+  TCP    127.0.0.1:61515        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:61515        127.0.0.1:57343        ESTABLISHED     InHost      
+  TCP    127.0.0.1:63342        0.0.0.0:0              LISTENING       InHost      
+  UDP    127.0.0.1:1900         *:*                                                
+  UDP    127.0.0.1:49223        *:*                                                
+  UDP    127.0.0.1:51222        *:*                                                
+  UDP    127.0.0.1:53088        *:*                                                
+  UDP    127.0.0.1:55403        *:*                                                
+  UDP    127.0.0.1:56734        *:*                                                
+  UDP    127.0.0.1:64241        *:*                                                
+2023-09-07 16:47:41@1694076461729@CncAssistant(dummyCNC01) sendCommand(getMachineState-getMachineState#1) ERR:Fail connecting to server: Connection refused: connect
+2023-09-07 16:47:41@1694076461833@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2023-09-07 16:47:41@1694076461940@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:47:42@1694076462520@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2023-09-07 16:47:42@1694076462520@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2023-09-07 16:47:42@1694076462629@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2023-09-07 16:47:42@1694076462630@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2023-09-07 16:47:43@1694076463044@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:47:44@1694076464149@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:47:49@1694076469255@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:47:54@1694076474359@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:47:58@1694076478085@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-09-07 16:47:58@1694076478187@SocketClient SocketDataListener(127.0.0.1:9901) Stop:Socket closed
+2023-09-07 16:47:59@1694076479467@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:48:04@1694076484570@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:48:09@1694076489676@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:48:14@1694076494781@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:48:19@1694076499887@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:48:24@1694076504994@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:48:27@1694076507960@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-09-07 16:48:30@1694076510099@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:48:35@1694076515203@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:48:40@1694076520309@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:48:45@1694076525416@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:48:50@1694076530523@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:48:55@1694076535630@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:48:58@1694076538147@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-09-07 16:48:58@1694076538252@SocketClient SocketDataListener(127.0.0.1:9902) Stop:Socket closed
+2023-09-07 16:48:58@1694076538369@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2023-09-07 16:48:58@1694076538477@SocketClient SocketDataListener(127.0.0.1:9905) Stop:Socket closed
+2023-09-07 16:49:00@1694076540148@SocketClient SocketDataListener(10.10.207.56:6666) Stop:Socket closed
+2023-09-07 16:49:00@1694076540738@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:49:01@1694076541844@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:49:06@1694076546951@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:49:12@1694076552054@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:49:17@1694076557159@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:49:22@1694076562265@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:49:27@1694076567371@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:49:32@1694076572479@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:49:37@1694076577586@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:49:42@1694076582692@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:49:47@1694076587794@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:49:52@1694076592901@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:49:58@1694076598008@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:50:03@1694076603115@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:50:08@1694076608222@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:50:13@1694076613326@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:50:18@1694076618432@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:50:23@1694076623536@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:50:28@1694076628641@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:50:33@1694076633748@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:50:38@1694076638855@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:50:43@1694076643962@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:50:49@1694076649070@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:50:54@1694076654175@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:50:59@1694076659278@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:51:04@1694076664386@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:51:09@1694076669491@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:51:14@1694076674598@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:51:19@1694076679705@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:51:24@1694076684810@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:51:29@1694076689916@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:51:35@1694076695021@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:51:40@1694076700126@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:51:45@1694076705228@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:51:50@1694076710336@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:51:55@1694076715444@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:52:00@1694076720549@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:52:05@1694076725654@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:52:10@1694076730761@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:52:15@1694076735866@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:52:20@1694076740969@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:52:26@1694076746076@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:52:31@1694076751182@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:52:36@1694076756288@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:52:41@1694076761392@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:52:46@1694076766499@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:52:51@1694076771606@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:52:56@1694076776713@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:53:01@1694076781819@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:53:06@1694076786924@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:53:12@1694076792026@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:53:17@1694076797132@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:53:22@1694076802239@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:53:27@1694076807345@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:53:32@1694076812453@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:53:37@1694076817557@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:53:42@1694076822664@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:53:47@1694076827767@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:53:52@1694076832870@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:53:57@1694076837976@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:54:03@1694076843079@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:54:08@1694076848181@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:54:13@1694076853288@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:54:18@1694076858393@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:54:23@1694076863498@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:54:28@1694076868602@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:54:33@1694076873708@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:54:38@1694076878815@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:54:43@1694076883921@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:54:49@1694076889023@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:54:54@1694076894129@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:54:59@1694076899235@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:55:04@1694076904340@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:55:09@1694076909447@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:55:14@1694076914552@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:55:19@1694076919660@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:55:24@1694076924767@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:55:29@1694076929873@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:55:34@1694076934975@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:55:40@1694076940081@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:55:45@1694076945185@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:55:50@1694076950289@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:55:55@1694076955397@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:56:00@1694076960499@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:56:05@1694076965604@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:56:10@1694076970708@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:56:15@1694076975814@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:56:20@1694076980921@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:56:26@1694076986028@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:56:31@1694076991132@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:56:36@1694076996239@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:56:41@1694077001342@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:56:46@1694077006449@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:56:51@1694077011555@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:56:56@1694077016661@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:57:01@1694077021766@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:57:06@1694077026870@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:57:11@1694077031973@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:57:17@1694077037078@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:57:22@1694077042185@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:57:27@1694077047290@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:57:32@1694077052396@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:57:37@1694077057500@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:57:42@1694077062606@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:57:47@1694077067709@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:57:52@1694077072817@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:57:57@1694077077922@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:58:03@1694077083027@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:58:08@1694077088133@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:58:13@1694077093237@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:58:18@1694077098343@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:58:23@1694077103447@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:58:28@1694077108552@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:58:33@1694077113657@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:58:38@1694077118764@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:58:43@1694077123870@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:58:48@1694077128978@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:58:54@1694077134086@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:58:59@1694077139192@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:59:04@1694077144300@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:59:09@1694077149406@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:59:14@1694077154511@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:59:19@1694077159614@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:59:24@1694077164719@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:59:29@1694077169824@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:59:34@1694077174931@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:59:40@1694077180038@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:59:45@1694077185144@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:59:50@1694077190251@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 16:59:55@1694077195362@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:00:00@1694077200467@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:00:05@1694077205574@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:00:10@1694077210679@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:00:15@1694077215786@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:00:20@1694077220893@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:00:25@1694077225996@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:00:31@1694077231099@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:00:36@1694077236205@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:00:41@1694077241308@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:00:46@1694077246412@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:00:51@1694077251517@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:00:56@1694077256620@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:01:01@1694077261727@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:01:06@1694077266830@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:01:11@1694077271933@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:01:17@1694077277040@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:01:22@1694077282144@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:01:27@1694077287251@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:01:32@1694077292358@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:01:37@1694077297462@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:01:42@1694077302568@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:01:47@1694077307675@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:01:52@1694077312780@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:01:57@1694077317887@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:02:02@1694077322993@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:02:08@1694077328096@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:02:13@1694077333201@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:02:18@1694077338306@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:02:23@1694077343413@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:02:28@1694077348521@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:02:33@1694077353629@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:02:38@1694077358737@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:02:43@1694077363840@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:02:48@1694077368947@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:02:54@1694077374054@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:02:59@1694077379158@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:03:04@1694077384260@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:03:09@1694077389365@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:03:14@1694077394470@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:03:19@1694077399578@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:03:24@1694077404680@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:03:29@1694077409785@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:03:34@1694077414890@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:03:39@1694077419995@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:03:45@1694077425102@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:03:50@1694077430208@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:03:55@1694077435314@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:04:00@1694077440420@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:04:05@1694077445527@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:04:10@1694077450630@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:04:15@1694077455733@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:04:20@1694077460835@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:04:25@1694077465942@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:04:31@1694077471046@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:04:36@1694077476150@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:04:41@1694077481257@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:04:46@1694077486363@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:04:51@1694077491467@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:04:56@1694077496570@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:05:01@1694077501677@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:05:06@1694077506782@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:05:11@1694077511889@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:05:16@1694077516994@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:05:22@1694077522100@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:05:27@1694077527205@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:05:32@1694077532310@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:05:37@1694077537415@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:05:42@1694077542521@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:05:47@1694077547628@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:05:52@1694077552733@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:05:57@1694077557839@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:06:02@1694077562942@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:06:08@1694077568047@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:06:13@1694077573153@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:06:18@1694077578261@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:06:23@1694077583367@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:06:28@1694077588472@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:06:33@1694077593577@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:06:38@1694077598683@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:06:43@1694077603787@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:06:48@1694077608893@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:06:53@1694077613999@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:06:59@1694077619102@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:07:04@1694077624207@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:07:09@1694077629310@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:07:14@1694077634412@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:07:19@1694077639519@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:07:24@1694077644624@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:07:29@1694077649729@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:07:34@1694077654836@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:07:39@1694077659942@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:07:45@1694077665049@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:07:50@1694077670156@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:07:55@1694077675263@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:08:00@1694077680365@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:08:05@1694077685468@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:08:10@1694077690574@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:08:15@1694077695681@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:08:20@1694077700786@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:08:25@1694077705893@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:08:30@1694077710999@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:08:36@1694077716105@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:08:41@1694077721209@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:08:46@1694077726313@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:08:51@1694077731417@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:08:56@1694077736522@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:09:01@1694077741628@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:09:06@1694077746735@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:09:11@1694077751837@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:09:16@1694077756944@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:09:22@1694077762047@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:09:27@1694077767149@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:09:32@1694077772256@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:09:37@1694077777360@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:09:42@1694077782464@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:09:47@1694077787571@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:09:52@1694077792678@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:09:57@1694077797786@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:10:02@1694077802890@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:10:07@1694077807998@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:10:13@1694077813102@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:10:18@1694077818209@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:10:23@1694077823316@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:10:28@1694077828422@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:10:33@1694077833525@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:10:38@1694077838629@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:10:43@1694077843734@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:10:48@1694077848841@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:10:53@1694077853944@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:10:59@1694077859050@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:11:04@1694077864157@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:11:09@1694077869265@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:11:14@1694077874370@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:11:19@1694077879478@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:11:24@1694077884580@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:11:29@1694077889687@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:11:34@1694077894792@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:11:39@1694077899898@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:11:45@1694077905005@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:11:50@1694077910111@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:11:55@1694077915220@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:12:00@1694077920322@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:12:05@1694077925429@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:12:10@1694077930535@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:12:15@1694077935641@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:12:20@1694077940746@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:12:25@1694077945852@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:12:30@1694077950960@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:12:36@1694077956068@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:12:41@1694077961175@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:12:46@1694077966281@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:12:51@1694077971386@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:12:56@1694077976493@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:13:01@1694077981598@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:13:06@1694077986702@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:13:11@1694077991805@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:13:16@1694077996912@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:13:22@1694078002016@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:13:27@1694078007121@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:13:32@1694078012229@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:13:37@1694078017336@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:13:42@1694078022442@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:13:47@1694078027548@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:13:52@1694078032655@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:13:57@1694078037757@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:14:02@1694078042864@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:14:07@1694078047971@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:14:13@1694078053078@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:14:18@1694078058183@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:14:23@1694078063289@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:14:28@1694078068394@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:14:33@1694078073499@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:14:38@1694078078606@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:14:43@1694078083712@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:14:48@1694078088816@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:14:53@1694078093923@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:14:59@1694078099027@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:15:04@1694078104134@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:15:09@1694078109237@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:15:14@1694078114344@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:15:19@1694078119447@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:15:24@1694078124552@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:15:29@1694078129658@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:15:34@1694078134764@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:15:39@1694078139870@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:15:44@1694078144976@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:15:50@1694078150081@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:15:55@1694078155189@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:16:00@1694078160294@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:16:05@1694078165395@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:16:10@1694078170502@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:16:15@1694078175606@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:16:20@1694078180708@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:16:25@1694078185811@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:16:30@1694078190918@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2023-09-07 17:16:36@1694078196020@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed

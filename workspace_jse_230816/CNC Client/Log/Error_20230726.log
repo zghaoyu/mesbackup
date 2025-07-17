@@ -1,0 +1,21 @@
+2023-07-26 15:19:09@1690355949812@SocketClient connecSt(127.0.0.1:9903) failed:Connection refused: connect
+Ping(127.0.0.1):OK
+Netstat(127.0.0.1):
+  TCP    127.0.0.1:5354         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:5354         127.0.0.1:54244        ESTABLISHED     InHost      
+  TCP    127.0.0.1:5354         127.0.0.1:64759        ESTABLISHED     InHost      
+  TCP    127.0.0.1:6306         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:27015        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:50911        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:50912        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:54244        127.0.0.1:5354         ESTABLISHED     InHost      
+  TCP    127.0.0.1:54644        127.0.0.1:54645        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54645        127.0.0.1:54644        ESTABLISHED     InHost      
+  TCP    127.0.0.1:64759        127.0.0.1:5354         ESTABLISHED     InHost      
+  UDP    127.0.0.1:1900         *:*                                                
+  UDP    127.0.0.1:50802        *:*                                                
+  UDP    127.0.0.1:50803        *:*                                                
+  UDP    127.0.0.1:54869        *:*                                                
+  UDP    127.0.0.1:55655        *:*                                                
+  UDP    127.0.0.1:61411        *:*                                                
+  UDP    127.0.0.1:61413        *:*                                                

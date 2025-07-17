@@ -1,0 +1,17 @@
+2022-05-20 10:55:31@1653015331790@SocketServer SocketSrvStart(9901) failed: Address already in use: JVM_Bind
+2022-05-20 10:55:31@1653015331800@SocketServer SocketSrvStart(9903) failed: Address already in use: JVM_Bind
+2022-05-20 10:55:31@1653015331800@SocketServer SocketSrvStart(9900) failed: Address already in use: JVM_Bind
+2022-05-20 10:55:31@1653015331802@SocketServer SocketSrvStart(9905) failed: Address already in use: JVM_Bind
+2022-05-20 10:55:31@1653015331802@SocketServer SocketSrvStart(9902) failed: Address already in use: JVM_Bind
+2022-05-20 11:09:01@1653016141624@SocketServer SocketSrvStart(9901) failed: Address already in use: JVM_Bind
+2022-05-20 11:09:01@1653016141626@SocketServer SocketSrvStart(9902) failed: Address already in use: JVM_Bind
+2022-05-20 11:09:01@1653016141634@SocketServer SocketSrvStart(9903) failed: Address already in use: JVM_Bind
+2022-05-20 11:09:01@1653016141637@SocketServer SocketSrvStart(9900) failed: Address already in use: JVM_Bind
+2022-05-20 11:09:01@1653016141641@SocketServer SocketSrvStart(9905) failed: Address already in use: JVM_Bind
+2022-05-20 11:09:07@1653016147419@SocketClient connect(10.10.206.83:20520) failed:Connection refused: connect
+2022-05-20 13:32:42@1653024762050@SocketClient connect(10.10.206.83:20520) failed:Connection refused: connect
+2022-05-20 13:42:44@1653025364349@SocketServer SocketSrvStart(9903) failed: Address already in use: JVM_Bind
+2022-05-20 13:42:44@1653025364353@SocketServer SocketSrvStart(9905) failed: Address already in use: JVM_Bind2022-05-20 13:42:44@1653025364372@SocketServer SocketSrvStart(9901) failed: Address already in use: JVM_Bind
+2022-05-20 13:42:44@1653025364351@SocketServer SocketSrvStart(9900) failed: Address already in use: JVM_Bind
+2022-05-20 13:42:44@1653025364374@SocketServer SocketSrvStart(9902) failed: Address already in use: JVM_Bind
+

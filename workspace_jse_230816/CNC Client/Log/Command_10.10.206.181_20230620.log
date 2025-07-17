@@ -1,0 +1,1 @@
+2023-06-20 11:06:14@1687230374854@OK@getMachineState@http://10.10.206.5:6300/api/v3/hartford/status@{"brand":"hartford","model":"MVP-8","ip":"10.10.206.181","port":8193}@OK,code=0,data={"run":3,"emergency":0}@8

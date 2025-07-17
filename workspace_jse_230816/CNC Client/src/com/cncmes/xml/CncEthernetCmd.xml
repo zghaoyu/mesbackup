@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CncEthernetCmd>
+  <CNC key="AssistantCNC" seperator=";" returnCodePosition="LastElement" successCode="1" debugIP="10.10.207.49" debugPort="10032" cmdTimeout="10">
+    <Operation name="openDoor" operator="Myself">
+      <Command name="openDoor" id="1">
+        <InParas>{"regs":"51/28/29/25/52;0#1/28/29/25#=#3000/1"}</InParas>
+        <OutParas></OutParas>
+      </Command>
+    </Operation>
+    <Operation name="closeDoor" operator="Myself">
+      <Command name="closeDoor" id="1">
+        <InParas>{"regs":"51/26/29/27/53;0#1/26/29/27#=#3000/1"}</InParas>
+        <OutParas></OutParas>
+      </Command>
+    </Operation>
+    <Operation name="resetDoor" operator="Myself">
+      <Command name="resetDoor" id="1">
+        <InParas>{"regs":"2C/2B;2C/2B"}</InParas>
+        <OutParas></OutParas>
+      </Command>
+    </Operation>
+    <Operation name="errDoor" operator="Myself">
+      <Command name="errDoor" id="1">
+        <InParas>{"regs":"55;1#0"}</InParas>
+        <OutParas></OutParas>
+      </Command>
+    </Operation>
+    <Operation name="befClampFixture" operator="Myself">
+      <Command name="befClampFixture" id="1">
+        <InParas>{"zone_1":"6/C/12/18/1E/24;6/C/12/18/1E/24"}</InParas>
+        <OutParas></OutParas>
+      </Command>
+    </Operation>
+    <Operation name="clampFixture" operator="Myself">
+      <Command name="clampFixture" id="1">
+        <InParas>{"zone_1":"2/3/5;2/3/5#=#1000","zone_2":"8/9/B;8/9/B#=#1000","zone_3":"E/F/11;E/F/11#=#1000","zone_4":"14/15/17;14/15/17#=#1000","zone_5":"1A/1B/1D;1A/1B/1D#=#1000","zone_6":"20/21/23;20/21/23#=#1000"}</InParas>
+        <OutParas></OutParas>
+      </Command>
+    </Operation>
+    <Operation name="releaseFixture" operator="Myself">
+      <Command name="releaseFixture" id="1">
+        <InParas>{"zone_1":"1/4;1/4","zone_2":"7/A;7/A","zone_3":"D/10;D/10","zone_4":"13/16;13/16","zone_5":"19/1C;19/1C","zone_6":"1F/22;1F/22","workZone":"1"}</InParas>
+        <OutParas></OutParas>
+      </Command>
+    </Operation>
+  </CNC>
+  <CNC key="DummyCNC" seperator=";" returnCodePosition="LastElement" successCode="1" debugIP="10.10.207.49" debugPort="10032" cmdTimeout="2">
+    <Operation name="getMachineState" operator="Myself">
+      <Command name="getMachineState" id="1">
+        <InParas>{"ip":"?"}</InParas>
+        <OutParas></OutParas>
+      </Command>
+    </Operation>
+    <Operation name="openDoor" operator="AssistantCNC">
+      <Command name="openDoor" id="1">
+        <InParas></InParas>
+        <OutParas></OutParas>
+      </Command>
+    </Operation>
+    <Operation name="closeDoor" operator="AssistantCNC">
+      <Command name="closeDoor" id="1">
+        <InParas></InParas>
+        <OutParas></OutParas>
+      </Command>
+    </Operation>
+    <Operation name="clampFixture" operator="AssistantCNC">
+      <Command name="clampFixture" id="1">
+        <InParas></InParas>
+        <OutParas></OutParas>
+      </Command>
+    </Operation>
+    <Operation name="releaseFixture" operator="AssistantCNC">
+      <Command name="releaseFixture" id="1">
+        <InParas></InParas>
+        <OutParas></OutParas>
+      </Command>
+    </Operation>
+    <Operation name="getAlarmInfo" operator="Myself">
+      <Command name="getAlarmInfo" id="1">
+        <InParas></InParas>
+        <OutParas></OutParas>
+      </Command>
+    </Operation>
+    <Operation name="getToolLife" operator="Myself">
+      <Command name="getToolLife" id="1">
+        <InParas></InParas>
+        <OutParas></OutParas>
+      </Command>
+    </Operation>
+    <Operation name="getMachiningParas" operator="Myself">
+      <Command name="getMachiningParas" id="1">
+        <InParas></InParas>
+        <OutParas></OutParas>
+      </Command>
+    </Operation>
+    <Operation name="getMachiningCounter" operator="Myself">
+      <Command name="getMachiningCounter" id="1">
+        <InParas></InParas>
+        <OutParas></OutParas>
+      </Command>
+    </Operation>
+    <Operation name="startMachining" operator="Myself">
+      <Command name="startMachining" id="1">
+        <InParas></InParas>
+        <OutParas></OutParas>
+      </Command>
+    </Operation>
+    <Operation name="pauseMachining" operator="Myself">
+      <Command name="pauseMachining" id="1">
+        <InParas></InParas>
+        <OutParas></OutParas>
+      </Command>
+    </Operation>
+    <Operation name="resumeMachining" operator="Myself">
+      <Command name="resumeMachining" id="1">
+        <InParas></InParas>
+        <OutParas></OutParas>
+      </Command>
+    </Operation>
+    <Operation name="getMainProgramName" operator="Myself">
+      <Command name="getMainProgramName" id="1">
+        <InParas></InParas>
+        <OutParas></OutParas>
+      </Command>
+    </Operation>
+    <Operation name="getCurrSubProgramName" operator="Myself">
+      <Command name="getCurrSubProgramName" id="1">
+        <InParas>{"ip":"?","programID":"O7771"}</InParas>
+        <OutParas></OutParas>
+      </Command>
+    </Operation>
+    <Operation name="uploadMainProgram" operator="Myself">
+      <Command name="uploadMainProgram" id="1">
+        <InParas></InParas>
+        <OutParas></OutParas>
+      </Command>
+    </Operation>
+    <Operation name="downloadMainProgram" operator="Myself">
+      <Command name="downloadMainProgram" id="1">
+        <InParas>{"name":"?"}</InParas>
+        <OutParas></OutParas>
+      </Command>
+    </Operation>
+    <Operation name="deleteMainProgram" operator="Myself">
+      <Command name="deleteMainProgram" id="1">
+        <InParas>{"name":"?"}</InParas>
+        <OutParas></OutParas>
+      </Command>
+    </Operation>
+    <Operation name="uploadSubProgram" operator="Myself">
+      <Command name="uploadSubProgram" id="1">
+        <InParas></InParas>
+        <OutParas></OutParas>
+      </Command>
+    </Operation>
+    <Operation name="downloadSubProgram" operator="Myself">
+      <Command name="downloadSubProgram" id="1">
+        <InParas>{"name":"?"}</InParas>
+        <OutParas></OutParas>
+      </Command>
+    </Operation>
+    <Operation name="deleteSubProgram" operator="Myself">
+      <Command name="deleteSubProgram" id="1">
+        <InParas>{"name":"?"}</InParas>
+        <OutParas></OutParas>
+      </Command>
+    </Operation>
+  </CNC>
+</CncEthernetCmd>

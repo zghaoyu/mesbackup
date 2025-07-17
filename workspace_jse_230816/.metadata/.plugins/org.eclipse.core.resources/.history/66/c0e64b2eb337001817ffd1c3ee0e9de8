@@ -1,0 +1,242 @@
+package com.cncmes.data;
+
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+
+import com.cncmes.base.RunningData;
+
+public class RobotEthernetCmd extends RunningData<String> {
+	private static final int MAXPARACOUNT = 10;
+	private static RobotEthernetCmd robotNetworkCmd = new RobotEthernetCmd();
+	private RobotEthernetCmd(){}
+	public static RobotEthernetCmd getInstance(){
+		return robotNetworkCmd;
+	}
+	
+	public String[] getAllOperations(String mainKey){
+		String[] operations = null;
+		String ops = "";
+		
+		LinkedHashMap<String,Object> oprMap = getData(mainKey);
+		if(null != oprMap && oprMap.size() > 0){
+			for(String key:oprMap.keySet()){
+				if(!"Common".equals(key)){
+					if("".equals(ops)){
+						ops = key;
+					}else{
+						ops += "," + key;
+					}
+				}
+			}
+		}
+		
+		if("".equals(ops)){
+			operations = new String[]{""};
+		}else{
+			operations = ops.split(",");
+		}
+		
+		return operations;
+	}
+	
+	@SuppressWarnings("unchecked")
+	public String[] getAllCommands(String mainKey, String operation){
+		String[] cmds = null;
+		String cmd = "";
+		
+		LinkedHashMap<String, Object> oprMap = getData(mainKey);
+		if(null != oprMap && oprMap.size() > 0){
+			LinkedHashMap<String, Object> cmdMap = (LinkedHashMap<String, Object>) oprMap.get(operation);
+			if(null != cmdMap && cmdMap.size() > 0){
+				for(String key:cmdMap.keySet()){
+					if(operation.equals(key)) continue;
+					if("".equals(cmd)){
+						cmd = key;
+					}else{
+						cmd += "," + key;
+					}
+				}
+			}
+		}
+		
+		if(!"".equals(cmd)){
+			cmds = cmd.split(",");
+		}else{
+			cmds = new String[]{""};
+		}
+		
+		return cmds;
+	}
+	
+	@SuppressWarnings("unchecked")
+	public String getOperationExecutive(String mainKey, String operation){
+		String executive = "Myself";
+		
+		LinkedHashMap<String, Object> oprMap = getData(mainKey);
+		if(null != oprMap){
+			LinkedHashMap<String, Object> cmdMap = (LinkedHashMap<String, Object>) oprMap.get(operation);
+			if(null != cmdMap){
+				if(null!=cmdMap.get(operation)){
+					executive = ((ArrayList<String>)cmdMap.get(operation)).get(0);
+				}
+			}
+		}
+		
+		return executive;
+	}
+	
+	public String[] getCommandParaDataTitle(){
+		return (new String[]{"Index","ParaName","ParaVal"});
+	}
+	
+	@SuppressWarnings("unchecked")
+	public Object[][] getCommandParaDataTable(String mainKey, String operation,String cmdName){
+		Object[][] data = null;
+		ArrayList<String> para = null;
+		
+		LinkedHashMap<String, Object> oprMap = getData(mainKey);
+		if(null != oprMap && oprMap.size() > 0){
+			LinkedHashMap<String, Object> cmdMap = (LinkedHashMap<String, Object>) oprMap.get(operation);
+			if(null != cmdMap && cmdMap.size() > 0){
+				for(String key:cmdMap.keySet()){
+					if(cmdName.equals(key)){
+						para = (ArrayList<String>) cmdMap.get(cmdName);
+						break;
+					}
+				}
+			}
+		}
+		
+		if(null != para){
+			String[] paras = para.get(0).split(";");
+			String[] parasVal = para.get(1).split(";");
+			if(paras.length < MAXPARACOUNT){
+				data = new Object[MAXPARACOUNT][3];
+			}else{
+				data = new Object[paras.length][3];
+			}
+			for(int i=0; i<paras.length; i++){
+				data[i][0] = i+1;
+				data[i][1] = paras[i];
+				data[i][2] = parasVal[i];
+			}
+		}
+		
+		return data;
+	}
+	
+	@SuppressWarnings("unchecked")
+	public LinkedHashMap<String, Object> getCommonConfig(String mainKey){
+		LinkedHashMap<String, Object> config = null;
+		
+		LinkedHashMap<String, Object> oprMap = getData(mainKey);
+		if(null != oprMap && oprMap.size() > 0){
+			config = (LinkedHashMap<String, Object>) oprMap.get("Common");
+		}
+		
+		return config;
+	}
+	
+	public String[] getCommonConfigDataTitle(){
+		String[] title = new String[]{"ParaName", "ParaVal"};
+		
+		return title;
+	}
+	
+	@SuppressWarnings("unchecked")
+	public Object[][] getCommonConfigDataTable(String mainKey){
+		Object[][] data = null;
+		String parasName = "", parasVal = "";
+		
+		LinkedHashMap<String, Object> oprMap = getData(mainKey);
+		if(null != oprMap && oprMap.size() > 0){
+			LinkedHashMap<String, Object> config = (LinkedHashMap<String, Object>) oprMap.get("Common");
+			if(null != config && config.size() > 0){
+				for(String key:config.keySet()){
+					if("".equals(parasVal)){
+						parasVal = (String) config.get(key);
+					}else{
+						parasVal += "," + (String) config.get(key);
+					}
+					
+					if("socketResponseTimeout".equals(key)) key += "(s)";
+					if("socketResponseInterval".equals(key)) key += "(ms)";
+					if("".equals(parasName)){
+						parasName = key;
+					}else{
+						parasName += "," + key;
+					}
+				}
+			}
+		}
+		if(!"".equals(parasVal)){
+			String[] name = parasName.split(",");
+			String[] val = parasVal.split(",");
+			data = new Object[name.length][2];
+			for(int i=0; i<name.length; i++){
+				data[i][0] = name[i];
+				data[i][1] = val[i];
+			}
+		}
+		
+		return data;
+	}
+	
+	@SuppressWarnings("unchecked")
+	public String getCommandStr(String mainKey, String operation, String cmdName, String[] reInitParas, String[] reInitVals){
+		String rtnStr = "";
+		
+		LinkedHashMap<String, Object> oprMap = getData(mainKey);
+		if(null != oprMap && oprMap.size() > 0){
+			LinkedHashMap<String, Object> cmdMap = (LinkedHashMap<String, Object>) oprMap.get(operation);
+			if(null != cmdMap && cmdMap.size() > 0){
+				ArrayList<String> cmdParas = (ArrayList<String>) cmdMap.get(cmdName);
+				if(null != cmdParas && cmdParas.size() > 1){
+					if(null != reInitParas && reInitParas.length > 0){
+						String[] paras = cmdParas.get(0).split(";");
+						String[] vals = cmdParas.get(1).split(";");
+						for(int i=0; i<paras.length; i++){
+							for(int j=0; j<reInitParas.length; j++){
+								if(reInitParas[j].equals(paras[i])){
+									vals[i] = reInitVals[j];
+									break;
+								}
+							}
+						}
+						for(String val:vals){
+							if("".equals(rtnStr)){
+								rtnStr = val;
+							}else{
+								rtnStr += ";" + val;
+							}
+						}
+					}else{
+						rtnStr = cmdParas.get(1);
+					}
+				}
+			}
+		}
+		
+		if(!"".equals(rtnStr)){
+			LinkedHashMap<String, Object> commonCfg = (LinkedHashMap<String, Object>) oprMap.get("Common");
+			String seperator = (String) commonCfg.get("seperator");
+			rtnStr = rtnStr.replace(";", seperator);
+			rtnStr = cmdName.split("#")[0] + seperator + rtnStr + seperator;
+			rtnStr += calculateCmdConfirmCode(rtnStr);
+		}
+		
+		return rtnStr;
+	}
+	
+	private String calculateCmdConfirmCode(String cmdStr){
+		byte[] ascii = cmdStr.getBytes();
+		int xor = ascii[0];
+		
+		for(int i=1; i<ascii.length; i++){
+			xor ^= ascii[i];
+		}
+		
+		return Integer.toHexString(xor);
+	}
+	
+}

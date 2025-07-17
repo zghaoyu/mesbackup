@@ -1,0 +1,70 @@
+2023-08-14 14:11:13@1691993473458@SocketClient connecSt(127.0.0.1:9903) failed:Connection refused: connect
+Ping(127.0.0.1):OK
+Netstat(127.0.0.1):
+  TCP    127.0.0.1:5354         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:5354         127.0.0.1:51259        ESTABLISHED     InHost      
+  TCP    127.0.0.1:5354         127.0.0.1:51260        ESTABLISHED     InHost      
+  TCP    127.0.0.1:6306         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:9993         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:27015        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:50911        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:50912        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:51259        127.0.0.1:5354         ESTABLISHED     InHost      
+  TCP    127.0.0.1:51260        127.0.0.1:5354         ESTABLISHED     InHost      
+  TCP    127.0.0.1:52129        127.0.0.1:52130        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52130        127.0.0.1:52129        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52131        127.0.0.1:52132        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52132        127.0.0.1:52131        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52133        127.0.0.1:52134        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52134        127.0.0.1:52133        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52135        127.0.0.1:52136        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52136        127.0.0.1:52135        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52137        127.0.0.1:52138        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52138        127.0.0.1:52137        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56539        127.0.0.1:56540        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56540        127.0.0.1:56539        ESTABLISHED     InHost      
+  TCP    127.0.0.1:64350        127.0.0.1:64351        ESTABLISHED     InHost      
+  TCP    127.0.0.1:64351        127.0.0.1:64350        ESTABLISHED     InHost      
+  UDP    127.0.0.1:1900         *:*                                                
+  UDP    127.0.0.1:50461        *:*                                                
+  UDP    127.0.0.1:50462        *:*                                                
+  UDP    127.0.0.1:56680        *:*                                                
+  UDP    127.0.0.1:59212        *:*                                                
+  UDP    127.0.0.1:61830        *:*                                                
+  UDP    127.0.0.1:63957        *:*                                                
+  UDP    127.0.0.1:64743        *:*                                                
+2023-08-14 16:06:12@1692000372215@SocketClient connecSt(127.0.0.1:9903) failed:Connection refused: connect
+Ping(127.0.0.1):OK
+Netstat(127.0.0.1):
+  TCP    127.0.0.1:5354         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:5354         127.0.0.1:51259        ESTABLISHED     InHost      
+  TCP    127.0.0.1:5354         127.0.0.1:51260        ESTABLISHED     InHost      
+  TCP    127.0.0.1:6306         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:9993         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:27015        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:50911        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:50912        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:51259        127.0.0.1:5354         ESTABLISHED     InHost      
+  TCP    127.0.0.1:51260        127.0.0.1:5354         ESTABLISHED     InHost      
+  TCP    127.0.0.1:52129        127.0.0.1:52130        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52130        127.0.0.1:52129        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52131        127.0.0.1:52132        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52132        127.0.0.1:52131        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52133        127.0.0.1:52134        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52134        127.0.0.1:52133        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52135        127.0.0.1:52136        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52136        127.0.0.1:52135        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52137        127.0.0.1:52138        ESTABLISHED     InHost      
+  TCP    127.0.0.1:52138        127.0.0.1:52137        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56539        127.0.0.1:56540        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56540        127.0.0.1:56539        ESTABLISHED     InHost      
+  TCP    127.0.0.1:64350        127.0.0.1:64351        ESTABLISHED     InHost      
+  TCP    127.0.0.1:64351        127.0.0.1:64350        ESTABLISHED     InHost      
+  UDP    127.0.0.1:1900         *:*                                                
+  UDP    127.0.0.1:50461        *:*                                                
+  UDP    127.0.0.1:50462        *:*                                                
+  UDP    127.0.0.1:56680        *:*                                                
+  UDP    127.0.0.1:59212        *:*                                                
+  UDP    127.0.0.1:61830        *:*                                                
+  UDP    127.0.0.1:63957        *:*                                                
+  UDP    127.0.0.1:64743        *:*                                                

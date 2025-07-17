@@ -1,0 +1,14 @@
+2018-01-05 17:41:23@1515145283359@DAOImpl(String:com.cncclient.dto.CNCLines) fail
+2018-01-05 17:41:23@1515145283362@XmlUtils-parseSystemConfig() ERR:null
+2018-01-05 17:41:23@1515145283368@DAOImpl(String:com.cncclient.dto.CNCLines) fail
+2018-01-05 17:41:23@1515145283369@XmlUtils-parseSystemConfig() ERR:null
+2018-01-05 17:41:23@1515145283520@DAOImpl(String:com.cncclient.dto.CNCLinesInfo) fail
+2018-01-05 17:41:54@1515145314666@DAOImpl(String:com.cncclient.dto.CNCLines) fail
+2018-01-05 17:41:54@1515145314669@XmlUtils-parseSystemConfig() ERR:null
+2018-01-05 17:41:54@1515145314674@DAOImpl(String:com.cncclient.dto.CNCLines) fail
+2018-01-05 17:41:54@1515145314676@XmlUtils-parseSystemConfig() ERR:null
+2018-01-05 17:41:54@1515145314824@DAOImpl(String:com.cncclient.dto.CNCLinesInfo) fail
+2018-01-05 17:44:22@1515145462742@DAOImpl(String:com.cncclient.dto.CNCLines) fail
+2018-01-05 17:44:22@1515145462745@XmlUtils-parseSystemConfig() ERR:null
+2018-01-05 17:44:22@1515145462759@DAOImpl(String:com.cncclient.dto.CNCLines) fail
+2018-01-05 17:44:22@1515145462761@XmlUtils-parseSystemConfig() ERR:null

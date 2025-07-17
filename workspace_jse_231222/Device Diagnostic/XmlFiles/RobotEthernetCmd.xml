@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RobotEthernetCmd>
+  <Robot key="R2D2" targetName="MORI_DR5A" seperator=";" returnCodePosition="LastElement" successCode="0" debugIP="127.0.0.1" debugPort="9002">
+    <Operation name="pickMaterialFromTray" operator="Myself">
+      <Command name="PICK_DUT" id="1">
+        <InParas>TRAY;POS</InParas>
+        <InParasVal>1;1</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="putMaterialOntoTray" operator="Myself">
+      <Command name="PUT_DUT" id="1">
+        <InParas>TRAY;POS</InParas>
+        <InParasVal>?;?</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="pickMaterialFromRack" operator="Myself">
+      <Command name="PICK_DUT_R" id="1">
+        <InParas>SLOT;POS</InParas>
+        <InParasVal>?;?</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="putMaterialOntoRack" operator="Myself">
+      <Command name="PUT_DUT_R" id="1">
+        <InParas>SLOT;POS</InParas>
+        <InParasVal>?;?</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="pickMaterialFromMachine" operator="Myself">
+      <Command name="PICK_DUT_T" id="1">
+        <InParas>ZONENUMBER</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="putMaterialOntoMachine" operator="Myself">
+      <Command name="PUT_DUT_T" id="1">
+        <InParas>ZONENUMBER</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="moveToMachine" operator="Myself">
+      <Command name="MOVE_UNPARKING" id="1">
+        <InParas>POS_NAME</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+      <Command name="MOVE_TAR" id="1">
+        <InParas>POS_NAME</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+      <Command name="MOVE_PARKING" id="1">
+        <InParas>POS_NAME</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="moveToRack" operator="Myself">
+      <Command name="MOVE_UNPARKING" id="1">
+        <InParas>POS_NAME</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+      <Command name="MOVE_TAR" id="1">
+        <InParas>POS_NAME</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+      <Command name="MOVE_PARKING" id="1">
+        <InParas>POS_NAME</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="getBattery" operator="Myself">
+      <Command name="GET_BATTERY" id="1">
+        <InParas>BATTERY</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="goCharging" operator="Myself">
+      <Command name="CHARGING" id="1">
+        <InParas>POS</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="scanBarcode" operator="Myself">
+      <Command name="SCAN_BARCODE" id="1">
+        <InParas>POS</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+    </Operation>
+  </Robot>
+  <Robot key="R2D2" targetName="BRO_S500Z1" seperator=";" returnCodePosition="LastElement" successCode="0" debugIP="127.0.0.1" debugPort="9002">
+    <Operation name="pickMaterialFromTray" operator="Myself">
+      <Command name="PICK_DUT" id="1">
+        <InParas>TRAY;POS</InParas>
+        <InParasVal>1;1</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="putMaterialOntoTray" operator="Myself">
+      <Command name="PUT_DUT" id="1">
+        <InParas>TRAY;POS</InParas>
+        <InParasVal>?;?</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="pickMaterialFromRack" operator="Myself">
+      <Command name="PICK_DUT_R" id="1">
+        <InParas>SLOT;POS</InParas>
+        <InParasVal>?;?</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="putMaterialOntoRack" operator="Myself">
+      <Command name="PUT_DUT_R" id="1">
+        <InParas>SLOT;POS</InParas>
+        <InParasVal>?;?</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="pickMaterialFromMachine" operator="Myself">
+      <Command name="PICK_DUT_T" id="1">
+        <InParas>ZONENUMBER</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="putMaterialOntoMachine" operator="Myself">
+      <Command name="PUT_DUT_T" id="1">
+        <InParas>ZONENUMBER</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="moveToMachine" operator="Myself">
+      <Command name="MOVE_UNPARKING" id="1">
+        <InParas>POS_NAME</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+      <Command name="MOVE_TAR" id="1">
+        <InParas>POS_NAME</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+      <Command name="MOVE_PARKING" id="1">
+        <InParas>POS_NAME</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="moveToRack" operator="Myself">
+      <Command name="MOVE_UNPARKING" id="1">
+        <InParas>POS_NAME</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+      <Command name="MOVE_TAR" id="1">
+        <InParas>POS_NAME</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+      <Command name="MOVE_PARKING" id="1">
+        <InParas>POS_NAME</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="getBattery" operator="Myself">
+      <Command name="GET_BATTERY" id="1">
+        <InParas>BATTERY</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="goCharging" operator="Myself">
+      <Command name="CHARGING" id="1">
+        <InParas>POS</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="scanBarcode" operator="Myself">
+      <Command name="SCAN_BARCODE" id="1">
+        <InParas>POS</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+    </Operation>
+  </Robot>
+  <Robot key="R2D2" targetName="BRO_S700Z1" seperator=";" returnCodePosition="LastElement" successCode="0" debugIP="127.0.0.1" debugPort="9002">
+    <Operation name="pickMaterialFromTray" operator="Myself">
+      <Command name="PICK_DUT" id="1">
+        <InParas>TRAY;POS</InParas>
+        <InParasVal>1;1</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="putMaterialOntoTray" operator="Myself">
+      <Command name="PUT_DUT" id="1">
+        <InParas>TRAY;POS</InParas>
+        <InParasVal>?;?</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="pickMaterialFromRack" operator="Myself">
+      <Command name="PICK_DUT_R" id="1">
+        <InParas>SLOT;POS</InParas>
+        <InParasVal>?;?</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="putMaterialOntoRack" operator="Myself">
+      <Command name="PUT_DUT_R" id="1">
+        <InParas>SLOT;POS</InParas>
+        <InParasVal>?;?</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="pickMaterialFromMachine" operator="Myself">
+      <Command name="PICK_DUT_T" id="1">
+        <InParas>ZONENUMBER</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="putMaterialOntoMachine" operator="Myself">
+      <Command name="PUT_DUT_T" id="1">
+        <InParas>ZONENUMBER</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="moveToMachine" operator="Myself">
+      <Command name="MOVE_UNPARKING" id="1">
+        <InParas>POS_NAME</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+      <Command name="MOVE_TAR" id="1">
+        <InParas>POS_NAME</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+      <Command name="MOVE_PARKING" id="1">
+        <InParas>POS_NAME</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="moveToRack" operator="Myself">
+      <Command name="MOVE_UNPARKING" id="1">
+        <InParas>POS_NAME</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+      <Command name="MOVE_TAR" id="1">
+        <InParas>POS_NAME</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+      <Command name="MOVE_PARKING" id="1">
+        <InParas>POS_NAME</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="getBattery" operator="Myself">
+      <Command name="GET_BATTERY" id="1">
+        <InParas>BATTERY</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="goCharging" operator="Myself">
+      <Command name="CHARGING" id="1">
+        <InParas>POS</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="scanBarcode" operator="Myself">
+      <Command name="SCAN_BARCODE" id="1">
+        <InParas>POS</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+    </Operation>
+  </Robot>
+  <Robot key="R2D2" targetName="HARTFORD_MVP8" seperator=";" returnCodePosition="LastElement" successCode="0" debugIP="127.0.0.1" debugPort="9002">
+    <Operation name="pickMaterialFromTray" operator="Myself">
+      <Command name="MOVE_TAR" id="1">
+        <InParas>tagName</InParas>
+        <InParasVal>HT</InParasVal>
+      </Command>
+      <Command name="MOVE_CHARGING" id="1">
+        <InParas></InParas>
+        <InParasVal></InParasVal>
+      </Command>
+      <Command name="PUT_HT_F" id="1">
+        <InParas>tagName;rackSlot;robotSlot</InParas>
+        <InParasVal>HT;1;1</InParasVal>
+      </Command>
+      <Command name="PICK_HT_F" id="1">
+        <InParas>tagName;rackSlot;robotSlot</InParas>
+        <InParasVal>HT;1;1</InParasVal>
+      </Command>
+      <Command name="MOVE_END_CHARGING" id="1">
+        <InParas></InParas>
+        <InParasVal></InParasVal>
+      </Command>
+      <Command name="MOVE_TAR" id="2">
+        <InParas>tagName</InParas>
+        <InParasVal>CNC</InParasVal>
+      </Command>
+      <Command name="MOVE_PARKING" id="1">
+        <InParas>tagName</InParas>
+        <InParasVal>CNC</InParasVal>
+      </Command>
+      <Command name="MOVE_BASE" id="1">
+        <InParas>POS</InParas>
+        <InParasVal>BACK</InParasVal>
+      </Command>
+      <Command name="PUT_DUT_T" id="1">
+        <InParas>tagName;workZone;robotSlot</InParas>
+        <InParasVal>CNC_01;1;1</InParasVal>
+      </Command>
+      <Command name="PICK_DUT_T" id="1">
+        <InParas>tagName;workZone;robotSlot</InParas>
+        <InParasVal>CNC_01;1;1</InParasVal>
+      </Command>
+      <Command name="MOVE_UNPARKING" id="1">
+        <InParas>unparkTag</InParas>
+        <InParasVal>CNC</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="putMaterialOntoTray" operator="Myself">
+      <Command name="MOVE_BASE" id="1">
+        <InParas>POS</InParas>
+        <InParasVal>BACK</InParasVal>
+      </Command>
+      <Command name="GRIPPER_CONTROL" id="1">
+        <InParas>SWITCH</InParas>
+        <InParasVal>1</InParasVal>
+      </Command>
+      <Command name="TAKE_PIC" id="1">
+        <InParas></InParas>
+        <InParasVal></InParasVal>
+      </Command>
+      <Command name="MOVE_BASE" id="2">
+        <InParas>POS</InParas>
+        <InParasVal>LEFT</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="pickMaterialFromRack" operator="Myself">
+      <Command name="PICK_HT_F" id="1">
+        <InParas>tagName;rackSlot;robotSlot</InParas>
+        <InParasVal>HT;1;1</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="putMaterialOntoRack" operator="Myself">
+      <Command name="PUT_HT_F" id="1">
+        <InParas>tagName;rackSlot;robotSlot</InParas>
+        <InParasVal>HT;1;1</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="pickMaterialFromMachine" operator="Myself">
+      <Command name="PICK_DUT_T" id="1">
+        <InParas>tagName;workZone;robotSlot</InParas>
+        <InParasVal>CNC_01;1;1</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="putMaterialOntoMachine" operator="Myself">
+      <Command name="PUT_DUT_T" id="1">
+        <InParas>tagName;workZone;robotSlot</InParas>
+        <InParasVal>CNC_01;1;1</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="moveToMachine" operator="Myself">
+      <Command name="MOVE_UNPARKING" id="1">
+        <InParas>unparkTag</InParas>
+        <InParasVal>HT</InParasVal>
+      </Command>
+      <Command name="MOVE_TAR" id="1">
+        <InParas>tagName</InParas>
+        <InParasVal>CNC</InParasVal>
+      </Command>
+      <Command name="MOVE_PARKING" id="1">
+        <InParas>tagName</InParas>
+        <InParasVal>CNC</InParasVal>
+      </Command>
+      <Command name="MOVE_BASE" id="1">
+        <InParas>POS</InParas>
+        <InParasVal>BACK</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="moveToRack" operator="Myself">
+      <Command name="MOVE_UNPARKING" id="1">
+        <InParas>unparkTag</InParas>
+        <InParasVal>CNC</InParasVal>
+      </Command>
+      <Command name="MOVE_TAR" id="1">
+        <InParas>tagName</InParas>
+        <InParasVal>HT</InParasVal>
+      </Command>
+      <Command name="MOVE_CHARGING" id="1">
+        <InParas>tagName</InParas>
+        <InParasVal>HT</InParasVal>
+      </Command>
+      <Command name="MOVE_BASE" id="1">
+        <InParas>POS</InParas>
+        <InParasVal>LEFT</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="getBattery" operator="Myself">
+      <Command name="GET_SOC" id="1">
+        <InParas></InParas>
+        <InParasVal></InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="goCharging" operator="Myself">
+      <Command name="MOVE_CHARGING" id="1">
+        <InParas>tagName</InParas>
+        <InParasVal>HT</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="stopCharging" operator="Myself">
+      <Command name="MOVE_END_CHARGING" id="1">
+        <InParas></InParas>
+        <InParasVal></InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="scanBarcode" operator="Myself">
+      <Command name="SCAN_BARCODE" id="1">
+        <InParas>POS</InParas>
+        <InParasVal>?</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="getLastCmd" operator="Myself">
+      <Command name="LAST_CMD" id="1">
+        <InParas></InParas>
+        <InParasVal></InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="subProgram" operator="Myself">
+      <Command name="SUB_01" id="1">
+        <InParas></InParas>
+        <InParasVal></InParasVal>
+      </Command>
+      <Command name="GET_SOC" id="1">
+        <InParas>CMD_TIMEOUT</InParas>
+        <InParasVal>2</InParasVal>
+      </Command>
+    </Operation>
+  </Robot>
+  <Robot key="CMR" targetName="MORI_DR5A" seperator=";" returnCodePosition="FirstElement" successCode="OK" debugIP="10.10.207.56" debugPort="6666" cmdTimeout="120" sleepTime="18:30-23:59;00:00-07:50;11:25-13:00">
+    <Operation name="moveTo" operator="Myself">
+      <Command name="move_to" id="1">
+        <InParas>POS_NAME;CMD_TIMEOUT</InParas>
+        <InParasVal>P001;60</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="dockTo" operator="Myself">
+      <Command name="dock_to" id="1">
+        <InParas>POS_NAME;CMD_TIMEOUT</InParas>
+        <InParasVal>VL001;60</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="pickAndPlace" operator="Myself">
+      <Command name="pick_and_place" id="1">
+        <InParas>POS_FROM;POS_TO;CMD_TIMEOUT</InParas>
+        <InParasVal>robot_slot_11;input_rack_slot_22;600</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="gotoCharge" operator="Myself">
+      <Command name="go_to_charge" id="1">
+        <InParas>CHARGING;CMD_TIMEOUT</InParas>
+        <InParasVal>1;60</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="adjustGripperPose" operator="Myself">
+      <Command name="adjust_gripper_pose" id="1">
+        <InParas>PNP_POS;PNP_TYPE;CMD_TIMEOUT</InParas>
+        <InParasVal>input_rack_slot_13;placeFactor;120</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="readBarcode" operator="Myself">
+      <Command name="read_barcode" id="1">
+        <InParas>CMD_TIMEOUT</InParas>
+        <InParasVal>30</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="getBattery" operator="Myself">
+      <Command name="get_battery" id="1">
+        <InParas>CMD_TIMEOUT</InParas>
+        <InParasVal>5</InParasVal>
+      </Command>
+    </Operation>
+  </Robot>
+    <Robot key="CMR" targetName="BRO_S500Z1" seperator=";" returnCodePosition="FirstElement" successCode="OK" debugIP="10.10.207.56" debugPort="6666" cmdTimeout="120" sleepTime="18:30-23:59;00:00-07:50;11:25-13:00">
+    <Operation name="moveTo" operator="Myself">
+      <Command name="move_to" id="1">
+        <InParas>POS_NAME;CMD_TIMEOUT</InParas>
+        <InParasVal>P001;60</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="dockTo" operator="Myself">
+      <Command name="dock_to" id="1">
+        <InParas>POS_NAME;CMD_TIMEOUT</InParas>
+        <InParasVal>VL001;60</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="pickAndPlace" operator="Myself">
+      <Command name="pick_and_place" id="1">
+        <InParas>POS_FROM;POS_TO;CMD_TIMEOUT</InParas>
+        <InParasVal>robot_slot_11;input_rack_slot_22;600</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="gotoCharge" operator="Myself">
+      <Command name="go_to_charge" id="1">
+        <InParas>CHARGING;CMD_TIMEOUT</InParas>
+        <InParasVal>1;60</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="adjustGripperPose" operator="Myself">
+      <Command name="adjust_gripper_pose" id="1">
+        <InParas>PNP_POS;PNP_TYPE;CMD_TIMEOUT</InParas>
+        <InParasVal>input_rack_slot_13;placeFactor;120</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="readBarcode" operator="Myself">
+      <Command name="read_barcode" id="1">
+        <InParas>CMD_TIMEOUT</InParas>
+        <InParasVal>30</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="getBattery" operator="Myself">
+      <Command name="get_battery" id="1">
+        <InParas>CMD_TIMEOUT</InParas>
+        <InParasVal>5</InParasVal>
+      </Command>
+    </Operation>
+  </Robot>
+   <Robot key="CMR" targetName="BRO_S700Z1" seperator=";" returnCodePosition="FirstElement" successCode="OK" debugIP="10.10.207.56" debugPort="6666" cmdTimeout="120" sleepTime="18:30-23:59;00:00-07:50;11:25-13:00">
+    <Operation name="moveTo" operator="Myself">
+      <Command name="move_to" id="1">
+        <InParas>POS_NAME;CMD_TIMEOUT</InParas>
+        <InParasVal>P001;60</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="dockTo" operator="Myself">
+      <Command name="dock_to" id="1">
+        <InParas>POS_NAME;CMD_TIMEOUT</InParas>
+        <InParasVal>VL001;60</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="pickAndPlace" operator="Myself">
+      <Command name="pick_and_place" id="1">
+        <InParas>POS_FROM;POS_TO;CMD_TIMEOUT</InParas>
+        <InParasVal>robot_slot_11;input_rack_slot_22;600</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="gotoCharge" operator="Myself">
+      <Command name="go_to_charge" id="1">
+        <InParas>CHARGING;CMD_TIMEOUT</InParas>
+        <InParasVal>1;60</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="adjustGripperPose" operator="Myself">
+      <Command name="adjust_gripper_pose" id="1">
+        <InParas>PNP_POS;PNP_TYPE;CMD_TIMEOUT</InParas>
+        <InParasVal>input_rack_slot_13;placeFactor;120</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="readBarcode" operator="Myself">
+      <Command name="read_barcode" id="1">
+        <InParas>CMD_TIMEOUT</InParas>
+        <InParasVal>30</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="getBattery" operator="Myself">
+      <Command name="get_battery" id="1">
+        <InParas>CMD_TIMEOUT</InParas>
+        <InParasVal>5</InParasVal>
+      </Command>
+    </Operation>
+  </Robot>
+  <Robot key="CMR" targetName="HARTFORD_MVP8" seperator=";" returnCodePosition="FirstElement" successCode="OK" debugIP="10.10.207.56" debugPort="6666" cmdTimeout="120" sleepTime="18:30-23:59;00:00-07:50;11:25-13:00">
+    <Operation name="moveTo" operator="Myself">
+      <Command name="move_to" id="1">
+        <InParas>POS_NAME;CMD_TIMEOUT</InParas>
+        <InParasVal>P001;60</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="dockTo" operator="Myself">
+      <Command name="dock_to" id="1">
+        <InParas>POS_NAME;CMD_TIMEOUT</InParas>
+        <InParasVal>VL001;60</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="pickAndPlace" operator="Myself">
+      <Command name="pick_and_place" id="1">
+        <InParas>POS_FROM;POS_TO;CMD_TIMEOUT</InParas>
+        <InParasVal>robot_slot_11;input_rack_slot_22;600</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="gotoCharge" operator="Myself">
+      <Command name="go_to_charge" id="1">
+        <InParas>CHARGING;CMD_TIMEOUT</InParas>
+        <InParasVal>1;60</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="adjustGripperPose" operator="Myself">
+      <Command name="adjust_gripper_pose" id="1">
+        <InParas>PNP_POS;PNP_TYPE;CMD_TIMEOUT</InParas>
+        <InParasVal>input_rack_slot_13;placeFactor;120</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="readBarcode" operator="Myself">
+      <Command name="read_barcode" id="1">
+        <InParas>CMD_TIMEOUT</InParas>
+        <InParasVal>30</InParasVal>
+      </Command>
+    </Operation>
+    <Operation name="getBattery" operator="Myself">
+      <Command name="get_battery" id="1">
+        <InParas>CMD_TIMEOUT</InParas>
+        <InParasVal>5</InParasVal>
+      </Command>
+    </Operation>
+  </Robot>
+</RobotEthernetCmd>

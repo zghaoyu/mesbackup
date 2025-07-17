@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Rack%20Manager/src/com/cncmes/ctrl
+END
+SocketServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Rack%20Manager/src/com/cncmes/ctrl/SocketServer.java
+END
+CtrlCenterClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Rack%20Manager/src/com/cncmes/ctrl/CtrlCenterClient.java
+END
+RackServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Rack%20Manager/src/com/cncmes/ctrl/RackServer.java
+END
+SocketClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Rack%20Manager/src/com/cncmes/ctrl/SocketClient.java
+END
+SchedulerClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Rack%20Manager/src/com/cncmes/ctrl/SchedulerClient.java
+END

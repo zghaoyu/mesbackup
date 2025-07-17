@@ -1,0 +1,473 @@
+package com.cncmes.data;
+
+import java.util.LinkedHashMap;
+
+import com.cncmes.base.DeviceState;
+import com.cncmes.base.RackItems;
+import com.cncmes.base.RunningData;
+
+public class RackData extends RunningData<RackItems> {
+	private LinkedHashMap<String,String> materialIDs = new LinkedHashMap<String,String>();
+	
+	/**
+	 * @param lineName Once lineName="All" rackID will be "All" automatically
+	 * @param rackID
+	 * @return null once there is no specified lineName or rackID
+	 */
+	public String[] getMainKey(String lineName,String rackID){
+		String keys = "";
+		String[] mainKey = null;
+		
+		if("All".equals(lineName)){
+			String[] lineNames = getLineNames(true);
+			if(null != lineNames){
+				for(String ln:lineNames){
+					String[] rackIDs = getRackIDsByLineName(ln);
+					if(null != rackIDs){
+						for(String id:rackIDs){
+							if("".equals(keys)){
+								keys = ln + "_" + id;
+							}else{
+								keys += "," + ln + "_" + id;
+							}
+						}
+					}
+				}
+			}
+			if(!"".equals(keys)) mainKey = keys.split(",");
+		}else{
+			if("All".equals(rackID)){
+				String[] rackIDs = getRackIDsByLineName(lineName);
+				if(null != rackIDs){
+					for(String id:rackIDs){
+						if("".equals(keys)){
+							keys = lineName + "_" + id;
+						}else{
+							keys += "," + lineName + "_" + id;
+						}
+					}
+				}
+				if(!"".equals(keys)) mainKey = keys.split(",");
+			}else{
+				mainKey = new String[]{lineName + "_" + rackID};
+			}
+		}
+		
+		return mainKey;
+	}
+	
+	/**
+	 * @param lineName Once lineName="All" rackID will be "All" automatically
+	 * @param rackID
+	 * @return 0 once there is no specified lineName or rackID
+	 */
+	public int getRackCapacity(String lineName,String rackID){
+		int capacity = 0;
+		
+		String[] mainKeys = getMainKey(lineName,rackID);
+		if(null != mainKeys){
+			for(String mainKey:mainKeys){
+				LinkedHashMap<RackItems, Object> rack = getData(mainKey);
+				if(null != rack){
+					int capa = (int) rack.get(RackItems.CAPACITY);
+					if(capa > 45) capa = 45;
+					capacity += capa;
+				}
+			}
+		}
+		
+		return capacity;
+	}
+	
+	public synchronized void updateSlot(String lineName,String rackID,int slotNo,Object val){
+		String[] mainKeys = getMainKey(lineName,rackID);
+		if(null != mainKeys){
+			for(String mainKey:mainKeys){
+				LinkedHashMap<RackItems, Object> rack = getData(mainKey);
+				if(null != rack){
+					RackItems key = getRackItems(slotNo);
+					if(null != key) rack.put(key, val);
+				}
+			}
+		}
+	}
+	
+	/**
+	 * @param lineName Once lineName="All" rackID will be "All" automatically
+	 * @param rackID
+	 * @return null once there is no not-empty slots for specified lineName and rackID
+	 */
+	public String[] getNotEmptySlots(String lineName,String rackID){
+		String[] notEmptySlots = null;
+		String slots = "";
+		
+		String[] mainKeys = getMainKey(lineName,rackID);
+		if(null != mainKeys){
+			for(String mainKey:mainKeys){
+				LinkedHashMap<RackItems, Object> rack = getData(mainKey);
+				if(null != rack){
+					int capacity = (int) rack.get(RackItems.CAPACITY);
+					if(capacity > 45) capacity = 45;
+					
+					for(int i=1; i<=capacity; i++){
+						RackItems key = getRackItems(i);
+						Object slot = rack.get(key);
+						if(null != slot && !"".equals(slot)){
+							if("".equals(slots)){
+								slots = ""+i;
+							}else{
+								slots += ","+i;
+							}
+						}
+					}
+				}
+			}
+		}
+		if(!"".equals(slots)) notEmptySlots = slots.split(",");
+		
+		return notEmptySlots;
+	}
+	
+	/**
+	 * @param lineName Once lineName="All" rackID will be "All" automatically
+	 * @param rackID
+	 * @return null once there is no not-empty slots for specified lineName and rackID
+	 */
+	public String[] getNotEmptySlotsMainKey(String lineName,String rackID){
+		String[] notEmptySlots = null;
+		String slots = "";
+		
+		String[] mainKeys = getMainKey(lineName,rackID);
+		if(null != mainKeys){
+			for(String mainKey:mainKeys){
+				LinkedHashMap<RackItems, Object> rack = getData(mainKey);
+				if(null != rack){
+					int capacity = (int) rack.get(RackItems.CAPACITY);
+					if(capacity > 45) capacity = 45;
+					
+					for(int i=1; i<=capacity; i++){
+						RackItems key = getRackItems(i);
+						Object slot = rack.get(key);
+						if(null != slot && !"".equals(slot)){
+							if("".equals(slots)){
+								slots = ""+mainKey;
+							}else{
+								slots += ","+mainKey;
+							}
+						}
+					}
+				}
+			}
+		}
+		if(!"".equals(slots)) notEmptySlots = slots.split(",");
+		
+		return notEmptySlots;
+	}
+	
+	/**
+	 * @param lineName Once lineName="All" rackID will be "All" automatically
+	 * @param rackID
+	 * @return null once there is no empty slots for specified lineName and rackID
+	 */
+	public String[] getEmptySlots(String lineName,String rackID){
+		String[] emptySlots = null;
+		String slots = "";
+		
+		String[] mainKeys = getMainKey(lineName,rackID);
+		if(null != mainKeys){
+			for(String mainKey:mainKeys){
+				LinkedHashMap<RackItems, Object> rack = getData(mainKey);
+				if(null != rack){
+					int capacity = (int) rack.get(RackItems.CAPACITY);
+					if(capacity > 45) capacity = 45;
+					
+					for(int i=1; i<=capacity; i++){
+						RackItems key = getRackItems(i);
+						Object slot = rack.get(key);
+						if(null == slot || (null != slot && "".equals(slot))){
+							if("".equals(slots)){
+								slots = ""+i;
+							}else{
+								slots += ","+i;
+							}
+						}
+					}
+				}
+			}
+		}
+		if(!"".equals(slots)) emptySlots = slots.split(",");
+		
+		return emptySlots;
+	}
+	
+	/**
+	 * @param lineName Once lineName="All" rackID will be "All" automatically
+	 * @param rackID
+	 * @return null once there is no empty slots for specified lineName and rackID
+	 */
+	public String[] getEmptySlotsMainKey(String lineName,String rackID){
+		String[] emptySlots = null;
+		String slots = "";
+		
+		String[] mainKeys = getMainKey(lineName,rackID);
+		if(null != mainKeys){
+			for(String mainKey:mainKeys){
+				LinkedHashMap<RackItems, Object> rack = getData(mainKey);
+				if(null != rack){
+					int capacity = (int) rack.get(RackItems.CAPACITY);
+					if(capacity > 45) capacity = 45;
+					
+					for(int i=1; i<=capacity; i++){
+						RackItems key = getRackItems(i);
+						Object slot = rack.get(key);
+						if(null == slot || (null != slot && "".equals(slot))){
+							if("".equals(slots)){
+								slots = ""+mainKey;
+							}else{
+								slots += ","+mainKey;
+							}
+						}
+					}
+				}
+			}
+		}
+		if(!"".equals(slots)) emptySlots = slots.split(",");
+		
+		return emptySlots;
+	}
+	
+	public LinkedHashMap<RackItems,Object> getRackStatisticInfoByLineName(String lineName){
+		LinkedHashMap<RackItems,Object> rackStatistic = new LinkedHashMap<RackItems,Object>();
+		
+		String[] notEmptySlotsVal = getNotEmptySlotsVal(lineName,"All");
+		String[] lines = getLineNames(true);
+		int emptySlots = getEmptySlotsCount(lineName,"All");
+		
+		if(null != notEmptySlotsVal){
+			rackStatistic.put(RackItems.WPTOTAL, notEmptySlotsVal.length);
+			
+			int standbyCnt = 0;
+			int planCnt = 0;
+			for(String wpID:notEmptySlotsVal){
+				Object state = WorkpieceData.getInstance().getWorkpieceState(wpID);
+				if(null != state){
+					if(DeviceState.STANDBY == (DeviceState)state) standbyCnt++;
+					if(DeviceState.PLAN == (DeviceState)state) planCnt++;
+				}
+			}
+			
+			rackStatistic.put(RackItems.WPSTANDBY, standbyCnt);
+			rackStatistic.put(RackItems.WPPLAN, planCnt);
+			rackStatistic.put(RackItems.EMPTYSLOTS, emptySlots);
+			rackStatistic.put(RackItems.EMPTYLINES, (null != lines)?lines.length:0);
+		}else{
+			rackStatistic.put(RackItems.WPTOTAL, 0);
+			rackStatistic.put(RackItems.WPSTANDBY, 0);
+			rackStatistic.put(RackItems.WPPLAN, 0);
+			rackStatistic.put(RackItems.EMPTYSLOTS, emptySlots);
+			rackStatistic.put(RackItems.EMPTYLINES, (null != lines)?lines.length:0);
+		}
+		
+		return rackStatistic;
+	}
+	
+	/**
+	 * @param lineName Can not be "All"
+	 * @param rackID Can not be "All"
+	 * @return false means operation failed
+	 */
+	public boolean putWorkpieceOnRack(String lineName,String rackID,String workpieceID){
+		boolean ok = false;
+		String[] emptySlots = null;
+		
+		if(!"All".equals(lineName) && !"All".equals(rackID)){
+			if(workpieceID.length() > 6){
+				emptySlots = getEmptySlots(lineName, rackID);
+				if(null != emptySlots){
+					String oriID = materialIDs.get(workpieceID);
+					WorkpieceData wpData = WorkpieceData.getInstance();
+					if(null == oriID){
+						materialIDs.put(workpieceID, workpieceID);
+						updateSlot(lineName, rackID, Integer.parseInt(emptySlots[0]), workpieceID);
+						wpData.setRackID(workpieceID, rackID);
+						wpData.setSlotNo(workpieceID, emptySlots[0]);
+						ok = true;
+					}
+				}
+			}
+		}
+		
+		return ok;
+	}
+	
+	/**
+	 * @param onlyRealName Once onlyRealName is false,lineName "All" will be always return
+	 * @return It's possible null while input parameter onlyRealName is true and there is no data
+	 */
+	public String[] getLineNames(boolean onlyRealName){
+		String[] lines = null;
+		
+		String lns = "All";
+		if(onlyRealName) lns = "";
+		if(dataMap.size() > 0){
+			for(String id:dataMap.keySet()){
+				String ln = (String) dataMap.get(id).get(RackItems.LINENAME);
+				if(lns.indexOf(ln) < 0){
+					if("".equals(lns)){
+						lns = ln;
+					}else{
+						lns += "," + ln;
+					}
+				}
+			}
+		}
+		if(!"".equals(lns)) lines = lns.split(",");
+		
+		return lines;
+	}
+	
+	/**
+	 * @param lineName
+	 * @return null while the line has no material/product rack
+	 */
+	public String[] getRackIDsByLineName(String lineName){
+		String[] rackIDs = null;
+		
+		if(dataMap.size() > 0){
+			String ids = "";
+			for(String id:dataMap.keySet()){
+				String ln = (String) dataMap.get(id).get(RackItems.LINENAME);
+				if("All".equals(lineName) || (!"All".equals(lineName) && lineName.equals(ln))){
+					if("".equals(ids)){
+						ids = String.valueOf(dataMap.get(id).get(RackItems.ID));
+					}else{
+						ids += "," + String.valueOf(dataMap.get(id).get(RackItems.ID));
+					}
+				}
+			}
+			
+			if(!"".equals(ids)) rackIDs = ids.split(",");
+		}
+		
+		return rackIDs;
+	}
+	
+	/**
+	 * @param lineName Once lineName="All" rackID will be "All" automatically
+	 * @param rackID
+	 * @return 0 once there is no empty slots for specified lineName and rackID
+	 */
+	public int getEmptySlotsCount(String lineName,String rackID){
+		String[] emptySlots = getEmptySlots(lineName, rackID);
+		if(null == emptySlots){
+			return 0;
+		}else{
+			return emptySlots.length;
+		}
+	}
+	
+	/**
+	 * @param lineName Once lineName="All" rackID will be "All" automatically
+	 * @param rackID
+	 * @return null once there is no not-empty slots for specified lineName and rackID
+	 */
+	public int getNotEmptySlotsCount(String lineName, String rackID){
+		String[] notEmptySlots = getNotEmptySlots(lineName, rackID);
+		if(null == notEmptySlots){
+			return 0;
+		}else{
+			return notEmptySlots.length;
+		}
+	}
+	
+	/**
+	 * @param lineName Once lineName="All" rackID will be "All" automatically
+	 * @param rackID
+	 * @return null once there is no not-empty slots for specified lineName and rackID
+	 */
+	public String[] getNotEmptySlotsVal(String lineName,String rackID){
+		String[] vals = null;
+		
+		String[] slotsNo = getNotEmptySlots(lineName, rackID);
+		if(null != slotsNo){
+			vals = new String[slotsNo.length];
+			int index = -1;
+			String[] mainKeys = getMainKey(lineName,rackID);
+			if(null != mainKeys){
+				for(String mainKey:mainKeys){
+					LinkedHashMap<RackItems, Object> rack = getData(mainKey);
+					String[] keys = mainKey.split("_");
+					String[] slots = getNotEmptySlots(keys[0],keys[1]);
+					if(null != slots){
+						for(int i=0; i<slots.length; i++){
+							index++;
+							vals[index] = (String) rack.get(getRackItems(Integer.parseInt(slots[i])));
+						}
+					}
+				}
+			}
+		}
+		
+		return vals;
+	}
+	
+	public RackItems getRackItems(int slotNo){
+		RackItems rackItem = null;
+		
+		if(1 == slotNo) rackItem = RackItems.SLOT1;
+		if(2 == slotNo) rackItem = RackItems.SLOT2;
+		if(3 == slotNo) rackItem = RackItems.SLOT3;
+		if(4 == slotNo) rackItem = RackItems.SLOT4;
+		if(5 == slotNo) rackItem = RackItems.SLOT5;
+		
+		if(6 == slotNo) rackItem = RackItems.SLOT6;
+		if(7 == slotNo) rackItem = RackItems.SLOT7;
+		if(8 == slotNo) rackItem = RackItems.SLOT8;
+		if(9 == slotNo) rackItem = RackItems.SLOT9;
+		if(10 == slotNo) rackItem = RackItems.SLOT10;
+		
+		if(11 == slotNo) rackItem = RackItems.SLOT11;
+		if(12 == slotNo) rackItem = RackItems.SLOT12;
+		if(13 == slotNo) rackItem = RackItems.SLOT13;
+		if(14 == slotNo) rackItem = RackItems.SLOT14;
+		if(15 == slotNo) rackItem = RackItems.SLOT15;
+		
+		if(16 == slotNo) rackItem = RackItems.SLOT16;
+		if(17 == slotNo) rackItem = RackItems.SLOT17;
+		if(18 == slotNo) rackItem = RackItems.SLOT18;
+		if(19 == slotNo) rackItem = RackItems.SLOT19;
+		if(20 == slotNo) rackItem = RackItems.SLOT20;
+		
+		if(21 == slotNo) rackItem = RackItems.SLOT21;
+		if(22 == slotNo) rackItem = RackItems.SLOT22;
+		if(23 == slotNo) rackItem = RackItems.SLOT23;
+		if(24 == slotNo) rackItem = RackItems.SLOT24;
+		if(25 == slotNo) rackItem = RackItems.SLOT25;
+		
+		if(26 == slotNo) rackItem = RackItems.SLOT26;
+		if(27 == slotNo) rackItem = RackItems.SLOT27;
+		if(28 == slotNo) rackItem = RackItems.SLOT28;
+		if(29 == slotNo) rackItem = RackItems.SLOT29;
+		if(30 == slotNo) rackItem = RackItems.SLOT30;
+		
+		if(31 == slotNo) rackItem = RackItems.SLOT31;
+		if(32 == slotNo) rackItem = RackItems.SLOT32;
+		if(33 == slotNo) rackItem = RackItems.SLOT33;
+		if(34 == slotNo) rackItem = RackItems.SLOT34;
+		if(35 == slotNo) rackItem = RackItems.SLOT35;
+		
+		if(36 == slotNo) rackItem = RackItems.SLOT36;
+		if(37 == slotNo) rackItem = RackItems.SLOT37;
+		if(38 == slotNo) rackItem = RackItems.SLOT38;
+		if(39 == slotNo) rackItem = RackItems.SLOT39;
+		if(40 == slotNo) rackItem = RackItems.SLOT40;
+		
+		if(41 == slotNo) rackItem = RackItems.SLOT41;
+		if(42 == slotNo) rackItem = RackItems.SLOT42;
+		if(43 == slotNo) rackItem = RackItems.SLOT43;
+		if(44 == slotNo) rackItem = RackItems.SLOT44;
+		if(45 == slotNo) rackItem = RackItems.SLOT45;
+		
+		return rackItem;
+	}
+}

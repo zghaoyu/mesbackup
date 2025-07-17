@@ -1,0 +1,6 @@
+2017-12-13 08:18:52@1513124332102@DAOImpl(String:{NC Program=com.cncclient.dto.CNCMachiningSpec}) fail
+2017-12-13 14:58:43@1513148323618@XmlUtils-parseSystemConfig() ERR:null
+2017-12-13 14:58:44@1513148324080@DAOImpl(String:null.null) fail
+2017-12-13 15:09:31@1513148971814@XmlUtils-parseSystemConfig() ERR:null
+2017-12-13 15:23:54@1513149834367@XmlUtils-parseSystemConfig() ERR:null
+2017-12-13 15:30:01@1513150201250@DAOImpl(String:null.null) fail

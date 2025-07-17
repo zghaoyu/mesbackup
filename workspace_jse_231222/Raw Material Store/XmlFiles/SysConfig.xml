@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SysConfig>
+  <CommonCfg>
+    <sendMail>0</sendMail>
+    <smtpServer>mail1.sto-tech.hk</smtpServer>
+    <port>465</port>
+    <username>hz_fang@sto-tech.hk</username>
+    <password>CF+3EvCaeHj85ORh8JstEw==</password>
+    <to>hz_fang@sto-tech.hk</to>
+    <cc></cc>
+    <subject>Raw Material Store Test Message</subject>
+    <content>Below is the Technological Process Card Information. Please upload machine Program via CNC eSpec.</content>
+  </CommonCfg>
+  <DatabaseCfg>
+    <url>jdbc:mysql://10.10.204.97:3306/cnc_client?useSSL=false&amp;serverTimezone=UTC</url>
+    <username>VRRfp6zLvL0=</username>
+    <userpwd>kYsRnVlzQkaOsfzzJFEZ4w==</userpwd>
+    <driver>com.mysql.cj.jdbc.Driver</driver>
+  </DatabaseCfg>
+  <SqlServerCfg>
+    <url>jdbc:sqlserver://10.10.204.82:1433; DatabaseName=UFDATA_001_2018</url>
+    <username>VRRfp6zLvL0=</username>
+    <userpwd>kYsRnVlzQkaOsfzzJFEZ4w==</userpwd>
+    <driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</driver>
+  </SqlServerCfg>
+  <MonitorDatabaseCfg>
+    <url>jdbc:mysql://10.10.204.97:3306/cnc_mes?useSSL=false&amp;serverTimezone=UTC</url>
+    <username>root</username>
+    <userpwd>111111</userpwd>
+    <driver>com.mysql.cj.jdbc.Driver</driver>
+  </MonitorDatabaseCfg>
+</SysConfig>

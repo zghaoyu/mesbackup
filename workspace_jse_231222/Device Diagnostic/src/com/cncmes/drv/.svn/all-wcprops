@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/Device%20Diagnostic/src/com/cncmes/drv
+END
+CncDummy.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/Device%20Diagnostic/src/com/cncmes/drv/CncDummy.java
+END
+RobotR2D2.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/Device%20Diagnostic/src/com/cncmes/drv/RobotR2D2.java
+END
+RobotDummy.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/Device%20Diagnostic/src/com/cncmes/drv/RobotDummy.java
+END
+ScannerDrvDll.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/Device%20Diagnostic/src/com/cncmes/drv/ScannerDrvDll.java
+END
+CncMORI.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/Device%20Diagnostic/src/com/cncmes/drv/CncMORI.java
+END
+CncDrvDll.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/Device%20Diagnostic/src/com/cncmes/drv/CncDrvDll.java
+END
+CncAssistant.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/Device%20Diagnostic/src/com/cncmes/drv/CncAssistant.java
+END
+CncDrvWeb.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/Device%20Diagnostic/src/com/cncmes/drv/CncDrvWeb.java
+END
+RobotDrvDll.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/Device%20Diagnostic/src/com/cncmes/drv/RobotDrvDll.java
+END
+ScannerKeyence.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/Device%20Diagnostic/src/com/cncmes/drv/ScannerKeyence.java
+END

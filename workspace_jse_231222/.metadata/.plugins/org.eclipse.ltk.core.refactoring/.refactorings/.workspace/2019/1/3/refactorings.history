@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 0 elements to &apos;STOImgProc/src/com.sto.utils&apos;&#x0D;&#x0A;- Destination element: &apos;STOImgProc/src/com.sto.utils&apos;" description="Copy compilation units" destination="=STOImgProc/src&lt;com.sto.utils" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1547424722126" units="0" version="1.0"/>
+</session>

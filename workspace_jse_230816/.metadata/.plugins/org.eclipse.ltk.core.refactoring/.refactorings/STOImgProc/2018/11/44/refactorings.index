@@ -1,0 +1,27 @@
+1541128192002	Delete element
+1541135619145	Delete elements
+1541135654733	Rename resource 'Company 03.png'
+1541138360156	Extract method 'quitSystem'
+1541145523989	Delete element
+1541146462134	Delete element
+1541146685462	Rename type 'SystemCfg'
+1541146951607	Rename method 'showCommonSettingsDialog'
+1541149801562	Rename local variable 'databaseCfg'
+1541149947322	Rename field 'tableDatabaseSetting'
+1541150765320	Rename method 'getDatabaseCfgTitle'
+1541150776943	Rename method 'getDatabaseCfgData'
+1541150805263	Rename method 'getDatabaseCfg'
+1541151349159	Copy compilation unit
+1541151450092	Delete element
+1541153858339	Rename field 'sysConfig'
+1541153887159	Rename field 'tableCommonSetting'
+1541154659882	Copy file
+1541155351008	Copy compilation unit
+1541155451454	Rename field 'sysCfg'
+1541155461930	Rename method 'getCommonCfg'
+1541155492634	Rename method 'getCommonCfgTitle'
+1541155514355	Rename method 'getCommonCfgData'
+1541155609168	Rename local variable 'commonCfg'
+1541155636237	Rename local variable 'sysConfig'
+1541155751160	Rename local variable 'systemConfig'
+1541211754568	Delete element

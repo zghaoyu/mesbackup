@@ -1,0 +1,186 @@
+package com.cncmes.utils;
+
+import java.sql.SQLException;
+import java.util.LinkedHashMap;
+import java.util.Set;
+
+import com.cncmes.base.DeviceState;
+import com.cncmes.base.MemoryItems;
+import com.cncmes.base.SchedulerDataItems;
+import com.cncmes.ctrl.SchedulerServer;
+import com.cncmes.data.SchedulerMachine;
+import com.cncmes.data.SchedulerMaterial;
+import com.cncmes.data.SchedulerRobot;
+import com.cncmes.data.SchedulerTask;
+import com.cncmes.data.SystemConfig;
+
+public class MySystemUtils {
+	private static LinkedHashMap<String,Object> sysConfig = null;
+	private MySystemUtils(){}
+	static{
+		try {
+			XmlUtils.parseSystemConfig();
+			getCommonSettings();
+		} catch (Exception e) {
+			LogUtils.errorLog("SystemUtils startup error:"+e.getMessage());
+		}
+	}
+
+	private static void getCommonSettings() {
+		SystemConfig sysCfg = SystemConfig.getInstance();
+		sysConfig = sysCfg.getCommonCfg();
+	}
+	
+	/**
+	 * @return "OK" once system database is working, else return failed reason
+	 */
+	public static String sysDatabaseOK(){
+		getCommonSettings();
+		if(null == sysConfig) return "Load system configure failed";
+		try {
+			DBUtils.getConnection();
+		} catch (SQLException e) {
+			return "Connect system database failed:"+e.getMessage();
+		}
+		return "OK";
+	}
+	
+	public static String sysReadyToStart(){
+		String msg = "OK";
+		msg = sysDatabaseOK();
+		if(!"OK".equals(msg)) return msg;
+		
+		return "OK";
+	}
+	
+	public static String sysReadyToStop(){
+		LinkedHashMap<SchedulerDataItems, Object> dt = null;
+		int workingQty = 0, alarmQty = 0, planQty = 0;
+		
+		//1. Task checking
+		SchedulerTask scTask = SchedulerTask.getInstance();
+		if(scTask.getTaskCount() > 0) return "Task ongoing! Can't be stopped at this moment!";
+		
+		//2. Machine checking
+		SchedulerMachine scMachine = SchedulerMachine.getInstance();
+		dt = scMachine.getStatisticData("All");
+		if(null != dt){
+			workingQty = (int) (null!=dt.get(SchedulerDataItems.QTYWORKING)?dt.get(SchedulerDataItems.QTYWORKING):0);
+			alarmQty = (int) (null!=dt.get(SchedulerDataItems.QTYALARM)?dt.get(SchedulerDataItems.QTYALARM):0);
+			planQty = (int) (null!=dt.get(SchedulerDataItems.QTYPLAN)?dt.get(SchedulerDataItems.QTYPLAN):0);
+			
+			if(workingQty > 0) return "There are working machines! Can't be stopped at this moment!";
+			if(alarmQty > 0) return "There are alarming machines! Can't be stopped at this moment!";
+			if(planQty > 0) return "There are planning machines! Can't be stopped at this moment!";
+		}
+		
+		//3. Robot checking
+		SchedulerRobot scRobot = SchedulerRobot.getInstance();
+		dt = scRobot.getStatisticData("All");
+		if(null != dt){
+			workingQty = (int) (null!=dt.get(SchedulerDataItems.QTYWORKING)?dt.get(SchedulerDataItems.QTYWORKING):0);
+			alarmQty = (int) (null!=dt.get(SchedulerDataItems.QTYALARM)?dt.get(SchedulerDataItems.QTYALARM):0);
+			planQty = (int) (null!=dt.get(SchedulerDataItems.QTYPLAN)?dt.get(SchedulerDataItems.QTYPLAN):0);
+			
+			if(workingQty > 0) return "There are working robots! Can't be stopped at this moment!";
+			if(alarmQty > 0) return "There are alarming robots! Can't be stopped at this moment!";
+			if(planQty > 0) return "There are planning robots! Can't be stopped at this moment!";
+		}
+		
+		return "OK";
+	}
+	
+	public static void sysMemoryDump(MemoryItems memItem){
+		//1. Dump Task Info
+		if(MemoryItems.TASK == memItem || MemoryItems.ALL == memItem){
+			SchedulerTask scTask = SchedulerTask.getInstance();
+			if(scTask.getTaskCount() > 0){
+				Set<String> taskSet = scTask.getDataMap().keySet();
+				LinkedHashMap<String, Object> dt = null;
+				try {
+					for(String lineName:taskSet){
+						dt = scTask.getData(lineName);
+						if(null != dt && dt.size() > 0){
+							for(String taskID:dt.keySet()){
+								scTask.dumpTaskInfo(lineName, taskID);
+							}
+						}
+					}
+				} catch (Exception e) {
+				}
+			}
+		}
+		
+		//2. Dump Machine Info
+		if(MemoryItems.CNC == memItem || MemoryItems.ALL == memItem){
+			SchedulerMachine scMachine = SchedulerMachine.getInstance();
+			if(scMachine.getDataMap().size() > 0){
+				Set<String> machineSet = scMachine.getDataMap().keySet();
+				try {
+					for(String key:machineSet){
+						scMachine.dumpMachineInfo(key);
+					}
+				} catch (Exception e) {
+				}
+			}
+		}
+		
+		//3. Dump Robot Info
+		if(MemoryItems.ROBOT == memItem || MemoryItems.ALL == memItem){
+			SchedulerRobot scRobot = SchedulerRobot.getInstance();
+			if(scRobot.getDataMap().size() > 0){
+				Set<String> robotSet = scRobot.getDataMap().keySet();
+				try {
+					for(String key:robotSet){
+						scRobot.dumpRobotInfo(key);
+					}
+				} catch (Exception e) {
+				}
+			}
+		}
+		
+		//4. Dump ControlCenter Info
+		if(MemoryItems.CTRLCENTER == memItem || MemoryItems.ALL == memItem){
+			SchedulerServer scServer = SchedulerServer.getInstance();
+			scServer.dumpControlCenterInfo();
+		}
+		
+		//5. Dump Material Info
+		if(MemoryItems.MATERIAL == memItem || MemoryItems.ALL == memItem){
+			SchedulerMaterial scMaterial = SchedulerMaterial.getInstance();
+			scMaterial.dumpMaterialInfo("All");
+		}
+	}
+	
+	public static void sysMemoryRestore(String key, MemoryItems memItem, DeviceState restoreState, boolean informObserver){
+		//1. Restore Task Info
+		if(MemoryItems.TASK == memItem || MemoryItems.ALL == memItem){
+			SchedulerTask scTask = SchedulerTask.getInstance();
+			scTask.restoreTaskInfo(key, restoreState, informObserver);
+		}
+		
+		//2. Restore Machine Info
+		if(MemoryItems.CNC == memItem || MemoryItems.ALL == memItem){
+			SchedulerMachine scMachine = SchedulerMachine.getInstance();
+			scMachine.restoreMachineInfo(key, restoreState, informObserver);
+		}
+		
+		//3. Restore Robot Info
+		if(MemoryItems.ROBOT == memItem || MemoryItems.ALL == memItem){
+			SchedulerRobot scRobot = SchedulerRobot.getInstance();
+			scRobot.restoreRobotInfo(key, restoreState, informObserver);
+		}
+		
+		//4. Restore ControlCenter Info
+		if(MemoryItems.CTRLCENTER == memItem || MemoryItems.ALL == memItem){
+			SchedulerServer scServer = SchedulerServer.getInstance();
+			scServer.restoreControlCenterInfo(informObserver, true);
+		}
+		
+		//5. Restore Material Info
+		if(MemoryItems.MATERIAL == memItem || MemoryItems.ALL == memItem){
+			SchedulerMaterial scMaterial = SchedulerMaterial.getInstance();
+			scMaterial.restoreMaterialInfo(key, restoreState);
+		}
+	}
+}

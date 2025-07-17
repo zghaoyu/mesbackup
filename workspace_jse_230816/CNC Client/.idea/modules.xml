@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CNC Client.iml" filepath="$PROJECT_DIR$/CNC Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../STO/workspace_jse_220706/CNC Rack Manager/CNC Rack Manager.iml" filepath="$PROJECT_DIR$/../../STO/workspace_jse_220706/CNC Rack Manager/CNC Rack Manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../STO/workspace_jse_220706/CNC Scheduler/CNC Scheduler.iml" filepath="$PROJECT_DIR$/../../STO/workspace_jse_220706/CNC Scheduler/CNC Scheduler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../STO/workspace_jse_220706/CNC eSpec/CNC eSpec.iml" filepath="$PROJECT_DIR$/../../STO/workspace_jse_220706/CNC eSpec/CNC eSpec.iml" />
+    </modules>
+  </component>
+</project>

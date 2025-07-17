@@ -1,0 +1,63 @@
+package com.cncmes.dto;
+
+public class CNCHelper {
+	private int id;
+	private String model;
+	private String driver;
+	private String handler;
+	private String cmdend;
+	private String realTableName = "cnc_helper";
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getModel() {
+		return model;
+	}
+	public void setModel(String model) {
+		this.model = model;
+	}
+	public String getDriver() {
+		return driver;
+	}
+	public void setDriver(String driver) {
+		this.driver = driver;
+	}
+	public String getHandler() {
+		return handler;
+	}
+	public void setHandler(String handler) {
+		this.handler = handler;
+	}
+	public String getCmdend() {
+		return cmdend;
+	}
+	public void setCmdend(String cmdend) {
+		this.cmdend = cmdend;
+	}
+	public String getRealTableName() {
+		return realTableName;
+	}
+	public void setRealTableName(String realTableName) {
+		this.realTableName = realTableName;
+	}
+	public CNCHelper(int id, String model, String driver, String handler, String cmdend, String realTableName) {
+		super();
+		this.id = id;
+		this.model = model;
+		this.driver = driver;
+		this.handler = handler;
+		this.cmdend = cmdend;
+		this.realTableName = realTableName;
+	}
+	public CNCHelper() {
+		super();
+	}
+	@Override
+	public String toString() {
+		return "CNCHelper [id=" + id + ", model=" + model + ", driver=" + driver + ", handler=" + handler
+				+ ", cmdend=" + cmdend + ", realTableName=" + realTableName + "]";
+	}
+}

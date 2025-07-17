@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SysConfig>
+  <CommonCfg>
+    <imgProcessingInterval unit="s">5</imgProcessingInterval>
+    <imgProcQtyPerCycle>600</imgProcQtyPerCycle>
+    <runningLog>0</runningLog>
+  </CommonCfg>
+  <ImgPathCfg>
+    <okImgsFolder>E:\xRayImgs\OK_IMG</okImgsFolder>
+    <ngImgsFolder>E:\xRayImgs\NG_IMG</ngImgsFolder>
+  </ImgPathCfg>
+</SysConfig>
