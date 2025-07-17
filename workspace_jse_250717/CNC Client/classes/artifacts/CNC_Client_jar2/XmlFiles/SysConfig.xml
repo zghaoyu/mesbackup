@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SysConfig>
+  <CommonCfg>
+    <socketResponseTimeOut unit="s">2</socketResponseTimeOut>
+    <socketResponseInterval unit="ms">100</socketResponseInterval>
+    <cmdRetryCount>5</cmdRetryCount>
+    <DeviceMonitorInterval unit="s">5</DeviceMonitorInterval>
+    <NCProgramsRootDir>D:\NC_Programs</NCProgramsRootDir>
+    <MachiningScriptPrefix>SCS1235917001</MachiningScriptPrefix>
+    <CleaningScriptPrefix>0000000000</CleaningScriptPrefix>
+    <CleaningTimes>1</CleaningTimes>
+    <AppMode>0</AppMode>
+    <CheckScheduler>1</CheckScheduler>
+    <CheckRackManager>1</CheckRackManager>
+    <RunningLog>1</RunningLog>
+    <DebugLog>0</DebugLog>
+    <DummyCNC>127.0.0.1</DummyCNC>
+    <DummyRobot>127.0.0.1</DummyRobot>
+  </CommonCfg>
+  <DatabaseCfg>
+    <url>jdbc:mysql://10.10.206.83:3306/cnc_client</url>
+    <username>VRRfp6zLvL0=</username>
+    <userpwd>kYsRnVlzQkaOsfzzJFEZ4w==</userpwd>
+    <driver>com.mysql.jdbc.Driver</driver>
+  </DatabaseCfg>
+  <FtpCfg>
+    <ip>10.10.206.83</ip>
+    <port>21</port>
+    <username>OhVxwDjtUj3cmA8yE1tc5A==</username>
+    <userpwd>Q824+SonaembgG7vRcFrCA==</userpwd>
+  </FtpCfg>
+  <MonitorDatabaseCfg>
+    <url>jdbc:mysql://10.10.204.97:3306/cnc_mes?useSSL=false&amp;serverTimezone=GMT%2B8</url>
+    <username>root</username>
+    <userpwd>111111</userpwd>
+    <driver>com.mysql.jdbc.Driver</driver>
+  </MonitorDatabaseCfg>
+  <SqlServerCfg>
+    <url>jdbc:sqlserver://10.10.204.82:1433; DatabaseName=UFDATA_001_2018; encrypt=false</url>
+    <username>u8readonly</username>
+    <userpwd>u8readonly</userpwd>
+    <driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</driver>
+  </SqlServerCfg>
+</SysConfig>

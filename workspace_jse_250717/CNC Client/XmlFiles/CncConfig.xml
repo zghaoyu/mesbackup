@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CNCcfg> 
+  <CNC id="1"> 
+    <ip>10.10.206.178</ip>  
+    <!--        capacity mean that cnc process the num of fixture in one time-->  
+    <capacity>6</capacity>  
+    <workzone1>1</workzone1>  
+    <workzone2>2</workzone2>  
+    <workzone3>5</workzone3>  
+    <workzone4>6</workzone4>  
+    <workzone5>12</workzone5>  
+    <workzone6>13</workzone6>  
+    <workzone7>9</workzone7>  
+    <workzone8>10</workzone8>  
+    <workzone9>12</workzone9>  
+    <workzone10>13</workzone10>  
+    <workzone11>11</workzone11>  
+    <workzone12>12</workzone12>  
+    <workzone13>13</workzone13>  
+    <workzone14>14</workzone14> 
+  </CNC>  
+  <CNC id="2"> 
+    <ip>10.10.206.72</ip>  
+    <capacity>6</capacity>  
+    <workzone1>1</workzone1>  
+    <workzone2>2</workzone2>  
+    <workzone3>3</workzone3>  
+    <workzone4>8</workzone4>  
+    <workzone5>9</workzone5>  
+    <workzone6>10</workzone6>  
+    <workzone7>8</workzone7>  
+    <workzone8>9</workzone8>  
+    <workzone9>10</workzone9>  
+    <workzone10>11</workzone10>  
+    <workzone11>12</workzone11>  
+    <workzone12>0</workzone12>  
+    <workzone13>0</workzone13>  
+    <workzone14>0</workzone14> 
+  </CNC>  
+  <CNC> 
+    <ip>dummyCNC02</ip>  
+    <capacity>10</capacity>  
+    <workzone1>1</workzone1>  
+    <workzone2>2</workzone2>  
+    <workzone3>3</workzone3>  
+    <workzone4>5</workzone4>  
+    <workzone5>6</workzone5>  
+    <workzone6>8</workzone6>  
+    <workzone7>9</workzone7>  
+    <workzone8>10</workzone8>  
+    <workzone9>12</workzone9>  
+    <workzone10>13</workzone10> 
+  </CNC>  
+  <CNC> 
+    <ip>10.10.206.131</ip>  
+    <capacity>6</capacity>  
+    <workzone1>1</workzone1>  
+    <workzone2>2</workzone2>  
+    <workzone3>3</workzone3>  
+    <workzone4>5</workzone4>  
+    <workzone5>6</workzone5>  
+    <workzone6>7</workzone6> 
+  </CNC>  
+  <CNC> 
+    <ip>dummyCNC06</ip>  
+    <capacity>5</capacity>  
+    <workzone1>1</workzone1>  
+    <workzone2>5</workzone2>  
+    <workzone3>6</workzone3>  
+    <workzone4>7</workzone4>  
+    <workzone5>8</workzone5> 
+  </CNC>  
+  <CNC> 
+    <ip>10.10.206.73</ip>  
+    <capacity>8</capacity>  
+    <workzone1>1</workzone1>  
+    <workzone2>2</workzone2>  
+    <workzone3>3</workzone3>  
+    <workzone4>4</workzone4>  
+    <workzone5>5</workzone5>  
+    <workzone6>6</workzone6>  
+    <workzone7>7</workzone7>  
+    <workzone8>8</workzone8> 
+  </CNC>  
+  <CNC id="4"> 
+    <ip>10.10.206.74</ip>  
+    <!--        capacity mean that cnc process the num of fixture in one time-->  
+    <capacity>4</capacity>  
+    <workzone1>1</workzone1>  
+    <workzone2>2</workzone2>  
+    <workzone3>5</workzone3>  
+    <workzone4>6</workzone4>  
+    <workzone5>7</workzone5>  
+    <workzone6>8</workzone6>  
+    <workzone7>11</workzone7>  
+    <workzone8>11</workzone8>  
+    <workzone9>12</workzone9>  
+    <workzone10>13</workzone10>  
+    <workzone11>11</workzone11>  
+    <workzone12>12</workzone12>  
+    <workzone13>13</workzone13>  
+    <workzone14>14</workzone14> 
+  </CNC>  
+  <CNC id="5"> 
+    <ip>dummyCNC01</ip>  
+    <!--        capacity mean that cnc process the num of fixture in one time-->  
+    <capacity>4</capacity>  
+    <workzone1>1</workzone1>  
+    <workzone2>2</workzone2>  
+    <workzone3>8</workzone3>  
+    <workzone4>9</workzone4>  
+    <workzone5>3</workzone5>  
+    <workzone6>10</workzone6>  
+    <workzone7>11</workzone7>  
+    <workzone8>8</workzone8>  
+    <workzone9>9</workzone9>  
+    <workzone10>10</workzone10>  
+    <workzone11>11</workzone11>  
+    <workzone12>12</workzone12>  
+    <workzone13>13</workzone13>  
+    <workzone14>14</workzone14> 
+  </CNC> 
+</CNCcfg>

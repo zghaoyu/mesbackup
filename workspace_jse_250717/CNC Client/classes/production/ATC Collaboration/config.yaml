@@ -1,0 +1,10 @@
+CNC:
+  HartFord:
+    commandURL: http://10.10.206.5:6300/api/v3/hartford/
+    brand: hartford
+    model: MVP-8
+RabbitMQ:
+  host: 192.168.92.131
+  port: 5672
+  username: sto
+  password: 123456

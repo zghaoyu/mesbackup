@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.wb.internal.swing.model.property.editor.font.FontDialog">
+		<item value="796" key="x"/>
+		<item value="504" key="width"/>
+		<item value="103" key="y"/>
+		<item value="553" key="height"/>
+	</section>
+	<section name="org.eclipse.wb.internal.core.utils.ui.dialogs.StringsDialog">
+		<item value="204" key="x"/>
+		<item value="398" key="width"/>
+		<item value="353" key="y"/>
+		<item value="343" key="height"/>
+	</section>
+	<section name="org.eclipse.wb.internal.swing.model.layout.gbl.ui.RowEditDialog">
+		<item value="904" key="x"/>
+		<item value="340" key="width"/>
+		<item value="291" key="y"/>
+		<item value="430" key="height"/>
+	</section>
+	<section name="org.eclipse.wb.internal.swing.model.property.editor.border.BorderDialog">
+		<item value="846" key="x"/>
+		<item value="479" key="width"/>
+		<item value="372" key="y"/>
+		<item value="415" key="height"/>
+	</section>
+	<section name="org.eclipse.wb.internal.swing.model.property.editor.models.tree.TreeModelDialog">
+		<item value="354" key="x"/>
+		<item value="571" key="width"/>
+		<item value="245" key="y"/>
+		<item value="493" key="height"/>
+	</section>
+	<section name="org.eclipse.wb.internal.swing.model.property.editor.models.combo.ComboBoxModelDialog">
+		<item value="231" key="x"/>
+		<item value="481" key="width"/>
+		<item value="273" key="y"/>
+		<item value="397" key="height"/>
+	</section>
+	<section name="org.eclipse.wb.internal.swing.model.property.editor.icon.ImagePropertyEditor$ImageDialog">
+		<item value="202" key="x"/>
+		<item value="875" key="width"/>
+		<item value="83" key="y"/>
+		<item value="593" key="height"/>
+	</section>
+	<section name="org.eclipse.wb.internal.swing.model.property.editor.icon.IconPropertyEditor$ImageDialog">
+		<item value="635" key="x"/>
+		<item value="875" key="width"/>
+		<item value="286" key="y"/>
+		<item value="615" key="height"/>
+	</section>
+	<section name="org.eclipse.wb.internal.swing.model.layout.gbl.ui.ColumnEditDialog">
+		<item value="790" key="x"/>
+		<item value="340" key="width"/>
+		<item value="336" key="y"/>
+		<item value="367" key="height"/>
+	</section>
+</section>

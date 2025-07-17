@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Rack%20Manager/src/com/cncmes/base
+END
+DeviceState.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Rack%20Manager/src/com/cncmes/base/DeviceState.java
+END
+TaskItems.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Rack%20Manager/src/com/cncmes/base/TaskItems.java
+END
+CncItems.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Rack%20Manager/src/com/cncmes/base/CncItems.java
+END
+SchedulerDataItems.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Rack%20Manager/src/com/cncmes/base/SchedulerDataItems.java
+END
+RunningData.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Rack%20Manager/src/com/cncmes/base/RunningData.java
+END
+MemoryItems.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Rack%20Manager/src/com/cncmes/base/MemoryItems.java
+END
+SchedulerItems.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Rack%20Manager/src/com/cncmes/base/SchedulerItems.java
+END
+MescodeItems.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Rack%20Manager/src/com/cncmes/base/MescodeItems.java
+END
+RackItems.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Rack%20Manager/src/com/cncmes/base/RackItems.java
+END
+RobotItems.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Rack%20Manager/src/com/cncmes/base/RobotItems.java
+END
+ResultSetHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Rack%20Manager/src/com/cncmes/base/ResultSetHandler.java
+END
+PermissionItems.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Rack%20Manager/src/com/cncmes/base/PermissionItems.java
+END
+WorkpieceItems.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Rack%20Manager/src/com/cncmes/base/WorkpieceItems.java
+END
+SpecItems.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Rack%20Manager/src/com/cncmes/base/SpecItems.java
+END
+DummyItems.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Rack%20Manager/src/com/cncmes/base/DummyItems.java
+END
+DriverItems.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20Rack%20Manager/src/com/cncmes/base/DriverItems.java
+END

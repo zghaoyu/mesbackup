@@ -1,0 +1,53 @@
+package com.cncmes.dto;
+
+/**
+ * @author LI ZI LONG
+ * the Data Transfer Object for database access
+ *
+ */
+public class CNCUserAuthorities {
+	private int id;
+	private int user_authority;
+	private String description;
+	private String realTableName = "cnc_userauthorities";
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getUser_authority() {
+		return user_authority;
+	}
+	public void setUser_authority(int user_authority) {
+		this.user_authority = user_authority;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	public String getRealTableName() {
+		return realTableName;
+	}
+	public void setRealTableName(String realTableName) {
+		this.realTableName = realTableName;
+	}
+	public CNCUserAuthorities(int id, int user_authority, String description, String realTableName) {
+		super();
+		this.id = id;
+		this.user_authority = user_authority;
+		this.description = description;
+		this.realTableName = realTableName;
+	}
+	public CNCUserAuthorities() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	public String toString() {
+		return "CNCUserAuthorities [id=" + id + ", user_authority=" + user_authority + ", description=" + description
+				+ ", realTableName=" + realTableName + "]";
+	}
+}

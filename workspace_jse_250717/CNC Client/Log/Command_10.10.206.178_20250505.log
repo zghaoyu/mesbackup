@@ -1,0 +1,3 @@
+2025-05-05 14:12:57@1746425577849@OK@getMacro@http://10.10.206.5:6300/api/v3/hartford/macro_get@{"brand":"hartford","model":"MVP-8","ip":"10.10.206.178","port":8193,"data":"{\"name\":\"900.0\"}"}@OK,code=0,data={"name":"900","value":"100000000","dec":"8"}@450
+2025-05-05 14:13:07@1746425587719@OK@getMacro@http://10.10.206.5:6300/api/v3/hartford/macro_get@{"brand":"hartford","model":"MVP-8","ip":"10.10.206.178","port":8193,"data":"{\"name\":\"900.0\"}"}@OK,code=0,data={"name":"900","value":"100000000","dec":"8"}@130
+2025-05-05 17:13:56@1746436436786@OK@getMacro@http://10.10.206.5:6300/api/v3/hartford/macro_get@{"brand":"hartford","model":"MVP-8","ip":"10.10.206.178","port":8193,"data":"{\"name\":\"900.0\"}"}@OK,code=0,data={"name":"900","value":"100000000","dec":"8"}@411

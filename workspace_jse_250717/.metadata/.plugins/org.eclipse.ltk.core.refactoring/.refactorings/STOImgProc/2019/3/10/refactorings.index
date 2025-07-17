@@ -1,0 +1,6 @@
+1551619427698	Rename local variable 'minOffset'
+1551621034123	Rename local variable 'minOffset'
+1551621051680	Rename local variable 'minDelta'
+1551621163985	Rename local variable 'mostCloseIdx'
+1551928807226	Rename method 'getPeakIndex'
+1551928880120	Rename method 'getCenterPeakIdx'

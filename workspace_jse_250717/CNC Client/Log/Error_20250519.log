@@ -1,0 +1,76 @@
+2025-05-19 09:07:12@1747616832846@SocketClient connecSt(127.0.0.1:9950) failed:Connection refused: connect
+Ping(127.0.0.1):OK
+Netstat(127.0.0.1):
+  TCP    127.0.0.1:4012         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:4013         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:6942         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:8884         0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:9904         127.0.0.1:56133        ESTABLISHED     InHost      
+  TCP    127.0.0.1:50054        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:54544        127.0.0.1:54545        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54545        127.0.0.1:54544        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54546        127.0.0.1:54547        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54547        127.0.0.1:54546        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54548        127.0.0.1:54549        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54549        127.0.0.1:54548        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54559        127.0.0.1:54560        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54560        127.0.0.1:54559        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54561        127.0.0.1:54562        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54562        127.0.0.1:54561        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54563        127.0.0.1:54564        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54564        127.0.0.1:54563        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54565        127.0.0.1:54566        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54566        127.0.0.1:54565        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54567        127.0.0.1:54568        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54568        127.0.0.1:54567        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54569        127.0.0.1:54570        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54570        127.0.0.1:54569        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54571        127.0.0.1:54572        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54572        127.0.0.1:54571        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54573        127.0.0.1:54574        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54574        127.0.0.1:54573        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54575        127.0.0.1:54576        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54576        127.0.0.1:54575        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54577        127.0.0.1:54578        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54578        127.0.0.1:54577        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54579        127.0.0.1:54580        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54580        127.0.0.1:54579        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54581        127.0.0.1:54582        ESTABLISHED     InHost      
+  TCP    127.0.0.1:54582        127.0.0.1:54581        ESTABLISHED     InHost      
+  TCP    127.0.0.1:55341        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:55341        127.0.0.1:56291        ESTABLISHED     InHost      
+  TCP    127.0.0.1:55989        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:55989        127.0.0.1:55990        ESTABLISHED     InHost      
+  TCP    127.0.0.1:55990        127.0.0.1:55989        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56107        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:56107        127.0.0.1:56108        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56108        127.0.0.1:56107        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56111        127.0.0.1:55341        TIME_WAIT       InHost      
+  TCP    127.0.0.1:56133        127.0.0.1:9904         ESTABLISHED     InHost      
+  TCP    127.0.0.1:56287        0.0.0.0:0              LISTENING       InHost      
+  TCP    127.0.0.1:56287        127.0.0.1:56288        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56288        127.0.0.1:56287        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56289        127.0.0.1:56290        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56290        127.0.0.1:56289        ESTABLISHED     InHost      
+  TCP    127.0.0.1:56291        127.0.0.1:55341        ESTABLISHED     InHost      
+  TCP    127.0.0.1:60984        127.0.0.1:60985        ESTABLISHED     InHost      
+  TCP    127.0.0.1:60985        127.0.0.1:60984        ESTABLISHED     InHost      
+  TCP    127.0.0.1:63342        0.0.0.0:0              LISTENING       InHost      
+  UDP    127.0.0.1:1900         *:*                                                
+  UDP    127.0.0.1:51428        *:*                                                
+  UDP    127.0.0.1:53956        *:*                                                
+  UDP    127.0.0.1:54041        *:*                                                
+  UDP    127.0.0.1:55374        *:*                                                
+  UDP    127.0.0.1:55616        *:*                                                
+  UDP    127.0.0.1:63494        *:*                                                
+  UDP    127.0.0.1:63590        *:*                                                
+2025-05-19 09:07:12@1747616832847@RackClient-rackServerIsReady(TS6HF01,11)-sendInfo(127.0.0.1,9950,checkState,TS6HF01,192.168.92.1,20520,AA07F672B50267F78F1B7558F564C720) failed
+2025-05-19 09:07:20@1747616840906@SocketClient SocketDataListener(127.0.0.1:9950) Stop:Socket closed
+2025-05-19 09:07:21@1747616841025@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2025-05-19 09:07:34@1747616854042@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed
+2025-05-19 09:07:45@1747616865728@SocketClient connecSt(10.10.207.56:6666) failed:Connection timed out: connect
+Ping(10.10.207.56):Pinging 10.10.207.56 with 32 bytes of data:	Request timed out.		Ping statistics for 10.10.207.56:	    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+Netstat(10.10.207.56):
+
+2025-05-19 09:07:46@1747616866357@SocketClient SocketDataListener(127.0.0.1:9900) Stop:Socket closed
+2025-05-19 09:07:46@1747616866476@SocketClient SocketDataListener(127.0.0.1:9903) Stop:Socket closed

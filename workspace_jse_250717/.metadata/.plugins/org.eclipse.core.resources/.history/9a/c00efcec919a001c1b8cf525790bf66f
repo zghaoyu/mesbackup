@@ -1,0 +1,36 @@
+package com.cncmes.gui.panel;
+
+import javax.swing.JPanel;
+
+import java.awt.Color;
+import javax.swing.JLabel;
+import java.awt.Font;
+
+
+public class InputPanel extends JPanel {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -4900446293028375745L;
+	
+	private static InputPanel inputPanel = new InputPanel();
+
+	/**
+	 * Create the panel.
+	 */
+	private InputPanel() {
+		
+		this.setBackground(new Color(245, 245, 245));
+		
+		JLabel label = new JLabel("Scan Barcode");
+		label.setFont(new Font("Tahoma", Font.BOLD, 19));
+		add(label);
+
+	}
+	
+	public static InputPanel getInstance(){
+		return inputPanel;
+	}
+
+}

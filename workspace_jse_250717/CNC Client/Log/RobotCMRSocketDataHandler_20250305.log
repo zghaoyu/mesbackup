@@ -1,0 +1,13 @@
+2025-03-05 15:56:07@1741161367960@10.10.207.56:6666@OK,99.7,get_battery,68
+2025-03-05 16:02:06@1741161726333@10.10.207.56:6666@OK,96.1,get_battery,68
+2025-03-05 16:02:43@1741161763201@10.10.207.56:6666@OK,35.78s,dock_to,virtual_cnc_1,79
+2025-03-05 16:03:27@1741161807107@10.10.207.56:6666@OK,F686A,pick_and_place,input_rack_1_slot_1,robot_pallet_a_slot_1,74
+2025-03-05 16:03:49@1741161829119@10.10.207.56:6666@OK,F683A,pick_and_place,input_rack_1_slot_2,robot_pallet_a_slot_2,74
+2025-03-05 16:04:09@1741161849423@10.10.207.56:6666@OK,F677A,pick_and_place,input_rack_1_slot_3,robot_pallet_a_slot_3,74
+2025-03-05 16:04:30@1741161870641@10.10.207.56:6666@OK,F679A,pick_and_place,input_rack_1_slot_4,robot_pallet_a_slot_4,74
+2025-03-05 16:04:50@1741161890845@10.10.207.56:6666@OK,F690A,pick_and_place,input_rack_1_slot_5,robot_pallet_a_slot_5,74
+2025-03-05 16:05:09@1741161909040@10.10.207.56:6666@OK,F689A,pick_and_place,input_rack_1_slot_6,robot_pallet_a_slot_6,74
+2025-03-05 16:05:27@1741161927044@10.10.207.56:6666@OK,F688A,pick_and_place,input_rack_1_slot_7,robot_pallet_a_slot_7,74
+2025-03-05 16:05:49@1741161949047@10.10.207.56:6666@OK,F696A,pick_and_place,input_rack_1_slot_8,robot_pallet_a_slot_8,74
+2025-03-05 16:06:09@1741161969251@10.10.207.56:6666@OK,F678A,pick_and_place,input_rack_1_slot_9,robot_pallet_a_slot_9,74
+2025-03-05 16:06:27@1741161987439@10.10.207.56:6666@OK,F687A,pick_and_place,input_rack_1_slot_10,robot_pallet_a_slot_10,74

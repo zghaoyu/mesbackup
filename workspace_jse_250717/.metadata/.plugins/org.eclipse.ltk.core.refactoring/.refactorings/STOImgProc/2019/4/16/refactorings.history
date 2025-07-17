@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;imgProcRegionMaxGray&apos; in &apos;com.sto.utils.ImageUtils&apos; to &apos;imgProcRegionMinGray&apos;&#x0D;&#x0A;- Original project: &apos;STOImgProc&apos;&#x0D;&#x0A;- Original element: &apos;com.sto.utils.ImageUtils.imgProcRegionMaxGray&apos;&#x0D;&#x0A;- Renamed element: &apos;com.sto.utils.ImageUtils.imgProcRegionMinGray&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;imgProcRegionMaxGray&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;com.sto.utils{ImageUtils.java[ImageUtils^imgProcRegionMaxGray" name="imgProcRegionMinGray" references="true" setter="false" stamp="1555211024218" textual="false" version="1.0"/>
+</session>

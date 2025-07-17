@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20eSpec/src/com/cncmes/gui
+END
+CNCeSpec.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20eSpec/src/com/cncmes/gui/CNCeSpec.java
+END
+SysConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20eSpec/src/com/cncmes/gui/SysConfig.java
+END
+UserLogin.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20eSpec/src/com/cncmes/gui/UserLogin.java
+END
+NcProgram.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20eSpec/src/com/cncmes/gui/NcProgram.java
+END
+UserReg.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/CNC_Automation_MES/!svn/ver/2/trunk/CNC%20eSpec/src/com/cncmes/gui/UserReg.java
+END

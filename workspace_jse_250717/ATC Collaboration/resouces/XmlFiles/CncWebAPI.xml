@@ -1,0 +1,1437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CncWebAPI>
+  <CNC key="HARTFORD_MVP8" brand="hartford" model="MVP-8" commandUrl="http://10.10.206.5:6300/api/v3/hartford/" debugPort="8193" ncProgramName_sub1="O0001" ncProgramName_sub2="O0002" ncProgramName_sub3="O0003" ncProgramName_sub4="O0004" ncProgramName_sub5="O0005" ncProgramName_sub6="O0006" ncProgramName_main="O1000" cmdCoordinate1="G54" cmdCoordinate2="G55" cmdCoordinate3="G56" cmdCoordinate4="G57" cmdCoordinate5="G58" cmdCoordinate6="G59" debugIP="10.10.206.72" ftpPort="21" ftpUser="1234" ftpPwd="1234">
+    <Operation name="getMachineState" operator="Myself">
+      <Command id="1" name="status" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="fiveAspectProceed" operator="Myself">
+      <Command id="1" name="fiveAspect" sensorcheck=""/>
+    </Operation>
+    <Operation name="checkSensor" operator="Myself">
+      <Command id="1" name="checkSensor" sensorcheck=""/>
+    </Operation>
+    <Operation name="uploadSubProgramByBarcode" operator="Myself">
+      <Command id="1" name="getAndUploadProgramByBarcode" sensorcheck=""/>
+    </Operation>
+    <Operation name="openDoor" operator="AssistantCNC">
+      <Command id="1" name="status" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="closeDoor" operator="AssistantCNC">
+      <Command id="1" name="status" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="clampFixture" operator="AssistantCNC">
+      <Command id="1" name="status" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="releaseFixture" operator="AssistantCNC">
+      <Command id="1" name="status" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="getAlarmInfo" operator="Myself">
+      <Command id="1" name="alarm" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="getToolLife" operator="Myself">
+      <Command id="1" name="toollife" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="getMachiningParas" operator="Myself">
+      <Command id="1" name="spindle" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="1" name="feedrate" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="getMachiningCounter" operator="Myself">
+      <Command id="1" name="work" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="startMachining" operator="Myself">
+      <Command id="1" name="start" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="pauseMachining" operator="Myself">
+      <Command id="1" name="stop" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="resumeMachining" operator="Myself">
+      <Command id="1" name="start" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="getMainProgramName" operator="Myself">
+      <Command id="1" name="program" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="getCurrSubProgramName" operator="Myself">
+      <Command id="1" name="program" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="uploadMainProgram" operator="Myself">
+      <Command id="1" name="upload" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"name":"1001","code":"D:\\NC_Programs\\Hartford_test_ds.nc"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="downloadMainProgram" operator="Myself">
+      <Command id="1" name="download" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"name":"1000"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="deleteMainProgram" operator="Myself">
+      <Command id="1" name="delete" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"name":"1001"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="uploadSubProgram" operator="Myself">
+      <Command id="1" name="dsup" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"server":"?","port":"?","user":"?","password":"?","path":"//DATA_SV/O0008","body":"D:\\NC_Programs\\Hartford_test_ds.nc"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="downloadSubProgram" operator="Myself">
+      <Command id="1" name="dsdown" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"server":"?","port":"?","user":"?","password":"?","path":"//DATA_SV/O0001"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="deleteSubProgram" operator="Myself">
+      <Command id="1" name="dsdel" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"server":"?","port":"?","user":"?","password":"?","path":"//DATA_SV/O0008"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="getMacro" operator="Myself">
+      <Command id="1" name="macro_get" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"name":"900"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="setMacro" operator="Myself">
+      <Command id="1" name="macro_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"name":"3412","value":"1000","dec":"3"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="get_io" operator="Myself">
+      <Command id="1" name="io_get" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3303"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="set_io" operator="Myself">
+      <Command id="1" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3414","value":"1"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="hfOpenDoor" operator="Myself">
+      <Command id="1" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3403","value":"0"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="2" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3403","value":"1"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="3" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3403","value":"0"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="4" name="io_get" sensorcheck="1">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3304"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="hfCloseDoor" operator="Myself">
+      <Command id="1" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3402","value":"0"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="2" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3402","value":"1"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="3" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3402","value":"0"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="4" name="io_get" sensorcheck="1">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3305"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="hfCheckDoorAlram" operator="Myself">
+      <Command id="1" name="io_get" sensorcheck="0">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3300"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="hfRotate" operator="Myself">
+      <Command id="1" name="macro_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"name":"900","value":"1800","dec":"1"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="hfReleaseFixture" operator="Myself">
+      <Command id="1" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3412","value":"1"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="hfClampFixture" operator="Myself">
+      <Command id="1" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3412","value":"0"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="hfResetDoor" operator="Myself">
+      <Command id="1" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3400","value":"0"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="2" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3400","value":"1"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="3" name="io_get" sensorcheck="0">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3300"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="4" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3400","value":"0"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="hfHomeDoor" operator="Myself">
+      <Command id="1" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3401","value":"0"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="2" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3401","value":"1"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="3" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3400","value":"0"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="4" name="io_get" sensorcheck="1">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3301"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="5" name="io_get" sensorcheck="1">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3303"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+  </CNC>
+  <CNC key="Dummy_CNC" brand="Dummy" model="CNC" commandUrl="http://localhost:6200/api/v2/mori/" debugPort="10032" ncProgramName_sub1="O7771" ncProgramName_sub2="O7772" ncProgramName_sub3="O7773" ncProgramName_sub4="O7774" ncProgramName_sub5="O7775" ncProgramName_sub6="O7776" ncProgramName_main="7777" cmdCoordinate1="G54" cmdCoordinate2="G55" cmdCoordinate3="G56" cmdCoordinate4="G57" cmdCoordinate5="G58" cmdCoordinate6="G59" debugIP="10.10.94.32" ftpPort="21" ftpUser="123" ftpPwd="123">
+    <Operation name="getMachineState" operator="Myself">
+      <Command id="1" name="status" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="openDoor" operator="AssistantCNC">
+      <Command id="1" name="status" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="closeDoor" operator="AssistantCNC">
+      <Command id="1" name="status" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="clampFixture" operator="AssistantCNC">
+      <Command id="1" name="status" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="releaseFixture" operator="AssistantCNC">
+      <Command id="1" name="status" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="getAlarmInfo" operator="Myself">
+      <Command id="1" name="alarm" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="getToolLife" operator="Myself">
+      <Command id="1" name="toollife" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="getMachiningParas" operator="Myself">
+      <Command id="1" name="spindle" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="1" name="feedrate" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="getMachiningCounter" operator="Myself">
+      <Command id="1" name="work" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="startMachining" operator="Myself">
+      <Command id="1" name="start" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="pauseMachining" operator="Myself">
+      <Command id="1" name="stop" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="resumeMachining" operator="Myself">
+      <Command id="1" name="start" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="getMainProgramName" operator="Myself">
+      <Command id="1" name="program" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="getCurrSubProgramName" operator="Myself">
+      <Command id="1" name="program" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="uploadMainProgram" operator="Myself">
+      <Command id="1" name="upload" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"name":"1001","code":"D:\\NC_Programs\\Hartford_test_ds.nc"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="downloadMainProgram" operator="Myself">
+      <Command id="1" name="download" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"name":"1000"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="deleteMainProgram" operator="Myself">
+      <Command id="1" name="delete" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"name":"1001"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="uploadSubProgram" operator="Myself">
+      <Command id="1" name="dsup" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"server":"?","port":"?","user":"?","password":"?","path":"//DATA_SV/O0008","body":"D:\\NC_Programs\\Hartford_test_ds.nc"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="downloadSubProgram" operator="Myself">
+      <Command id="1" name="dsdown" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"server":"?","port":"?","user":"?","password":"?","path":"//DATA_SV/O0001"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="deleteSubProgram" operator="Myself">
+      <Command id="1" name="dsdel" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"server":"?","port":"?","user":"?","password":"?","path":"//DATA_SV/O0008"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="getMacro" operator="Myself">
+      <Command id="1" name="macro_get" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"name":"520"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="setMacro" operator="Myself">
+      <Command id="1" name="macro_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"name":"500","value":"123","dec":"0"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="get_io" operator="MySelf">
+      <Command id="1" name="get_io" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3400"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="set_io" operator="MySelf">
+      <Command id="1" name="set_io" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3400","value":"1"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+  </CNC>
+  <CNC key="HARTFORD_TEST" brand="hartford" model="MVP-8" commandUrl="http://10.10.206.5:6300/api/v3/hartford/" debugPort="8193" ncProgramName_sub1="O0001" ncProgramName_sub2="O0002" ncProgramName_sub3="O0003" ncProgramName_sub4="O0004" ncProgramName_sub5="O0005" ncProgramName_sub6="O0006" ncProgramName_main="O1000" cmdCoordinate1="G54" cmdCoordinate2="G55" cmdCoordinate3="G56" cmdCoordinate4="G57" cmdCoordinate5="G58" cmdCoordinate6="G59" debugIP="10.10.206.72" ftpPort="21" ftpUser="MVP-8" ftpPwd="1234">
+    <Operation name="getMachineState" operator="Myself">
+      <Command id="1" name="status" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="openDoor" operator="AssistantCNC">
+      <Command id="1" name="status" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="closeDoor" operator="AssistantCNC">
+      <Command id="1" name="status" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="clampFixture" operator="AssistantCNC">
+      <Command id="1" name="status" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="releaseFixture" operator="AssistantCNC">
+      <Command id="1" name="status" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="getAlarmInfo" operator="Myself">
+      <Command id="1" name="alarm" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="getToolLife" operator="Myself">
+      <Command id="1" name="toollife" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="getMachiningParas" operator="Myself">
+      <Command id="1" name="spindle" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="1" name="feedrate" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="getMachiningCounter" operator="Myself">
+      <Command id="1" name="work" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="startMachining" operator="Myself">
+      <Command id="1" name="start" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="pauseMachining" operator="Myself">
+      <Command id="1" name="stop" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="resumeMachining" operator="Myself">
+      <Command id="1" name="start" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="getMainProgramName" operator="Myself">
+      <Command id="1" name="program" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="getCurrSubProgramName" operator="Myself">
+      <Command id="1" name="program" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="uploadMainProgram" operator="Myself">
+      <Command id="1" name="upload" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"name":"1001","code":"D:\\NC_Programs\\Hartford_test_ds.nc"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="downloadMainProgram" operator="Myself">
+      <Command id="1" name="download" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"name":"1000"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="deleteMainProgram" operator="Myself">
+      <Command id="1" name="delete" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"name":"1001"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="uploadSubProgram" operator="Myself">
+      <Command id="1" name="dsup" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"server":"?","port":"?","user":"?","password":"?","path":"//DATA_SV/O0008","body":"D:\\NC_Programs\\Hartford_test_ds.nc"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="downloadSubProgram" operator="Myself">
+      <Command id="1" name="dsdown" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"server":"?","port":"?","user":"?","password":"?","path":"//DATA_SV/O0001"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="deleteSubProgram" operator="Myself">
+      <Command id="1" name="dsdel" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"server":"?","port":"?","user":"?","password":"?","path":"//DATA_SV/O0008"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="getMacro" operator="Myself">
+      <Command id="1" name="macro_get" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"name":"900"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="setMacro" operator="Myself">
+      <Command id="1" name="macro_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"name":"900","value":"3000","dec":"3"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="get_io" operator="Myself">
+      <Command id="1" name="io_get" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3303"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="set_io" operator="Myself">
+      <Command id="1" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3414","value":"1"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="hfOpenDoor" operator="Myself">
+      <Command id="1" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3403","value":"0"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="2" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3403","value":"1"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="3" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3403","value":"0"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="4" name="io_get" sensorcheck="1">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3304"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="hfCloseDoor" operator="Myself">
+      <Command id="1" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3402","value":"0"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="2" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3402","value":"1"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="3" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3402","value":"0"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="4" name="io_get" sensorcheck="1">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3305"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="hfCheckDoorAlram" operator="Myself">
+      <Command id="1" name="io_get" sensorcheck="0">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3300"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="hfRotate" operator="Myself">
+      <Command id="1" name="macro_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"name":"900","value":"1800","dec":"1"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="hfReleaseFixture" operator="Myself">
+      <Command id="1" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3413","value":"1"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="hfClampFixture" operator="Myself">
+      <Command id="1" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3412","value":"0"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="hfResetDoor" operator="Myself">
+      <Command id="1" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3400","value":"0"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="2" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3400","value":"1"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="3" name="io_get" sensorcheck="0">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3300"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="4" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3400","value":"0"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+    <Operation name="hfHomeDoor" operator="Myself">
+      <Command id="1" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3401","value":"0"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="2" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3401","value":"1"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="3" name="io_set" sensorcheck="">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3400","value":"0"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="4" name="io_get" sensorcheck="1">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3301"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+      <Command id="5" name="io_get" sensorcheck="1">
+        <InputParas>
+          <ip type="String">?</ip>
+          <port type="Integer">?</port>
+          <data type="Json">{"address":"3303"}</data>
+        </InputParas>
+        <OutputParas>
+          <code type="Integer">0</code>
+          <data type="String">?</data>
+        </OutputParas>
+      </Command>
+    </Operation>
+  </CNC>
+</CncWebAPI>

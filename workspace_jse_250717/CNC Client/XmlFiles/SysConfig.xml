@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SysConfig>
+  <CommonCfg>
+    <socketResponseTimeOut unit="s">2</socketResponseTimeOut>
+    <socketResponseInterval unit="ms">100</socketResponseInterval>
+    <cmdRetryCount>5</cmdRetryCount>
+    <DeviceMonitorInterval unit="s">5</DeviceMonitorInterval>
+    <NCProgramsRootDir>D:\NC_Programs</NCProgramsRootDir>
+    <MachiningScriptPrefix>SCS1235917001</MachiningScriptPrefix>
+    <CleaningScriptPrefix>00000000</CleaningScriptPrefix>
+    <CleaningTimes>1</CleaningTimes>
+    <AppMode>0</AppMode>
+    <CheckScheduler>0</CheckScheduler>
+    <CheckRackManager>1</CheckRackManager>
+    <RunningLog>1</RunningLog>
+    <DebugLog>1</DebugLog>
+    <DummyCNC>127.0.0.1</DummyCNC>
+    <DummyRobot>127.0.0.1</DummyRobot>
+    <sendMail>0</sendMail>
+    <smtpServer>mail1.sto-tech.hk</smtpServer>
+    <port>465</port>
+    <username>HY_Zhong@sto-tech.hk</username>
+    <password>W000650STO</password>
+    <to>HY_Zhong@sto-tech.hk</to>
+    <cc></cc>
+    <subject>Raw Material Store Message</subject>
+    <content>Please load the relevant NCPrograme to the System</content>
+    <RemoterFolderURL>smb://w000650:123456@10.10.204.97/NC Program/MoCode/</RemoterFolderURL>
+    <LocalFolderURL>D:/NC_Programs/remote/</LocalFolderURL>
+    <AtcModBus>127.0.0.1:501</AtcModBus>
+  </CommonCfg>
+  <DatabaseCfg>
+    <url>jdbc:mysql://10.10.204.97:3306/cnc_client?useSSL=false</url>
+    <username>VRRfp6zLvL0=</username>
+    <userpwd>kYsRnVlzQkaOsfzzJFEZ4w==</userpwd>
+    <driver>com.mysql.cj.jdbc.Driver</driver>
+  </DatabaseCfg>
+  <FtpCfg>
+    <ip>10.10.206.83</ip>
+    <port>21</port>
+    <username>OhVxwDjtUj3cmA8yE1tc5A==</username>
+    <userpwd>Q824+SonaembgG7vRcFrCA==</userpwd>
+  </FtpCfg>
+  <MonitorDatabaseCfg>
+    <url>jdbc:mysql://10.10.204.97:3306/cnc_mes?useSSL=false&amp;serverTimezone=GMT</url>
+    <username>root</username>
+    <userpwd>111111</userpwd>
+    <driver>com.mysql.cj.jdbc.Driver</driver>
+  </MonitorDatabaseCfg>
+  <SqlServerCfg>
+    <url>jdbc:sqlserver://10.10.204.82:1433; DatabaseName=UFDATA_001_2018; encrypt=false</url>
+    <username>u8readonly</username>
+    <userpwd>u8readonly</userpwd>
+    <driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</driver>
+  </SqlServerCfg>
+
+  <MenuCfg dtoHome="com.cncmes.dto">
+    <Menu name="Basic Config">
+      <SubMenu name="Line Name" dtoClass="CNCLines" renderFields="" renderers="" rights="1"/>
+      <SubMenu name="CNC Models" dtoClass="CNCModels" renderFields="machiningprocess,driver,cmdendchr,datahandler" renderers="procCode,cncDriver,cmdEndChr,dataHandler" rights="1"/>
+      <SubMenu name="Robot Models" dtoClass="CNCRobots" renderFields="driver,cmdendchr" renderers="robotDriver,cmdEndChr" rights="1"/>
+      <SubMenu name="Process Code" dtoClass="CNCMachiningProcess" renderFields="" renderers="" rights="1"/>
+    </Menu>
+    <Menu name="Machining Spec">
+      <SubMenu name="NC Program" dtoClass="CNCMachiningSpec" renderFields="spec_type,proc1_name,proc2_name,proc3_name,proc4_name,proc5_name,proc6_name,procName,surface" renderers="specType,procCode,procCode,procCode,procCode,procCode,procCode,procCode,surface" rights="8" editor="com.cncmes.gui.NcProgram"/>
+    </Menu>
+    <Menu name="Devices IP">
+      <SubMenu name="CNC" dtoClass="CNCLinesInfo" renderFields="linename,cnc_model" renderers="lineName,cncModels" rights="1"/>
+      <SubMenu name="Robot" dtoClass="CNCRobotsInfo" renderFields="linename,robot_model" renderers="lineName,robotModels" rights="1"/>
+      <SubMenu name="Scheduler" dtoClass="CNCScheduler" renderFields="" renderers="" rights="1"/>
+      <SubMenu name="Material Rack" dtoClass="CNCRacksInfo" renderFields="linename" renderers="lineName" rights="1"/>
+    </Menu>
+    <Menu name="User Management">
+      <SubMenu name="User Registration" dtoClass="CNCUsers" renderFields="" renderers="" rights="9" editor="com.cncmes.gui.UserReg"/>
+    </Menu>
+  </MenuCfg>
+  <RenderCfg dtoHome="com.cncmes.dto">
+    <Renderer name="lineName" dtoClass="CNCLines" fieldName="linename" fixedVals=""/>
+    <Renderer name="procCode" dtoClass="CNCMachiningProcess" fieldName="processname" fixedVals=""/>
+    <Renderer name="cncDriver" dtoClass="" fieldName="" fixedVals="com.cncmes.drv.CncDrvWeb,com.cncmes.drv.CncDummy,com.cncmes.drv.CncMORI,com.cncmes.drv.CncHARTFORD"/>
+    <Renderer name="robotDriver" dtoClass="" fieldName="" fixedVals="com.cncmes.drv.RobotR2D2,com.cncmes.drv.RobotDummy,com.cncmes.drv.RobotCMR"/>
+    <Renderer name="dataHandler" dtoClass="" fieldName="" fixedVals="BroCncDataHandler,MoriCncDataHandler,DummyCncDataHandler,HartfordCncDataHandler"/>
+    <Renderer name="cncModels" dtoClass="CNCModels" fieldName="cnc_model" fixedVals=""/>
+    <Renderer name="robotModels" dtoClass="CNCRobots" fieldName="robot_model" fixedVals=""/>
+    <Renderer name="cmdEndChr" dtoClass="" fieldName="" fixedVals="CR,LF,CRLF,HEX"/>
+    <Renderer name="surface" dtoClass="" fieldName="" fixedVals="1,2,3,4,5,6"/>
+    <Renderer name="specType" dtoClass="" fieldName="" fixedVals="Eval,MP"/>
+  </RenderCfg>
+</SysConfig>

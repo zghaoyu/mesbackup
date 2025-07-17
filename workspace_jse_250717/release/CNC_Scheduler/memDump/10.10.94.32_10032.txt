@@ -1,0 +1,1 @@
+{"lineName":"D2E1D2A","ip":"10.10.94.32","port":"10032","model":"MORI_DR5A","state":"STANDBY","progress":"100%","wkZoneQty":"6","machineTime":"18","slot1":"","slot2":"","slot3":"","slot4":"","slot5":"","slot6":"","wpIDs":"","wpSlotIDs":"","wpStates":"","controlCenter":"10.10.45.85:20520"}

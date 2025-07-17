@@ -1,0 +1,76 @@
+﻿MES 1.0 information
+
+IP Robot 
+10.10.207.56
+
+Assistant - old verion door and clamp fixture
+10.10.207.49
+
+API address
+10.10.206.5
+
+CNC IP Address 
+10.10.206.179 	#77
+10.10.206.177 	#78
+10.10.206.178 	#79
+10.10.206.131 	#80
+10.10.206.180 	#81
+10.10.206.181 	#82
+10.10.206.71	#71
+10.10.206.72	#72
+10.10.206.73	#73
+10.10.206.74	#74
+
+Programming 
+	JAVA 1.8
+	Python 3.8
+
+Workpiece position name defect using CMR pick, place and docking 
+	Robot workpiece position	: robot_pos#
+	Rack station 			: rack_id#_pos#
+	CNC Machine 			: cnc_id#_pos# (need to check position and Axis 4 angle)
+	Rack VL Marker 			: rack_vl_id#
+	CNC VL Marker 			: cnc_vl_id#
+
+Robot 15 Position
+CNC 14 Position
+Rack station 14 position
+
+MES running data:
+	RunningData<E>: dataMap<string,E,object> (ip,device,items)
+			specificDataChangeFlag <string,boolean>
+			dataChangeFlag boolean
+
+
+CNC IO (Door and Fixture)
+Input ([1] Active, [0] No detect
+步进马达报警		R3300.0	X40.0	[0]	724	ALM
+步进马达到位		R3301.0	X40.1		725	COIN
+吹气压力检测表		R3302.0	X40.2		726	726B	
+步进马达回零到位	R3303.0	X40.3	[1]	727	HO-OUT Home
+门左限位到位		R3304.0	X40.4		728	開门 sensor
+门右限位到位		R3305.0	X40.5		729	关门 sensor
+
+Output Rise up trigger, Need all is zero with standby (Motor control)
+步进马达使能	R3400.0		Y40.0	YP0	S-ON	0=ON,1=OFF
+步进马达回零	R3401.0		Y40.1	YP1	HOME
+路径1 (关门）	R3402.0		Y40.2	YP2	ADD0
+路径2 (開门）	R3403.0		Y40.3	YP3	ADD1
+步进马达急停	R3404.0		Y40.4	YP4	STOP
+吹气1		R3408.0		Y41.0	YN0	VAL1
+吹气2		R3409.0		Y41.1	YN1	VAL2
+吹气3		R3410.0		Y41.2	YN2	VAL3
+吹气4		R3411.0		Y41.3	YN3	VAL4
+夹紧1		R3412.0		Y41.4	YN4	VAL5
+夹紧2		R3413.0		Y41.5	YN5	VAL6
+夹紧3		R3414.0		Y41.6	YN6	VAL7
+夹紧4		R3415.0		Y41.7	YN7	VAL8
+
+Workpiece CNC 79 location
+0	1,2,3,4
+90	5,6,7
+180	8,9,10,11
+270	12,13,14
+
+Scheduler mould connect with MSSQL and smb remote server
+Scheduler run sequential (MSSQL->download smb nc_program->read local nc_program)
